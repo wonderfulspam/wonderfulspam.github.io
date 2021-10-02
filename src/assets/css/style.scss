@@ -45,6 +45,20 @@ main {
   #center-column {
     grid-area: center;
   }
+  #left-column {
+    grid-area: left;
+  }
+  #right-column {
+    grid-area: right;
+  }
+}
+
+.wide-left {
+  grid-template-areas: "left left right";
+}
+
+.no-display {
+  display: none;
 }
 
 strong {

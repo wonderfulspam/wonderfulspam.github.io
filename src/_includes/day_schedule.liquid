@@ -6,7 +6,7 @@
     <td>{{ slot.time }}</td>
     {% assign schedule_artist = collections.posts.pages | where: "title", slot.artist | first %}
     <td>
-      <a href="{{ schedule_artist.permalink }}">
+      <a class="artist-link" data-slug="{{ schedule_artist.slug }}" href="{{ schedule_artist.permalink }}">
         {{ schedule_artist.title }} ({{ schedule_artist.data.country }})
       </a>
     </td>

@@ -23,7 +23,7 @@ Artists can also be added with `cobalt new -f src/artists "Artist name"`, in whi
 
 ### Adding new pages
 
-Run `cobalt new -f src/ "Page Title"` to add a new page or copy `index.md` to a new file.
+Run `cobalt new -f src/ "Page Title"` to add a new page or copy `index.liquid` to a new file.
 Add a link to it in `src/_includes/header.liquid`.
 
 ### Event data

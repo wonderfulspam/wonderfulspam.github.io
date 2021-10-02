@@ -8,9 +8,7 @@
       {% include "header.liquid" %}
     </header>
     <main id="content" class="{{ page.slug }}{% if page.data.classname %} {{ page.data.classname }}{% endif %}">
-      <div id="center-column">
-        {{ page.content }}
-      </div>
+       {{ page.content }}
     </main>
     <footer>
       {% include "partners.liquid" %} 

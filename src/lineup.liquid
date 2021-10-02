@@ -3,8 +3,9 @@ title: Lineup
 layout: default.liquid
 permalink: /lineup
 data:
-  classname: extra-class extra-class-2
+  classname: wide-left
 ---
+<div id="left-column">
 {% assign events = collections.posts.pages | map: "categories" | sort | uniq %}
 {% for event_name in events %}
   {% include "assign_event_data.liquid" %}
@@ -17,3 +18,10 @@ data:
     </ul>
   </div>
 {% endfor %}
+</div>
+<div id="right-column">
+</div>
+{% include "artists_hidden.liquid" %}
+<script type="text/javascript">
+  addArtistClickHandler(".artist-link", "right-column");
+</script>

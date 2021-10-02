@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include "head.liquid" %}
+  </head>
+  <body>
+    <header>
+      {% include "header.liquid" %}
+    </header>
+    <main id="content" class="{{ page.slug }}{% if page.data.classname %} {{ page.data.classname }}{% endif %}">
+      <div id="center-column">
+        {{ page.content }}
+      </div>
+    </main>
+    <footer>
+      {% include "partners.liquid" %} 
+    </footer>
+  </body>
+</html>

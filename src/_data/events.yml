@@ -1,0 +1,41 @@
+- name: "Part 1: Koncertkirken"
+  slug: 2021_01_Koncertkirken
+  ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
+  fb_event_link: "https://www.facebook.com/events/920599388892945"
+  days:
+    - name: Friday
+      date: "2021-10-22"
+      doors: "17.00"
+      schedule:
+        - time: "19.00"
+          artist: Kunstner1
+        - time: "20.00"
+          artist: Kunstner2
+- name: "Part 2: Musikhuset"
+  slug: 2021_02_Musikhuset
+  ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
+  fb_event_link: "https://www.facebook.com/events/920599388892945"
+  days:
+    - name: Friday
+      date: "2021-11-19"
+      doors: "17.00"
+      schedule:
+        - time: "18.00"
+          artist: Kunstner kopi
+- name: "Part 3: Mayhem"
+  slug: 2021_03_Mayhem
+  ticket_link: "https://tikkio.com/tickets/23286-norsk-kornolfestival-2021"
+  fb_event_link: "https://www.facebook.com/events/920599388892945"
+  days:
+    - name: Friday
+      date: "2021-12-03"
+      doors: "18.00"
+      schedule:
+        - time: "19.00"
+          artist: Kunstner
+    - name: Saturday
+      date: "2021-12-04"
+      doors: "17.00"
+      schedule:
+        - time: "18.00"
+          artist: Kunstner

@@ -1,0 +1,11 @@
+site:
+  title: Festival of Endless Gratitude
+  description: Festival of Endless Gratitude, 20th to 22nd September. Music & art festival in Copenhagen.
+  base_url: https://foeg.dk
+  # Insert more keys here as needed and refer to them via {{ site.data.some_key }}
+  data:
+    foeg_description: Festival of Endless Gratitude is a non-profit music and arts festival founded on friendships across the Atlantic.
+source: src
+posts:
+  dir: artists
+  drafts_dir: artist_drafts

@@ -1,0 +1,7 @@
+<div class="partnerlogoer">
+{% for partner in site.data.partners %}
+    <a href="{{ partner.link }}">
+        <img src="{{ partner.img }}" alt="{{ partner.name }}" style="width: {{ partner.width }}">
+    </a>
+{% endfor %}
+</div>

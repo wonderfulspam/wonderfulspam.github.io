@@ -1,0 +1,6 @@
+{% for event in site.data.events %}
+  {% if event.slug contains event_name %}
+    {% assign event_data = event %}
+  {% endif %}
+{% endfor %}
+{% assign artists = collections.posts.pages | where: "categories", event_name %}

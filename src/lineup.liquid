@@ -1,0 +1,19 @@
+---
+title: Lineup
+layout: default.liquid
+permalink: /lineup
+data:
+  classname: extra-class extra-class-2
+---
+{% assign events = collections.posts.pages | map: "categories" | sort | uniq %}
+{% for event_name in events %}
+  {% include "assign_event_data.liquid" %}
+  <div class="event">
+    <h3>{{ event_data.name }}</h3>
+    <ul>
+    {% for post in artists %}
+      {% include "artist_li.liquid" %}
+    {% endfor %}
+    </ul>
+  </div>
+{% endfor %}

@@ -1,0 +1,127 @@
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Raleway-Regular"),
+    url(/assets/fonts/raleway-regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: raleway;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Raleway-Bold"),
+    url(/assets/fonts/raleway-bold.woff) format("woff");
+}
+
+@import "variables";
+@import "header";
+
+html {
+  background: $bg;
+  background-size: cover;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: raleway;
+  color: $black;
+  font-size: 1.1em;
+  background: url(/assets/img/Foeg_plakat_FOEG.png);
+  background-size: 100%;
+  background-position: 0px, -30px;
+}
+
+main {
+  display: grid;
+  grid-template-areas: "left center right";
+
+  #center-column {
+    grid-area: center;
+  }
+}
+
+strong {
+  color: $blue;
+}
+
+a,
+a:visited {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.partnerlogoer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  a {
+    img {
+      max-width: 10vw;
+      height: auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.6;
+        transition: 0.2s;
+      }
+    }
+  }
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 0;
+  margin: 0;
+}
+
+.event li {
+  position: relative;
+  margin-bottom: 15px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  cursor: pointer;
+
+  div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(63, 67, 66, 0.6);
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  span {
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: block;
+    color: gainsboro;
+    text-align: center;
+  }
+}
+
+iframe {
+  width: 100%;
+  padding-bottom: 0.5em;
+}
+
+#sound-embed iframe {
+  height: auto;
+}

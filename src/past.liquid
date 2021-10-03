@@ -1,0 +1,22 @@
+---
+title: Past
+layout: default.liquid
+permalink: /past
+data:
+  classname: wide-left
+---
+
+<div id="left-column">
+  <ul>
+    {% for festival in site.data.past %}
+      {% include "past_festival_li.liquid" %}
+      <div class="no-display">
+        {% include "past_festival_right.liquid" %}
+      </div>
+    {% endfor %}
+  </ul>
+</div>
+<div id="right-column"></div>
+<script type="text/javascript">
+  addCopyClickHandler(".festival-link", "right-column");
+</script>

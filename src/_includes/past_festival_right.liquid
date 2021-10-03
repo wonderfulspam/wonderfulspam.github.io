@@ -1,0 +1,12 @@
+<div id="{{ festival.year }}">
+<h2>{{ festival.year }}</h2>
+<p><strong>Venue:</strong> {{ festival.venue }}</p>
+<p><strong>Music:</strong> {{ festival.music }}</p>
+{% for content in festival.other_content %}
+  <p><strong>{{ content[0] | capitalize }}:</strong> {{ content[1] }}</p>
+{% endfor %}
+<p><a href="{{ festival.programme_uri }}">Programme</a></p>
+{% if festival.website_link %}
+  <p><a href="{{ festival.website_link }}">Website</a></p>
+{% endif %}
+</div>

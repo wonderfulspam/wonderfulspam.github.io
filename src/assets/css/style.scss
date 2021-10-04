@@ -28,41 +28,43 @@ body {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 30px;
-  padding-right: 30px;
   font-family: raleway;
-  color: $black;
+  color: $text;
   font-size: 1.1em;
-  background: url(/assets/img/Foeg_plakat_FOEG.png);
-  background-size: 100%;
-  background-position: 0px, -30px;
 }
 
 main {
   display: grid;
+  margin-top: 50px;
   grid-template-areas: "left center right";
-
-  #center-column {
-    grid-area: center;
-  }
-  #left-column {
-    grid-area: left;
-  }
-  #right-column {
-    grid-area: right;
-  }
+}
+main #center-column {
+  grid-area: center;
+}
+main #left-column {
+  grid-area: left;
+}
+main #right-column {
+  grid-area: right;
 }
 
 .wide-left {
   grid-template-areas: "left left right";
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lineup {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.schedule {
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 .no-display {
   display: none;
-}
-
-strong {
-  color: $blue;
 }
 
 a,
@@ -79,19 +81,17 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  a {
-    img {
-      max-width: 10vw;
-      height: auto;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      cursor: pointer;
-      &:hover {
-        opacity: 0.6;
-        transition: 0.2s;
-      }
-    }
-  }
+}
+.partnerlogoer a img {
+  max-width: 10vw;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.partnerlogoer a img:hover {
+  opacity: 0.6;
+  transition: 0.2s;
 }
 
 ul {
@@ -99,36 +99,39 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-left: 0;
+  padding-left: 50px;
   margin: 0;
 }
 
-.event li {
+.event {
   position: relative;
-  margin-bottom: 15px;
-  margin-left: 7.5px;
-  margin-right: 7.5px;
-  cursor: pointer;
-
-  div {
+  margin-bottom: 50px;
+  h3 {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    background: rgba(63, 67, 66, 0.6);
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    top: 590px;
+    left: 25px;
+    transform-origin: left;
+    transform: rotate(270deg);
+    color: $title_color_alt;
   }
-
-  span {
-    font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
-    display: block;
-    color: gainsboro;
-    text-align: center;
+  li {
+    position: relative;
+    margin-bottom: 15px;
+    cursor: pointer;
   }
+}
+.event li div {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.event li span {
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: block;
+  text-transform: uppercase;
+  color: white;
 }
 
 iframe {
@@ -138,4 +141,19 @@ iframe {
 
 #sound-embed iframe {
   height: auto;
+}
+
+.artistcontent {
+  position: sticky;
+  align-self: start;
+  top: 30px;
+}
+
+#stickyspace {
+  height: 1000px;
+}
+
+#footer {
+  padding-left: 20vw;
+  padding-right: 20vw;
 }

@@ -7,16 +7,12 @@ data:
 ---
 
 <div id="left-column">
-  <ul>
+  <table>
     {% for festival in site.data.past %}
-      {% include "past_festival_li.liquid" %}
-      <div class="no-display">
-        {% include "past_festival_right.liquid" %}
-      </div>
+      <tr>
+        <td>{% include "past_festival_left.liquid" %}</td>
+        <td>{% include "past_festival_right.liquid" %}</td>
+      </tr>
     {% endfor %}
-  </ul>
+    </table>
 </div>
-<div id="right-column"></div>
-<script type="text/javascript">
-  addCopyClickHandler(".festival-link", "right-column");
-</script>

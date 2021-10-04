@@ -1,8 +1,8 @@
 - name: Københavns Kommune
   link: https://www.kk.dk/
-  img: http://foeg.dk/wp-content/uploads/2021/10/KBH_Maerke_DK_White_RGB.png
+  img: "/assets/img/KBH_Maerke_DK_White_RGB.png"
   width: 80px
 - name: Statens Kunstfond
   link: https://www.kunst.dk/
-  img: http://foeg.dk/wp-content/uploads/2021/10/SKF_logo_offwhite_RGB.png
+  img: "/assets/img/SKF_logo_offwhite_RGB.png"
   width: 110px

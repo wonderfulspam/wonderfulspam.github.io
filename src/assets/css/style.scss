@@ -18,8 +18,8 @@
 @import "header";
 
 html {
-  background: $bg;
-  background-size: cover;
+  background: url(/assets/img/info-bg.png);
+  background-size: contain;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -33,14 +33,25 @@ body {
   font-size: 1.1em;
 }
 
+h2 {
+  font-size: 1.3em;
+}
+
 main {
+  background-color: $bg;
   display: grid;
-  margin-top: 50px;
-  grid-template-areas: "left center right";
+  margin-top: 30px;
+  grid-template-areas: "left right";
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-main #center-column {
-  grid-area: center;
-}
+
 main #left-column {
   grid-area: left;
 }
@@ -48,17 +59,17 @@ main #right-column {
   grid-area: right;
 }
 
-.wide-left {
+.lineup {
   grid-template-areas: "left left right";
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.lineup {
-  padding-left: 30px;
-  padding-right: 30px;
+.schedule {
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
-.schedule {
+.past {
   padding-left: 20vw;
   padding-right: 20vw;
 }
@@ -118,6 +129,13 @@ ul {
     position: relative;
     margin-bottom: 15px;
     cursor: pointer;
+    width: 48%;
+    &:nth-of-type(odd) {
+      margin-right: 30px;
+    }
+    img {
+      width: 100%;
+    }
   }
 }
 .event li div {
@@ -150,7 +168,7 @@ iframe {
 }
 
 #stickyspace {
-  height: 1000px;
+  height: 100px;
 }
 
 #footer {

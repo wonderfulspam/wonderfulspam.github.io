@@ -5,7 +5,7 @@
   other_content:
     installations: "Jens Erik Larsen - Bicycle Lyre (DK) / SIIKU - OPUS UNITUM (DK/GL)"
   programme_uri: "/assets/past/2020/programme.pdf"
-  poster_uri: "assets/past/2020/poster.png"
+  poster_uri: "/assets/past/2020/poster.png"
 - year: 2019
   dates: "12-14th September 2019"
   venue: "KPH Volume"
@@ -14,7 +14,7 @@
     film: "Voice of the Eagle: The Enigma of Robbie Basho"
     installations: "FUKK (DK) - Frame / Iris Bakker (DK) / Ungt Lys (DK) - Dimensions"
   programme_uri: "/assets/past/2019/programme.pdf"
-  poster_uri: "assets/past/2019/poster.png"
+  poster_uri: "/assets/past/2019/poster.png"
   website_link: "www.foeg.dk/2019"
 - year: 2018
   dates: "20-22nd September 2018"
@@ -23,7 +23,7 @@
   other_content:
     installations: "Fazakas and Wappler (CH/HU) / FUKK (INT) - I U WE / Lucas Abela (AU) - Fort Thunder"
   programme_uri: "/assets/past/2018/programme.pdf"
-  poster_uri: "assets/past/2018/poster.png"
+  poster_uri: "/assets/past/2018/poster.png"
 - year: 2017
   dates: "28-30th September 2017"
   venue: "SydhavnsGade"
@@ -31,4 +31,4 @@
   other_content:
     installations: "Søren Peter Mørch (DK) / Lyt Dybt (DK)"
   programme_uri: "/assets/past/2017/programme.pdf"
-  poster_uri: "assets/past/2017/poster.png"
+  poster_uri: "/assets/past/2017/poster.png"

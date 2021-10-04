@@ -18,7 +18,7 @@ jobs:
     - name: Build
       run: ${{ env.COBALT_BIN }} build
     - name: Deploy
-      if: steps.extract_branch.outputs.branch == 'main'
+      if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

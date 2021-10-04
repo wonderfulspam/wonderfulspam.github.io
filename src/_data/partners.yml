@@ -1,8 +1,8 @@
-- name: Alice
-  link: https:/alicecph.com
-  img: http://foeg.dk/wp-content/uploads/2019/08/alice-300x80.png
+- name: Københavns Kommune
+  link: https://www.kk.dk/
+  img: http://foeg.dk/wp-content/uploads/2021/10/KBH_Maerke_DK_White_RGB.png
   width: 80px
-- name: Auswärtiges Amt
-  link: https://www.auswaertiges-amt.de/de
-  img: http://foeg.dk/wp-content/uploads/2020/09/AA_2017_Office_Grau_de2-300x171.png
+- name: Statens Kunstfond
+  link: https://www.kunst.dk/
+  img: http://foeg.dk/wp-content/uploads/2021/10/SKF_logo_offwhite_RGB.png
   width: 110px

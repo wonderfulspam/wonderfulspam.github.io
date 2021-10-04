@@ -2,48 +2,53 @@ header {
   background: url(/assets/img/info-bg.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-color:black;
+  background-color:$bg;
   padding-top: 52.18%; /* (img-height / img-width * container-width) */
   height: 0;
 }
 
 #horisontal-header {
-  padding-top: 1vh;
-  height: 6vh;
   display: grid;
-  grid-template-areas: "header menu menu";
-  grid-template-columns: 1.6fr 1fr 1fr;
-  grid-column-gap: 30px;
+  padding-left:20vw;
+  padding-right:20vw;
+  grid-template-areas: "header"
+  "menu";
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px; 
+ height:52.18%;
+ margin-top:-52.18%;
 }
 
 #header {
   grid-area: header;
-  h1 {
+justify-self: center;
+padding-top:1vw;
+padding-bottom:0.7vw;
+&.info {
+  font-size:0;
+}}
+  #header h1 {
+    color:$title_color_alt;
     margin-top: 0px;
     margin-bottom: 0;
-    font-size: 2em;
-    font-weight: 700;
-  }
-  h2 {
-    margin-top: -6px;
-    font-size: 1.5em;
-    font-weight: normal;
-    margin-bottom: 0;
-  }
-}
+    font-size: 1.7em;
+    font-weight: 700; }
 
 .horis-menu-list {
-  text-align: right;
+    justify-self: center;
   display: inline-block;
   grid-area: menu;
-}
+  }
 
-a.menu-item-link {
-  font-size: 1.3em;
-  font-weight: bold;
-  background-color: $bg;
-}
+  .horis-menu-list.info {
+      padding-top:1.9em;
+     }
 
-.menu-item-link:not(:first-child) {
-  margin-left: 30px;
-}
+     a.menu-item-link {
+      font-size: 1.2em;
+      font-weight: bold;
+      text-transform: uppercase; 
+      color:$text; }
+    
+    .menu-item-link:not(:first-child) {
+      margin-left: 30px; }

@@ -1,3 +1,12 @@
+header {
+  background: url(/assets/img/info-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color:black;
+  padding-top: 52.18%; /* (img-height / img-width * container-width) */
+  height: 0;
+}
+
 #horisontal-header {
   padding-top: 1vh;
   height: 6vh;

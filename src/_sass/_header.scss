@@ -19,14 +19,12 @@ header {
 #header {
   grid-area: header;
   h1 {
-    color: $blue;
     margin-top: 0px;
     margin-bottom: 0;
     font-size: 2em;
     font-weight: 700;
   }
   h2 {
-    color: $pink;
     margin-top: -6px;
     font-size: 1.5em;
     font-weight: normal;
@@ -44,7 +42,6 @@ a.menu-item-link {
   font-size: 1.3em;
   font-weight: bold;
   background-color: $bg;
-  color: $pink;
 }
 
 .menu-item-link:not(:first-child) {

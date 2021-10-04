@@ -10,24 +10,13 @@
   font-weight: 700;
   src: local("Raleway-Bold"), url(/assets/fonts/raleway-bold.woff) format("woff"); }
 
-header {
-  background: url(/assets/img/info-bg.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: black;
-  padding-top: 52.18%;
-  /* (img-height / img-width * container-width) */
-  height: 0; }
-
 #horisontal-header {
   display: grid;
   padding-left: 20vw;
   padding-right: 20vw;
   grid-template-areas: "header" "menu";
   grid-template-rows: 1fr;
-  grid-column-gap: 30px;
-  height: 52.18%;
-  margin-top: -52.18%; }
+  grid-column-gap: 30px; }
 
 #header {
   grid-area: header;
@@ -62,8 +51,8 @@ a.menu-item-link {
   margin-left: 30px; }
 
 html {
-  background: black;
-  background-size: cover;
+  background: url(/assets/img/info-bg.png);
+  background-size: contain;
   -webkit-tap-highlight-color: transparent; }
 
 body {
@@ -75,13 +64,22 @@ body {
   color: white;
   font-size: 1.1em; }
 
-main {
-  display: grid;
-  margin-top: 50px;
-  grid-template-areas: "left center right"; }
+h2 {
+  font-size: 1.3em; }
 
-main #center-column {
-  grid-area: center; }
+main {
+  background-color: black;
+  display: grid;
+  margin-top: 30px;
+  grid-template-areas: "left right";
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px; }
 
 main #left-column {
   grid-area: left; }
@@ -89,15 +87,15 @@ main #left-column {
 main #right-column {
   grid-area: right; }
 
-.wide-left {
+.lineup {
   grid-template-areas: "left left right";
   grid-template-columns: 1fr 1fr 1fr; }
 
-.lineup {
-  padding-left: 30px;
-  padding-right: 30px; }
-
 .schedule {
+  padding-left: 20vw;
+  padding-right: 20vw; }
+
+.past {
   padding-left: 20vw;
   padding-right: 20vw; }
 
@@ -149,7 +147,12 @@ ul {
   .event li {
     position: relative;
     margin-bottom: 15px;
-    cursor: pointer; }
+    cursor: pointer;
+    width: 48%; }
+    .event li:nth-of-type(odd) {
+      margin-right: 30px; }
+    .event li img {
+      width: 100%; }
 
 .event li div {
   width: 100%;
@@ -177,7 +180,7 @@ iframe {
   top: 30px; }
 
 #stickyspace {
-  height: 1000px; }
+  height: 100px; }
 
 #footer {
   padding-left: 20vw;

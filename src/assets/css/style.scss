@@ -18,8 +18,8 @@
 @import "header";
 
 html {
-  background: url(/assets/img/info-bg.png);
-  background-size: contain;
+  background: url(/assets/img/info-bg.png) no-repeat center center fixed;
+  background-size: cover;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -46,10 +46,18 @@ main {
   grid-column-gap: 30px;
   margin-left: 60px;
   margin-right: 60px;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.info {
+  display: block;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  height: 55vh;
+  text-align: center;
 }
 
 main #left-column {
@@ -72,6 +80,13 @@ main #right-column {
 .past {
   padding-left: 20vw;
   padding-right: 20vw;
+  grid-template-areas: "left left";
+  td:nth-child(odd) {
+    padding-right: 30px;
+  }
+  td {
+    padding-bottom: 30px;
+  }
 }
 
 .no-display {
@@ -80,6 +95,7 @@ main #right-column {
 
 a,
 a:visited {
+  color: $text;
   cursor: pointer;
   text-decoration: none;
 }

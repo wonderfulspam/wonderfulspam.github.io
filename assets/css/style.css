@@ -51,8 +51,8 @@ a.menu-item-link {
   margin-left: 30px; }
 
 html {
-  background: url(/assets/img/info-bg.png);
-  background-size: contain;
+  background: url(/assets/img/info-bg.png) no-repeat center center fixed;
+  background-size: cover;
   -webkit-tap-highlight-color: transparent; }
 
 body {
@@ -76,10 +76,17 @@ main {
   grid-column-gap: 30px;
   margin-left: 60px;
   margin-right: 60px;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px; }
+
+.info {
+  display: block;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  height: 55vh;
+  text-align: center; }
 
 main #left-column {
   grid-area: left; }
@@ -97,13 +104,19 @@ main #right-column {
 
 .past {
   padding-left: 20vw;
-  padding-right: 20vw; }
+  padding-right: 20vw;
+  grid-template-areas: "left left"; }
+  .past td:nth-child(odd) {
+    padding-right: 30px; }
+  .past td {
+    padding-bottom: 30px; }
 
 .no-display {
   display: none; }
 
 a,
 a:visited {
+  color: white;
   cursor: pointer;
   text-decoration: none; }
 

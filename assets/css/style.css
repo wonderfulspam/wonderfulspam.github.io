@@ -257,7 +257,9 @@ iframe {
     font-size: 1.4rem; }
   .main,
   .info,
-  .lineup {
+  .lineup,
+  .past,
+  .schedule {
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 10px;
@@ -274,6 +276,8 @@ iframe {
     padding-left: 0px; }
   .info {
     text-align: left; }
+    .info h2 {
+      margin-top: 3.5rem; }
   .artist-link {
     pointer-events: none; }
   .event li {
@@ -282,4 +286,12 @@ iframe {
     margin-bottom: 30px; }
     .event li img {
       width: 100%;
-      height: auto; } }
+      height: auto; }
+  .past td {
+    display: block;
+    padding-bottom: 60px; }
+    .past td img {
+      width: 100%; }
+    .past td:nth-child(odd) {
+      padding-bottom: 0px;
+      padding-right: 0px; } }

@@ -177,7 +177,7 @@ ul {
   min-height: 60vh; }
   .event h3 {
     position: absolute;
-    top: 408px;
+    top: 370px;
     left: 25px;
     transform-origin: left;
     transform: rotate(270deg);

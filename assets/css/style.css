@@ -66,10 +66,14 @@ a.menu-item-link {
     font-size: 4rem; } }
 
 html {
-  background: url(/assets/img/info-bg.png) no-repeat center center fixed;
+  background: url(/assets/img/bg.jpg) no-repeat center center fixed;
   background-size: cover;
   -webkit-tap-highlight-color: transparent;
   font-size: 62.5%; }
+
+html.landing {
+  background: url(/assets/img/info-bg.png) no-repeat center center fixed;
+  background-size: cover; }
 
 body {
   margin-top: 0;
@@ -92,7 +96,7 @@ main {
   grid-column-gap: 30px;
   margin-left: 130px;
   margin-right: 130px;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px; }
@@ -105,7 +109,7 @@ main {
   padding-right: 20vw;
   text-align: center; }
   .info h2 {
-    margin-top: 1.5rem; }
+    margin-top: 3.5rem; }
 
 main #left-column {
   grid-area: left; }

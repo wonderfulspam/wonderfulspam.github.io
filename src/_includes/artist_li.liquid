@@ -1,8 +1,15 @@
-<li>
+<li class="desktop">
   <a class="artist-link" data-slug="{{ post.slug }}">
     <div>
       <span>{{ post.title }}</span>
     </div>
     <img src="{{ post.data.img }}">
   </a>
+</li>
+<li class="mobile">
+    <div>
+      <span>{{ post.title }}</span>
+    </div>
+    <img src="{{ post.data.img }}">
+{{ post.content }}
 </li>

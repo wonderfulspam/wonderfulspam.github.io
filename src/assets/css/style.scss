@@ -263,7 +263,9 @@ iframe {
   }
   .main,
   .info,
-  .lineup {
+  .lineup,
+  .past,
+  .schedule {
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 10px;
@@ -297,6 +299,19 @@ iframe {
     img {
       width: 100%;
       height: auto;
+    }
+  }
+  .past {
+    td {
+      display: block;
+      padding-bottom: 60px;
+      img {
+        width: 100%;
+      }
+      &:nth-child(odd) {
+        padding-bottom: 0px;
+        padding-right: 0px;
+      }
     }
   }
 }

@@ -270,6 +270,7 @@ iframe {
     margin-right: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 30px;
     grid-column-gap: 0px;
   }
   .lineup {
@@ -316,5 +317,8 @@ iframe {
         padding-right: 0px;
       }
     }
+  }
+  .partnerlogoer a img {
+    max-width: 30vw;
   }
 }

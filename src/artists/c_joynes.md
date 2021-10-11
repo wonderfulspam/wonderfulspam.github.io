@@ -1,7 +1,7 @@
 ---
 title: C Joynes
 categories:
-  - 2021_02_Musikhuset
+  - 2021_01_Koncertkirken
 layout: artists.liquid
 is_draft: false
 data:

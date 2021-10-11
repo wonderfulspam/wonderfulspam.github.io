@@ -14,6 +14,9 @@
   justify-self: center;
   padding-top: 1vw;
   padding-bottom: 0.7vw;
+  a {
+    text-decoration-color: $title_color_alt;
+  }
   &.info {
     font-size: 0;
   }

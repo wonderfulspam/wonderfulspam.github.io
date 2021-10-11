@@ -3,7 +3,7 @@ title: ELIK - Svitlana Nianio/Raphael Rogiński
 layout: artists.liquid
 is_draft: false
 categories:
-  - 2021_02_Musikhuset
+  - 2021_01_Koncertkirken
 data:
   img: /assets/img/nianio-roginski.jpg
   country: UA/PL

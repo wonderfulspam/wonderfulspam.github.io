@@ -68,9 +68,9 @@ a.menu-item-link {
     padding-left: 20px;
     padding-right: 20px; }
   a.menu-item-link {
-    font-size: 4rem; }
+    font-size: 3rem; }
   #header h1 {
-    font-size: 5.5rem; } }
+    font-size: 4rem; } }
 
 html {
   background: url(/assets/img/bg.jpg) no-repeat top center fixed;
@@ -201,7 +201,7 @@ ul {
     font-size: 2.6rem;
     position: absolute;
     font-weight: normal;
-    top: 331px;
+    top: 394px;
     left: 20px;
     transform-origin: left;
     transform: rotate(270deg);
@@ -294,8 +294,8 @@ iframe {
   .schedule {
     margin-left: 10px;
     margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 30px;
     grid-column-gap: 0px; }
   .lineup {
@@ -304,7 +304,7 @@ iframe {
   .event h3 {
     position: initial;
     transform: none;
-    font-size: 3.5rem; }
+    font-size: 4.5rem; }
   .event ul {
     padding-left: 0px; }
   .info {

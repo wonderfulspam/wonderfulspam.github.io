@@ -6,7 +6,7 @@ permalink: /info
 
 <p>Festival of Endless Gratitude is a non-profit music and arts festival founded on friendships across the Atlantic.</p>
 
-<p>From experimental rock through blissful drones, psychedelic folk and pounding beats, anything goes when Festival of Endless Gratitude opens the doors to a travel through a meticulously curated exploration of experimental music from around the world.</p>
+<p>From experimental rock through blissful drones, psychedelic folk and pounding beats, anything goes when Festival of Endless Gratitude opens the doors to a journey through a meticulously curated exploration of experimental music from around the world.</p>
 
 <p>➤ Part I: October 22nd (Koncertkirken, Blågårds Plads 6A)
 

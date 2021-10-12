@@ -16,3 +16,5 @@ Nianio's music saw a major international resurgence in interest during the 2010s
 Photo by Konstantin Chernichkin
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FIpeTcyPx3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1467228501/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://kokarecords.bandcamp.com/album/kytytsi">Китиці / Kytytsi by Світлана Няньо / Svitlana Nianio</a></iframe>

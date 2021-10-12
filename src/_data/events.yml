@@ -1,4 +1,4 @@
-- name: "FRIDAY, 22nd OCTOBER: KONCERTKIRKEN"
+- name: "PART I: FRIDAY, 22nd OCTOBER: KONCERTKIRKEN"
   slug: 2021_01_Koncertkirken
   ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
   fb_event_link: "https://www.facebook.com/events/920599388892945"
@@ -8,7 +8,7 @@
       doors: "17.00"
       schedule:
 
-- name: "FRIDAY, 5th NOVEMBER: MUSIKHUSET"
+- name: "PaRT II: FRIDAY, 5th NOVEMBER: MUSIKHUSET"
   slug: 2021_02_Musikhuset
   ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
   fb_event_link: "https://www.facebook.com/events/920599388892945"
@@ -18,7 +18,7 @@
       doors: "17.00"
       schedule:
 
-- name: "FRIDAY-SATURDAY, 3rd & 4th DECEMBER: MAYHEM"
+- name: "PART III: FRIDAY-SATURDAY, 3rd & 4th DECEMBER: MAYHEM"
   slug: 2021_03_Mayhem
   ticket_link: "https://tikkio.com/tickets/23286-norsk-kornolfestival-2021"
   fb_event_link: "https://www.facebook.com/events/920599388892945"

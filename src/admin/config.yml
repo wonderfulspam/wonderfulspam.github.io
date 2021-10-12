@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: wonderfulspam/wonderfulspam.github.io
+  branch: main
+  site_domain: https://ecstatic-einstein-118460.netlify.app/
+
+media_folder: "src/assets/img"
+public_folder: "/img"
+
+collections:
+  - name: "artists"
+    label: "Artists"
+    folder: "src/artists"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Event",
+          name: "categories",
+          widget: "select",
+          multiple: true,
+          options:
+            [
+              { label: "Koncertkirken", value: "2021_01_Koncertkirken" },
+              { label: "Musikhuset", value: "2021_02_Musikhuset" },
+              { label: "Mayhem", value: "2021_03_Mayhem" },
+            ],
+        }
+      - {
+          label: "Metadata",
+          name: "data",
+          widget: "object",
+          fields:
+            [
+              { label: "Image", name: "img", widget: "image" },
+              { label: "Country code", name: "country", widget: "string" },
+            ],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }

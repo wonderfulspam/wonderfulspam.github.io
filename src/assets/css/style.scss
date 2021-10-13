@@ -85,9 +85,6 @@ main {
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
-  #right-column {
-    padding-bottom: 60px;
-  }
 }
 
 .info {
@@ -182,6 +179,7 @@ ul {
   border-color: $title_color_alt;
   &:nth-last-of-type(1) {
     border-style: none;
+    margin-bottom: 0;
   }
   h3 {
     font-size: 26px;
@@ -308,6 +306,11 @@ iframe {
   p {
     font-size: 15px;
   }
+  main {
+    #right-column {
+      padding-bottom: 0;
+    }
+  }
   .main,
   .info,
   .lineup,
@@ -357,6 +360,9 @@ iframe {
     td {
       display: block;
       padding-bottom: 60px;
+      &:last-of-type {
+        padding-bottom: 0;
+      }
       img {
         width: 100%;
       }

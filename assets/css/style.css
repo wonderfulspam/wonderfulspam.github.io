@@ -118,8 +118,6 @@ main {
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px; }
-  main #right-column {
-    padding-bottom: 60px; }
 
 .info {
   display: block;
@@ -199,7 +197,8 @@ ul {
   border-style: none none solid none;
   border-color: #cc0211; }
   .event:nth-last-of-type(1) {
-    border-style: none; }
+    border-style: none;
+    margin-bottom: 0; }
   .event h3 {
     font-size: 26px;
     position: absolute;
@@ -289,6 +288,8 @@ iframe {
     background-size: cover; }
   p {
     font-size: 15px; }
+  main #right-column {
+    padding-bottom: 0; }
   .main,
   .info,
   .lineup,
@@ -326,6 +327,8 @@ iframe {
   .past td {
     display: block;
     padding-bottom: 60px; }
+    .past td:last-of-type {
+      padding-bottom: 0; }
     .past td img {
       width: 100%; }
     .past td:nth-child(odd) {

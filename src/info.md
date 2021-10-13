@@ -17,7 +17,7 @@ permalink: /info
 <p>For updates on the 2021 edition follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a>.</p>
 
 <h2>Tickets</h2>
-<p>It is possible to buy one-day tickets or partout tickets for all 3 parts of the festival. Buy your tickets at <a href="https://billetto.dk/e/festival-of-endless-gratitude-2021-billetter-574937">Billetto</a></p>
+<p>It is possible to buy one-day tickets or partout tickets for all 3 parts of the festival. Buy your tickets at <a href="https://billetto.dk/e/festival-of-endless-gratitude-2021-billetter-574937">Billetto</a>.</p>
 <p>One-day tickets: 150 DDKK<br>
 Partout ticket: 450 DKK
 </p>

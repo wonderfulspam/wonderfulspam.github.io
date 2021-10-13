@@ -44,7 +44,7 @@
   color: #cc0211;
   margin-top: 0px;
   margin-bottom: 0;
-  font-size: 4.5rem;
+  font-size: 45px;
   font-weight: normal; }
 
 .horis-menu-list {
@@ -56,7 +56,7 @@
   padding-top: 1.9em; }
 
 a.menu-item-link {
-  font-size: 2.8rem;
+  font-size: 28px;
   text-transform: uppercase;
   color: white; }
 
@@ -68,15 +68,14 @@ a.menu-item-link {
     padding-left: 20px;
     padding-right: 20px; }
   a.menu-item-link {
-    font-size: 3rem; }
+    font-size: 40px; }
   #header h1 {
-    font-size: 4rem; } }
+    font-size: 50px; } }
 
 html {
   background: url(/assets/img/bg.jpg) no-repeat top center fixed;
   background-size: cover;
-  -webkit-tap-highlight-color: transparent;
-  font-size: 62.5%; }
+  -webkit-tap-highlight-color: transparent; }
 
 html.landing {
   background: url(/assets/img/bg-front.jpg) no-repeat top center fixed;
@@ -92,15 +91,19 @@ body {
 
 p {
   font-family: futurastd;
-  font-size: 1.7rem; }
+  font-size: 17px;
+  margin-top: 0; }
+  p a {
+    text-decoration: underline; }
 
 strong {
   font-weight: normal; }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 23px;
   font-weight: normal;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 0; }
 
 main {
   background-color: black;
@@ -124,7 +127,7 @@ main {
   padding-right: 20vw;
   text-align: center; }
   .info h2 {
-    margin-top: 3.5rem;
+    margin-top: 35px;
     margin-bottom: 0; }
 
 main #left-column {
@@ -198,10 +201,10 @@ ul {
   .event:nth-last-of-type(1) {
     border-style: none; }
   .event h3 {
-    font-size: 2.6rem;
+    font-size: 26px;
     position: absolute;
     font-weight: normal;
-    top: 394px;
+    top: 389px;
     left: 20px;
     transform-origin: left;
     transform: rotate(270deg);
@@ -221,7 +224,6 @@ ul {
 
 .event li div {
   width: 100%;
-  padding-top: 5px;
   padding-bottom: 5px; }
 
 .event li span {
@@ -230,7 +232,7 @@ ul {
   display: block;
   text-transform: uppercase;
   color: white;
-  font-size: 2.3rem; }
+  font-size: 23px; }
 
 iframe {
   width: 100%;
@@ -286,7 +288,7 @@ iframe {
     background: url(/assets/img/bg-front-mobile.jpg) no-repeat center center fixed;
     background-size: cover; }
   p {
-    font-size: 1.5rem; }
+    font-size: 15px; }
   .main,
   .info,
   .lineup,
@@ -304,13 +306,14 @@ iframe {
   .event h3 {
     position: initial;
     transform: none;
-    font-size: 4.5rem; }
+    font-size: 45px;
+    margin-top: 0; }
   .event ul {
     padding-left: 0px; }
   .info {
     text-align: left; }
     .info h2 {
-      margin-top: 3.5rem; }
+      margin-top: 35px; }
   .artist-link {
     pointer-events: none; }
   .event li {

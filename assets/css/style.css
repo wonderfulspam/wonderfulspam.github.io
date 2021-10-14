@@ -22,6 +22,12 @@
   font-weight: 700;
   src: local("FuturaLTBold"), url(/assets/fonts/FuturaLT-Bold.woff) format("woff"); }
 
+@font-face {
+  font-family: futurastd;
+  font-style: italic;
+  font-weight: normal;
+  src: local("FuturaLTBold"), url(/assets/fonts/FuturaLT-Oblique.woff) format("woff"); }
+
 #horisontal-header {
   display: grid;
   padding-left: 20vw;
@@ -96,6 +102,9 @@ p {
   p a {
     text-decoration: underline; }
 
+.italic {
+  font-style: italic; }
+
 strong {
   font-weight: normal; }
 
@@ -136,7 +145,8 @@ main #right-column {
 
 .lineup {
   grid-template-areas: "left left right";
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0; }
 
 .schedule {
   padding-left: 20vw;

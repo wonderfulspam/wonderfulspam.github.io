@@ -232,10 +232,19 @@ ul {
 .event li span {
   padding-left: 5px;
   padding-right: 5px;
-  display: block;
   text-transform: uppercase;
   color: white;
   font-size: 23px;
+}
+
+.extratitle {
+  display: none;
+}
+
+.artistcontent {
+  .extratitle {
+    display: inline;
+  }
 }
 
 iframe {

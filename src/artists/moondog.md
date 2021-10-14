@@ -1,5 +1,5 @@
 ---
-title: Other sounds of the night
+title: Other sounds of the night<span class="extratitle"> - Original Moondog compositions for piano and percussion performed by Stefan Lakatos and Bengt Tribukait</span>
 layout: artists.liquid
 is_draft: false
 categories:
@@ -8,8 +8,6 @@ data:
   img: /assets/img/moondog.png
   country: SE
 ---
-
-<p class="italic">Original Moondog compositions for piano and percussion performed by Stefan Lakatos and Bengt Tribukait</p>
 
 Louis Hardin, better known as MOONDOG, is one of the most unlikely, mythical and persevering composers to come out of New York’s mid century music scene which gave birth to the careers of kindred spirits like Steve Reich and Philip Glass.
 

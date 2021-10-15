@@ -226,8 +226,9 @@ ul {
     position: relative;
     margin-bottom: 15px;
     cursor: pointer;
-    margin-right: 30px;
-    width: min-content; }
+    margin-right: 30px; }
+    .event li.desktop {
+      width: min-content; }
     .event li img {
       height: 300px;
       width: auto; }

@@ -219,7 +219,9 @@ ul {
     margin-bottom: 15px;
     cursor: pointer;
     margin-right: 30px;
-    width: min-content;
+    &.desktop {
+      width: min-content;
+    }
     img {
       height: 300px;
       width: auto;

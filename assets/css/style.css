@@ -205,7 +205,7 @@ ul {
   margin-bottom: 50px;
   min-height: 60vh;
   border-style: none none solid none;
-  border-color: #583da3; }
+  border-color: #5c6ace; }
   .event:nth-last-of-type(1) {
     margin-bottom: 0; }
   .event h3 {
@@ -216,7 +216,7 @@ ul {
     left: 20px;
     transform-origin: left;
     transform: rotate(270deg);
-    color: #583da3; }
+    color: #5c6ace; }
   .event:nth-of-type(2) {
     padding-bottom: 200px;
     border-color: #fac526; }

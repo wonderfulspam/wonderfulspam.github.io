@@ -3,32 +3,27 @@
   ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
   fb_event_link: "https://www.facebook.com/events/920599388892945"
   days:
-    - name: Friday
+    - name: <span="nodisplay"Friday</span>
       date: "2021-10-22"
       doors: "17.00"
       schedule:
+        - time: "19.30"
+          artist: C Joynes
+        - time: "20.15"
+          artist: Jaleh Negari
+        - time: "21.00"
+          artist: ELIK - Svitlana Nianio/Raphael Rogiński
+        - time: "21.00"
+          artist: <span class="title">Other sounds of the night - Moondog performed by Stefan Lakatos and Bengt Tribukait</span><span class="extratitle">Other sounds of the night - Original Moondog compositions for piano and percussion performed by Stefan Lakatos and Bengt Tribukait</span>
 
 - name: "PART II: FRIDAY, 5th NOVEMBER: MUSIKHUSET KØBENHAVN"
   slug: 2021_02_Musikhuset
   ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
   fb_event_link: "https://www.facebook.com/events/920599388892945"
   days:
-    - name: Friday
-      date: "2021-11-19"
-      doors: "17.00"
-      schedule:
 
 - name: "PART III: FRIDAY-SATURDAY, 3rd & 4th DECEMBER: MAYHEM"
   slug: 2021_03_Mayhem
   ticket_link: "https://tikkio.com/tickets/23286-norsk-kornolfestival-2021"
   fb_event_link: "https://www.facebook.com/events/920599388892945"
   days:
-    - name: Friday
-      date: "2021-12-03"
-      doors: "18.00"
-      schedule:
-
-    - name: Saturday
-      date: "2021-12-04"
-      doors: "17.00"
-      schedule:

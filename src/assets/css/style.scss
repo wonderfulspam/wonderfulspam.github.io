@@ -155,6 +155,12 @@ main #right-column {
     margin-right: 0;
     width: 100%;
     border-bottom: 2px solid $koncertkirken;
+    .dj {
+      margin-top: 5px;
+      td:first-of-type {
+        text-align: right;
+      }
+    }
     td {
       vertical-align: top;
       padding-right: 10px;

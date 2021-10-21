@@ -6,6 +6,7 @@
     - name: <span="nodisplay"Friday</span>
       date: "2021-10-22"
       doors: "17.00"
+      dj: "Gavin Maycroft"
       schedule:
         - time: "19.30"
           artist: C Joynes

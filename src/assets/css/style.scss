@@ -395,9 +395,13 @@ iframe {
     grid-template-columns: 1fr;
   }
   .schedule {
-    font-size: 47px;
+    text-size-adjust: none;
+    h2 {
+      font-size: 47px;
+    }
     table {
       font-size: 47px;
+      text-size-adjust: none;
     }
     grid-template-areas: "left";
     grid-template-columns: 1fr;

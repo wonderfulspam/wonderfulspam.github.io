@@ -173,6 +173,10 @@ main #right-column {
     margin-right: 0;
     width: 100%;
     border-bottom: 2px solid #5c6ace; }
+    .schedule table .dj {
+      margin-top: 5px; }
+      .schedule table .dj td:first-of-type {
+        text-align: right; }
     .schedule table td {
       vertical-align: top;
       padding-right: 10px; }

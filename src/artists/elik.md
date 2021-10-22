@@ -1,5 +1,5 @@
 ---
-title: ELIK - Svitlana Nianio/Raphael Rogiński
+title: Svitlana Nianio (Elik cancelled)
 layout: artists.liquid
 is_draft: false
 categories:

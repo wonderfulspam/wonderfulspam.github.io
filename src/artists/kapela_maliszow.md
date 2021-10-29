@@ -9,7 +9,7 @@ data:
   country: PL
 ---
 
-The Malisz family originates in Męcina Mała, a small village in the Beskid Niski region of the Western Carpathians and Multiinstrumentalist Jan Malisz started Kapela Maliszów with his children, Kacper and Zuzanna to continue the family’s rich tradition of music. Jan Malisz was himself taught the basics of a variety of instruments by his father Jozef and today, as well as playing them, he builds violins, hurdy-gurdys, nyckelharpas and pipes in his workshop.
+The Malisz family originates in Męcina Mała, a small village in the Beskid Niski region of the Western Carpathians. Multiinstrumentalist Jan Malisz started Kapela Maliszów with his children, Kacper and Zuzanna to continue the family’s rich tradition of music. Jan Malisz was himself taught the basics of a variety of instruments by his father Jozef and today, as well as playing them, he builds violins, hurdy-gurdys, nyckelharpas and pipes in his workshop.
 
 The trio is inspired by traditional music from the Beskid Niski and Pogorze region, where the folk songs and dance music is traditionally played with a violin, a basolia (similar to a cello) and a drum leaving much room for improvisation and freedom. The band’s compositions are characterised by fiery, trance-like mazurkas driven by the precariously proficient violin playing of Kacper, the haunting voice of Zuzanne and the organic improvisatory interplay of a family brought up on music.
 

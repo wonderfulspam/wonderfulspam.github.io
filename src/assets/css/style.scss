@@ -164,6 +164,22 @@ main #right-column {
     td {
       vertical-align: top;
       padding-right: 10px;
+      &:nth-of-type(1) {
+        width: 20px;
+      }
+    }
+  }
+}
+
+.event-schedule {
+  &:nth-of-type(2) {
+    table {
+      border-bottom: 2px solid $musikhuset;
+    }
+  }
+  &:nth-of-type(3) {
+    table {
+      border-bottom: 2px solid $title_color_alt;
     }
   }
 }

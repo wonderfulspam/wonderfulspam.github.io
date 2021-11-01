@@ -180,6 +180,14 @@ main #right-column {
     .schedule table td {
       vertical-align: top;
       padding-right: 10px; }
+      .schedule table td:nth-of-type(1) {
+        width: 20px; }
+
+.event-schedule:nth-of-type(2) table {
+  border-bottom: 2px solid #fac526; }
+
+.event-schedule:nth-of-type(3) table {
+  border-bottom: 2px solid #cc0211; }
 
 .past {
   padding-left: 17vw;

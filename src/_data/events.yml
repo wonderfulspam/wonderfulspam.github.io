@@ -22,6 +22,19 @@
   ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
   fb_event_link: "https://www.facebook.com/events/920599388892945"
   days:
+    - name: <span="nodisplay"Saturday</span>
+      date: "2021-11-05"
+      doors: "19.00"
+      dj: "FoEG DJs"
+      schedule:
+        - time: "19.30"
+          artist: ŠIMANSKÝ - NIESNER
+        - time: "20.30"
+          artist: BLUE LAKE
+        - time: "21.15"
+          artist: LINO CAPRA VACCINA
+        - time: "22.15"
+          artist: Kapela Maliszów
 
 - name: "PART III: FRIDAY-SATURDAY, 3rd & 4th DECEMBER: MAYHEM"
   slug: 2021_03_Mayhem

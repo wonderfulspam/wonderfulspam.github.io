@@ -267,8 +267,9 @@ ul {
     }
   }
   &:nth-of-type(3) {
+    border-color: $title_color_alt;
     h3 {
-      top: 408px;
+      top: 477px;
       color: $title_color_alt;
     }
   }

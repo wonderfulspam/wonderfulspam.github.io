@@ -259,9 +259,11 @@ ul {
     .event:nth-of-type(2) h3 {
       top: 471px;
       color: #fac526; }
-  .event:nth-of-type(3) h3 {
-    top: 408px;
-    color: #cc0211; }
+  .event:nth-of-type(3) {
+    border-color: #cc0211; }
+    .event:nth-of-type(3) h3 {
+      top: 477px;
+      color: #cc0211; }
   .event li {
     position: relative;
     margin-bottom: 15px;

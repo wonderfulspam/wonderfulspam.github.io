@@ -1,6 +1,6 @@
 <h3>{{ day.name }}</h3>
 <table>
-  <tr><td>{{ day.doors }}</td><td>Doors open</td></tr>
+  <tr class="doors"><td>{{ day.doors }}</td><td>Doors open</td></tr>
   {% for slot in day.schedule %}
   <tr>
     <td>{{ slot.time }}</td>

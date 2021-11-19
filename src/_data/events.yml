@@ -3,7 +3,7 @@
   ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
   fb_event_link: "https://www.facebook.com/events/920599388892945"
   days:
-    - name: <span class="nodisplay">Friday</span>
+    - name: <span class="no-display">Friday</span>
       date: "2021-10-22"
       doors: "17.00"
       dj: "Gavin Maycroft"
@@ -22,7 +22,7 @@
   ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
   fb_event_link: "https://www.facebook.com/events/920599388892945"
   days:
-    - name: <span class="nodisplay">Saturday</span>
+    - name: <span class="no-display">Saturday</span>
       date: "2021-11-05"
       doors: "19.00"
       dj: "FoEG DJs"

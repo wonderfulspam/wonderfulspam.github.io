@@ -6,7 +6,7 @@ categories:
   - 2021_03_Mayhem
 data:
   img: /assets/img/djmarcelle.png
-  country: SE
+  country: NL
 ---
 
 Although DJ Marcelle has been collecting music longer than most of us have been alive, she still feels like The Netherlands’ sweetheart. She’s an artist with a mischievous, rule-bending and almost ironic approach to her DJing, producing and radio hosting – cut with her trademark wit yet supported by an unquestionable amount of skill.

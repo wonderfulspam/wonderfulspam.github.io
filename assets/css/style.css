@@ -381,6 +381,8 @@ iframe {
     grid-template-columns: 1fr; }
     .schedule h2 {
       font-size: 47px; }
+    .schedule h3 {
+      font-size: 47px; }
     .schedule table {
       font-size: 47px;
       text-size-adjust: none; }

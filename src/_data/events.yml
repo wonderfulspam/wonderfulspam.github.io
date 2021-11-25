@@ -47,9 +47,13 @@
       dj: <span class="no display">
       schedule:
         - time: ""
+          artist: Blod
+        - time: ""
           artist: Puce Mary
         - time: ""
           artist: Family Underground
+        - time: ""
+          artist: Arv & Miljö
     - name: SATURDAY
       date: "2021-12-04"
       doors: <span class="no display">
@@ -59,3 +63,7 @@
           artist: DJ Marcelle
         - time: ""
           artist: Lewsberg
+        - time: ""
+          artist: Leda
+        - time: ""
+          artist: Loopsel

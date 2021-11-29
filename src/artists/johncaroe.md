@@ -9,7 +9,7 @@ data:
   country: DK
 ---
 
-Johan Carøe is a film composer, producer and instrumentalist whose work ranges from string and synth-minimalism to maximalism through processed classical instruments, noise and synthesis. He has co-composed soundtracks with such legendary names as Yasuaki Shimizu and Angelo Badalamenti and just released the collaborative effort ‘Repair Techniques’ with Sofie Birch.
+Johan Carøe is a film composer, producer and instrumentalist whose work ranges from string and synth-minimalism to maximalism through processed classical instruments, noise and synthesis. He has co-composed soundtracks with such legendary names as Yasuaki Shimizu and Angelo Badalamenti and just released the collaborative effort ‘Repair Techniques’ with Sofie Birch..
 
 Carøe also puts out music in his own name on local labels like No Technique and Forlaget Kornmod, including his EP, 'Zenmetal', from 2019 and the debut LP, 'Lovesongs', the following year. His solo output rests on a bed of contemporary classical music and electronic music with a healthy influence from Japanese new age music.
 

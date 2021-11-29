@@ -1,5 +1,5 @@
 ---
-title: John Carøe
+title: Johan Carøe
 layout: artists.liquid
 is_draft: false
 categories:

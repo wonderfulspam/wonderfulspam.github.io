@@ -22,6 +22,12 @@ permalink: /info
 Partout ticket: 450 DKK
 </p>
 
+<h2>COVID-19 and corona passport</h2>
+<p>Due to the rising number of COVID-19 infections in Denmark new restrictions are put in place. This means that you need to show a valid corona passport when attending the festival. We hope you understand and will respect this. </p>
+<p>Please remember - first of all - to be considerate and take really good care of each other and follow the Ministry of Health's general guidelines:</br>
+- Stay home if you show symptoms of COVID-19</br>
+- Wash hands frequently or use hand sanitizer</br>
+- Cough or sneeze into your sleeve</p>
 <h2>Contact</h2>
 <p>
 <a href="mailto:volunteer@foeg.dk">volunteer@foeg.dk</a>

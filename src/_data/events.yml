@@ -25,7 +25,7 @@
     - name: <span class="no-display">Saturday</span>
       date: "2021-11-05"
       doors: "19.00"
-      dj: "FoEG DJs"
+      dj: "FoEG DJ's"
       schedule:
         - time: "19.30"
           artist: ŠIMANSKÝ - NIESNER
@@ -43,31 +43,36 @@
   days:
     - name: FRIDAY
       date: "2021-12-03"
-      doors: <span class="no display">
-      dj: <span class="no display">
+      doors: "19.00"
+      dj: "FoEG DJ's"
       schedule:
-        - time: ""
-          artist: Blod
-        - time: ""
-          artist: Puce Mary
-        - time: ""
-          artist: Family Underground
-        - time: ""
+        - time: "19.30"
           artist: Arv & Miljö
+        - time: "20.45"
+          artist: Blod
+        - time: "22.00"
+          artist: Family Underground
+        - time: "23.15"
+          artist: Puce Mary
     - name: SATURDAY
       date: "2021-12-04"
-      doors: <span class="no display">
-      dj: <span class="no display">
+      doors: "18.00""
+      dj: "FoEG DJ's"
       schedule:
-        - time: ""
-          artist: DJ Marcelle
-        - time: ""
-          artist: Lewsberg
-        - time: ""
-          artist: Leda
-        - time: ""
-          artist: Loopsel
-        - time: ""
+        - time: "18.30"
           artist: Anders Vestergaard
-        - time: ""
+        - time: "19.30"
+          artist: Loopsel
+        - time: "20.30"
+          artist: Leda
+        - time: "21.30"
+          artist: Lewsberg
+        - time: "22.30"
           artist: Johan Carøe
+        - time: "23.30"
+          artist: DJ Marcelle
+        
+        
+        
+        
+        

@@ -56,7 +56,7 @@
           artist: Puce Mary
     - name: SATURDAY
       date: "2021-12-04"
-      doors: "18.00""
+      doors: "18.00"
       dj: "FoEG DJ's"
       schedule:
         - time: "18.30"
@@ -71,8 +71,3 @@
           artist: Johan Carøe
         - time: "23.30"
           artist: DJ Marcelle
-        
-        
-        
-        
-        

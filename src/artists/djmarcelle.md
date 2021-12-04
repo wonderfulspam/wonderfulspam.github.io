@@ -1,5 +1,5 @@
 ---
-title: DJ Marcelle
+title: DJ Marcelle (cancelled)
 layout: artists.liquid
 is_draft: false
 categories:

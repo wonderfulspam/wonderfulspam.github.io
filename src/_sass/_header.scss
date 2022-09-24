@@ -1,19 +1,18 @@
 #horisontal-header {
   display: grid;
-  padding-left: 20vw;
-  padding-right: 20vw;
+  padding-top:30px;
+  padding-left: 60px;
+  padding-right: 60px;
   grid-template-areas:
-    "header"
-    "menu";
+    "header menu";
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
 }
 
 #header {
   grid-area: header;
-  justify-self: center;
-  padding-top: 1vw;
-  padding-bottom: 0.7vw;
+  justify-self: baseline;
+  align-self:end;
   a {
     text-decoration-color: $title_color_alt;
   }
@@ -30,7 +29,8 @@
 }
 
 .horis-menu-list {
-  justify-self: center;
+  justify-self: end;
+  align-self:center;
   display: inline-block;
   grid-area: menu;
 }
@@ -39,10 +39,10 @@
   padding-top: 1.9em;
 }
 
-a.menu-item-link {
+a.menu-item-link, a.menu-item-link:visited {
   font-size: 28px;
-  text-transform: uppercase;
-  color: $text;
+  font-family: formaitalic;
+  color: $bg;
 }
 
 .menu-item-link:not(:first-child) {

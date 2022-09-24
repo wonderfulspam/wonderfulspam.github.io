@@ -436,6 +436,15 @@ iframe {
     background: url(/assets/img/landing-mobile.png) no-repeat center center
       fixed;
     background-size: cover;
+    h3 {
+      color:$title_color;
+      font-size:4vw;
+      font-weight: normal;
+      position:absolute;
+      left:80vw;
+      top:85vh;
+      text-align:center;
+    } 
   }
   p {
     font-size: 15px;

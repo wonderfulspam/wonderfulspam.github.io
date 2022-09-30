@@ -107,6 +107,7 @@ html.landing {
   html.landing h2 {
     color: white;
     font-size: 4vw;
+    letter-spacing: 0.4vw;
     font-family: formaitalic;
     font-weight: normal;
     mix-blend-mode: color-dodge;

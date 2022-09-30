@@ -40,6 +40,7 @@ html.landing {
   h1 {
     color:$bg;
     font-size:6vw;
+    letter-spacing: 0.5vw;
     font-family: formaitalic;
     font-weight: normal;
     mix-blend-mode: color-dodge;
@@ -77,9 +78,10 @@ html.landing {
   h3 {
     color:$title_color;
     font-size:3vw;
+    letter-spacing:0.3vw;
     font-weight: normal;
     position:absolute;
-    left:85vw;
+    left:82vw;
     top:75vh;
     text-align:center;
   }
@@ -102,6 +104,8 @@ p {
   font-family: forma;
   font-size: 17px;
   margin-top: 0;
+  line-height:1.5;
+  letter-spacing:2px;
   a {
     text-decoration: underline;
   }

@@ -52,6 +52,7 @@
 
 a.menu-item-link, a.menu-item-link:visited {
   font-size: 34px;
+  letter-spacing: 4px;
   font-family: formaitalic;
   color: white; }
 
@@ -83,6 +84,7 @@ html.landing {
   html.landing h1 {
     color: white;
     font-size: 6vw;
+    letter-spacing: 0.5vw;
     font-family: formaitalic;
     font-weight: normal;
     mix-blend-mode: color-dodge; }
@@ -114,9 +116,10 @@ html.landing {
   html.landing h3 {
     color: #d94a10;
     font-size: 3vw;
+    letter-spacing: 0.3vw;
     font-weight: normal;
     position: absolute;
-    left: 85vw;
+    left: 82vw;
     top: 75vh;
     text-align: center; }
   html.landing footer {
@@ -134,7 +137,9 @@ body {
 p {
   font-family: forma;
   font-size: 17px;
-  margin-top: 0; }
+  margin-top: 0;
+  line-height: 1.5;
+  letter-spacing: 2px; }
   p a {
     text-decoration: underline; }
 

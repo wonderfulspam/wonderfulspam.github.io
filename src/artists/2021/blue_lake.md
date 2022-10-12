@@ -1,7 +1,7 @@
 ---
 title: BLUE LAKE
 layout: artists.liquid
-is_draft: false
+is_draft: true
 categories:
   - 2021_02_Musikhuset
 data:

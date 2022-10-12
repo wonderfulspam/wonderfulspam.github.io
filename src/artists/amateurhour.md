@@ -1,0 +1,15 @@
+---
+title: Amateur Hour
+layout: artists.liquid
+is_draft: false
+categories:
+  - 2022
+data:
+  img: /assets/img/amateurhour.png
+  country: SE
+---
+
+<p>Gothenburg is easily one of the most interesting 'scenes' on the current Scandi underground circuit where the confluence between record store Discreet Music and label Förlag För Fri Musik and associates seems to be an endless nexus spawning one highly interesting act after another.</p>
+<p>Last year, FoEG presented Arv & Miljö, Blod, Loopsel, and Leda from the Gothenburg scene. This year, we are thrilled to present Amateur Hour. The trio pivots around an experimental, lo-fi DIY approach with excursions into the abstract and industrial, but – unlike many of their co-citizens – they never stray too far off a more traditional core with Julia Bjernelind’s voice as a melodic stronghold. Pitchfork even labeled their recent LP "an hour-long dream pop epic". Amateur Hour has just released their third LP, Krökta Tankar och Brända Vanor, and though they have been in existence since at least 2016, this will only be their third live show and their first outside Sweden.</p>
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1221009401/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://amateurhourgbg.bandcamp.com/album/amateur-hour">Amateur Hour by Amateur Hour</a></iframe>

@@ -10,7 +10,9 @@ data:
 {% for event_name in events %}
   {% include "assign_event_data.liquid" %}
   <div class="event">
-    <h3>{{ event_data.name }}</h3>
+   {% comment %}
+ <h3>{{ event_data.name }}</h3>
+    {% endcomment %}
     <ul>
     {% for post in artists %}
       {% include "artist_li.liquid" %}

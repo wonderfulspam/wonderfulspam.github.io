@@ -1,7 +1,7 @@
 ---
 title: Jaleh Negari
 layout: artists.liquid
-is_draft: false
+is_draft: true
 categories:
   - 2021_01_Koncertkirken
 data:

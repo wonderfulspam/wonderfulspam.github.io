@@ -1,73 +1,14 @@
-- name: "PART I: FRIDAY, 22nd OCTOBER: KONCERTKIRKEN"
-  slug: 2021_01_Koncertkirken
-  ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
-  fb_event_link: "https://www.facebook.com/events/920599388892945"
+- name: "2022"
+  slug: 2022
+  ticket_link: "t"
+  fb_event_link: "f"
   days:
     - name: <span class="no-display">Friday</span>
-      date: "2021-10-22"
+      date: "2022-11-17"
       doors: "17.00"
       dj: "Gavin Maycroft"
       schedule:
         - time: "19.30"
-          artist: C Joynes
+          artist: Amateur Hour
         - time: "20.15"
-          artist: Jaleh Negari
-        - time: "21.00"
-          artist: ELIK - Svitlana Nianio/Raphael Rogiński
-        - time: "22.15"
-          artist: <span class="title">Other sounds of the night - Moondog performed by Stefan Lakatos and Bengt Tribukait</span><span class="extratitle">Other sounds of the night - Original Moondog compositions for piano and percussion performed by Stefan Lakatos and Bengt Tribukait</span>
-
-- name: "PART II: FRIDAY, 5th NOVEMBER: MUSIKHUSET KØBENHAVN"
-  slug: 2021_02_Musikhuset
-  ticket_link: "https://tikkio.com/tickets/23893-country-boys-endelig"
-  fb_event_link: "https://www.facebook.com/events/920599388892945"
-  days:
-    - name: <span class="no-display">Saturday</span>
-      date: "2021-11-05"
-      doors: "19.00"
-      dj: "FoEG DJ's"
-      schedule:
-        - time: "19.30"
-          artist: ŠIMANSKÝ - NIESNER
-        - time: "20.30"
-          artist: BLUE LAKE
-        - time: "21.15"
-          artist: LINO CAPRA VACCINA
-        - time: "22.30"
-          artist: Kapela Maliszów
-
-- name: "PART III: FRIDAY-SATURDAY, 3rd & 4th DECEMBER: MAYHEM"
-  slug: 2021_03_Mayhem
-  ticket_link: "https://tikkio.com/tickets/23286-norsk-kornolfestival-2021"
-  fb_event_link: "https://www.facebook.com/events/920599388892945"
-  days:
-    - name: FRIDAY
-      date: "2021-12-03"
-      doors: "19.00"
-      dj: "FoEG DJ's"
-      schedule:
-        - time: "19.30"
-          artist: Arv & Miljö
-        - time: "20.45"
-          artist: Blod
-        - time: "22.00"
-          artist: Family Underground
-        - time: "23.15"
-          artist: Puce Mary
-    - name: SATURDAY
-      date: "2021-12-04"
-      doors: "18.00"
-      dj: "FoEG DJ's"
-      schedule:
-        - time: "18.30"
-          artist: Anders Vestergaard
-        - time: "19.30"
-          artist: Loopsel
-        - time: "20.30"
-          artist: Leda
-        - time: "21.30"
-          artist: Lewsberg
-        - time: "22.30"
-          artist: Johan Carøe
-        - time: "23.30"
-          artist: N.E.GIRL
+          artist: Judith Hamann

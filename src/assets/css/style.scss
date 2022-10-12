@@ -126,6 +126,7 @@ h2 {
   font-weight: normal;
   text-transform: uppercase;
   margin-top: 0;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -287,16 +288,19 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: 50px;
+  padding-left: 0px;
   margin: 0;
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .event {
   position: relative;
   margin-bottom: 50px;
   min-height: 60vh;
-  border-style: none none solid none;
-  border-color: $koncertkirken;
+  // border-style: none none solid none;
+  // border-color: $koncertkirken;
   &:nth-last-of-type(1) {
     margin-bottom: 0;
   }
@@ -344,8 +348,9 @@ ul {
 }
 .event li span {
   text-transform: uppercase;
-  color: white;
+  color: $title-color;
   font-size: 23px;
+  letter-spacing:2px;
 }
 
 .title {
@@ -380,6 +385,8 @@ iframe {
   top: 30px;
   h2 {
     text-transform: uppercase;
+    color:$title-color;
+    letter-spacing:2px;
   }
 }
 
@@ -475,6 +482,9 @@ iframe {
   .lineup {
     grid-template-areas: "left";
     grid-template-columns: 1fr;
+    #right-column {
+      display:none;
+    }
   }
   .schedule {
     text-size-adjust: none;

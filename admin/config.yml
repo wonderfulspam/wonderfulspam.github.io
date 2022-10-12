@@ -21,6 +21,7 @@ collections:
           multiple: true,
           options:
             [
+              { label: "2022", value: "2022" },
               { label: "Koncertkirken", value: "2021_01_Koncertkirken" },
               { label: "Musikhuset", value: "2021_02_Musikhuset" },
               { label: "Mayhem", value: "2021_03_Mayhem" },

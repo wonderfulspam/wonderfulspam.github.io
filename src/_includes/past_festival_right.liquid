@@ -7,7 +7,9 @@
     <p><strong>{{ content[0] | capitalize }}:</strong> {{ content[1] }}</p>
   {% endfor %}
 {% endif %}
+
 <p><strong>Artowrk:</strong> {{ festival.artwork }}</p>
+
 <p><a href="{{ festival.programme_uri }}">Programme</a></p>
 {% if festival.website_link %}
   <p><a href="{{ festival.website_link }}">Website</a></p>

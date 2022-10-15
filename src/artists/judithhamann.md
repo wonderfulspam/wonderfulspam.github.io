@@ -6,6 +6,7 @@ categories:
   - 2022
 data:
   img: /assets/img/judithhamann.png
+
   country: AU
 ---
 

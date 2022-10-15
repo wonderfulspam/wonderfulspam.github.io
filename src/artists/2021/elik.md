@@ -1,5 +1,7 @@
 ---
+
 title: Svitlana Nianio (Elik cancelled)
+
 layout: artists.liquid
 is_draft: true
 categories:

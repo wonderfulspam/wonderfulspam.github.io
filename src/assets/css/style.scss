@@ -542,6 +542,14 @@ iframe {
     }
   }
   .past {
+    h2 {
+      margin-bottom:0;
+    }
+    table {
+      div {
+        margin-bottom:30px;
+      }
+    }
     td {
       display: block;
       padding-bottom: 60px;

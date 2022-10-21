@@ -469,6 +469,10 @@ iframe {
     .event li img {
       width: 100%;
       height: auto; }
+  .past h2 {
+    margin-bottom: 0; }
+  .past table div {
+    margin-bottom: 30px; }
   .past td {
     display: block;
     padding-bottom: 60px; }

@@ -63,8 +63,8 @@ a.menu-item-link, a.menu-item-link:visited {
   #horisontal-header {
     padding-left: 20px;
     padding-right: 20px; }
-  a.menu-item-link {
-    font-size: 34px; }
+  a.menu-item-link, a.menu-item-link:visited {
+    font-size: 4vw; }
   #header {
     text-size-adjust: none; }
     #header h1 {
@@ -121,7 +121,7 @@ html.landing {
     font-weight: normal;
     position: absolute;
     right: 0;
-    top: 75vh;
+    bottom: 1vh;
     margin-right: 60px;
     text-align: center; }
   html.landing footer {
@@ -398,16 +398,24 @@ iframe {
   html,
   html.landing {
     background: url(/assets/img/landing-mobile.png) no-repeat center center fixed;
-    background-size: cover; }
+    background-size: cover;
+    border: none; }
+    html h1,
+    html.landing h1 {
+      font-size: 10vw; }
+    html h2,
+    html.landing h2 {
+      font-size: 8vw; }
     html h3,
     html.landing h3 {
       color: #d94a10;
       font-size: 4vw;
       font-weight: normal;
       position: absolute;
-      left: 80vw;
-      top: 85vh;
-      text-align: center; }
+      right: 0vw;
+      bottom: 1vh;
+      text-align: center;
+      margin-right: 30px; }
   p {
     font-size: 15px; }
   main #right-column {

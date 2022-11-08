@@ -522,6 +522,12 @@ iframe {
     ul {
       padding-left: 0px;
     }
+    .title {
+      display: none;
+    }
+    .extratitle {
+      display: inline;
+    }
   }
   .info {
     text-align: left;

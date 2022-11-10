@@ -439,7 +439,8 @@ iframe {
     .schedule h2 {
       font-size: 47px; }
     .schedule h3 {
-      font-size: 47px; }
+      font-size: 47px;
+      color: #0051cb; }
     .schedule table {
       font-size: 47px;
       text-size-adjust: none; }

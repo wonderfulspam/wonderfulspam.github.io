@@ -1,7 +1,7 @@
 ---
 title: Daniel Löwenbrück
 layout: artists.liquid
-is_draft: true
+is_draft: false
 categories:
   - 2022
 data:

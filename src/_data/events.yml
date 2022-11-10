@@ -3,7 +3,7 @@
   ticket_link: "t"
   fb_event_link: "f"
   days:
-    - name: THURSDAY
+    - name: THURSDAY - BRØNSHØJ VANDTÅRN
       date: "2022-11-17"
       doors: "18:30"
       dj: "FoEG DJ's until 22:00"
@@ -14,7 +14,7 @@
           artist: Marie Eline Hansen
         - time: "21:00"
           artist: Pavel Milyakov
-    - name: FRIDAY
+    - name: FRIDAY - CIRKUS PANIK
       date: "2022-11-18"
       doors: "17:30"
       dj: "FoEG DJ's until 02:00"
@@ -33,7 +33,7 @@
           artist: Daniel Löwenbrück
         - time: "00:00"
           artist: Container
-    - name: SATURDAY
+    - name: SATURDAY - CIRKUS PANIK
       date: "2022-11-19"
       doors: "17:00"
       dj: "FoEG DJ's until 03:00"

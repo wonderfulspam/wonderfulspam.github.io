@@ -14,7 +14,7 @@
           artist: Marie Eline Hansen
         - time: "21:00"
           artist: Pavel Milyakov
-    - name: FRIDAY - CIRKUS PANIK
+    - name: FRIDAY - CIRKUSBYGNINGEN I VANLØSE
       date: "2022-11-18"
       doors: "17:30"
       dj: "FoEG DJ's until 02:00"
@@ -33,20 +33,20 @@
           artist: Daniel Löwenbrück
         - time: "00:00"
           artist: Container
-    - name: SATURDAY - CIRKUS PANIK
+    - name: SATURDAY - CIRKUSBYGNINGEN I VANLØSE
       date: "2022-11-19"
       doors: "17:00"
       dj: "FoEG DJ's until 03:00"
       schedule:
         - time: "17:30"
           artist: Sewer Election
-        - time: "19:35"
+        - time: "19:30"
           artist: Nein Rodere
         - time: "20:45"
           artist: Félicia Atkinson
-        - time: "21:45"
+        - time: "22:00"
           artist: Amateur Hour
-        - time: "22:45"
+        - time: "23:15"
           artist: Afrorack
-        - time: "23:45"
+        - time: "00:30"
           artist: Sons of Set

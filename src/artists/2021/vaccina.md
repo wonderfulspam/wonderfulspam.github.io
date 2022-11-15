@@ -1,6 +1,6 @@
 ---
 title: LINO CAPRA VACCINA
-layout: artists.liquid
+layout: default.liquid
 is_draft: true
 categories:
   - 2021_02_Musikhuset

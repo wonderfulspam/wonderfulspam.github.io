@@ -1,6 +1,6 @@
 ---
 title: <span class="title">Other sounds of the night - Moondog performed by Stefan Lakatos and Bengt Tribukait</span><span class="extratitle">Other sounds of the night - Original Moondog compositions for piano and percussion performed by Stefan Lakatos and Bengt Tribukait</span>
-layout: artists.liquid
+layout: default.liquid
 is_draft: true
 categories:
   - 2021_01_Koncertkirken

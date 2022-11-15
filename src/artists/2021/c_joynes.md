@@ -2,7 +2,7 @@
 title: C Joynes
 categories:
   - 2021_01_Koncertkirken
-layout: artists.liquid
+layout: default.liquid
 is_draft: true
 data:
   img: /assets/img/c-joynes.jpg

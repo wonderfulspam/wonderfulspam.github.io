@@ -1,6 +1,6 @@
 ---
 title: Mark Harwood
-layout: artists.liquid
+layout: default.liquid
 is_draft: false
 categories:
   - 2022

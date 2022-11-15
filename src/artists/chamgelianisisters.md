@@ -1,6 +1,6 @@
 ---
 title: <span class="title">Chamgeliani Sisters</span><span class="extratitle">Chamgeliani Sisters feat. Levan Bitarovi</span>
-layout: artists.liquid
+layout: default.liquid
 is_draft: false
 categories:
   - 2022

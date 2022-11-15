@@ -1,6 +1,6 @@
 ---
 title: Arv & Miljö
-layout: artists.liquid
+layout: default.liquid
 is_draft: true
 categories:
   - 2021_03_Mayhem

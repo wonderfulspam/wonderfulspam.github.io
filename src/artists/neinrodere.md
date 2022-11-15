@@ -1,6 +1,6 @@
 ---
 title: Nein Rodere
-layout: artists.liquid
+layout: default.liquid
 is_draft: false
 categories:
   - 2022

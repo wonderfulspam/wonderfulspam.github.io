@@ -50,3 +50,9 @@
           artist: Afrorack
         - time: "00:30"
           artist: Sons of Set
+
+- name: "2022art"
+  slug: 2022art
+  ticket_link: "t"
+  fb_event_link: "f"
+  days:

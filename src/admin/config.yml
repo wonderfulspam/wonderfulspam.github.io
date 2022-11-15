@@ -38,3 +38,27 @@ collections:
             ],
         }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "art"
+    label: "Art"
+    folder: "src/art"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Event",
+          name: "categories",
+          widget: "select",
+          multiple: true,
+          options: [{ label: "2022art", value: "2022art" }],
+        }
+      - {
+          label: "Metadata",
+          name: "data",
+          widget: "object",
+          fields:
+            [
+              { label: "Image", name: "img", widget: "image" },
+              { label: "Country code", name: "country", widget: "string" },
+            ],
+        }
+      - { label: "Body", name: "body", widget: "markdown" }

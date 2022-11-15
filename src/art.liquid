@@ -1,0 +1,29 @@
+---
+title: Art
+layout: default.liquid
+permalink: /art
+data:
+  classname: wide-left
+---
+<div id="left-column">
+{% assign events = collections.posts.pages | map: "categories" | sort | uniq %}
+{% for event_name in events %}
+  {% include "assign_art_data.liquid" %}
+  <div class="event">
+   {% comment %}
+ <h3>{{ event_data.name }}</h3>
+    {% endcomment %}
+    <ul>
+    {% for post in art %}
+      {% include "art_li.liquid" %}
+    {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>
+<div id="right-column">
+</div>
+{% include "art_hidden.liquid" %}
+<script type="text/javascript">
+  addCopyClickHandler(".artist-link", "right-column");
+</script>

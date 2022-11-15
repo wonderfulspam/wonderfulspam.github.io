@@ -1,0 +1,15 @@
+<li class="desktop">
+  <a class="artist-link" data-slug="{{ post.slug }}">
+    <div>
+      <span>{{ post.title }}</span>
+    </div>
+    <img src="{{ post.data.img }}">
+  </a>
+</li>
+<li class="mobile">
+    <img src="{{ post.data.img }}">
+    <div>
+      <span>{{ post.title }} ({{ post.data.country }})</span>
+    </div>
+{{ post.content }}
+</li>

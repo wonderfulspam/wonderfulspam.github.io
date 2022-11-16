@@ -247,6 +247,10 @@ main #right-column {
     padding-bottom: 30px;
     vertical-align: top; }
 
+.art h2 {
+  color: #d94a10;
+  font-size: 23px; }
+
 .no-display {
   display: none; }
 
@@ -484,5 +488,7 @@ iframe {
     .past td:nth-child(odd) {
       padding-bottom: 0px;
       padding-right: 0px; }
+  .art h2 {
+    padding-bottom: 5px; }
   .partnerlogoer a img {
     max-width: 30vw; } }

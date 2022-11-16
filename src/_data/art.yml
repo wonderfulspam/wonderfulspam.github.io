@@ -19,21 +19,21 @@
   description:
     - A STONE DROPPED IN A WELL LEAVES MORE THAN AN ECHO is an experimental audiovisual installation investigating the transitions of fluid motion, where words and sounds are combined in a similar symbiotic relationship.
     - Pas de Fleur is a new spoken word project presented by Mie Møller and Morten Alsinger centered around their shared interests of literature, dark erotica and outsider art. Mie Møller has performed at numerous spoken word venues and has been working with various sound artists. She has been published several times in the journal of The Poetic Bureau and has founded the publishing bureau Oplag. Morten Alsinger has released 3 albums with the soundscape project VERTICAL and has written books and other published texts over the last 20 years.
-- title: PM
-  img: /assets/img/matei.png
-  country: DK
-  slug: pm
-  description:
-    - Matei Petrescu, or PM, is a Romanian multidisciplinary artist, shifting from abstract painting towards video mapping, stage design or just full room installation works when coming down from one of Saturn’s rings. His inspiration, in his own words, comes from the Post Meridian times, those moments when bright daylight swirls into night and time seems so ephemeral, when memory kicks in and starts patching up the pieces between clarity, distortion and imagination. Matei is a FoEG regular and we're delighted to have him with us again this year to use his magic on Saturday the 19th at Cirkusbygningen i Vanløse.
-- title: Spherical Aberration
-  img: /assets/img/sphericalabberation.png
-  country: RO
-  slug: spherical-aberration
-  description:
-    - Spherical Aberration is the AV project of Ioana Bilea, a producer and visual artist from Transylvania, currently based in Berlin. After spending a big part of her life in lush forests with organic sounds, she decided to bring these audio visual stimulants to life with real-time generative visuals and textural sounds that flow and transform creating a world of their own. She will accompany the program on Friday the 18th at Cirkusbygningen i Vanløse.
 - title: Spøgelsesmaskinen
   img: /assets/img/rune.png
   country: DK
   slug: rune-og
   description:
     - At Brønshøj Vandtårn the evening will be accompanied by the light and video artist Rune Brink Hansen aka. Spøgelsesmaskinen. Through low-resolution pixelated animations, he explores memories and dreams of forgotten places, lost things and haunted technology. We’re excited to see his work engaging with the very special surroundings of Brønshøj Vandtårn and the performances of Jon Collin, Marie Eline Hansen and Pavel Milyakov.
+- title: Spherical Aberration
+  img: /assets/img/sphericalabberation.png
+  country: RO
+  slug: spherical-aberration
+  description:
+    - Spherical Aberration is the AV project of Ioana Bilea, a producer and visual artist from Transylvania, currently based in Berlin. After spending a big part of her life in lush forests with organic sounds, she decided to bring these audio visual stimulants to life with real-time generative visuals and textural sounds that flow and transform creating a world of their own. She will accompany the program on Friday the 18th at Cirkusbygningen i Vanløse.
+- title: PM
+  img: /assets/img/matei.png
+  country: RO
+  slug: pm
+  description:
+    - Matei Petrescu, or PM, is a Romanian multidisciplinary artist, shifting from abstract painting towards video mapping, stage design or just full room installation works when coming down from one of Saturn’s rings. His inspiration, in his own words, comes from the Post Meridian times, those moments when bright daylight swirls into night and time seems so ephemeral, when memory kicks in and starts patching up the pieces between clarity, distortion and imagination. Matei is a FoEG regular and we're delighted to have him with us again this year to use his magic on Saturday the 19th at Cirkusbygningen i Vanløse.

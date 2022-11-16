@@ -1,1 +1,6 @@
-<img src="{{ artist.img }}" alt="poster-{{ artist.slug }}">
+<div id="{{ artist.slug }}">
+  <h2>{{ artist.title }} ({{ artist.country }})</h2>
+  {% for paragraph in artist.description %}
+    <p>{{ paragraph }}</p>
+  {% endfor %}
+</div>

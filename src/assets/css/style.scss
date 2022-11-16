@@ -250,6 +250,13 @@ main #right-column {
   }
 }
 
+.art {
+  h2 {
+    color:$title-color;
+    font-size: 23px;
+  }
+}
+
 .no-display {
   display: none;
 }
@@ -566,6 +573,11 @@ iframe {
         padding-bottom: 0px;
         padding-right: 0px;
       }
+    }
+  }
+  .art {
+    h2 {
+      padding-bottom:5px;
     }
   }
   .partnerlogoer a img {

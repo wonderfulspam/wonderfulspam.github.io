@@ -1,0 +1,18 @@
+---
+title: Art
+layout: default.liquid
+permalink: /art
+data:
+  classname: wide-left past art
+---
+
+<div id="left-column">
+  <table>
+    {% for artist in site.data.art %}
+      <tr>
+        <td>{% include "art_left.liquid" %}</td>
+        <td>{% include "art_right.liquid" %}</td>
+      </tr>
+    {% endfor %}
+  </table>
+</div>

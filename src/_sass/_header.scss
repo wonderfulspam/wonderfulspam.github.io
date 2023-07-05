@@ -13,9 +13,18 @@
   grid-area: header;
   justify-self: baseline;
   align-self:end;
-  a {
-    text-decoration-color: $title_color_alt;
-  }
+ font-size:36px;
+ br {
+ display: block;
+ content:"";
+ margin-top:-5px;
+ }
+ span {
+  color:$title-color;
+ }
+ a {
+  text-decoration: none;
+ }
   &.info {
     font-size: 0;
   }
@@ -40,10 +49,10 @@
 }
 
 a.menu-item-link, a.menu-item-link:visited {
-  font-size: 34px;
+  font-size: 36px;
   letter-spacing:4px;
-  font-family: formaitalic;
-  color: $bg;
+  font-family: oswald;
+  color: $title-color;
 }
 
 .menu-item-link:not(:first-child) {

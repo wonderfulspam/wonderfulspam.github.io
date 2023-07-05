@@ -1,20 +1,14 @@
 @font-face {
-  font-family: forma;
+  font-family: oswald;
   font-style: normal;
   font-weight: normal;
-  src: local("Forma"), url(/assets/fonts/FormaDJRDisplay-Regular.woff) format("woff"); }
+  src: url(/assets/fonts/oswald-regular-webfont.woff) format("woff"); }
 
 @font-face {
-  font-family: forma;
+  font-family: oswald;
   font-style: normal;
   font-weight: 700;
-  src: local("Forma"), url(/assets/fonts/FormaDJRDisplay-Bold.woff) format("woff"); }
-
-@font-face {
-  font-family: formaitalic;
-  font-style: normal;
-  font-weight: normal;
-  src: local("Forma"), url(/assets/fonts/FormaDJRDisplay-Italic.woff) format("woff"); }
+  src: url(/assets/fonts/oswald-bold-webfont.woff) format("woff"); }
 
 #horisontal-header {
   display: grid;
@@ -28,9 +22,16 @@
 #header {
   grid-area: header;
   justify-self: baseline;
-  align-self: end; }
+  align-self: end;
+  font-size: 36px; }
+  #header br {
+    display: block;
+    content: "";
+    margin-top: -5px; }
+  #header span {
+    color: #699b7f; }
   #header a {
-    text-decoration-color: #cc0211; }
+    text-decoration: none; }
   #header.info {
     font-size: 0; }
 
@@ -51,10 +52,10 @@
   padding-top: 1.9em; }
 
 a.menu-item-link, a.menu-item-link:visited {
-  font-size: 34px;
+  font-size: 36px;
   letter-spacing: 4px;
-  font-family: formaitalic;
-  color: white; }
+  font-family: oswald;
+  color: #699b7f; }
 
 .menu-item-link:not(:first-child) {
   margin-left: 30px; }
@@ -71,21 +72,20 @@ a.menu-item-link, a.menu-item-link:visited {
       font-size: 50px; } }
 
 html {
-  background: url(/assets/img/landing.png) no-repeat top center fixed;
+  background: url(/assets/img/bg-23.png) no-repeat top center fixed;
   background-size: cover;
   -webkit-tap-highlight-color: transparent;
-  border: 4px solid white;
-  min-height: 99.1vh; }
+  min-height: 100vh; }
 
 html.landing {
-  background: url(/assets/img/landing.png) no-repeat top center fixed;
+  background: url(/assets/img/bg-23.png) no-repeat top center fixed;
   background-size: cover;
-  height: 99.1vh; }
+  height: 100vh; }
   html.landing h1 {
-    color: white;
+    color: black;
     font-size: 6vw;
     letter-spacing: 0.5vw;
-    font-family: formaitalic;
+    font-family: oswald;
     font-weight: normal;
     mix-blend-mode: color-dodge; }
     html.landing h1 span:nth-of-type(1) {
@@ -105,17 +105,17 @@ html.landing {
       left: 43vw;
       top: 61vh; }
   html.landing h2 {
-    color: white;
+    color: black;
     font-size: 4vw;
     letter-spacing: 0.4vw;
-    font-family: formaitalic;
+    font-family: oswald;
     font-weight: normal;
     mix-blend-mode: color-dodge;
     position: absolute;
     left: 13vw;
     top: 71vh; }
   html.landing h3 {
-    color: #d94a10;
+    color: #699b7f;
     font-size: 3vw;
     letter-spacing: 0.3vw;
     font-weight: normal;
@@ -133,11 +133,11 @@ body {
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  font-family: forma;
-  color: #0051cb; }
+  font-family: oswald;
+  color: #7289bb; }
 
 p {
-  font-family: forma;
+  font-family: oswald;
   font-size: 17px;
   margin-top: 0;
   line-height: 1.5;
@@ -163,7 +163,7 @@ h3 {
   margin-top: 0; }
 
 main {
-  background-color: white;
+  background-color: black;
   display: grid;
   margin-top: 30px;
   grid-template-areas: "left right";
@@ -213,7 +213,7 @@ main #right-column {
     margin-right: 0;
     width: 100%;
     letter-spacing: 2px;
-    border-bottom: 2px solid #0051cb; }
+    border-bottom: 2px solid #7289bb; }
     .schedule table .dj {
       margin-top: 5px; }
       .schedule table .dj td:first-of-type {
@@ -225,7 +225,7 @@ main #right-column {
         width: 20px;
         text-align: right; }
       .schedule table td:nth-of-type(2) a {
-        color: #d94a10; }
+        color: #699b7f; }
 
 .event-schedule:nth-of-type(2) table {
   border-bottom: 2px solid #fac526; }
@@ -248,7 +248,7 @@ main #right-column {
     vertical-align: top; }
 
 .art h2 {
-  color: #d94a10;
+  color: #699b7f;
   font-size: 23px; }
 
 .no-display {
@@ -256,7 +256,7 @@ main #right-column {
 
 a,
 a:visited {
-  color: #0051cb;
+  color: #7289bb;
   cursor: pointer;
   text-decoration: none; }
 
@@ -333,7 +333,7 @@ ul {
 
 .event li span {
   text-transform: uppercase;
-  color: #d94a10;
+  color: #699b7f;
   font-size: 23px;
   letter-spacing: 2px; }
 
@@ -362,7 +362,7 @@ iframe {
   top: 30px; }
   .artistcontent h2 {
     text-transform: uppercase;
-    color: #d94a10;
+    color: #699b7f;
     letter-spacing: 2px; }
 
 #stickyspace {
@@ -402,7 +402,7 @@ iframe {
     display: block; }
   html,
   html.landing {
-    background: url(/assets/img/landing-mobile.png) no-repeat center center fixed;
+    background: url(/assets/img/bg-23-mobile.png) no-repeat center center fixed;
     background-size: cover;
     border: none; }
     html h1,
@@ -413,7 +413,7 @@ iframe {
       font-size: 8vw; }
     html h3,
     html.landing h3 {
-      color: #d94a10;
+      color: #699b7f;
       font-size: 47px;
       font-weight: normal; }
   p {
@@ -444,7 +444,7 @@ iframe {
       font-size: 47px; }
     .schedule h3 {
       font-size: 47px;
-      color: #0051cb; }
+      color: #7289bb; }
     .schedule table {
       font-size: 47px;
       text-size-adjust: none; }

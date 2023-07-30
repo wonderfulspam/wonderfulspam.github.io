@@ -15,7 +15,7 @@ permalink: /info
 <p>Both one-day tickets and partout tickets for the festival will be available. Tickets will go on sale soon. You can buy tickets online for a reduced price.</p>
 <h2>INFO</h2>
 <p>Festival of Endless Gratitude is a non-profit music and arts festival founded in 2007 on friendships across the Atlantic. The first FoEG took place in Brattleboro, Vermont and in 2009 the festival moved to Copenhagen, Denmark where it has taken place ever since. 2023 sees the 16th installment of Festival of Endless Gratitude.</p>
-<h2>VOLUNTEER</h2>
+<h2>JOIN THE TEAM</h2>
 <p>We are looking for volunteer positions for the festival. We have two postings: <br><a href="/assets/Volunteers_Art.pdf">Volunteers to join the Art and Design Team</a><br><a href="/assets/Volunteers_VolunteerCoordinator.pdf">Volunteer Coordinator</a></p>
 <h2>CONTACT</h2>
 <p>

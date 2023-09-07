@@ -1,52 +1,6 @@
-- name: "2022"
-  slug: 2022
+- name: "2023"
+  slug: 2023
   ticket_link: "t"
   fb_event_link: "f"
   days:
-    - name: THURSDAY - BRØNSHØJ VANDTÅRN
-      date: "2022-11-17"
-      doors: "18:30"
-      dj: "FoEG DJ's until 22:00"
-      schedule:
-        - time: "19:00"
-          artist: Jon Collin
-        - time: "20:00"
-          artist: Marie Eline Hansen
-        - time: "21:00"
-          artist: Pavel Milyakov
-    - name: FRIDAY - CIRKUSBYGNINGEN I VANLØSE
-      date: "2022-11-18"
-      doors: "17:30"
-      dj: "FoEG DJ's until 02:00"
-      schedule:
-        - time: "18:00"
-          artist: Gesh
-        - time: "19:15"
-          artist: Judith Hamann
-        - time: "20:30"
-          artist: <span class="title">Chamgeliani Sisters</span><span class="extratitle">Chamgeliani Sisters feat. Levan Bitarovi</span>
-        - time: "21:45"
-          artist: Mark Harwood
-        - time: "22:45"
-          artist: Erection House
-        - time: "23:45"
-          artist: Daniel Löwenbrück
-        - time: "00:00"
-          artist: Container
-    - name: SATURDAY - CIRKUSBYGNINGEN I VANLØSE
-      date: "2022-11-19"
-      doors: "17:00"
-      dj: "FoEG DJ's until 03:00"
-      schedule:
-        - time: "17:30"
-          artist: Sewer Election
-        - time: "19:30"
-          artist: Nein Rodere
-        - time: "20:45"
-          artist: Félicia Atkinson
-        - time: "22:00"
-          artist: Amateur Hour
-        - time: "23:15"
-          artist: Afrorack
-        - time: "00:30"
-          artist: Sons of Set
+ 

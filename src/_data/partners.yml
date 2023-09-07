@@ -5,4 +5,20 @@
 - name: Statens Kunstfond
   link: https://www.kunst.dk/
   img: "/assets/img/SKF_logo_offwhite_RGB.png"
-  width: 110px
+  width: 60px
+- name: Alice
+  link: http://www.alicecph.com/
+  img: "/assets/img/ALICE_ikon_hvid.png"
+  width: 80px
+- name: Rusk
+  link: https://www.rusk-kbh.dk/
+  img: "/assets/img/RUSK_Logo_tagline_top_hvid.png"
+  width: 80px
+- name: Østerbro Lokaludvalg
+  link: https://oesterbrolokaludvalg.kk.dk/
+  img: "/assets/img/osterbro.png"
+  width: 80px
+- name: Art Music Denmark
+  link: https://artmusicdenmark.org/
+  img: "/assets/img/AMDK_Logo_CMYK_white.png"
+  width: 120px

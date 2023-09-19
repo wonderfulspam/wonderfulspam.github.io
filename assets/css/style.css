@@ -53,7 +53,6 @@
 
 a.menu-item-link, a.menu-item-link:visited {
   font-size: 36px;
-  letter-spacing: 4px;
   font-family: oswald;
   color: #699b7f; }
 
@@ -85,7 +84,6 @@ html.landing {
   html.landing h1 {
     color: black;
     font-size: 6vw;
-    letter-spacing: 0.5vw;
     font-family: oswald;
     font-weight: normal;
     mix-blend-mode: color-dodge; }
@@ -108,7 +106,6 @@ html.landing {
   html.landing h2 {
     color: black;
     font-size: 4vw;
-    letter-spacing: 0.4vw;
     font-family: oswald;
     font-weight: normal;
     mix-blend-mode: color-dodge;
@@ -118,7 +115,6 @@ html.landing {
   html.landing h3 {
     color: #699b7f;
     font-size: 3vw;
-    letter-spacing: 0.3vw;
     font-weight: normal;
     position: absolute;
     right: 0;
@@ -141,8 +137,7 @@ p {
   font-family: oswald;
   font-size: 17px;
   margin-top: 0;
-  line-height: 1.5;
-  letter-spacing: 2px; }
+  line-height: 1.5; }
   p a {
     text-decoration: underline; }
 
@@ -156,8 +151,7 @@ h2 {
   font-size: 23px;
   font-weight: normal;
   text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: 2px; }
+  margin-top: 0; }
 
 h3 {
   font-weight: normal;
@@ -204,8 +198,7 @@ main #right-column {
   .schedule #left-column h2 {
     display: none; }
   .schedule h3 {
-    font-size: 23px;
-    letter-spacing: 2px; }
+    font-size: 23px; }
   .schedule table {
     font-size: 23px;
     text-transform: uppercase;
@@ -213,7 +206,6 @@ main #right-column {
     margin-bottom: 30px;
     margin-right: 0;
     width: 100%;
-    letter-spacing: 2px;
     border-bottom: 2px solid #7289bb; }
     .schedule table .dj {
       margin-top: 5px; }
@@ -333,8 +325,7 @@ ul {
 .event li span {
   text-transform: uppercase;
   color: #699b7f;
-  font-size: 23px;
-  letter-spacing: 2px; }
+  font-size: 18px; }
 
 .title {
   display: inline; }
@@ -361,8 +352,7 @@ iframe {
   top: 30px; }
   .artistcontent h2 {
     text-transform: uppercase;
-    color: #699b7f;
-    letter-spacing: 2px; }
+    color: #699b7f; }
 
 #stickyspace {
   height: 50px; }

@@ -31,7 +31,6 @@ html.landing {
   h1 {
     color:$bg;
     font-size:6vw;
-    letter-spacing: 0.5vw;
     font-family: oswald;
     font-weight: normal;
     mix-blend-mode: color-dodge;
@@ -59,7 +58,6 @@ html.landing {
   h2 {
     color:$bg;
     font-size:4vw;
-    letter-spacing: 0.4vw;
     font-family: oswald;
     font-weight: normal;
     mix-blend-mode: color-dodge;
@@ -70,7 +68,6 @@ html.landing {
   h3 {
     color:$title_color;
     font-size:3vw;
-    letter-spacing:0.3vw;
     font-weight: normal;
     position:absolute;
     right:0;
@@ -98,7 +95,6 @@ p {
   font-size: 17px;
   margin-top: 0;
   line-height:1.5;
-  letter-spacing:2px;
   a {
     text-decoration: underline;
   }
@@ -117,7 +113,6 @@ h2 {
   font-weight: normal;
   text-transform: uppercase;
   margin-top: 0;
-  letter-spacing: 2px;
 }
 
 h3 {
@@ -175,7 +170,6 @@ main #right-column {
   }
   h3 {
     font-size: 23px;
-    letter-spacing: 2px;
   }
   table {
     font-size: 23px;
@@ -184,7 +178,6 @@ main #right-column {
     margin-bottom: 30px;
     margin-right: 0;
     width: 100%;
-    letter-spacing: 2px;;
     border-bottom: 2px solid $text;
     .dj {
       margin-top: 5px;
@@ -346,8 +339,7 @@ ul {
 .event li span {
   text-transform: uppercase;
   color: $title-color;
-  font-size: 23px;
-  letter-spacing:2px;
+  font-size: 18px;
 }
 
 .title {
@@ -383,7 +375,6 @@ iframe {
   h2 {
     text-transform: uppercase;
     color:$title-color;
-    letter-spacing:2px;
   }
 }
 

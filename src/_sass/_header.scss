@@ -14,6 +14,7 @@
   justify-self: baseline;
   align-self:end;
  font-size:36px;
+ line-height: 46px;;
  br {
  display: block;
  content:"";
@@ -49,7 +50,7 @@
 }
 
 a.menu-item-link, a.menu-item-link:visited {
-  font-size: 36px;
+  font-size: 28px;
   font-family: oswald;
   color: $title-color;
 }
@@ -69,6 +70,7 @@ a.menu-item-link, a.menu-item-link:visited {
   #header {
     text-size-adjust: none;
     font-size:3em;
+    line-height: 1.2em;
     h1 {
       font-size: 50px;
     }

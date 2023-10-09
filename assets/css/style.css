@@ -23,7 +23,8 @@
   grid-area: header;
   justify-self: baseline;
   align-self: end;
-  font-size: 36px; }
+  font-size: 36px;
+  line-height: 46px; }
   #header br {
     display: block;
     content: "";
@@ -36,7 +37,7 @@
     font-size: 0; }
 
 #header h1 {
-  color: #cc0211;
+  color: #868648;
   margin-top: 0px;
   margin-bottom: 0;
   font-size: 45px;
@@ -52,7 +53,7 @@
   padding-top: 1.9em; }
 
 a.menu-item-link, a.menu-item-link:visited {
-  font-size: 36px;
+  font-size: 28px;
   font-family: oswald;
   color: #699b7f; }
 
@@ -67,63 +68,47 @@ a.menu-item-link, a.menu-item-link:visited {
     font-size: 4vw; }
   #header {
     text-size-adjust: none;
-    font-size: 3em; }
+    font-size: 3em;
+    line-height: 1.2em; }
     #header h1 {
       font-size: 50px; } }
 
 html {
-  background: url(/assets/img/bg-23.png) no-repeat top center fixed;
+  background: url(/assets/img/bg-23-alt.png) no-repeat top center fixed;
   background-size: cover;
   -webkit-tap-highlight-color: transparent;
   min-height: 100vh; }
 
 html.landing {
-  background: url(/assets/img/bg-23.png) no-repeat top center fixed;
+  background: url(/assets/img/bg-23-alt.png) no-repeat top center fixed;
   background-size: cover;
   height: 100vh; }
-  html.landing h1 {
-    color: black;
-    font-size: 6vw;
-    font-family: oswald;
-    font-weight: normal;
-    mix-blend-mode: color-dodge; }
-    html.landing h1 span:nth-of-type(1) {
-      position: absolute;
-      left: 33vw;
-      top: 18vh; }
-    html.landing h1 span:nth-of-type(2) {
-      position: absolute;
-      left: 55vw;
-      top: 31vh; }
-    html.landing h1 span:nth-of-type(3) {
-      position: absolute;
-      left: 25vw;
-      top: 46vh; }
-    html.landing h1 span:nth-of-type(4) {
-      position: absolute;
-      left: 43vw;
-      top: 61vh; }
-  html.landing h2 {
-    color: black;
-    font-size: 4vw;
-    font-family: oswald;
-    font-weight: normal;
-    mix-blend-mode: color-dodge;
+  html.landing #header span {
+    display: none; }
+  html.landing #datoboks {
     position: absolute;
-    left: 13vw;
-    top: 71vh; }
-  html.landing h3 {
-    color: #699b7f;
-    font-size: 3vw;
-    font-weight: normal;
-    position: absolute;
-    right: 0;
-    bottom: 1vh;
-    margin-right: 60px;
-    text-align: center; }
+    left: 60px;
+    bottom: 25vh; }
+    html.landing #datoboks h2 {
+      color: #699b7f;
+      font-size: 28px;
+      font-weight: normal;
+      margin-bottom: 5px;
+      text-transform: none; }
+    html.landing #datoboks h3 {
+      font-size: 17px;
+      color: #868648;
+      line-height: 19px; }
   html.landing footer {
     position: absolute;
-    bottom: 1vh; }
+    bottom: 1vh;
+    width: 100vw; }
+  html.landing img.reflections {
+    position: absolute;
+    left: 20vw;
+    top: 10vh;
+    max-width: 80vh;
+    z-index: -1; }
 
 body {
   margin-top: 0;
@@ -228,7 +213,7 @@ main #right-column {
   margin-bottom: 30px; }
 
 .event-schedule:nth-of-type(3) table:nth-of-type(2) {
-  border-bottom: 2px solid #cc0211; }
+  border-bottom: 2px solid #868648; }
 
 .past {
   padding-left: 17vw;
@@ -288,6 +273,8 @@ ul {
   min-height: 60vh; }
   .event:nth-last-of-type(1) {
     margin-bottom: 0; }
+  .event ul {
+    justify-content: end; }
   .event h3 {
     font-size: 26px;
     position: absolute;
@@ -303,17 +290,18 @@ ul {
       top: 471px;
       color: #fac526; }
   .event:nth-of-type(3) {
-    border-color: #cc0211; }
+    border-color: #868648; }
     .event:nth-of-type(3) h3 {
       top: 477px;
-      color: #cc0211; }
+      color: #868648; }
   .event li {
     position: relative;
     margin-bottom: 15px;
     cursor: pointer;
     margin-right: 30px; }
     .event li.desktop {
-      width: min-content; }
+      width: min-content;
+      text-align: right; }
     .event li img {
       height: 300px;
       width: auto; }
@@ -397,11 +385,21 @@ iframe {
     html h1,
     html.landing h1 {
       font-size: 10vw; }
-    html h3,
-    html.landing h3 {
-      color: #699b7f;
-      font-size: 47px;
-      font-weight: normal; }
+    html #datoboks,
+    html.landing #datoboks {
+      left: 30px;
+      text-transform: none; }
+      html #datoboks h2,
+      html.landing #datoboks h2 {
+        color: #699b7f;
+        font-weight: normal; }
+    html img.reflections,
+    html.landing img.reflections {
+      position: absolute;
+      left: 10vw;
+      top: 25vh;
+      max-width: 80vw;
+      z-index: -1; }
   p {
     font-size: 15px; }
   main #right-column {
@@ -477,4 +475,4 @@ iframe {
   .art h2 {
     padding-bottom: 5px; }
   .partnerlogoer a img {
-    max-width: 30vw; } }
+    max-width: 13vw; } }

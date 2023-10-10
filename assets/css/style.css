@@ -392,7 +392,12 @@ iframe {
       html #datoboks h2,
       html.landing #datoboks h2 {
         color: #699b7f;
-        font-weight: normal; }
+        font-weight: normal;
+        font-size: 36px; }
+      html #datoboks h3,
+      html.landing #datoboks h3 {
+        font-size: 24px;
+        line-height: 28px; }
     html img.reflections,
     html.landing img.reflections {
       position: absolute;

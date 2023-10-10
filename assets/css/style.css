@@ -172,9 +172,10 @@ main #right-column {
   grid-area: right; }
 
 .lineup {
-  grid-template-areas: "left left right";
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px; }
+  grid-template-areas: "left right";
+  grid-template-columns: 990px 600px;
+  grid-column-gap: 30px;
+  justify-content: center; }
 
 .schedule {
   padding-left: 15vw;
@@ -301,7 +302,10 @@ ul {
     margin-right: 30px; }
     .event li.desktop {
       width: min-content;
-      text-align: right; }
+      margin-bottom: 6px; }
+      .event li.desktop div {
+        position: relative;
+        height: 21px; }
     .event li img {
       height: 300px;
       width: auto; }
@@ -349,6 +353,9 @@ iframe {
   main {
     margin-left: 60px;
     margin-right: 60px; }
+  .lineup {
+    grid-template-areas: "left right";
+    grid-template-columns: 840px 500px; }
   .event li img {
     height: 250px;
     width: auto; } }
@@ -361,8 +368,6 @@ iframe {
     grid-column-gap: 30px;
     margin-left: 60px;
     margin-right: 60px; }
-  .event li {
-    margin-right: 15px; }
   .past {
     padding-left: 10vw;
     padding-right: 10vw; } }
@@ -370,7 +375,18 @@ iframe {
 @media only screen and (max-width: 1600px) {
   .lineup {
     grid-template-areas: "left right";
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 560px 500px; } }
+
+@media only screen and (max-width: 1300px) {
+  .lineup {
+    grid-template-areas: "left right";
+    grid-template-columns: 460px 400px;
+    grid-column-gap: 15px; }
+  .event li {
+    margin-right: 15px; }
+    .event li img {
+      height: 200px;
+      width: auto; } }
 
 @media only screen and (max-width: 1000px) {
   .desktop {

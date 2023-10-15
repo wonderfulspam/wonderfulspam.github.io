@@ -57,7 +57,7 @@ html.landing {
   }
   img.reflections {
     position:absolute;
-    left:20vw;
+    left:30vw;
     top:10vh;
     max-width: 80vh;
     z-index: -1;
@@ -409,7 +409,17 @@ iframe {
     padding-left: 10vw;
     padding-right: 10vw;
   }
+  html.landing {
+    img.reflections {
+      position:absolute;
+      left:25vw;
+      top:10vh;
+      max-width: 80vh;
+      z-index: -1;
+    } 
+    }
 }
+
 
 @media only screen and (max-width: 1600px) {
   .lineup {
@@ -433,6 +443,15 @@ iframe {
       }
     }
   }
+  html.landing {
+    img.reflections {
+      position:absolute;
+      left:20vw;
+      top:10vh;
+      max-width: 80vh;
+      z-index: -1;
+    } 
+    }
 }
 
 @media only screen and (max-width: 1000px) {

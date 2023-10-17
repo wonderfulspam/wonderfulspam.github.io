@@ -8,47 +8,13 @@
       doors: "18:30"
       dj: "FoEG DJ's until 22:00"
       schedule:
-        - time: "19:30"
-          artist: Barbara Skovmand
-        - time: "20:30"
-          artist: Alvin Curran
-        - time: "23:00"
-          artist: Grev Trold
     - name: FRIDAY
       date: "2022-11-03"
       doors: "17:00"
       dj: "FoEG DJ's until 22:00"
       schedule:
-        - time: "18:00"
-          artist: Institute for Certified Nomadic Illicit Sonic Practices
-        - time: "19:00"
-          artist: Dania
-        - time: "20:15"
-          artist: Jules Reidy
-        - time: "21:30"
-          artist: Piotr Kurek
-        - time: "22:45"
-          artist: Moundabout
-        - time: "00:00"
-          artist: Spost
     - name: SATURDAY
       date: "2022-11-04"
       doors: "16:00"
       dj: "FoEG DJ's until 22:00"
       schedule:
-        - time: "16:30"
-          artist: A Film about Listening
-        - time: "17:00"
-          artist: Lukas De Clerck
-        - time: "18:00"
-          artist: Dinner
-        - time: "19:30"
-          artist: Rick Myers
-        - time: "20:30"
-          artist: Sosena Gebre Eyesus
-        - time: "21:45"
-          artist: Lenhart Tapes
-        - time: "23:00"
-          artist: Thulebasen
-        - time: "00:15"
-          artist: DJ Marcelle

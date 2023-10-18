@@ -7,7 +7,7 @@
     {% assign schedule_artist = collections.posts.pages | where: "title", slot.artist | first %}
     <td>
       <a class="artist-link" data-slug="{{ schedule_artist.slug }}">
-        {{ schedule_artist.title }} ({{ schedule_artist.data.country }})
+        {{ schedule_artist.title }}{% if schedule_artist.data.country %} ({{ schedule_artist.data.country }}){% endif %}
       </a>
     </td>
   </tr>

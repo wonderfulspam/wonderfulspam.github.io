@@ -194,6 +194,7 @@ main #right-column {
     width: 100%;
     border-bottom: 2px solid #7289bb; }
     .schedule table .dj {
+      display: none;
       margin-top: 5px; }
       .schedule table .dj td:first-of-type {
         text-align: right; }

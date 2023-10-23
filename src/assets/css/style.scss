@@ -164,6 +164,7 @@ main #right-column {
     width: 100%;
     border-bottom: 2px solid $text;
     .dj {
+      display: none;
       margin-top: 5px;
       td:first-of-type {
         text-align: right;

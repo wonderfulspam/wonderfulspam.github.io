@@ -6,7 +6,7 @@ permalink: /info
 
 <p>We are very excited to welcome you to Festival of Endless Gratitude 2023</p>
 <p>➤ 2nd - 4th November 2023<br>
-➤ Venue: Kildevæld - Bellmansgade 5C, 2100 København</p>
+➤ Venue: Kildevæld - Bellmansgade 3C, 2100 København</p>
 <p>Festival of Endless Gratitude is a non-profit music and arts festival.</p>
 <p>From experimental rock through blissful drones, psychedelic folk and pounding beats, anything goes when Festival of Endless Gratitude opens the doors to a journey through a meticulously curated exploration of experimental music from around the world.</p>
 <p>Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instagram</a> for updates.</p>

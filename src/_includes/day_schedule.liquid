@@ -5,11 +5,17 @@
   <tr>
     <td>{{ slot.time }}</td>
     {% assign schedule_artist = collections.posts.pages | where: "title", slot.artist | first %}
+    <!-- If no artist found, assume it is not an artist and just print the title -->
+    {% if schedule_artist == blank %}
+    <td>{{ slot.artist }}</td>
+    <!-- Otherwise render artist link -->
+    {% else %}
     <td>
       <a class="artist-link" data-slug="{{ schedule_artist.slug }}">
-        {{ schedule_artist.title }} ({{ schedule_artist.data.country }})
+        {{ schedule_artist.title }}{% if schedule_artist.data.country %} ({{ schedule_artist.data.country }}){% endif %}
       </a>
     </td>
+    {% endif %}
   </tr>
   {% endfor %}
   <tr class="dj">

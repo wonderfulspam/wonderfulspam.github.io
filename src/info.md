@@ -3,10 +3,8 @@ title: Info
 layout: default.liquid
 permalink: /info
 ---
-<p class="staytuned">Stay tuned for more info on the 2024 edition<br> and follow us for updates</p>
- <div id="social"><a href="https://www.facebook.com/endlessgratitude"><img src="/assets/img/facebook.png" alt="Facebook"></a><a href="https://www.instagram.com/endlessgratitude/"><img src="/assets/img/instagram.png" alt="Instagram"></a></div>
 
-
+ 
 <p>Every year, Festival of Endless Gratitude (FOEG) assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music. The festival spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms.</p>
 
 <p>In addition to the musical programming, the festival cultivates a space for exploration and experimentation across various formats and media, incorporating elements such as film screenings, community dinners, art installations, poetry readings and artist talks.</p>

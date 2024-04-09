@@ -3,29 +3,21 @@ title: Info
 layout: default.liquid
 permalink: /info
 ---
+<p class="staytuned">Stay tuned for more info on the 2024 edition<br> and follow us for updates</p>
+ <div id="social"><a href="https://www.facebook.com/endlessgratitude"><img src="/assets/img/facebook.png" alt="Facebook"></a><a href="https://www.instagram.com/endlessgratitude/"><img src="/assets/img/instagram.png" alt="Instagram"></a></div>
 
-<p>We are very excited to welcome you to Festival of Endless Gratitude 2023</p>
-<p>➤ 2nd - 4th November 2023<br>
-➤ Venue: Kildevæld - Bellmansgade 3C, 2100 København. <a href="/assets/img/directions.jpg">Directions</a></p>
-<p>Festival of Endless Gratitude is a non-profit music and arts festival.</p>
-<p>From experimental rock through blissful drones, psychedelic folk and pounding beats, anything goes when Festival of Endless Gratitude opens the doors to a journey through a meticulously curated exploration of experimental music from around the world.</p>
-<p>Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instagram</a> for updates.</p>
-<h2>TICKETS</h2>
-<p>Partout and one-day tickets are on sale at <a href="https://billetto.dk/e/festival-of-endless-gratitude-2023-billetter-866217">Billetto</a></p>
-<h2>COMMUNITY DINNER</h2>
-<p>We invite you all to join the first FoEG community dinner on Saturday at 6pm. On the menu is vegan lasagna served by Madglad. This will be a great possibility to connect with all the others around you and become part of the FoEG-family.</p>
 
-<p>Please buy your foodticket in advance at <a href="https://billetto.dk/ticket_buyer/offers/4e5095f3-ba07-41a4-a4da-cd4770ce2a46">Billetto</a>. The foodticket is only valid in combination with a partout ticket or a one day ticket for Saturday. Unfortunately it is not possible to get access to the festival just for the dinner. The food is vegan, but we’re not able to take account for other dietary restrictions.</p>
+<p>Every year, Festival of Endless Gratitude (FOEG) assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music. The festival spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms.</p>
 
-<h2>Madglad x FoEG</h2>
-<p>You will be able to buy food Friday at the festival as well. The food is served from Madglad in Vesterbro.</p>
-<h2>Safe Space Principles</h2> 
-<p>Needless to say, Festival of Endless Gratitude has always been a safe space with no room for discrimination, violence, harassment, or any other aggressive behavior. Respecting each other is one of the key ingredients for having a good time at the festival. If anyone is crossing your borders in any way or you witness someone else's borders being crossed, please tell the staff at the door or in the bar and we will help you. The festival staff has the right to remove any festival visitors, who do not follow the safe space principle.Accessibility: The whole house is accessible with a wheelchair and there’s a handicap toilet. Please contact us for further information.</p>
-<h2>Accessibility</h2>
-<p>The whole house is accessible with a wheelchair and there’s a handicap toilet. Please contact us for further information.</p>
-<h2>CONTACT</h2>
+<p>In addition to the musical programming, the festival cultivates a space for exploration and experimentation across various formats and media, incorporating elements such as film screenings, community dinners, art installations, poetry readings and artist talks.</p>
+
+<p>A community-driven event, the annual festival is organized by a passionate group of volunteers and draws a vibrant community of local and international music enthusiasts that foster an atmosphere of openness and inclusivity at the festival space.</p>
+
+<p>FOEG originated in Brattleboro, Vermont in 2007, but the festival found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. Festival of Endless Gratitude functions as a non-profit organization.</p>
+
+<div id="contact"><h2>CONTACT</h2>
 <p>
 <a href="mailto:volunteer@foeg.dk">volunteer@foeg.dk</a>
 <br><a href="mailto:booking@foeg.dk">booking@foeg.dk</a>
 <br><a href="mailto:press@foeg.dk">press@foeg.dk</a></p>
-<p>For any other enquiry: <a href="mailto:info@foeg.dk">info@foeg.dk</a></p>
+<p>For any other enquiry: <a href="mailto:info@foeg.dk">info@foeg.dk</a></p></div>

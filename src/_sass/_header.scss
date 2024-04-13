@@ -1,5 +1,5 @@
 #horisontal-header {
-  display: grid;
+  display: block;
   padding-top:30px;
   padding-left: 60px;
   padding-right: 60px;
@@ -7,14 +7,17 @@
     "header menu";
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
+  text-align: center;
 }
 
 #header {
+  position: relative;
   grid-area: header;
   justify-self: baseline;
   align-self:end;
  font-size:36px;
- line-height: 46px;;
+ font-weight: bold;
+ padding-bottom:10px;
  br {
  display: block;
  content:"";
@@ -43,6 +46,7 @@
   align-self:center;
   display: inline-block;
   grid-area: menu;
+  position: relative;
 }
 
 .horis-menu-list.info {
@@ -50,8 +54,11 @@
 }
 
 a.menu-item-link, a.menu-item-link:visited {
-  font-size: 28px;
-  font-family: oswald;
+  font-size: 26px;
+  font-family: public;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
   color: $title-color;
 }
 
@@ -64,13 +71,8 @@ a.menu-item-link, a.menu-item-link:visited {
     padding-left: 20px;
     padding-right: 20px;
   }
-  a.menu-item-link, a.menu-item-link:visited {
-    font-size: 4vw;
-  }
   #header {
     text-size-adjust: none;
-    font-size:3em;
-    line-height: 1.2em;
     h1 {
       font-size: 50px;
     }

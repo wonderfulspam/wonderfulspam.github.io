@@ -16,13 +16,22 @@
   gtag('config', 'G-SV5HBTHWPS');
 </script>
   <body>
+    <div class="video-wrapper">
+    <div class="backdrop"></div>
+    <div class="video-container playing">
+      <video autoplay loop="" muted="" playsinline="" class="video video-desktop"> 
+        <source src="/assets/img/baggrund.mp4" type="video/mp4"> </video> 
+      <video loop="" muted="" playsinline="" preload="none" class="video video-mobile"> <source src="https://berlin-atonal.com/wp-content/themes/berlinatonal/videos/2022-mobile.mp4" type="video/mp4"> </video> 
+      </div> 
+  </div>
     <header>
       {% include "header.liquid" %}
     </header>
-    <div id="datoboks"><h2>2 - 4 November</h2><h3>Kildevæld Kulturcenter<br>Bellmansgade 5c<br>2100 København Ø</h3></div>
-    <img class="reflections" src="/assets/img/reflections_text.png">
+   <div class="wrapper"><p class="staytuned">Stay tuned for more info on the 2024 edition<br> and follow us for updates</p>
+   <div id="social"><a href="https://www.instagram.com/endlessgratitude/"><img src="/assets/img/instagram.png" alt="Instagram"></a><a href="https://www.facebook.com/endlessgratitude"><img src="/assets/img/facebook.png" alt="Facebook"></a></div> 
+    </div>
     <footer>
-      {% include "partners.liquid" %} 
+      
     </footer>
   </body>
 </html>

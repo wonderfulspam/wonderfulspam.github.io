@@ -86,11 +86,6 @@ html.landing {
   background: black;
   background-size: cover;
   height: 100vh; }
-  html.landing .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60vh; }
   html.landing #header span {
     display: none; }
   html.landing #datoboks {
@@ -209,7 +204,6 @@ main {
 
 .info {
   display: block;
-  min-height: 65vh;
   padding-left: 20vw;
   padding-right: 20vw;
   text-align: justify; }
@@ -217,26 +211,10 @@ main {
     padding-top: 15px;
     margin-bottom: 0; }
 
-.contact {
-  height: 65vh;
-  display: block;
-  padding-left: 20vw;
-  padding-right: 20vw;
-  text-align: center; }
-  .contact .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70vh; }
-    .contact .wrapper div {
-      vertical-align: middle;
-      margin-top: -45px; }
-
 .staytuned {
   text-align: center;
   vertical-align: middle;
-  font-size: 36px;
-  font-weight: bold;
+  font-size: 35px;
   padding: none;
   text-transform: none;
   padding-bottom: none;
@@ -249,8 +227,7 @@ main {
   display: flex;
   justify-content: space-between;
   width: 120px;
-  text-align: center;
-  margin-top: 10px; }
+  text-align: center; }
   #social img {
     width: 40px; }
   #social a img:hover {
@@ -344,7 +321,7 @@ a:hover {
   align-items: center; }
 
 .partnerlogoer a img {
-  max-width: 4vw;
+  max-width: 5vw;
   height: auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -471,8 +448,7 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    height: 80vh; }
+    height: 60vh; }
   html.landing img.reflections {
     position: absolute;
     left: 25vw;
@@ -509,8 +485,12 @@ iframe {
     display: block; }
   html,
   html.landing {
+    background: url(/assets/img/bg-23-mobile.png) no-repeat center center fixed;
     background-size: cover;
     border: none; }
+    html h1,
+    html.landing h1 {
+      font-size: 10vw; }
     html #datoboks,
     html.landing #datoboks {
       left: 30px;
@@ -537,7 +517,6 @@ iframe {
     padding-bottom: 0; }
   .main,
   .info,
-  .contact,
   .lineup,
   .past,
   .schedule {

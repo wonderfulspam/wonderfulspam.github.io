@@ -22,6 +22,7 @@ html {
   background-size: cover;
   -webkit-tap-highlight-color: transparent;
   min-height:100vh;
+  font-size:16px;
 }
 
 html.landing {
@@ -125,7 +126,6 @@ body {
 
 p {
   font-family: public;
-  font-size: 17px;
   margin-top: 0;
   line-height:1.5;
   a {

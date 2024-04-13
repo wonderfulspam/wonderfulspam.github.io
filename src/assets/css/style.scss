@@ -51,7 +51,7 @@ html.landing {
       text-transform: none;
     }
     h3 {
-      font-size:17px;
+      font-size:16px;
       color:$title_color_alt;
       line-height:19px;
     }
@@ -583,10 +583,8 @@ iframe {
       h2 {
         color:$title_color;
       font-weight: normal;
-      font-size:36px;
       }
       h3 {
-        font-size:24px;
         line-height: 28px;
       }
     }
@@ -597,9 +595,6 @@ iframe {
       max-width: 80vw;
       z-index: -1;
     } 
-  }
-  p {
-    font-size: 15px;
   }
   main {
     #right-column {

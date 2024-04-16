@@ -91,6 +91,7 @@ html.landing {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 60vh; }
   html.landing #header span {
     display: none; }
@@ -529,6 +530,8 @@ iframe {
       top: 25vh;
       max-width: 80vw;
       z-index: -1; }
+  .contact .wrapper div {
+    font-size: 26px; }
   main #right-column {
     padding-bottom: 0; }
   .main,

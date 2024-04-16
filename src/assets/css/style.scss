@@ -33,6 +33,7 @@ html.landing {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 60vh;
   }
 #header {
@@ -596,6 +597,15 @@ iframe {
       z-index: -1;
     } 
   }
+
+  .contact {
+      .wrapper {
+        div {
+         font-size: 26px;
+        }
+  }
+  }
+
   main {
     #right-column {
       padding-bottom: 0;

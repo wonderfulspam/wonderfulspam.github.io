@@ -25,22 +25,24 @@
   grid-area: header;
   justify-self: baseline;
   align-self: end;
-  font-size: 36px;
-  font-weight: bold;
-  padding-bottom: 10px; }
+  font-family: 'garamond';
+  font-size: 40px; }
   #header br {
     display: block;
     content: "";
     margin-top: -5px; }
   #header span {
-    color: white; }
+    color: #0a0f1a; }
   #header a {
     text-decoration: none; }
   #header.info {
     font-size: 0; }
 
+.logo {
+  width: 250px; }
+
 #header h1 {
-  color: white;
+  color: #0a0f1a;
   margin-top: 0px;
   margin-bottom: 0;
   font-size: 45px;
@@ -59,10 +61,8 @@
 a.menu-item-link, a.menu-item-link:visited {
   font-size: 26px;
   font-family: public;
-  text-transform: uppercase;
   text-decoration: none;
-  font-weight: bold;
-  color: white; }
+  color: #0a0f1a; }
 
 .menu-item-link:not(:first-child) {
   margin-left: 30px; }
@@ -93,14 +93,14 @@ html.landing {
     left: 60px;
     bottom: 25vh; }
     html.landing #datoboks h2 {
-      color: white;
+      color: #0a0f1a;
       font-size: 28px;
       font-weight: normal;
       margin-bottom: 5px;
       text-transform: none; }
     html.landing #datoboks h3 {
       font-size: 17px;
-      color: white;
+      color: #0a0f1a;
       line-height: 19px; }
   html.landing footer {
     position: absolute;
@@ -122,7 +122,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   font-family: public;
-  color: white; }
+  color: #0a0f1a; }
 
 .video-wrapper {
   position: fixed;
@@ -264,7 +264,7 @@ main #right-column {
     margin-bottom: 30px;
     margin-right: 0;
     width: 100%;
-    border-bottom: 2px solid white; }
+    border-bottom: 2px solid #0a0f1a; }
     .schedule table .dj {
       display: none;
       margin-top: 5px; }
@@ -277,7 +277,7 @@ main #right-column {
         width: 20px;
         text-align: right; }
       .schedule table td:nth-of-type(2) a {
-        color: white; }
+        color: #0a0f1a; }
 
 .event-schedule:nth-of-type(2) table {
   border-bottom: 2px solid #fac526; }
@@ -287,7 +287,7 @@ main #right-column {
   margin-bottom: 30px; }
 
 .event-schedule:nth-of-type(3) table:nth-of-type(2) {
-  border-bottom: 2px solid white; }
+  border-bottom: 2px solid #0a0f1a; }
 
 .past {
   padding-left: 17vw;
@@ -300,7 +300,7 @@ main #right-column {
     vertical-align: top; }
 
 .art h2 {
-  color: white;
+  color: #0a0f1a;
   font-size: 23px; }
 
 .no-display {
@@ -308,7 +308,7 @@ main #right-column {
 
 a,
 a:visited {
-  color: white;
+  color: #0a0f1a;
   cursor: pointer;
   text-decoration: underline; }
 
@@ -364,10 +364,10 @@ ul {
       top: 471px;
       color: #fac526; }
   .event:nth-of-type(3) {
-    border-color: white; }
+    border-color: #0a0f1a; }
     .event:nth-of-type(3) h3 {
       top: 477px;
-      color: white; }
+      color: #0a0f1a; }
   .event li {
     position: relative;
     margin-bottom: 15px;
@@ -389,7 +389,7 @@ ul {
 
 .event li span {
   text-transform: uppercase;
-  color: white;
+  color: #0a0f1a;
   font-size: 18px; }
 
 .title {
@@ -417,7 +417,7 @@ iframe {
   top: 30px; }
   .artistcontent h2 {
     text-transform: uppercase;
-    color: white; }
+    color: #0a0f1a; }
 
 #stickyspace {
   height: 50px; }
@@ -497,7 +497,7 @@ iframe {
       text-transform: none; }
       html #datoboks h2,
       html.landing #datoboks h2 {
-        color: white;
+        color: #0a0f1a;
         font-weight: normal;
         font-size: 36px; }
       html #datoboks h3,
@@ -539,7 +539,7 @@ iframe {
       font-size: 47px; }
     .schedule h3 {
       font-size: 47px;
-      color: white; }
+      color: #0a0f1a; }
     .schedule table {
       font-size: 47px;
       text-size-adjust: none; }

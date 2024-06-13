@@ -1,4 +1,4 @@
-#horisontal-header {
+#horisontal-header { 
   display: block;
   padding-top:30px;
   padding-left: 60px;
@@ -15,9 +15,8 @@
   grid-area: header;
   justify-self: baseline;
   align-self:end;
- font-size:36px;
- font-weight: bold;
- padding-bottom:10px;
+  font-family: 'garamond';
+ font-size:40px;
  br {
  display: block;
  content:"";
@@ -33,6 +32,11 @@
     font-size: 0;
   }
 }
+
+.logo {
+  width:250px;
+}
+
 #header h1 {
   color: $title_color_alt;
   margin-top: 0px;
@@ -56,9 +60,7 @@
 a.menu-item-link, a.menu-item-link:visited {
   font-size: 26px;
   font-family: public;
-  text-transform: uppercase;
   text-decoration: none;
-  font-weight: bold;
   color: $title-color;
 }
 

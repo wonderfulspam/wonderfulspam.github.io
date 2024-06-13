@@ -4,7 +4,9 @@ layout: default.liquid
 permalink: /info
 ---
 
- 
+<p><strong>The 2024 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from the 5th to the 8th of October. Tickets are available at <a href="https://billetto.dk/en/e/1018559">billetto</a>.</strong>
+</p>
+
 <p>Every year, Festival of Endless Gratitude (FOEG) assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music. The festival spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms.</p>
 
 <p>In addition to the musical programming, the festival cultivates a space for exploration and experimentation across various formats and media, incorporating elements such as film screenings, community dinners, art installations, poetry readings and artist talks.</p>

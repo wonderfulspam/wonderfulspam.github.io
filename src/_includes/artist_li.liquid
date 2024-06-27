@@ -9,7 +9,7 @@
 <li class="mobile">
     <img src="{{ post.data.img }}">
     <div>
-      <span>{{ post.title }}{% if post.data.country %}({{ post.data.country }}){% endif %}</span>
+      <span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span>
     </div>
 {{ post.content }}
 </li>

@@ -1,7 +1,7 @@
 ---
 title: Barbara Skovmand
 layout: default.liquid
-is_draft: false
+is_draft: true
 categories:
   - 2023
 data:

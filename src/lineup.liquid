@@ -5,6 +5,7 @@ permalink: /lineup
 data:
   classname: wide-left
 ---
+
 <div id="left-column">
 {% assign events = collections.posts.pages | map: "categories" | sort | uniq %}
 {% for event_name in events %}
@@ -21,9 +22,9 @@ data:
   </div>
 {% endfor %}
 </div>
-<div id="right-column">
+<!-- <div id="right-column">
 </div>
 {% include "artists_hidden.liquid" %}
 <script type="text/javascript">
   addCopyClickHandler(".artist-link", "right-column");
-</script>
+</script> -->

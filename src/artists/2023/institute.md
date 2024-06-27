@@ -1,7 +1,7 @@
 ---
 title: Institute for Certified Nomadic Illicit Sonic Practices
 layout: default.liquid
-is_draft: false
+is_draft: true
 categories:
   - 2023
 data:

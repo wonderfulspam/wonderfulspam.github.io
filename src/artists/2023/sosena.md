@@ -1,7 +1,7 @@
 ---
 title: Sosena Gebre Eyesus
 layout: default.liquid
-is_draft: false
+is_draft: true
 categories:
   - 2023
 data:

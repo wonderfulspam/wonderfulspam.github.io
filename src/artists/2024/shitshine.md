@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2024
 data:
-  img: /assets/img/shitshine.png
+  img: /assets/img/shitandshine.png
   country: UK
 ---
 

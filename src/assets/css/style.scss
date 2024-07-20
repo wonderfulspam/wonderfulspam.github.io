@@ -380,10 +380,6 @@ ul {
   position: relative;
   margin-bottom: 50px;
   min-height: 58vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   // border-style: none none solid none;
   // border-color: $koncertkirken;
   &:nth-last-of-type(1) {
@@ -391,7 +387,6 @@ ul {
   }
   ul {
     justify-content: center;
-    flex-direction: column;
   }
   h3 {
     font-size: 26px;
@@ -421,16 +416,16 @@ ul {
     position: relative;
     margin-bottom: 15px;
     cursor: pointer;
+    margin-right: 30px;
     &.desktop {
-      /* width: min-content; */
-      margin-bottom:30px;
+      width: min-content; 
+      margin-bottom:7px;
       div {
         position:relative;
         height:21px;
       }
     }
     img {
-      display: none;
       height: 300px;
       width: auto;
     }

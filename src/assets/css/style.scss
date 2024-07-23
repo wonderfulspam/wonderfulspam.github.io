@@ -25,8 +25,8 @@
 @import "header";
 
 html {
-  background: url(/assets/img/bg-graphics.png) no-repeat right top, url(/assets/img/bg-plain-texture.png) no-repeat top center fixed;
-  background-size: 50vw, cover;
+  background: url(/assets/img/bg2.png) no-repeat top center fixed;
+  background-size: cover;
   -webkit-tap-highlight-color: transparent;
   min-height:100vh;
   font-size:16px;
@@ -243,8 +243,8 @@ main #right-column {
 }
 
 .lineup {
-  grid-template-areas: "left left";
-  grid-template-columns: 400px 400px;
+  grid-template-areas: "left left right";
+  grid-template-columns: 400px 400px 400px;
   grid-column-gap: 30px;
   justify-content:center;
 }
@@ -436,6 +436,7 @@ ul {
 .event li div {
   width: 100%;
   padding-bottom: 5px;
+  padding-top:10px;
 }
 .event li span {
   font-family: garamond;
@@ -501,8 +502,8 @@ iframe {
     margin-right: 60px;
   }
    .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 400px 400px;
+    grid-template-areas: "left left right";
+    grid-template-columns: 400px 400px 400px;
   }
   .event {
     li {
@@ -549,15 +550,15 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 400px 400px;
+    grid-template-areas: "left left right";
+    grid-template-columns: 400px 400px 400px;
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 300px 300px;
+    grid-template-areas: "left left right";
+    grid-template-columns: 300px 300px 300px;
     grid-column-gap:15px;
   }
   .event {
@@ -691,6 +692,7 @@ iframe {
   .event li {
     cursor: default;
     margin-bottom: 30px;
+    margin-right:0px;
     img {
       width: 100%;
       height: auto;

@@ -9,8 +9,8 @@ data:
   country: CD
 ---
 
-<p>Get ready for a perfect blend of sophisticated, wild world-noise-ethno-industrial-folk zombie music hailing straight from Belgrade, Serbia. Lenhart Tapes is a one-man-cassette-tape-manipulator known for his striking and unforgettable live performances. Walkmen are his trusted instruments and with them he mixes selected material from his cassette collection on top of groovy rhythmic loops fusing local folk tunes and screechy noises into obscure soundscapes.</p>
-
-<p>As a passionate collector of audio cassettes Vladimir Lenhart has collected everything from field recordings, rare folk music, spoken word and propaganda material. His grandfather was a well known performer of traditional Slovak folk songs in the 1950s. When the project Lenhart Tapes was born in 2010, Vladimir found a way to rediscover and fuse his musical heritage with the noisy music he’d been performing in his formative years.</p>
+<p>Jules Reidy originally headed to the German capital for a short break from their jazz guitar studies in Sydney, but was electrified by the Berlin scene and have now been living there for almost a decade, a period in which they have undergone a process of musical reorientation.</p>
+<p>In their approach, Reidy could be said to be re-imagining a DIY indie aesthetic with an emphasis on techniques usually reserved for classical minimalism. Surreal auto-tuned vocals, strummed strings in just intonation and dubby delays create vast spheres of sounds on top of each other, while delicately picked twelve-string guitars in the midst emphasize the subtlety of their compositions with a rare, open-hearted emotional honesty.</p>
+<p>Recent records include In Real Life (Black Truffle, 2019), Vanish (Editions Mego, 2020) and World in World (Black Truffle, 2022), Their newest solo record, Trances, is set to be released via Shelter Press in October 2023. Jules Reidy also performs in various duo formations, and is a member of Oren Ambarchi’s band Carpe Diem.</p>
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3641451893/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://lenhartapes.bandcamp.com/album/dens">Dens by Lenhart Tapes</a></iframe>

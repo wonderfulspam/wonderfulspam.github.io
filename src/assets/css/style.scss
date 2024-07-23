@@ -243,8 +243,8 @@ main #right-column {
 }
 
 .lineup {
-  grid-template-areas: "left left right";
-  grid-template-columns: 400px 400px 400px;
+  grid-template-areas: "left right";
+  grid-template-columns: 990px 600px;
   grid-column-gap: 30px;
   justify-content:center;
 }
@@ -501,9 +501,9 @@ iframe {
     margin-left: 60px;
     margin-right: 60px;
   }
-   .lineup {
-    grid-template-areas: "left left right";
-    grid-template-columns: 400px 400px 400px;
+  .lineup {
+    grid-template-areas: "left right";
+    grid-template-columns: 840px 500px;
   }
   .event {
     li {
@@ -550,15 +550,15 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left left right";
-    grid-template-columns: 400px 400px 400px;
+    grid-template-areas: "left right";
+    grid-template-columns: 560px 500px;
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left left right";
-    grid-template-columns: 300px 300px 300px;
+    grid-template-areas: "left right";
+    grid-template-columns: 460px 400px;
     grid-column-gap:15px;
   }
   .event {

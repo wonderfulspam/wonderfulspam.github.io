@@ -25,7 +25,7 @@
 @import "header";
 
 html {
-  background: $bg;
+  background: url(/assets/img/bg2.png) no-repeat top center fixed;
   background-size: cover;
   -webkit-tap-highlight-color: transparent;
   min-height:100vh;
@@ -243,10 +243,15 @@ main #right-column {
 }
 
 .lineup {
-  grid-template-areas: "left left";
-  grid-template-columns: 400px 400px;
+  grid-template-areas: "left right";
+  grid-template-columns: 990px 600px;
   grid-column-gap: 30px;
   justify-content:center;
+  #left-column {
+    .more {
+      text-align: center;
+    }
+  }
 }
 
 .schedule {
@@ -379,19 +384,14 @@ ul {
 .event {
   position: relative;
   margin-bottom: 50px;
-  min-height: 58vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  min-height: 60vh;
   // border-style: none none solid none;
   // border-color: $koncertkirken;
   &:nth-last-of-type(1) {
     margin-bottom: 0;
   }
   ul {
-    justify-content: center;
-    flex-direction: column;
+    justify-content: end;
   }
   h3 {
     font-size: 26px;
@@ -421,16 +421,16 @@ ul {
     position: relative;
     margin-bottom: 15px;
     cursor: pointer;
+    margin-right: 30px;
     &.desktop {
-      /* width: min-content; */
-      margin-bottom:30px;
+      width: min-content; 
+      margin-bottom:7px;
       div {
         position:relative;
-        height:21px;
+        height:37px;
       }
     }
     img {
-      display: none;
       height: 300px;
       width: auto;
     }
@@ -441,6 +441,7 @@ ul {
 .event li div {
   width: 100%;
   padding-bottom: 5px;
+  padding-top:10px;
 }
 .event li span {
   font-family: garamond;
@@ -457,7 +458,7 @@ ul {
 
 .event li a {
   text-decoration: none;
-  cursor: auto;
+  cursor: pointer;
 }
 
 .title {
@@ -491,8 +492,20 @@ iframe {
   align-self: start;
   top: 30px;
   h2 {
-    text-transform: uppercase;
-    color:$title-color;
+    font-family: garamond;
+  color: $title-color;
+  font-size: 40px;
+  letter-spacing: -1px;
+  text-transform: none;
+  font-weight: normal;
+  margin-top:10px;
+  margin-bottom:0px;
+  .country {
+    font-size:25px;
+    position:relative;
+    bottom: 20px;
+    letter-spacing: -1px;
+  }
   }
 }
 
@@ -505,9 +518,9 @@ iframe {
     margin-left: 60px;
     margin-right: 60px;
   }
-   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 400px 400px;
+  .lineup {
+    grid-template-areas: "left right";
+    grid-template-columns: 840px 500px;
   }
   .event {
     li {
@@ -554,15 +567,15 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 400px 400px;
+    grid-template-areas: "left right";
+    grid-template-columns: 560px 500px;
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 300px 300px;
+    grid-template-areas: "left right";
+    grid-template-columns: 460px 400px;
     grid-column-gap:15px;
   }
   .event {
@@ -593,7 +606,7 @@ iframe {
   }
   html,
   html.landing {
-
+    background: url(/assets/img/bg-mobile.png) no-repeat top center fixed;
     background-size: cover;
     border:none;
     #datoboks {
@@ -696,6 +709,10 @@ iframe {
   .event li {
     cursor: default;
     margin-bottom: 30px;
+    margin-right:0px;
+    &:last-of-type {
+      margin-bottom:10px;
+    }
     img {
       width: 100%;
       height: auto;

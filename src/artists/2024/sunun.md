@@ -10,8 +10,8 @@ data:
 ---
 
 
-<p>Get ready for a perfect blend of sophisticated, wild world-noise-ethno-industrial-folk zombie music hailing straight from Belgrade, Serbia. Lenhart Tapes is a one-man-cassette-tape-manipulator known for his striking and unforgettable live performances. Walkmen are his trusted instruments and with them he mixes selected material from his cassette collection on top of groovy rhythmic loops fusing local folk tunes and screechy noises into obscure soundscapes.</p>
+Bristol’s Sunun has a luring command of dials and limbs and drum skins that’s as grounded as it’s mystical - these machines have ghosts in them. People who’ve seen her live have witnessed Sunun’s forest of wires and microphones eeding her 20 channel desk.
 
-<p>As a passionate collector of audio cassettes Vladimir Lenhart has collected everything from field recordings, rare folk music, spoken word and propaganda material. His grandfather was a well known performer of traditional Slovak folk songs in the 1950s. When the project Lenhart Tapes was born in 2010, Vladimir found a way to rediscover and fuse his musical heritage with the noisy music he’d been performing in his formative years.</p>
+She dubs it old-world style, but the results are always forward - drawing from echoes of drum talk, reggae, grime and RnB to make a 22nd century chorus of thousands of years of human feedback.
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3641451893/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://lenhartapes.bandcamp.com/album/dens">Dens by Lenhart Tapes</a></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1840972193/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=3222513672/transparent=true/" seamless><a href="https://sunun.bandcamp.com/album/ooid">Ooid by Sunun</a></iframe>

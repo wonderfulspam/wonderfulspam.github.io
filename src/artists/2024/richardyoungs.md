@@ -10,8 +10,6 @@ data:
 ---
 
 
-<p>Get ready for a perfect blend of sophisticated, wild world-noise-ethno-industrial-folk zombie music hailing straight from Belgrade, Serbia. Lenhart Tapes is a one-man-cassette-tape-manipulator known for his striking and unforgettable live performances. Walkmen are his trusted instruments and with them he mixes selected material from his cassette collection on top of groovy rhythmic loops fusing local folk tunes and screechy noises into obscure soundscapes.</p>
+Richard Youngs is a musician based in Glasgow, Scotland with a career spanning more than 35 years, his work is an ongoing experiment in sound and song form, straddling the traditional and avant-garde, encompassing every genre and no genre. 
 
-<p>As a passionate collector of audio cassettes Vladimir Lenhart has collected everything from field recordings, rare folk music, spoken word and propaganda material. His grandfather was a well known performer of traditional Slovak folk songs in the 1950s. When the project Lenhart Tapes was born in 2010, Vladimir found a way to rediscover and fuse his musical heritage with the noisy music he’d been performing in his formative years.</p>
-
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3641451893/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://lenhartapes.bandcamp.com/album/dens">Dens by Lenhart Tapes</a></iframe>
+Primarily recognised as a solo artist and writer of extended song, he is also an active collaborator working across experimental music, improvisation, folk, jungle, wrong ambient and disco.

@@ -10,8 +10,8 @@ data:
 ---
 
 
-<p>Get ready for a perfect blend of sophisticated, wild world-noise-ethno-industrial-folk zombie music hailing straight from Belgrade, Serbia. Lenhart Tapes is a one-man-cassette-tape-manipulator known for his striking and unforgettable live performances. Walkmen are his trusted instruments and with them he mixes selected material from his cassette collection on top of groovy rhythmic loops fusing local folk tunes and screechy noises into obscure soundscapes.</p>
+Will Guthrie is an Australian drummer and percussionist living in France. He works in many different settings of music: live performance, improvisation and studio composition using various combinations of drums, percussion, objects, junk, amplification and electronics.
 
-<p>As a passionate collector of audio cassettes Vladimir Lenhart has collected everything from field recordings, rare folk music, spoken word and propaganda material. His grandfather was a well known performer of traditional Slovak folk songs in the 1950s. When the project Lenhart Tapes was born in 2010, Vladimir found a way to rediscover and fuse his musical heritage with the noisy music he’d been performing in his formative years.</p>
+Alongside his electro-acoustic work, in the last decade, Guthrie has returned to the drums with a vengeance, developing a series of solo works marked by a radical single-mindedness, from relentless rhythmic workouts to earth-quaking explorations of the bass frequencies of gongs and other metal percussion instruments.
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3641451893/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://lenhartapes.bandcamp.com/album/dens">Dens by Lenhart Tapes</a></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2781041585/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://willguthrie.bandcamp.com/album/people-pleaser-pt-ii">People Pleaser Pt.II by WILL GUTHRIE</a></iframe>

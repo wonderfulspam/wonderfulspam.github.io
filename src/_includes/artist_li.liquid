@@ -7,9 +7,9 @@
   </a>
 </li>
 <li class="mobile">
-    <img src="{{ post.data.img }}">
     <div>
-      <span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span>
+      <div><span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span></div>
+    <img src="{{ post.data.img }}">
     </div>
 {{ post.content }}
 </li>

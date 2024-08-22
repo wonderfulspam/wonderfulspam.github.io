@@ -79,4 +79,7 @@ a.menu-item-link, a.menu-item-link:visited {
       font-size: 50px;
     }
   }
+  .menu-item-link:not(:first-child) {
+    margin-left: 20px;
+  }
 }

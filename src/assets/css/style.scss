@@ -76,10 +76,13 @@ html.landing {
     margin-bottom:0;
   }
 
+  .partnerlogoer {
+    display: none;
+  }
 
   .landing {
     display: block;
-    min-height: 40vh;
+    min-height: 53vh;
     margin-left: auto;
     width: fit-content;
     margin-right: auto;
@@ -679,7 +682,7 @@ iframe {
   }
   html,
   html.landing {
-    background: url(/assets/img/bg-mobile.png) no-repeat top center fixed;
+    background: url(/assets/img/bg-mobile-front.png) no-repeat top center fixed;
     background-size: cover;
     border:none;
     #datoboks {
@@ -715,7 +718,8 @@ iframe {
     }
   }
   .main,
-  .info,
+  .about,
+  .tickets,
   .contact,
   .lineup,
   .past,
@@ -827,7 +831,46 @@ iframe {
       padding-bottom:5px;
     }
   }
+  .partnerlogoer {
+    width:auto;
+  }
   .partnerlogoer a img {
     max-width: 13vw;
   }
 }
+
+@media only screen and (max-width: 403px) {
+  html.landing {
+    h1 {
+      font-family: garamond;
+      font-size:70px;
+      letter-spacing: -1px;
+      font-weight: normal;
+      line-height: 0.75;
+      margin-top:0;
+      margin-bottom:0;
+      span {
+        font-size:33px;
+        position:relative;
+        bottom: 22px;
+        letter-spacing: -1px;
+      }
+    }
+  
+    h2 {
+      font-size:28px;
+      font-weight: normal;
+      margin-top:-10px;
+      margin-bottom:0;
+      padding-bottom:0;
+      padding-top:0;
+    }
+  
+    h3 {
+      font-size:17px;
+      font-weight: normal;
+      margin-top:-10px;
+      margin-bottom:0;
+    }
+  }
+  }

@@ -86,6 +86,7 @@ html.landing {
     margin-left: auto;
     width: fit-content;
     margin-right: auto;
+    padding-left:60px;
     padding-top:16vh;
   }
 
@@ -125,6 +126,12 @@ html.landing {
     max-width: 80vh;
     z-index: -1;
   }
+    footer {
+      position:fixed;
+      bottom:5px;
+      left:0;
+      width:100%;
+    }
 }
 
 footer {
@@ -235,6 +242,13 @@ main {
     padding-top:15px;
     margin-bottom: 0;
   }
+}
+
+.tickets + footer {
+      position:fixed;
+      bottom:5px;
+      left:0;
+      width:100%;
 }
 
 .contact {
@@ -579,6 +593,9 @@ iframe {
 }
 
 @media only screen and (max-width: 1855px) {
+  html {
+    background-size: 50vw, cover;
+  }
   main {
     margin-left: 60px;
     margin-right: 60px;
@@ -630,6 +647,10 @@ iframe {
       max-width: 80vh;
       z-index: -1;
     } 
+    .landing {
+      min-height: 49vh;
+      padding-top:16vh;
+    }
     }
 }
 
@@ -839,7 +860,16 @@ iframe {
   }
 }
 
-@media only screen and (max-width: 403px) {
+@media only screen and (max-width: 550px) {
+  html.landing {
+    .landing {
+      padding-left:20px;
+      padding-right:10px;
+    }
+}
+}
+
+@media only screen and (max-width: 515px) {
   html.landing {
     h1 {
       font-family: garamond;
@@ -850,7 +880,7 @@ iframe {
       margin-top:0;
       margin-bottom:0;
       span {
-        font-size:33px;
+        font-size:35px;
         position:relative;
         bottom: 22px;
         letter-spacing: -1px;
@@ -858,7 +888,7 @@ iframe {
     }
   
     h2 {
-      font-size:28px;
+      font-size:30px;
       font-weight: normal;
       margin-top:-10px;
       margin-bottom:0;
@@ -867,10 +897,51 @@ iframe {
     }
   
     h3 {
-      font-size:17px;
+      font-size:18px;
       font-weight: normal;
-      margin-top:-10px;
+      margin-top:-8px;
       margin-bottom:0;
     }
   }
+  }
+
+  @media only screen and (max-width: 428px) {
+    html.landing {
+      .landing {
+        padding-left:0;
+        padding-right:0;
+        min-height: 43vh;
+      }
+      h1 {
+        font-family: garamond;
+        font-size:60px;
+        letter-spacing: -1px;
+        font-weight: normal;
+        line-height: 0.75;
+        margin-top:0;
+        margin-bottom:0;
+        span {
+          font-size:30px;
+          position:relative;
+          bottom: 18px;
+          letter-spacing: -1px;
+        }
+      }
+    
+      h2 {
+        font-size:26px;
+        font-weight: normal;
+        margin-top:-10px;
+        margin-bottom:0;
+        padding-bottom:0;
+        padding-top:0;
+      }
+    
+      h3 {
+        font-size:15.5px;
+        font-weight: normal;
+        margin-top:-6px;
+        margin-bottom:0;
+      }
+    }
   }

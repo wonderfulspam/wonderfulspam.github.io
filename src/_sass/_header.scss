@@ -83,3 +83,10 @@ a.menu-item-link, a.menu-item-link:visited {
     margin-left: 20px;
   }
 }
+
+@media only screen and (max-width: 403px) {
+  #horisontal-header {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

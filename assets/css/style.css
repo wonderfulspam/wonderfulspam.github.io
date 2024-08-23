@@ -80,51 +80,96 @@ a.menu-item-link, a.menu-item-link:visited {
   #header {
     text-size-adjust: none; }
     #header h1 {
-      font-size: 50px; } }
+      font-size: 50px; }
+  .menu-item-link:not(:first-child) {
+    margin-left: 20px; } }
+
+@media only screen and (max-width: 403px) {
+  #horisontal-header {
+    padding-left: 10px;
+    padding-right: 10px; } }
 
 html {
-  background: #dbe5e4;
-  background-size: cover;
+  background: url(/assets/img/bggfx.png) no-repeat right top, url(/assets/img/bgnew.png) no-repeat top center fixed;
+  background-size: 40vw, cover;
   -webkit-tap-highlight-color: transparent;
   min-height: 100vh;
   font-size: 16px; }
 
-html.landing .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 60vh; }
-
-html.landing .poster {
-  height: 60vh;
-  margin: auto;
-  display: block; }
-
-html.landing #header span {
-  display: none; }
-
-html.landing #datoboks {
-  position: absolute;
-  left: 60px;
-  bottom: 25vh; }
-  html.landing #datoboks h2 {
-    color: #1c2645;
-    font-size: 28px;
+html.landing {
+  background: url(/assets/img/bgfront.png) no-repeat top center fixed; }
+  html.landing .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh; }
+  html.landing h1 {
+    font-family: garamond;
+    font-size: 80px;
+    letter-spacing: -1px;
     font-weight: normal;
-    margin-bottom: 5px;
-    text-transform: none; }
-  html.landing #datoboks h3 {
-    font-size: 16px;
-    color: #1c2645;
-    line-height: 19pxpublic; }
-
-html.landing img.reflections {
-  position: absolute;
-  left: 30vw;
-  top: 10vh;
-  max-width: 80vh;
-  z-index: -1; }
+    line-height: 0.8;
+    margin-top: 0;
+    margin-bottom: 0; }
+    html.landing h1 span {
+      font-size: 45px;
+      position: relative;
+      bottom: 25px;
+      letter-spacing: -1px; }
+  html.landing h2 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0; }
+  html.landing h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: 0; }
+  html.landing .partnerlogoer {
+    display: none; }
+  html.landing .landing {
+    display: block;
+    min-height: 53vh;
+    margin-left: auto;
+    width: fit-content;
+    margin-right: auto;
+    padding-left: 60px;
+    padding-top: 16vh; }
+  html.landing .poster {
+    height: 60vh;
+    margin: auto;
+    display: block; }
+  html.landing #header span {
+    display: none; }
+  html.landing #datoboks {
+    position: absolute;
+    left: 60px;
+    bottom: 25vh; }
+    html.landing #datoboks h2 {
+      color: #1c2645;
+      font-size: 28px;
+      font-weight: normal;
+      margin-bottom: 5px;
+      text-transform: none; }
+    html.landing #datoboks h3 {
+      font-size: 16px;
+      color: #1c2645;
+      line-height: 19pxpublic; }
+  html.landing img.reflections {
+    position: absolute;
+    left: 30vw;
+    top: 10vh;
+    max-width: 80vh;
+    z-index: -1; }
+  html.landing footer {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 100%; }
 
 footer {
   position: relative; }
@@ -216,15 +261,21 @@ main {
   padding-left: 30px;
   padding-right: 30px; }
 
-.info {
+.about, .tickets {
   display: block;
-  min-height: 58vh;
+  min-height: 53vh;
   padding-left: 20vw;
   padding-right: 20vw;
   text-align: justify; }
-  .info h2 {
+  .about h2, .tickets h2 {
     padding-top: 15px;
     margin-bottom: 0; }
+
+.tickets + footer {
+  position: fixed;
+  bottom: 5px;
+  left: 0;
+  width: 100%; }
 
 .contact {
   height: 58vh;
@@ -247,7 +298,7 @@ main {
   margin-bottom: 10px; }
 
 #social {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -271,10 +322,13 @@ main #right-column {
   grid-area: right; }
 
 .lineup {
-  grid-template-areas: "left left";
-  grid-template-columns: 400px 400px;
+  grid-template-areas: "left right";
+  grid-template-columns: 990px 600px;
   grid-column-gap: 30px;
   justify-content: center; }
+  .lineup #left-column .more {
+    text-align: center;
+    margin-top: 10px; }
 
 .schedule {
   padding-left: 15vw;
@@ -345,7 +399,10 @@ a:hover {
 .partnerlogoer {
   display: flex;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .partnerlogoer a img {
   max-width: 4vw;
@@ -371,16 +428,11 @@ ul {
 .event {
   position: relative;
   margin-bottom: 50px;
-  min-height: 58vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center; }
+  min-height: 60vh; }
   .event:nth-last-of-type(1) {
     margin-bottom: 0; }
   .event ul {
-    justify-content: center;
-    flex-direction: column; }
+    justify-content: end; }
   .event h3 {
     font-size: 26px;
     position: absolute;
@@ -403,36 +455,43 @@ ul {
   .event li {
     position: relative;
     margin-bottom: 15px;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-right: 30px; }
     .event li.desktop {
-      /* width: min-content; */
-      margin-bottom: 30px; }
+      width: min-content;
+      margin-bottom: -5px;
+      margin-right: 0px; }
+      .event li.desktop:hover {
+        opacity: 0.6;
+        transition: 0.2s; }
       .event li.desktop div {
-        position: relative;
-        height: 21px; }
+        position: absolute;
+        bottom: 5px;
+        left: 5px; }
+    .event li.mobile div {
+      position: relative; }
+      .event li.mobile div div {
+        position: absolute;
+        bottom: 5px;
+        left: 5px; }
     .event li img {
-      display: none;
       height: 300px;
       width: auto; }
 
-.event li div {
-  width: 100%;
-  padding-bottom: 5px; }
-
 .event li span {
   font-family: garamond;
-  color: #1c2645;
+  color: white;
   font-size: 40px;
   letter-spacing: -1px; }
   .event li span.country {
-    font-size: 25px;
+    font-size: 24px;
     position: relative;
-    bottom: 20px;
+    bottom: 14px;
     letter-spacing: -1px; }
 
 .event li a {
   text-decoration: none;
-  cursor: auto; }
+  cursor: pointer; }
 
 .title {
   display: inline; }
@@ -458,25 +517,43 @@ iframe {
   align-self: start;
   top: 30px; }
   .artistcontent h2 {
-    text-transform: uppercase;
-    color: #1c2645; }
+    font-family: garamond;
+    color: #1c2645;
+    font-size: 40px;
+    letter-spacing: -1px;
+    text-transform: none;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0px; }
+    .artistcontent h2 .country {
+      font-size: 24px;
+      position: relative;
+      bottom: 14px;
+      letter-spacing: -1px; }
 
 #stickyspace {
   height: 50px; }
 
+.mobile {
+  display: none; }
+
 @media only screen and (max-width: 1855px) {
+  html {
+    background-size: 50vw, cover; }
   main {
     margin-left: 60px;
     margin-right: 60px; }
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 400px 400px; }
+    grid-template-areas: "left right";
+    grid-template-columns: 840px 500px; }
   .event li img {
     height: 250px;
-    width: auto; } }
-
-.mobile {
-  display: none; }
+    width: auto; }
+  .event li span {
+    font-size: 36px; }
+    .event li span.country {
+      font-size: 20px;
+      bottom: 12px; } }
 
 @media only screen and (max-width: 1600px) {
   main {
@@ -497,17 +574,20 @@ iframe {
     left: 25vw;
     top: 10vh;
     max-width: 80vh;
-    z-index: -1; } }
+    z-index: -1; }
+  html.landing .landing {
+    min-height: 49vh;
+    padding-top: 16vh; } }
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 400px 400px; } }
+    grid-template-areas: "left right";
+    grid-template-columns: 560px 500px; } }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 300px 300px;
+    grid-template-areas: "left right";
+    grid-template-columns: 460px 400px;
     grid-column-gap: 15px; }
   .event li img {
     height: 200px;
@@ -517,7 +597,12 @@ iframe {
     left: 20vw;
     top: 10vh;
     max-width: 80vh;
-    z-index: -1; } }
+    z-index: -1; }
+  .event li span {
+    font-size: 30px; }
+    .event li span.country {
+      font-size: 17px;
+      bottom: 10px; } }
 
 @media only screen and (max-width: 1000px) {
   .desktop {
@@ -526,6 +611,7 @@ iframe {
     display: block; }
   html,
   html.landing {
+    background: url(/assets/img/bg-mobile-front.png) no-repeat top center fixed;
     background-size: cover;
     border: none; }
     html #datoboks,
@@ -551,7 +637,8 @@ iframe {
   main #right-column {
     padding-bottom: 0; }
   .main,
-  .info,
+  .about,
+  .tickets,
   .contact,
   .lineup,
   .past,
@@ -592,18 +679,26 @@ iframe {
     display: none; }
   .event .extratitle {
     display: inline; }
-  .info {
+  .about, .tickets {
     text-align: left; }
-    .info h2 {
+    .about h2, .tickets h2 {
       margin-top: 35px; }
   .artist-link {
     pointer-events: none; }
   .event li {
     cursor: default;
-    margin-bottom: 30px; }
+    margin-bottom: 20px;
+    margin-right: 0px; }
+    .event li:last-of-type {
+      margin-bottom: 10px; }
     .event li img {
       width: 100%;
       height: auto; }
+  .event li span {
+    font-size: 36px; }
+    .event li span.country {
+      font-size: 20px;
+      bottom: 12px; }
   .past h2 {
     margin-bottom: 0; }
   .past table div {
@@ -620,5 +715,70 @@ iframe {
       padding-right: 0px; }
   .art h2 {
     padding-bottom: 5px; }
+  .partnerlogoer {
+    width: auto; }
   .partnerlogoer a img {
     max-width: 13vw; } }
+
+@media only screen and (max-width: 550px) {
+  html.landing .landing {
+    padding-left: 20px;
+    padding-right: 10px; } }
+
+@media only screen and (max-width: 515px) {
+  html.landing h1 {
+    font-family: garamond;
+    font-size: 70px;
+    letter-spacing: -1px;
+    font-weight: normal;
+    line-height: 0.75;
+    margin-top: 0;
+    margin-bottom: 0; }
+    html.landing h1 span {
+      font-size: 35px;
+      position: relative;
+      bottom: 22px;
+      letter-spacing: -1px; }
+  html.landing h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0; }
+  html.landing h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: -8px;
+    margin-bottom: 0; } }
+
+@media only screen and (max-width: 428px) {
+  html.landing .landing {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 43vh; }
+  html.landing h1 {
+    font-family: garamond;
+    font-size: 60px;
+    letter-spacing: -1px;
+    font-weight: normal;
+    line-height: 0.75;
+    margin-top: 0;
+    margin-bottom: 0; }
+    html.landing h1 span {
+      font-size: 30px;
+      position: relative;
+      bottom: 18px;
+      letter-spacing: -1px; }
+  html.landing h2 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0; }
+  html.landing h3 {
+    font-size: 15.5px;
+    font-weight: normal;
+    margin-top: -6px;
+    margin-bottom: 0; } }

@@ -605,6 +605,10 @@ iframe {
       bottom: 10px; } }
 
 @media only screen and (max-width: 1000px) {
+  html, body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden; }
   .desktop {
     display: none; }
   .mobile {

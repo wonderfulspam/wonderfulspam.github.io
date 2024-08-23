@@ -609,10 +609,14 @@ iframe {
     display: none; }
   .mobile {
     display: block; }
-  html,
   html.landing {
     background: url(/assets/img/bg-mobile-front.png) no-repeat top center fixed;
-    background-size: cover;
+    background-size: cover; }
+  html {
+    background: url(/assets/img/bg-mobile.png) no-repeat top center fixed;
+    background-size: cover; }
+  html,
+  html.landing {
     border: none; }
     html #datoboks,
     html.landing #datoboks {

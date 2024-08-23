@@ -701,10 +701,19 @@ iframe {
   .mobile {
     display: block;
   }
-  html,
+
   html.landing {
     background: url(/assets/img/bg-mobile-front.png) no-repeat top center fixed;
     background-size: cover;
+  }
+
+  html {
+    background: url(/assets/img/bg-mobile.png) no-repeat top center fixed;
+    background-size: cover;
+  }
+
+  html,
+  html.landing {
     border:none;
     #datoboks {
       left:30px;
@@ -725,6 +734,8 @@ iframe {
       z-index: -1;
     } 
   }
+
+
 
   .contact {
         div {

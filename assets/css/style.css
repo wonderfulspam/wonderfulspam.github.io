@@ -328,7 +328,8 @@ main #right-column {
   justify-content: center; }
   .lineup #left-column .more {
     text-align: center;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-size: 26px; }
 
 .schedule {
   padding-left: 15vw;

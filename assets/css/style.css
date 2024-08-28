@@ -264,9 +264,10 @@ main {
 .about, .tickets {
   display: block;
   min-height: 53vh;
-  padding-left: 20vw;
-  padding-right: 20vw;
-  text-align: justify; }
+  text-align: justify;
+  max-width: 67ch;
+  margin-left: auto;
+  margin-right: auto; }
   .about h2, .tickets h2 {
     padding-top: 15px;
     margin-bottom: 0; }

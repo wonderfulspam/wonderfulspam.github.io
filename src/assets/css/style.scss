@@ -235,9 +235,10 @@ main {
 .about, .tickets {
   display: block;
   min-height:53vh;
-  padding-left: 20vw;
-  padding-right: 20vw;
   text-align: justify;
+  max-width:67ch;
+  margin-left:auto;
+  margin-right:auto;
   h2 {
     padding-top:15px;
     margin-bottom: 0;
@@ -601,6 +602,7 @@ iframe {
     margin-left: 60px;
     margin-right: 60px;
   }
+
   .lineup {
     grid-template-areas: "left right";
     grid-template-columns: 840px 500px;
@@ -629,6 +631,7 @@ iframe {
     margin-left: 60px;
     margin-right: 60px;
   }
+
   .past {
     padding-left: 10vw;
     padding-right: 10vw;
@@ -694,6 +697,7 @@ iframe {
       }
     }
 }
+
 
 @media only screen and (max-width: 1000px) {
   html, body {

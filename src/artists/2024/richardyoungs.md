@@ -14,4 +14,4 @@ Richard Youngs is a musician based in Glasgow, Scotland with a career spanning m
 
 Primarily recognised as a solo artist and writer of extended song, he is also an active collaborator working across experimental music, improvisation, folk, jungle, wrong ambient and disco.
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2294837876/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nofansrecords.bandcamp.com/album/rhythms-and-environments-imaginary-wax">rhythms and environments + imaginary wax by Richard Youngs</a></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=526393299/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://nofansrecords.bandcamp.com/album/80-chords">80 chords by Richard Youngs</a></iframe>

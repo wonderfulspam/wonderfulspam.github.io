@@ -1,3 +1,7 @@
+- name: Alice
+  link: "https://alicecph.com/"
+  img: "/assets/img/alice-logo.png"
+  width: 90px
 - name: Københavns Kommune
   link: https://www.kk.dk/
   img: "/assets/img/kbh-blue.png"
@@ -10,3 +14,7 @@
   link: "https://www.rusk-kbh.dk/"
   img: "/assets/img/rusk-blue.png"
   width: 70px
+- name: Art Music Denmark
+  link: "https://www.rusk-kbh.dk/"
+  img: "/assets/img/artmusic.png"
+  width: 100px

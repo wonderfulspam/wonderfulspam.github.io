@@ -6,7 +6,7 @@ categories:
   - 2024
 data:
   img: /assets/img/shitandshine.png
-  country: UK
+  country: US
 ---
 
 

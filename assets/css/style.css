@@ -333,21 +333,36 @@ main #right-column {
     font-size: 26px; }
 
 .schedule {
-  padding-left: 15vw;
-  padding-right: 15vw;
+  grid-template-areas: "left";
+  grid-template-columns: 1fr;
+  max-width: 39ch;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
   min-height: 58vh; }
+  .schedule #right-column {
+    display: none; }
   .schedule #left-column h2 {
     display: none; }
   .schedule h3 {
-    font-size: 23px; }
+    font-size: 26px;
+    margin-bottom: 12px; }
   .schedule table {
-    font-size: 23px;
-    text-transform: uppercase;
+    font-family: garamond;
+    color: #1c2645;
+    font-size: 30px;
+    letter-spacing: -1px;
     padding-bottom: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     margin-right: 0;
-    width: 100%;
-    border-bottom: 2px solid #1c2645; }
+    width: 100%; }
+    .schedule table a {
+      text-decoration: none; }
+    .schedule table .country {
+      font-size: 18px;
+      position: relative;
+      bottom: 8px;
+      letter-spacing: -0.5px; }
     .schedule table .dj {
       display: none;
       margin-top: 5px; }
@@ -358,9 +373,15 @@ main #right-column {
       padding-right: 10px; }
       .schedule table td:nth-of-type(1) {
         width: 20px;
-        text-align: right; }
+        /*  text-align: right; */ }
       .schedule table td:nth-of-type(2) a {
         color: #1c2645; }
+    .schedule table tr:nth-child(9) {
+      display: none; }
+    .schedule table .more {
+      font-family: public;
+      font-size: 18px;
+      letter-spacing: 0; }
 
 .event-schedule:nth-of-type(2) table {
   border-bottom: 2px solid #fac526; }
@@ -670,18 +691,22 @@ iframe {
     grid-template-columns: 1fr; }
     .lineup #right-column {
       display: none; }
-  .schedule {
+  /* .schedule {
     text-size-adjust: none;
+    h2 {
+      font-size: 47px;
+    }
+    h3 {
+      font-size: 47px;
+      color:$text;
+    }
+    table {
+      font-size: 47px;
+      text-size-adjust: none;
+    }
     grid-template-areas: "left";
-    grid-template-columns: 1fr; }
-    .schedule h2 {
-      font-size: 47px; }
-    .schedule h3 {
-      font-size: 47px;
-      color: #1c2645; }
-    .schedule table {
-      font-size: 47px;
-      text-size-adjust: none; }
+    grid-template-columns: 1fr;
+  }*/
   .event:nth-of-type(2) {
     padding-bottom: 0px; }
   .event h3 {

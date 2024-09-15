@@ -3,24 +3,48 @@
   ticket_link: "t"
   fb_event_link: "f"
   days:
-    - name: THURSDAY
-      date: "2022-11-02"
+    - name: Thursday
+      date: "2024-03-10"
       doors: "18:30"
       dj: 
       schedule:
         - time: "19:30"
-          artist: Barbara Skovmand
-    - name: FRIDAY
-      date: "2022-11-03"
-      doors: "17:00"
+          artist: Seth Cluett presents Laurie Spiegel
+        - time: "19:30"
+          artist: Silvia Tarozzi & Deborah Walker
+        - time: "19:30"
+          artist: Mariam Rezaei
+    - name: Friday
+      date: "2024-04-10"
+      doors: "17:30"
       dj: 
       schedule:
         - time: "18:00"
-          artist: Institute for Certified Nomadic Illicit Sonic Practices
-    - name: SATURDAY
-      date: "2022-11-04"
+          artist: Faramarz Amirian
+        - time: "18:00"
+          artist: Perila
+        - time: "18:00"
+          artist: Sunun
+        - time: "18:00"
+          artist: Shit & Shine
+        - time: "18:00"
+          artist: Zoomachia Group
+    - name: Saturday
+      date: "2024-05-10"
       doors: "16:00"
       dj: 
       schedule:
         - time: "16:30"
-          artist: Annea Lockwood/A Film About Listening
+          artist: Seth Cluett presents Laurie Spiegel
+        - time: "16:30"
+          artist: Big Blood
+        - time: "16:30"
+          artist: evee
+        - time: "16:30"
+          artist: EVOL
+        - time: "16:30"
+          artist: Nkisi
+        - time: "16:30"
+          artist: Richard Youngs
+        - time: "16:30"
+          artist: Will Guthrie

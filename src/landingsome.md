@@ -26,6 +26,8 @@ permalink: /landing
 <p>FOEG originated in Brattleboro, Vermont in 2007, but the festival found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. Festival of Endless Gratitude functions as a non-profit organization.</p>
 
 <h2>Tickets</h2>
+
+<a href="https://billetto.dk/en/e/1018559">
 <table class="landingtickets">
   <tr>
     <td>Partout</td>
@@ -44,3 +46,4 @@ permalink: /landing
     <td>230 kr</td>
   </tr>
 </table>
+</a>

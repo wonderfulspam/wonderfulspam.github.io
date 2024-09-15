@@ -316,6 +316,9 @@ main #right-column {
       text-align:right;
     }
   }
+  a, a:hover {
+    text-decoration: none;
+  }
   h2 {
     font-weight: normal;
     font-size:26px;

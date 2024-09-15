@@ -332,6 +332,9 @@ main #right-column {
   .landingsome .landingtickets td:nth-of-type(2) {
     text-align: right; }
 
+.landingsome a, .landingsome a:hover {
+  text-decoration: none; }
+
 .landingsome h2 {
   font-weight: normal;
   font-size: 26px; }

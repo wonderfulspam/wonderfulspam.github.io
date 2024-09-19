@@ -60,6 +60,10 @@ permalink: /info
     <td>One day ticket Saturday</td>
     <td>230 kr</td>
   </tr>
+    <tr>
+    <td>Community Dinner Saturday</td>
+    <td>100 kr</td>
+  </tr>
 </table>
 </a>
 

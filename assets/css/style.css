@@ -328,7 +328,8 @@ main #right-column {
 
 .landingsome .landingtickets {
   font-size: 22px;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 15px; }
   .landingsome .landingtickets td:nth-of-type(2) {
     text-align: right; }
 

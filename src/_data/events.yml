@@ -9,9 +9,9 @@
       dj: 
       schedule:
         - time: "19:30"
-          artist: Seth Cluett presents Laurie Spiegel
-        - time: "19:30"
           artist: Silvia Tarozzi & Deborah Walker
+        - time: "19:30"
+          artist: Seth Cluett presents Laurie Spiegel
         - time: "19:30"
           artist: Mariam Rezaei
     - name: Friday
@@ -20,15 +20,16 @@
       dj: 
       schedule:
         - time: "18:00"
-          artist: Faramarz Amirian
+          artist: Zoomachia Group
         - time: "18:00"
-          artist: Perila
+          artist: Perila          
+        - time: "18:00"
+          artist: Faramarz Amirian
         - time: "18:00"
           artist: Sunun
         - time: "18:00"
           artist: Shit & Shine
-        - time: "18:00"
-          artist: Zoomachia Group
+
     - name: Saturday
       date: "2024-05-10"
       doors: "16:00"
@@ -37,14 +38,16 @@
         - time: "16:30"
           artist: Seth Cluett presents Laurie Spiegel
         - time: "16:30"
-          artist: Big Blood
-        - time: "16:30"
-          artist: evee
-        - time: "16:30"
           artist: EVOL
-        - time: "16:30"
-          artist: Nkisi
         - time: "16:30"
           artist: Richard Youngs
         - time: "16:30"
           artist: Will Guthrie
+        - time: "16:30"
+          artist: evee
+        - time: "16:30"
+          artist: Big Blood
+        - time: "16:30"
+          artist: Nkisi
+
+

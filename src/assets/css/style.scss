@@ -239,18 +239,15 @@ main {
   max-width:67ch;
   margin-left:auto;
   margin-right:auto;
+  img {
+    width: 100%;
+    height: auto;
+  }
   h2 {
-    padding-top:15px;
     margin-bottom: 0;
   }
 }
 
-.tickets + footer {
-      position:fixed;
-      bottom:5px;
-      left:0;
-      width:100%;
-}
 
 .contact {
   height:58vh;
@@ -309,14 +306,6 @@ main #right-column {
     width:100%;
     height:auto;
   }
-  .landingtickets {
-    font-size:22px;
-    width:100%;
-    margin-bottom:15px;
-    td:nth-of-type(2) {
-      text-align:right;
-    }
-  }
   a, a:hover {
     text-decoration: none;
   }
@@ -329,21 +318,42 @@ main #right-column {
     font-weight: normal;
     font-size:26px;
   }
-  .landinglineup {
-    display: grid;
-    grid-template-columns:auto auto;
-    font-family: garamond;
-    color: #1c2645;
-    font-size: 27px;
-    letter-spacing: -1px;
-    margin-bottom:15px;
-      span {
-        font-size: 15px;
-        position: relative;
-        bottom: 8px;
-        letter-spacing: -0.5px;
-      }
+}
+
+.landingtickets {
+  font-size:22px;
+  width:100%;
+  margin-bottom:15px;
+  td:nth-of-type(2) {
+    text-align:right;
   }
+}
+
+.tickets {
+  a, a:hover {
+    text-decoration: none;
+  }
+  p {
+    a, a:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.landinglineup {
+  display: grid;
+  grid-template-columns:auto auto;
+  font-family: garamond;
+  color: #1c2645;
+  font-size: 27px;
+  letter-spacing: -1px;
+  margin-bottom:15px;
+    span {
+      font-size: 15px;
+      position: relative;
+      bottom: 8px;
+      letter-spacing: -0.5px;
+    }
 }
 
 .landingheader {
@@ -849,7 +859,14 @@ iframe {
     } 
   }
 
-
+.landingheader {
+  h1 {
+    font-size:60px;
+    span {
+      font-size:35px;
+    }
+  }
+}
 
   .contact {
         div {
@@ -869,7 +886,8 @@ iframe {
   .contact,
   .lineup,
   .past,
-  .schedule {
+  .schedule,
+  .landingsome {
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 0px;
@@ -877,7 +895,7 @@ iframe {
     padding-top: 30px;
     grid-column-gap: 0px;
   }
-  .about, .tickets {
+  .about, .tickets, .landingsome {
     display: block;
     min-height: 53vh;
     text-align: justify;
@@ -926,11 +944,8 @@ iframe {
       display: inline;
     }
   }
-  .about, .tickets {
+  .about, .tickets, .landingsome {
     text-align: left;
-    h2 {
-      margin-top: 35px;
-    }
   }
   .artist-link {
     pointer-events: none;
@@ -988,6 +1003,12 @@ iframe {
   }
   .partnerlogoer a img {
     max-width: 13vw;
+  }
+  .landinglineup {
+    grid-template-columns: auto;
+  }
+  .landingtickets {
+    font-size:18px;
   }
 }
 

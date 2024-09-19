@@ -335,9 +335,26 @@ main #right-column {
 .landingsome a, .landingsome a:hover {
   text-decoration: none; }
 
+.landingsome p a, .landingsome p a:hover {
+  text-decoration: underline; }
+
 .landingsome h2 {
   font-weight: normal;
   font-size: 26px; }
+
+.landingsome .landinglineup {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-family: garamond;
+  color: #1c2645;
+  font-size: 27px;
+  letter-spacing: -1px;
+  margin-bottom: 15px; }
+  .landingsome .landinglineup span {
+    font-size: 15px;
+    position: relative;
+    bottom: 8px;
+    letter-spacing: -0.5px; }
 
 .landingheader {
   margin-bottom: 15px; }

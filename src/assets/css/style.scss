@@ -319,9 +319,29 @@ main #right-column {
   a, a:hover {
     text-decoration: none;
   }
+  p {
+    a, a:hover {
+      text-decoration: underline;
+    }
+  }
   h2 {
     font-weight: normal;
     font-size:26px;
+  }
+  .landinglineup {
+    display: grid;
+    grid-template-columns:auto auto;
+    font-family: garamond;
+    color: #1c2645;
+    font-size: 27px;
+    letter-spacing: -1px;
+    margin-bottom:15px;
+      span {
+        font-size: 15px;
+        position: relative;
+        bottom: 8px;
+        letter-spacing: -0.5px;
+      }
   }
 }
 

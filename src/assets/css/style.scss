@@ -232,7 +232,7 @@ main {
   padding-right: 30px;
 }
 
-.about, .tickets, .landingsome {
+.about, .tickets, .info {
   display: block;
   min-height:53vh;
   text-align: justify;
@@ -301,7 +301,12 @@ main #right-column {
   grid-area: right;
 }
 
-.landingsome {
+.info {
+  .more {
+    margin-top:5px;
+    font-size:16px;
+    font-family: public;
+  }
   img {
     width:100%;
     height:auto;
@@ -887,7 +892,7 @@ iframe {
   .lineup,
   .past,
   .schedule,
-  .landingsome {
+  .info {
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 0px;
@@ -895,7 +900,7 @@ iframe {
     padding-top: 30px;
     grid-column-gap: 0px;
   }
-  .about, .tickets, .landingsome {
+  .about, .tickets, .info {
     display: block;
     min-height: 53vh;
     text-align: justify;
@@ -944,7 +949,7 @@ iframe {
       display: inline;
     }
   }
-  .about, .tickets, .landingsome {
+  .about, .tickets, .info {
     text-align: left;
   }
   .artist-link {

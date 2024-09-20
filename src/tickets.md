@@ -51,6 +51,7 @@ permalink: /tickets
   <div>Sunun<span>(UK)</span></div>
   <div>Zoomachia Group<span>(IT)</span></div>
   <div>evee<span>(DK)</span></div>
+  <div class="more">+ more to be announced</div>
 </div>
 <p>Learn more about this years lineup and have a listen at our <a href="/lineup">lineup</a> page.</p>
 <img src="/assets/img/landing2.jpg">

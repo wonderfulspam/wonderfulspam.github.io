@@ -11,7 +11,8 @@ permalink: /info
 
 <img src="/assets/img/landing3.jpg">
 
-<p>Festival of Endless Gratitude spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms. Join us when Festival of Endless Gratitude 2024 brings together a diverse group of musicians and artists who seek to push the boundaries of contemporary music in the course of three days.</p>
+
+<p>Festival of Endless Gratitude spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms. In 2024, Festival of Endless Gratitude once again assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music.</p>
 
 <h2>Lineup</h2>
 <div class="landinglineup">
@@ -74,7 +75,9 @@ permalink: /info
 
 <h2>17 years of FOEG</h2>
 
-<p>Festival of Endless Gratitude originated in Brattleboro, Vermont in 2007, but the festival found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. In the course of it's life span, FOEG has presented more than 500 concerts with everything from legendary pioneers such as Manuel Göttsching, Éliane Radigue, Jandek,  Faust, The Dead C, Arnold Dreyblatt, and RP Boo, to guests from the musical fringes like the tape-playing Crank Sturgeon and string instrument builder Yuri Landman, as well as new young names from the Danish underground such as Synd og Skam, Værket, Emilio Hestepis, and Dig og Mig, to a large audience. Revisit all the past festivals <a href="/past">here</a></p>
+<p>Festival of Endless Gratitude originated in Brattleboro, Vermont in 2007, but found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. In the course of its lifespan, FOEG has presented more than 500 concerts with musicians from all over the globe. The festival has grown into an organic and ever-evolving and growing community of diverse people that make up volunteers, artists, musicians, guests, collaborators and organizers - all contributing to a vibrant and inclusive festival atmosphere that encourages deep listening, curiosity and movement.
+
+See past iterations of the festival <a href="/past">here.</a></p>
 
 <p>Festival of Endless Gratitude functions as a non-profit organization.</p>
 

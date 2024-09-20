@@ -261,17 +261,17 @@ main {
   padding-left: 30px;
   padding-right: 30px; }
 
-.about, .tickets, .landingsome {
+.about, .tickets, .info {
   display: block;
   min-height: 53vh;
   text-align: justify;
   max-width: 67ch;
   margin-left: auto;
   margin-right: auto; }
-  .about img, .tickets img, .landingsome img {
+  .about img, .tickets img, .info img {
     width: 100%;
     height: auto; }
-  .about h2, .tickets h2, .landingsome h2 {
+  .about h2, .tickets h2, .info h2 {
     margin-bottom: 0; }
 
 .contact {
@@ -318,17 +318,22 @@ main #left-column {
 main #right-column {
   grid-area: right; }
 
-.landingsome img {
+.info .more {
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: public; }
+
+.info img {
   width: 100%;
   height: auto; }
 
-.landingsome a, .landingsome a:hover {
+.info a, .info a:hover {
   text-decoration: none; }
 
-.landingsome p a, .landingsome p a:hover {
+.info p a, .info p a:hover {
   text-decoration: underline; }
 
-.landingsome h2 {
+.info h2 {
   font-weight: normal;
   font-size: 26px; }
 
@@ -742,14 +747,14 @@ iframe {
   .lineup,
   .past,
   .schedule,
-  .landingsome {
+  .info {
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 30px;
     grid-column-gap: 0px; }
-  .about, .tickets, .landingsome {
+  .about, .tickets, .info {
     display: block;
     min-height: 53vh;
     text-align: justify;
@@ -788,7 +793,7 @@ iframe {
     display: none; }
   .event .extratitle {
     display: inline; }
-  .about, .tickets, .landingsome {
+  .about, .tickets, .info {
     text-align: left; }
   .artist-link {
     pointer-events: none; }

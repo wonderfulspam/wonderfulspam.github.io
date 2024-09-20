@@ -344,6 +344,11 @@ main #right-column {
   .landingtickets td:nth-of-type(2) {
     text-align: right; }
 
+.tickets .more {
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: public; }
+
 .tickets a, .tickets a:hover {
   text-decoration: none; }
 

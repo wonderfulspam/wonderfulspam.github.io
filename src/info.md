@@ -63,7 +63,7 @@ permalink: /info
 
 <p>The 2024 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from the 3rd to the 5th of October.</p>
 
-<p>Day and partout tickets available <a href="https://billetto.dk/en/e/1018559">here.</a></p>
+<p>Day and partout tickets available <a href="https://billetto.dk/en/e/1018559">here</a>.</p>
 
 <h2>Exploration and community</h2>
 
@@ -77,7 +77,7 @@ permalink: /info
 
 <p>Festival of Endless Gratitude originated in Brattleboro, Vermont in 2007, but found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. In the course of its lifespan, FOEG has presented more than 500 concerts with musicians from all over the globe. The festival has grown into an organic and ever-evolving and growing community of diverse people that make up volunteers, artists, musicians, guests, collaborators and organizers - all contributing to a vibrant and inclusive festival atmosphere that encourages deep listening, curiosity and movement.
 
-See past iterations of the festival <a href="/past">here.</a></p>
+See past iterations of the festival <a href="/past">here</a>.</p>
 
 <p>Festival of Endless Gratitude functions as a non-profit organization.</p>
 

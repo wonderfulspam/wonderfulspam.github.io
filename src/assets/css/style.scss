@@ -301,6 +301,13 @@ main #right-column {
   grid-area: right;
 }
 
+.info, .tickets, .about {
+  h2 {
+    font-weight: normal;
+    font-size:26px;
+  }
+}
+
 .info {
   .more {
     margin-top:5px;
@@ -318,10 +325,6 @@ main #right-column {
     a, a:hover {
       text-decoration: underline;
     }
-  }
-  h2 {
-    font-weight: normal;
-    font-size:26px;
   }
 }
 

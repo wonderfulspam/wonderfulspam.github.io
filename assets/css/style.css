@@ -318,6 +318,10 @@ main #left-column {
 main #right-column {
   grid-area: right; }
 
+.info h2, .tickets h2, .about h2 {
+  font-weight: normal;
+  font-size: 26px; }
+
 .info .more {
   margin-top: 5px;
   font-size: 16px;
@@ -332,10 +336,6 @@ main #right-column {
 
 .info p a, .info p a:hover {
   text-decoration: underline; }
-
-.info h2 {
-  font-weight: normal;
-  font-size: 26px; }
 
 .landingtickets {
   font-size: 22px;

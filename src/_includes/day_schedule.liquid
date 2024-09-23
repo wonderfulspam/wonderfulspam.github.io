@@ -1,7 +1,9 @@
 <h3>{{ day.name }}</h3>
 <table>
+  <tr class="doors"><td>{{ day.doors }}</td><td>Doors open</td></tr>
   {% for slot in day.schedule %}
   <tr>
+    <td>{{ slot.time }}</td>
     {% assign schedule_artist = collections.posts.pages | where: "title", slot.artist | first %}
     <!-- If no artist found, assume it is not an artist and just print the title -->
     {% if schedule_artist == blank %}

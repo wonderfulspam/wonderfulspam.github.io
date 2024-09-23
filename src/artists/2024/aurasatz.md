@@ -13,10 +13,10 @@ Aura Satz is a London-based visual artist whose work encompasses film, performan
 
 At FOEG 2024, we will be screening two of Satz’ films:
 
-Little Doorways To Paths Not Yet Taken (2016) - 7’33”
-A brief yet intimate venture inside the home studio of Laurie Spiegel that offers insight into the US composer’s studio work and processes.
+<h3>Little Doorways To Paths Not Yet Taken (2016) - 7’33”</h3>
+<p>A brief yet intimate venture inside the home studio of Laurie Spiegel that offers insight into the US composer’s studio work and processes.</p>
 
-Making a Diagonal with Music (2019) - 10’20”
-A short film about the Argentine electroacoustic composer Beatriz Ferreyra, an original pioneer of early musique concrète during the ‘50s and ‘60s.
+<h3>Making a Diagonal with Music (2019) - 10’20”</h3>
+<p>A short film about the Argentine electroacoustic composer Beatriz Ferreyra, an original pioneer of early musique concrète during the ‘50s and ‘60s.</p>
 
-The film screenings will be followed by a listening session of Satz’ audio piece Dial Tone Drone (2014) featuring Pauline Oliveros and Laurie Spiegel. 14’00’’
+<p>The film screenings will be followed by a listening session of Satz’ audio piece <span class="italic">Dial Tone Drone (2014)</span> featuring Pauline Oliveros and Laurie Spiegel. 14’00’’</p>

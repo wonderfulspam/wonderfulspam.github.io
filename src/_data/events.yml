@@ -5,29 +5,33 @@
   days:
     - name: Thursday
       date: "2024-03-10"
-      doors: "18:30"
+      doors: "18:00"
       dj: 
       schedule:
-        - time: "19:30"
+        - time: "19:00"
+          artist: Ron Schneiderman
+        - time: "20:00"
           artist: Silvia Tarozzi & Deborah Walker
-        - time: "19:30"
+        - time: "21:15"
           artist: Seth Cluett presents Laurie Spiegel
-        - time: "19:30"
+        - time: "22:30"
           artist: Mariam Rezaei
     - name: Friday
       date: "2024-04-10"
-      doors: "17:30"
+      doors: "17:00"
       dj: 
       schedule:
         - time: "18:00"
+          artist: Aura Satz
+        - time: "19:30"
           artist: Zoomachia Group
-        - time: "18:00"
+        - time: "20:30"
           artist: Perila          
-        - time: "18:00"
+        - time: "21:45"
           artist: Faramarz Amirian
-        - time: "18:00"
+        - time: "23:00"
           artist: Sunun
-        - time: "18:00"
+        - time: "00:00"
           artist: Shit & Shine
 
     - name: Saturday
@@ -37,16 +41,18 @@
       schedule:
         - time: "16:30"
           artist: Seth Cluett presents Laurie Spiegel
-        - time: "16:30"
+        - time: "17:30"
           artist: EVOL
-        - time: "16:30"
+        - time: "19:30"
           artist: Richard Youngs
-        - time: "16:30"
+        - time: "20:45"
           artist: Will Guthrie
-        - time: "16:30"
+        - time: "21:45"
           artist: evee
-        - time: "16:30"
+        - time: "22:45"
           artist: Big Blood
+        - time: "00:00"
+          artist: Xenia Xamanek
         - time: "16:30"
           artist: Nkisi
 

@@ -46,14 +46,16 @@ permalink: /tickets
   <div>Perila<span>(DE)</span></div>
   <div>Richard Youngs<span>(UK)</span></div>
   <div>Will Guthrie<span>(AU)</span></div>
+  <div>Ron Schneiderman<span>(US)</span></div>
   <div>EVOL<span>(ES/UK)</span></div>
   <div>Shit & Shine<span>(US)</span></div>
+  <div>Xenia Xamanek<span>(DK)</span></div>
   <div>Mariam Rezaei<span>(UK)</span></div>
   <div>Faramarz Amirian<span>(IR)</span></div>
   <div>Sunun<span>(UK)</span></div>
   <div>Zoomachia Group<span>(IT)</span></div>
+  <div>Aura Satz<span>(US)</span></div>
   <div>evee<span>(DK)</span></div>
-  <div class="more">+ more to be announced</div>
 </div>
 <p>Learn more about this years lineup and have a listen at our <a href="/lineup">lineup</a> page.</p>
 <img src="/assets/img/landing2.jpg">

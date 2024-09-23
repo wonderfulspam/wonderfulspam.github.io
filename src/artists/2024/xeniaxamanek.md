@@ -1,7 +1,7 @@
 ---
 title: Xenia Xamanek
 layout: default.liquid
-is_draft: true
+is_draft: false
 categories:
   - 2024
 data:

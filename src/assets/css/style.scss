@@ -592,30 +592,6 @@ ul {
   ul {
     justify-content: end;
   }
-  h3 {
-    font-size: 26px;
-    position: absolute;
-    font-weight: normal;
-    top: 389px;
-    left: 20px;
-    transform-origin: left;
-    transform: rotate(270deg);
-    color: $koncertkirken;
-  }
-  &:nth-of-type(2) {
-    border-color: $musikhuset;
-    h3 {
-      top: 471px;
-      color: $musikhuset;
-    }
-  }
-  &:nth-of-type(3) {
-    border-color: $title_color_alt;
-    h3 {
-      top: 477px;
-      color: $title_color_alt;
-    }
-  }
   li {
     position: relative;
     margin-bottom: 15px;
@@ -663,6 +639,12 @@ ul {
     bottom: 14px;
     letter-spacing: -1px;
   }
+}
+
+event li p span {
+  font-family: public;
+  color:#1c2645;
+  font-size:16px;
 }
 
 .event li a {
@@ -748,7 +730,6 @@ iframe {
     }
   }
   .event li span {
-    font-size: 36px;
     &.country {
       font-size:20px;
       bottom: 12px;
@@ -946,12 +927,6 @@ iframe {
   .event {
     &:nth-of-type(2) {
       padding-bottom: 0px;
-    }
-    h3 {
-      position: initial;
-      transform: none;
-      font-size: 45px;
-      margin-top: 0;
     }
     ul {
       padding-left: 0px;

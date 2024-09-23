@@ -19,4 +19,4 @@ At FOEG 2024, we will be screening two of Satz’ films:
 <h3>Making a Diagonal with Music (2019) - 10’20”</h3>
 <p>A short film about the Argentine electroacoustic composer Beatriz Ferreyra, an original pioneer of early musique concrète during the ‘50s and ‘60s.</p>
 
-<p>The film screenings will be followed by a listening session of Satz’ audio piece <span class="italic">Dial Tone Drone (2014)</span> featuring Pauline Oliveros and Laurie Spiegel. 14’00’’</p>
+<p>The film screenings will be followed by a listening session of Satz’ audio piece <i>Dial Tone Drone (2014)</i> featuring Pauline Oliveros and Laurie Spiegel. 14’00’’</p>

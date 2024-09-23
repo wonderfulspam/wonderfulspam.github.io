@@ -572,11 +572,6 @@ ul {
     bottom: 14px;
     letter-spacing: -1px; }
 
-event li p span {
-  font-family: public;
-  color: #1c2645;
-  font-size: 16px; }
-
 .event li a {
   text-decoration: none;
   cursor: pointer; }

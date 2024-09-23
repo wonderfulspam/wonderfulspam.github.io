@@ -458,8 +458,6 @@ main #right-column {
         /*  text-align: right; */ }
       .schedule table td:nth-of-type(2) a {
         color: #1c2645; }
-    .schedule table tr:nth-child(9) {
-      display: none; }
     .schedule table .more {
       font-family: public;
       font-size: 18px;

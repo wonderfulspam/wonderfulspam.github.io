@@ -20,3 +20,5 @@ At FOEG 2024, we will be screening two of Satz’ films:
 <p>A short film about the Argentine electroacoustic composer Beatriz Ferreyra, an original pioneer of early musique concrète during the ‘50s and ‘60s.</p>
 
 <p>The film screenings will be followed by a listening session of Satz’ audio piece <i>Dial Tone Drone (2014)</i> featuring Pauline Oliveros and Laurie Spiegel. 14’00’’</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CmKMyphfEjs?si=0yiQpytd_8el5_uu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

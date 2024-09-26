@@ -1,6 +1,6 @@
 ---
 title: About
-layout: default.liquid
+layout: about.liquid
 permalink: /about
 ---
 
@@ -27,3 +27,4 @@ permalink: /about
 <br><a href="mailto:press@foeg.dk">press@foeg.dk</a></p>
 <p>For any other inquiry: <a href="mailto:info@foeg.dk">info@foeg.dk</a></p>
 
+<h2>Partners</h2>

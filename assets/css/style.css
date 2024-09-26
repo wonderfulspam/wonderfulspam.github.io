@@ -274,6 +274,9 @@ main {
   .about h2, .tickets h2, .info h2 {
     margin-bottom: 0; }
 
+.about {
+  padding-bottom: 0; }
+
 .contact {
   height: 58vh;
   display: flex;

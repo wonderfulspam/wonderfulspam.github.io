@@ -365,7 +365,8 @@ main #right-column {
   color: #1c2645;
   font-size: 27px;
   letter-spacing: -1px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  column-gap: 30px; }
   .landinglineup span {
     font-size: 15px;
     position: relative;

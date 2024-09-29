@@ -37,25 +37,4 @@ permalink: /tickets
 
 <p>The 2024 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from the 3rd to the 5th of October.</p> 
 
-<h2>Lineup</h2>
-<div class="landinglineup">
-  <div>Seth Cluett presents Laurie Spiegel<span>(US)</span></div>
-  <div>Nkisi<span>(CD)</span></div>
-  <div>Big Blood<span>(US)</span></div>
-  <div>Silvia Tarozzi & Deborah Walker<span>(IT)</span></div>
-  <div>Perila<span>(DE)</span></div>
-  <div>Richard Youngs<span>(UK)</span></div>
-  <div>Will Guthrie<span>(AU)</span></div>
-  <div>Ron Schneiderman<span>(US)</span></div>
-  <div>EVOL<span>(ES/UK)</span></div>
-  <div>Shit & Shine<span>(US)</span></div>
-  <div>Xenia Xamanek<span>(DK)</span></div>
-  <div>Mariam Rezaei<span>(UK)</span></div>
-  <div>Faramarz Amirian<span>(IR)</span></div>
-  <div>Sunun<span>(UK)</span></div>
-  <div>Zoomachia Group<span>(IT)</span></div>
-  <div>Aura Satz<span>(US)</span></div>
-  <div>evee<span>(DK)</span></div>
-</div>
-<p>Learn more about this years lineup and have a listen at our <a href="/lineup">lineup</a> page.</p>
 <img src="/assets/img/landing2.jpg">

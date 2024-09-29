@@ -1,5 +1,5 @@
 ---
-title: Shit & Shine
+title: CANCELLED - Shit & Shine
 layout: default.liquid
 is_draft: false
 categories:
@@ -8,7 +8,6 @@ data:
   img: /assets/img/shitandshine.png
   country: US
 ---
-
 
 Texas-based Craig Clouse, aka Shit and Shine, has been called a genius and a maverick by the Wire. And the Quietus says he’s “uninterested in the self-imposed restrictions of genre.” 
 

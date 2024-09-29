@@ -79,6 +79,9 @@ permalink: /info
 
 <p>A community-driven event, the annual festival is organized by a passionate group of volunteers and draws a vibrant community of local and international music enthusiasts that foster an atmosphere of openness and inclusivity at the festival space.</p>
 
+<h2>Safe Space Policy</h2>
+<p>FOEG is a safe space with no room for discrimination, violence, harassment, or any other aggressive behavior. Respecting each other is one of the key ingredients for having a good time at the festival. If anyone is crossing your boundaries in any way or you witness someone else's boundaries being crossed, please tell the staff at the door or in the bar and we will help you. The festival staff has the right to remove any festival visitors, who do not follow the safe space principles.</p>
+
 <h2>17 years of FOEG</h2>
 
 <p>Festival of Endless Gratitude originated in Brattleboro, Vermont in 2007, but found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. In the course of its lifespan, FOEG has presented more than 500 concerts with musicians from all over the globe. The festival has grown into an organic and ever-evolving and growing community of diverse people that make up volunteers, artists, musicians, guests, collaborators and organizers - all contributing to a vibrant and inclusive festival atmosphere that encourages deep listening, curiosity and movement.

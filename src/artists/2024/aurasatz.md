@@ -9,7 +9,7 @@ data:
   country: UK
 ---
 
-Aura Satz is a London-based visual artist whose work encompasses film, performance and sculpture. Satz’s trajectory orbits around two major topics. One involves the art and science of music, sound technology, vibration, and acoustics. The other involves social and political factors, especially issues of gender and the rediscovery of important contributions women have made to the development of technology
+Aura Satz is a London-based visual artist whose work encompasses film, performance and sculpture. Satz’s trajectory orbits around two major topics. One involves the art and science of music, sound technology, vibration, and acoustics. The other involves social and political factors, especially issues of gender and the rediscovery of important contributions women have made to the development of technology.
 
 At FOEG 2024, we will be screening two of Satz’ films:
 

@@ -10,7 +10,7 @@ data:
 ---
 
 
-Bristol’s Sunun has a luring command of dials and limbs and drum skins that’s as grounded as it’s mystical - these machines have ghosts in them. People who’ve seen her live have witnessed Sunun’s forest of wires and microphones eeding her 20 channel desk.
+Bristol’s Sunun has a luring command of dials and limbs and drum skins that’s as grounded as it’s mystical - these machines have ghosts in them. People who’ve seen her live have witnessed Sunun’s forest of wires and microphones feeding her 20 channel desk.
 
 She dubs it old-world style, but the results are always forward - drawing from echoes of drum talk, reggae, grime and RnB to make a 22nd century chorus of thousands of years of human feedback.
 

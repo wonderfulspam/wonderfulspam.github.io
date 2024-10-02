@@ -450,7 +450,6 @@ main #right-column {
       bottom: 8px;
       letter-spacing: -0.5px; }
     .schedule table .dj {
-      display: none;
       margin-top: 5px; }
       .schedule table .dj td:first-of-type {
         text-align: right; }

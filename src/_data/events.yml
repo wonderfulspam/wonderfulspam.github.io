@@ -6,7 +6,7 @@
     - name: Thursday
       date: "2024-03-10"
       doors: "18:00"
-      dj: 
+      dj: Greta Eacott<span class="country">(UK)</span>
       schedule:
         - time: "19:00"
           artist: Ron Schneiderman
@@ -19,7 +19,7 @@
     - name: Friday
       date: "2024-04-10"
       doors: "17:00"
-      dj: 
+      dj: EKS<span class="country">(DK)</span>
       schedule:
         - time: "18:00"
           artist: Aura Satz<span class="country">(UK)</span> - Film screening and listening session
@@ -39,7 +39,7 @@
     - name: Saturday
       date: "2024-05-10"
       doors: "16:00"
-      dj: 
+      dj: Sandwich Island<span class="country">(DE/NL)</span>
       schedule:
         - time: "16:30"
           artist: Seth Cluett presents Laurie Spiegel<span class="country">(US)</span> - Part 2

@@ -708,9 +708,7 @@ iframe {
 }
 
 @media only screen and (max-width: 1855px) {
-  html {
-    background-size: 50vw, cover;
-  }
+
   main {
     margin-left: 60px;
     margin-right: 60px;
@@ -830,10 +828,6 @@ iframe {
     background-size: cover;
   }
 
-  html {
-    background: url(/assets/img/bg-mobile.png) no-repeat top center fixed;
-    background-size: cover;
-  }
 
   html,
   html.landing {

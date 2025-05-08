@@ -89,8 +89,7 @@ a.menu-item-link, a.menu-item-link:visited {
     padding-right: 10px; } }
 
 html {
-  background: url(/assets/img/bggfx.png) no-repeat right top, url(/assets/img/bgnew.png) no-repeat top center fixed;
-  background-size: 40vw, cover;
+  background: #dbe5e4;
   -webkit-tap-highlight-color: transparent;
   min-height: 100vh;
   font-size: 16px; }

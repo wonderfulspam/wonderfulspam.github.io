@@ -1,0 +1,24 @@
+- name: Alice
+  link: "https://alicecph.com/"
+  img: "/assets/img/alice-black.png"
+  width: 90px
+- name: Københavns Kommune
+  link: https://www.kk.dk/
+  img: "/assets/img/kbhkommune.png"
+  width: 80px
+- name: Statens Kunstfond
+  link: https://www.kunst.dk/
+  img: "/assets/img/statens-black.png"
+  width: 60px
+- name: KODA
+  link: "https://www.koda.dk/"
+  img: "/assets/img/koda_kultur_logo_rgb_grayscale.webp"
+  width: 60px
+- name: Rusk
+  link: "https://www.rusk-kbh.dk/"
+  img: "/assets/img/rusk-black.png"
+  width: 70px
+- name: Art Music Denmark
+  link: "https://artmusicdenmark.org/"
+  img: "/assets/img/artmusic-black.png"
+  width: 100px

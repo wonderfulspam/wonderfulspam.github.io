@@ -7,3 +7,7 @@
   link: https://www.kunst.dk/
   img: "/assets/img/statens-black.png"
   width: 60px
+- name: Alice
+  link: "https://alicecph.com/"
+  img: "/assets/img/alice-black.png"
+  width: 90px

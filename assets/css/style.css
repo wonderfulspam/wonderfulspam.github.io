@@ -94,80 +94,82 @@ html {
   min-height: 100vh;
   font-size: 16px; }
 
-html.landing {
-  background: url(/assets/img/bgfront.png) no-repeat top center fixed; }
-  html.landing .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 60vh; }
-  html.landing h1 {
-    font-family: garamond;
-    font-size: 80px;
-    letter-spacing: -1px;
+html.landing .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 60vh; }
+
+html.landing h1 {
+  font-family: garamond;
+  font-size: 80px;
+  letter-spacing: -1px;
+  font-weight: normal;
+  line-height: 0.8;
+  margin-top: 0;
+  margin-bottom: 0; }
+  html.landing h1 span {
+    font-size: 45px;
+    position: relative;
+    bottom: 25px;
+    letter-spacing: -1px; }
+
+html.landing h2 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: -10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0; }
+
+html.landing h3 {
+  font-size: 21px;
+  font-weight: normal;
+  margin-top: -10px;
+  margin-bottom: 0; }
+
+html.landing .partnerlogoer {
+  display: none; }
+
+html.landing .landing {
+  display: block;
+  min-height: 53vh;
+  margin-left: auto;
+  width: fit-content;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+html.landing .poster {
+  width: 30vw;
+  margin: auto;
+  display: block; }
+
+html.landing #header span {
+  display: none; }
+
+html.landing #datoboks {
+  position: absolute;
+  left: 60px;
+  bottom: 25vh; }
+  html.landing #datoboks h2 {
+    color: #1c2645;
+    font-size: 28px;
     font-weight: normal;
-    line-height: 0.8;
-    margin-top: 0;
-    margin-bottom: 0; }
-    html.landing h1 span {
-      font-size: 45px;
-      position: relative;
-      bottom: 25px;
-      letter-spacing: -1px; }
-  html.landing h2 {
-    font-size: 35px;
-    font-weight: normal;
-    margin-top: -10px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-top: 0; }
-  html.landing h3 {
-    font-size: 21px;
-    font-weight: normal;
-    margin-top: -10px;
-    margin-bottom: 0; }
-  html.landing .partnerlogoer {
-    display: none; }
-  html.landing .landing {
-    display: block;
-    min-height: 53vh;
-    margin-left: auto;
-    width: fit-content;
-    margin-right: auto;
-    padding-left: 60px;
-    padding-top: 16vh; }
-  html.landing .poster {
-    height: 60vh;
-    margin: auto;
-    display: block; }
-  html.landing #header span {
-    display: none; }
-  html.landing #datoboks {
-    position: absolute;
-    left: 60px;
-    bottom: 25vh; }
-    html.landing #datoboks h2 {
-      color: #1c2645;
-      font-size: 28px;
-      font-weight: normal;
-      margin-bottom: 5px;
-      text-transform: none; }
-    html.landing #datoboks h3 {
-      font-size: 16px;
-      color: #1c2645;
-      line-height: 19pxpublic; }
-  html.landing img.reflections {
-    position: absolute;
-    left: 30vw;
-    top: 10vh;
-    max-width: 80vh;
-    z-index: -1; }
-  html.landing footer {
-    position: fixed;
-    bottom: 5px;
-    left: 0;
-    width: 100%; }
+    margin-bottom: 5px;
+    text-transform: none; }
+  html.landing #datoboks h3 {
+    font-size: 16px;
+    color: #1c2645;
+    line-height: 19pxpublic; }
+
+html.landing img.reflections {
+  position: absolute;
+  left: 30vw;
+  top: 10vh;
+  max-width: 80vh;
+  z-index: -1; }
 
 footer {
   position: relative; }
@@ -656,8 +658,7 @@ iframe {
     max-width: 80vh;
     z-index: -1; }
   html.landing .landing {
-    min-height: 49vh;
-    padding-top: 16vh; } }
+    min-height: 49vh; } }
 
 @media only screen and (max-width: 1600px) {
   .lineup {
@@ -693,9 +694,6 @@ iframe {
     display: none; }
   .mobile {
     display: block; }
-  html.landing {
-    background: url(/assets/img/bg-mobile-front.png) no-repeat top center fixed;
-    background-size: cover; }
   html,
   html.landing {
     border: none; }
@@ -717,6 +715,9 @@ iframe {
       top: 25vh;
       max-width: 80vw;
       z-index: -1; }
+    html .poster,
+    html.landing .poster {
+      width: 90vw; }
   .landingheader h1 {
     font-size: 60px; }
     .landingheader h1 span {

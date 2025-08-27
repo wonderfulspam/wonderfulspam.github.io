@@ -3,7 +3,8 @@ title: About
 layout: about.liquid
 permalink: /about
 ---
-<p>Dates for the 2025 edition to be announced. Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instragram</a> for updates.
+
+<p>Festival of Endless Gratitude 2025 takes place at Kildevæld Kuturcenter November 20-22. Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instragram</a> for updates.
 </p>
 
 <p>Every year, Festival of Endless Gratitude (FOEG) assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music. The festival spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms.</p>
@@ -19,7 +20,7 @@ permalink: /about
 
 <!--
 <h2>Join the FOEG-team</h2>
-<p>We’re looking for volunteers to join us for Festival of Endless Gratitude 2024. If you’d like to help out before, during, or after the event, we’d love to have you on board. It's a great opportunity to contribute and be a part of a great community while enjoying the festival. <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDfpcyMm2Bzi3niZ047bYUPvTDQ_KSzkeqfy0QQK_M7DeyZA/viewform?pli=1">Info and sign-up form.</a></p>-->
+<p>We’re looking for volunteers to join us for Festival of Endless Gratitude 2025. If you’d like to help out before, during, or after the event, we’d love to have you on board. It's a great opportunity to contribute and be a part of a great community while enjoying the festival. <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDfpcyMm2Bzi3niZ047bYUPvTDQ_KSzkeqfy0QQK_M7DeyZA/viewform?pli=1">Info and sign-up form.</a></p>-->
 
 
 <h2>Contact</h2>

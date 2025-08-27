@@ -34,7 +34,7 @@ html {
 
 
 html.landing {
-  background: url(/assets/img/bgfront.png) no-repeat top center fixed;
+  
   .wrapper {
     display: flex;
     align-items: center;
@@ -85,15 +85,16 @@ html.landing {
     margin-left: auto;
     width: fit-content;
     margin-right: auto;
-    padding-left:60px;
-    padding-top:16vh;
+    padding-top:0;
+    padding-bottom:0;
   }
 
 .poster {
-  height:60vh;
+  width:30vw;
   margin:auto;
   display: block;
 }
+
 
 #header {
   span {
@@ -125,12 +126,7 @@ html.landing {
     max-width: 80vh;
     z-index: -1;
   }
-    footer {
-      position:fixed;
-      bottom:5px;
-      left:0;
-      width:100%;
-    }
+
 }
 
 footer {
@@ -763,7 +759,6 @@ iframe {
     } 
     .landing {
       min-height: 49vh;
-      padding-top:16vh;
     }
     }
 }
@@ -823,10 +818,6 @@ iframe {
     display: block;
   }
 
-  html.landing {
-    background: url(/assets/img/bg-mobile-front.png) no-repeat top center fixed;
-    background-size: cover;
-  }
 
 
   html,
@@ -850,6 +841,9 @@ iframe {
       max-width: 80vw;
       z-index: -1;
     } 
+    .poster {
+      width:90vw;
+    }
   }
 
 .landingheader {

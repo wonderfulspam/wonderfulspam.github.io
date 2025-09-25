@@ -11,3 +11,11 @@
   link: "https://alicecph.com/"
   img: "/assets/img/alice.png"
   width: 90px
+- name: Art Music Denmark
+  link: "https://artmusicdenmark.org/"
+  img: "/assets/img/artmusic.png"
+  width: 100px
+- name: Østerbro Lokaludvalg
+  link: "https://oesterbrolokaludvalg.kk.dk/"
+  img: "/assets/img/osterbro.png"
+  width: 70px

@@ -2,7 +2,7 @@
   font-family: public;
   font-style: normal;
   font-weight: normal;
-  src: url(/assets/fonts/OverusedGrotesk-Medium.woff) format("woff");
+  src: url(/assets/fonts/OverusedGrotesk-Roman.woff) format("woff");
 }
 
 @font-face {
@@ -13,10 +13,10 @@
 }
 
 @font-face {
-  font-family: 'garamond';
+  font-family: 'bogueslab';
   font-style: normal;
   font-weight: normal;
-  src: url(/assets/fonts/ITCGaramondStd-LtNarrow.woff) format("woff");
+  src: url(/assets/fonts/BogueSlab-Light.woff) format("woff");
 }
 
 
@@ -25,7 +25,8 @@
 @import "header";
 
 html {
-  background:  $bg;
+  background: url(/assets/img/bg25.jpg) no-repeat top center fixed;
+  background-size: cover;
   -webkit-tap-highlight-color: transparent;
   min-height:100vh;
   font-size:16px;
@@ -34,7 +35,9 @@ html {
 
 
 html.landing {
-  
+  background: url(/assets/img/bg25landing.jpg) no-repeat top center fixed;
+  background-size: cover;
+  height:100vh;
   .wrapper {
     display: flex;
     align-items: center;
@@ -44,7 +47,6 @@ html.landing {
   }
 
   h1 {
-    font-family: garamond;
     font-size:80px;
     letter-spacing: -1px;
     font-weight: normal;
@@ -115,7 +117,7 @@ html.landing {
     h3 {
       font-size:16px;
       color:$title_color_alt;
-      line-height:19pxpublic;
+      line-height:19px;
     }
   }
 
@@ -406,15 +408,30 @@ main #right-column {
 }
 
 .lineup {
-  grid-template-areas: "left right";
+  grid-template-areas: "left left";
   grid-template-columns: 990px 600px;
-  grid-column-gap: 30px;
+  grid-column-gap: 0px;
   justify-content:center;
   #left-column {
-    .more {
+    ul {
+      display: block;
       text-align: center;
+    }
+    li {
+      padding-bottom:18px;
+      font-size: 24px;
+      line-height: 19px;
+      font-family: 'bogueslab';
+      span {
+        bottom:8px;
+        font-size: 14px;
+        position: relative;
+      }
+    }
+    .more {
+      font-family: public;
+      font-size:16px;
       margin-top:10px;
-      font-size:26px;
     }
   }
   h3 {
@@ -711,7 +728,7 @@ iframe {
   }
 
   .lineup {
-    grid-template-areas: "left right";
+    grid-template-areas: "left left";
     grid-template-columns: 840px 500px;
   }
   .event {
@@ -766,16 +783,16 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left right";
+    grid-template-areas: "left left";
     grid-template-columns: 560px 500px;
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left right";
+    grid-template-areas: "left left";
     grid-template-columns: 460px 400px;
-    grid-column-gap:15px;
+    grid-column-gap:0px;
   }
   .event {
     li {
@@ -822,6 +839,7 @@ iframe {
 
   html,
   html.landing {
+    background: url(/assets/img/bg25.jpg) no-repeat top center fixed;
     border:none;
     #datoboks {
       left:30px;

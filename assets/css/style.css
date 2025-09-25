@@ -2,7 +2,7 @@
   font-family: public;
   font-style: normal;
   font-weight: normal;
-  src: url(/assets/fonts/OverusedGrotesk-Medium.woff) format("woff"); }
+  src: url(/assets/fonts/OverusedGrotesk-Roman.woff) format("woff"); }
 
 @font-face {
   font-family: public;
@@ -11,10 +11,10 @@
   src: url(/assets/fonts/OverusedGrotesk-Bold.woff) format("woff"); }
 
 @font-face {
-  font-family: 'garamond';
+  font-family: 'bogueslab';
   font-style: normal;
   font-weight: normal;
-  src: url(/assets/fonts/ITCGaramondStd-LtNarrow.woff) format("woff"); }
+  src: url(/assets/fonts/BogueSlab-Light.woff) format("woff"); }
 
 #horisontal-header {
   display: block;
@@ -37,7 +37,7 @@
     content: "";
     margin-top: -5px; }
   #header span {
-    color: #1c2645; }
+    color: #602723; }
   #header a {
     text-decoration: none; }
   #header.info {
@@ -47,7 +47,7 @@
   width: 250px; }
 
 #header h1 {
-  color: #1c2645;
+  color: #602723;
   margin-top: 0px;
   margin-bottom: 0;
   font-size: 45px;
@@ -65,9 +65,9 @@
 
 a.menu-item-link, a.menu-item-link:visited {
   font-size: 26px;
-  font-family: public;
+  font-family: 'bogueslab';
   text-decoration: none;
-  color: #1c2645; }
+  color: #602723; }
 
 .menu-item-link:not(:first-child) {
   margin-left: 30px; }
@@ -89,87 +89,82 @@ a.menu-item-link, a.menu-item-link:visited {
     padding-right: 10px; } }
 
 html {
-  background: #dbe5e4;
+  background: url(/assets/img/bg25.jpg) no-repeat top center fixed;
+  background-size: cover;
   -webkit-tap-highlight-color: transparent;
   min-height: 100vh;
   font-size: 16px; }
 
-html.landing .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 60vh; }
-
-html.landing h1 {
-  font-family: garamond;
-  font-size: 80px;
-  letter-spacing: -1px;
-  font-weight: normal;
-  line-height: 0.8;
-  margin-top: 0;
-  margin-bottom: 0; }
-  html.landing h1 span {
-    font-size: 45px;
-    position: relative;
-    bottom: 25px;
-    letter-spacing: -1px; }
-
-html.landing h2 {
-  font-size: 35px;
-  font-weight: normal;
-  margin-top: -10px;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 0; }
-
-html.landing h3 {
-  font-size: 21px;
-  font-weight: normal;
-  margin-top: -10px;
-  margin-bottom: 0; }
-
-html.landing .partnerlogoer {
-  display: none; }
-
-html.landing .landing {
-  display: block;
-  min-height: 53vh;
-  margin-left: auto;
-  width: fit-content;
-  margin-right: auto;
-  padding-top: 0;
-  padding-bottom: 0; }
-
-html.landing .poster {
-  width: 30vw;
-  margin: auto;
-  display: block; }
-
-html.landing #header span {
-  display: none; }
-
-html.landing #datoboks {
-  position: absolute;
-  left: 60px;
-  bottom: 25vh; }
-  html.landing #datoboks h2 {
-    color: #1c2645;
-    font-size: 28px;
+html.landing {
+  background: url(/assets/img/bg25landing.jpg) no-repeat top center fixed;
+  background-size: cover;
+  height: 100vh; }
+  html.landing .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh; }
+  html.landing h1 {
+    font-size: 80px;
+    letter-spacing: -1px;
     font-weight: normal;
-    margin-bottom: 5px;
-    text-transform: none; }
-  html.landing #datoboks h3 {
-    font-size: 16px;
-    color: #1c2645;
-    line-height: 19pxpublic; }
-
-html.landing img.reflections {
-  position: absolute;
-  left: 30vw;
-  top: 10vh;
-  max-width: 80vh;
-  z-index: -1; }
+    line-height: 0.8;
+    margin-top: 0;
+    margin-bottom: 0; }
+    html.landing h1 span {
+      font-size: 45px;
+      position: relative;
+      bottom: 25px;
+      letter-spacing: -1px; }
+  html.landing h2 {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0; }
+  html.landing h3 {
+    font-size: 21px;
+    font-weight: normal;
+    margin-top: -10px;
+    margin-bottom: 0; }
+  html.landing .partnerlogoer {
+    display: none; }
+  html.landing .landing {
+    display: block;
+    min-height: 53vh;
+    margin-left: auto;
+    width: fit-content;
+    margin-right: auto;
+    padding-top: 0;
+    padding-bottom: 0; }
+  html.landing .poster {
+    width: 30vw;
+    margin: auto;
+    display: block; }
+  html.landing #header span {
+    display: none; }
+  html.landing #datoboks {
+    position: absolute;
+    left: 60px;
+    bottom: 25vh; }
+    html.landing #datoboks h2 {
+      color: #602723;
+      font-size: 28px;
+      font-weight: normal;
+      margin-bottom: 5px;
+      text-transform: none; }
+    html.landing #datoboks h3 {
+      font-size: 16px;
+      color: #602723;
+      line-height: 19px; }
+  html.landing img.reflections {
+    position: absolute;
+    left: 30vw;
+    top: 10vh;
+    max-width: 80vh;
+    z-index: -1; }
 
 footer {
   position: relative; }
@@ -180,7 +175,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   font-family: public;
-  color: #1c2645; }
+  color: #602723; }
 
 /*
 .video-wrapper {
@@ -402,14 +397,26 @@ main #right-column {
     margin-bottom: 0; }
 
 .lineup {
-  grid-template-areas: "left right";
+  grid-template-areas: "left left";
   grid-template-columns: 990px 600px;
-  grid-column-gap: 30px;
+  grid-column-gap: 0px;
   justify-content: center; }
+  .lineup #left-column ul {
+    display: block;
+    text-align: center; }
+  .lineup #left-column li {
+    padding-bottom: 18px;
+    font-size: 24px;
+    line-height: 19px;
+    font-family: 'bogueslab'; }
+    .lineup #left-column li span {
+      bottom: 8px;
+      font-size: 14px;
+      position: relative; }
   .lineup #left-column .more {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 26px; }
+    font-family: public;
+    font-size: 16px;
+    margin-top: 10px; }
   .lineup h3 {
     font-style: italic;
     font-size: 16px;
@@ -460,7 +467,7 @@ main #right-column {
         width: 20px;
         /*  text-align: right; */ }
       .schedule table td:nth-of-type(2) a {
-        color: #1c2645; }
+        color: #602723; }
     .schedule table .more {
       font-family: public;
       font-size: 18px;
@@ -474,7 +481,7 @@ main #right-column {
   margin-bottom: 30px; }
 
 .event-schedule:nth-of-type(3) table:nth-of-type(2) {
-  border-bottom: 2px solid #1c2645; }
+  border-bottom: 2px solid #602723; }
 
 .past {
   padding-left: 17vw;
@@ -487,7 +494,7 @@ main #right-column {
     vertical-align: top; }
 
 .art h2 {
-  color: #1c2645;
+  color: #602723;
   font-size: 23px; }
 
 .no-display {
@@ -495,7 +502,7 @@ main #right-column {
 
 a,
 a:visited {
-  color: #1c2645;
+  color: #602723;
   cursor: pointer;
   text-decoration: underline; }
 
@@ -604,7 +611,7 @@ iframe {
   top: 30px; }
   .artistcontent h2 {
     font-family: garamond;
-    color: #1c2645;
+    color: #602723;
     font-size: 40px;
     letter-spacing: -1px;
     text-transform: none;
@@ -628,7 +635,7 @@ iframe {
     margin-left: 60px;
     margin-right: 60px; }
   .lineup {
-    grid-template-areas: "left right";
+    grid-template-areas: "left left";
     grid-template-columns: 840px 500px; }
   .event li img {
     height: 250px;
@@ -662,14 +669,14 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left right";
+    grid-template-areas: "left left";
     grid-template-columns: 560px 500px; } }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left right";
+    grid-template-areas: "left left";
     grid-template-columns: 460px 400px;
-    grid-column-gap: 15px; }
+    grid-column-gap: 0px; }
   .event li img {
     height: 200px;
     width: auto; }
@@ -696,6 +703,7 @@ iframe {
     display: block; }
   html,
   html.landing {
+    background: url(/assets/img/bg25.jpg) no-repeat top center fixed;
     border: none; }
     html #datoboks,
     html.landing #datoboks {
@@ -703,7 +711,7 @@ iframe {
       text-transform: none; }
       html #datoboks h2,
       html.landing #datoboks h2 {
-        color: #1c2645;
+        color: #602723;
         font-weight: normal; }
       html #datoboks h3,
       html.landing #datoboks h3 {

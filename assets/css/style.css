@@ -73,6 +73,8 @@ a.menu-item-link, a.menu-item-link:visited {
   margin-left: 30px; }
 
 @media only screen and (max-width: 1000px) {
+  a.menu-item-link, a.menu-item-link:visited {
+    font-size: 20px; }
   #horisontal-header {
     padding-left: 20px;
     padding-right: 20px; }
@@ -96,8 +98,8 @@ html {
   font-size: 16px; }
 
 html.landing {
-  background: url(/assets/img/bg25landing.jpg) no-repeat top center fixed;
-  background-size: cover;
+  background: url(/assets/img/landing-text.png) no-repeat bottom center fixed, url(/assets/img/bg25.jpg) no-repeat top center fixed;
+  background-size: 80vw, cover;
   height: 100vh; }
   html.landing .wrapper {
     display: flex;
@@ -703,7 +705,6 @@ iframe {
     display: block; }
   html,
   html.landing {
-    background: url(/assets/img/bg25.jpg) no-repeat top center fixed;
     border: none; }
     html #datoboks,
     html.landing #datoboks {
@@ -726,6 +727,9 @@ iframe {
     html .poster,
     html.landing .poster {
       width: 90vw; }
+  html.landing {
+    background: url(/assets/img/landing-text-mobile.png) no-repeat center fixed, url(/assets/img/bg25.jpg) no-repeat top center fixed;
+    background-size: 100vw, cover; }
   .landingheader h1 {
     font-size: 60px; }
     .landingheader h1 span {

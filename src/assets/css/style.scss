@@ -35,8 +35,8 @@ html {
 
 
 html.landing {
-  background: url(/assets/img/bg25landing.jpg) no-repeat top center fixed;
-  background-size: cover;
+  background: url(/assets/img/landing-text.png) no-repeat bottom center fixed, url(/assets/img/bg25.jpg) no-repeat top center fixed;
+  background-size: 80vw, cover;
   height:100vh;
   .wrapper {
     display: flex;
@@ -839,7 +839,6 @@ iframe {
 
   html,
   html.landing {
-    background: url(/assets/img/bg25.jpg) no-repeat top center fixed;
     border:none;
     #datoboks {
       left:30px;
@@ -863,6 +862,11 @@ iframe {
       width:90vw;
     }
   }
+
+html.landing {
+  background: url(/assets/img/landing-text-mobile.png) no-repeat center fixed, url(/assets/img/bg25.jpg) no-repeat top center fixed;
+  background-size: 100vw, cover;
+}
 
 .landingheader {
   h1 {

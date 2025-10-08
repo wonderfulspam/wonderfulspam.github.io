@@ -232,6 +232,9 @@ main {
 }
 
 .about, .tickets, .info {
+  backdrop-filter: blur(10px);
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to bottom, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
+  mask-composite: intersect;
   display: block;
   min-height:53vh;
   text-align: justify;
@@ -407,25 +410,12 @@ main #right-column {
   }
 }
 
-.lineup:before {
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  display: block;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
+
 
 .lineup {
-  z-index: 0;
-  grid-template-areas: "left right";
-  grid-template-columns: 990px 600px;
-  grid-column-gap: 30px;
+  grid-template-areas: "left";
+  grid-template-columns: 600px;
+  grid-column-gap: 0px;
   justify-content:center;
   #left-column {
     .more {
@@ -443,6 +433,15 @@ main #right-column {
   .italic {
     font-style: italic;
   }
+}
+
+.close-artist, .close-artist:visited {
+  text-decoration: none;
+  position: absolute;
+  font-size: 20px;
+  color:white;
+  top:3px;
+  left:25px;
 }
 
 .schedule {
@@ -607,6 +606,7 @@ ul {
   }
   ul {
     justify-content: end;
+    display: block;
   }
   li {
     position: relative;
@@ -614,7 +614,6 @@ ul {
     cursor: pointer;
     margin-right: 30px;
     &.desktop {
-      width: min-content; 
       margin-bottom:-6px;
       margin-right:0px;
       &:hover {
@@ -622,9 +621,10 @@ ul {
         transition: 0.2s;
       }
       div {
-        position:absolute;
+        padding-bottom:18px;
         bottom:5px;
         left:5px;
+        text-align: center;
       }
     }
     &.mobile {
@@ -647,9 +647,8 @@ ul {
 
 .event li span {
   font-family: bogueslab;
-  color: white;
   font-size: 26px;
-  line-height:26px;
+  line-height:19px;
   &.country {
     font-size:12px;
     position:relative;
@@ -672,27 +671,20 @@ ul {
 }
 
 .artistcontent {
+  backdrop-filter: blur(10px);
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
+  mask-composite: intersect;
+  padding:20px;
+  padding-top:0px;
+  img {
+    width:100%;
+  }
   .extratitle {
     display: inline;
   }
   .title {
     display: none;
   }
-}
-
-iframe {
-  width: 100%;
-  padding-bottom: 0.5rem;
-}
-
-#sound-embed iframe {
-  height: auto;
-}
-
-.artistcontent {
-  position: sticky;
-  align-self: start;
-  top: 30px;
   h2 {
     font-family: bogueslab;
   color: $title-color;
@@ -710,9 +702,16 @@ iframe {
   }
 }
 
-#stickyspace {
-  height: 50px;
+iframe {
+  width: 100%;
+  padding-bottom: 0.5rem;
 }
+
+#sound-embed iframe {
+  height: auto;
+}
+
+
 
 .mobile {
   display: none;
@@ -726,8 +725,8 @@ iframe {
   }
 
   .lineup {
-    grid-template-areas: "left right";
-    grid-template-columns: 840px 500px;
+    grid-template-areas: "left";
+    grid-template-columns: 500px;
   }
   .event {
     li {
@@ -775,16 +774,16 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left right";
-    grid-template-columns: 750px 500px;
+    grid-template-areas: "left";
+    grid-template-columns: 500px;
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left right";
-    grid-template-columns: 600px 400px;
-    grid-column-gap:15px;
+    grid-template-areas: "left";
+    grid-template-columns: 500px;
+    grid-column-gap:0px;
   }
   .event {
     li {
@@ -813,12 +812,6 @@ iframe {
     overflow-x: hidden
   }
   
-  .desktop {
-    display: none;
-  }
-  .mobile {
-    display: block;
-  }
 
 
 
@@ -878,30 +871,45 @@ html.landing {
   .about,
   .tickets,
   .contact,
-  .lineup,
   .past,
   .schedule,
   .info {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
     grid-column-gap: 0px;
   }
   .about, .tickets, .info {
     display: block;
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to bottom, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
     min-height: 53vh;
     text-align: justify;
     max-width: 67ch;
     } 
   .lineup {
+    margin:0;
+    padding:0;
+    grid-column-gap:0px;
     grid-template-areas: "left";
     grid-template-columns: 1fr;
-    #right-column {
-      display:none;
+    .artistcontent
+    {
+      grid-column-gap:0px;
+      backdrop-filter: blur(10px);
+      mask-composite: intersect;
+      mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+      margin:10px;
+      padding:10px;
+      padding-top:0px;
     }
   }
+
+  .close-artist, .close-artist:visited {
+    left:15px;
+  }
+
  /* .schedule {
     text-size-adjust: none;
     h2 {
@@ -919,6 +927,7 @@ html.landing {
     grid-template-columns: 1fr;
   }*/
   .event {
+    margin-top:30px;
     &:nth-of-type(2) {
       padding-bottom: 0px;
     }
@@ -935,9 +944,6 @@ html.landing {
   .about, .tickets, .info {
     text-align: left;
   }
-  .artist-link {
-    pointer-events: none;
-  }
   .event li {
     cursor: default;
     margin-bottom: 20px;
@@ -951,6 +957,10 @@ html.landing {
     }
   }
   .past {
+    backdrop-filter: blur(5px);
+        mask-composite: intersect;
+        mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+        padding-top:0px;
     h2 {
       margin-bottom:0;
     }

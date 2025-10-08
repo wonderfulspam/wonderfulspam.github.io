@@ -29,5 +29,12 @@ data:
 </div>
 {% include "artists_hidden.liquid" %}
 <script type="text/javascript">
-  addCopyClickHandler(".artist-link", "left-column");
+  addCopyClickHandler(".artist-link", "right-column");
+
+  // Handle back link clicks to clear right column
+  document.addEventListener('click', function(event) {
+    if (event.target.classList.contains('close-artist')) {
+      document.getElementById('right-column').innerHTML = '';
+    }
+  });
 </script>

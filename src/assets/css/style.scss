@@ -423,11 +423,12 @@ main #right-column {
 
 .lineup {
   z-index: 0;
-  grid-template-areas: "left right";
-  grid-template-columns: 990px 600px;
-  grid-column-gap: 30px;
-  justify-content:center;
-  #left-column {
+  grid-template-areas: "center";
+  grid-template-columns: 1fr;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  #lineup-list {
     .more {
       font-family: public;
       font-size:16px;
@@ -442,6 +443,59 @@ main #right-column {
   }
   .italic {
     font-style: italic;
+  }
+}
+
+#artist-detail {
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: public;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 10;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.9);
+      transition: 0.2s;
+    }
+  }
+
+  #artist-detail-content {
+    position: relative;
+
+    .artist-image-container {
+      position: relative;
+      margin-bottom: 20px;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+
+    h2 {
+      font-family: bogueslab;
+      color: $title-color;
+      font-size: 26px;
+      line-height: 26px;
+      text-transform: none;
+      font-weight: normal;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      .country {
+        font-size: 12px;
+        position: relative;
+        bottom: 8px;
+      }
+    }
   }
 }
 
@@ -496,7 +550,7 @@ main #right-column {
       /*  text-align: right; */
       }
       &:nth-of-type(2) {
-        
+
         a {
           color: $title-color;
         }
@@ -614,7 +668,7 @@ ul {
     cursor: pointer;
     margin-right: 30px;
     &.desktop {
-      width: min-content; 
+      width: min-content;
       margin-bottom:-6px;
       margin-right:0px;
       &:hover {
@@ -726,8 +780,7 @@ iframe {
   }
 
   .lineup {
-    grid-template-areas: "left right";
-    grid-template-columns: 840px 500px;
+    max-width: 840px;
   }
   .event {
     li {
@@ -765,7 +818,7 @@ iframe {
       top:10vh;
       max-width: 80vh;
       z-index: -1;
-    } 
+    }
     .landing {
       min-height: 49vh;
     }
@@ -775,16 +828,13 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left right";
-    grid-template-columns: 750px 500px;
+    max-width: 750px;
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left right";
-    grid-template-columns: 600px 400px;
-    grid-column-gap:15px;
+    max-width: 600px;
   }
   .event {
     li {
@@ -801,7 +851,7 @@ iframe {
       top:10vh;
       max-width: 80vh;
       z-index: -1;
-    } 
+    }
     }
 }
 
@@ -812,7 +862,7 @@ iframe {
     min-height: 100%;
     overflow-x: hidden
   }
-  
+
   .desktop {
     display: none;
   }
@@ -842,7 +892,7 @@ iframe {
       top:25vh;
       max-width: 80vw;
       z-index: -1;
-    } 
+    }
     .poster {
       width:90vw;
     }
@@ -867,7 +917,7 @@ html.landing {
          font-size: 26px;
         }
   }
-  
+
 
   main {
     #right-column {
@@ -894,13 +944,13 @@ html.landing {
     min-height: 53vh;
     text-align: justify;
     max-width: 67ch;
-    } 
-  .lineup {
-    grid-template-areas: "left";
-    grid-template-columns: 1fr;
-    #right-column {
-      display:none;
     }
+  .lineup {
+    grid-template-areas: "center";
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100%;
   }
  /* .schedule {
     text-size-adjust: none;
@@ -1019,7 +1069,7 @@ html.landing {
         letter-spacing: -1px;
       }
     }
-  
+
     h2 {
       font-size:30px;
       font-weight: normal;
@@ -1028,7 +1078,7 @@ html.landing {
       padding-bottom:0;
       padding-top:0;
     }
-  
+
     h3 {
       font-size:18px;
       font-weight: normal;
@@ -1060,7 +1110,7 @@ html.landing {
           letter-spacing: -1px;
         }
       }
-    
+
       h2 {
         font-size:26px;
         font-weight: normal;
@@ -1069,7 +1119,7 @@ html.landing {
         padding-bottom:0;
         padding-top:0;
       }
-    
+
       h3 {
         font-size:15.5px;
         font-weight: normal;

@@ -1,15 +1,15 @@
 <li class="desktop">
-  <a class="artist-link" data-slug="{{ post.slug }}">
+  <a class="artist-link" data-slug="{{ post.slug }}" >
     <div>
-      <img src="{{ post.data.img }}">
       <span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span>
     </div>
+    <img src="{{ post.data.img }}">
   </a>
 </li>
-<li class="mobile">
+<!-- <li class="mobile">
     <div>
       <div><span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span></div>
     <img src="{{ post.data.img }}">
     </div>
 {{ post.content }}
-</li>
+</li> -->

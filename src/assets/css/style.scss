@@ -414,7 +414,7 @@ main #right-column {
 
 .lineup {
   grid-template-areas: "left";
-  grid-template-columns: 600px;
+  grid-template-columns: 620px;
   grid-column-gap: 0px;
   justify-content:center;
   #left-column {
@@ -605,25 +605,25 @@ ul {
     margin-bottom: 0;
   }
   ul {
-    justify-content: end;
-    display: block;
+    display: flex;
   }
   li {
     position: relative;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
+    margin-right:20px;
     cursor: pointer;
-    margin-right: 30px;
-    &.desktop {
-      margin-bottom:-6px;
+    &:nth-of-type(even) {
       margin-right:0px;
+    }
+    &.desktop {
       &:hover {
         opacity: 0.6;
         transition: 0.2s;
       }
       div {
-        padding-bottom:18px;
-        bottom:5px;
-        left:5px;
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
         text-align: center;
       }
     }
@@ -647,6 +647,7 @@ ul {
 
 .event li span {
   font-family: bogueslab;
+  color: white;
   font-size: 26px;
   line-height:19px;
   &.country {
@@ -660,6 +661,7 @@ ul {
 .event li a {
   text-decoration: none;
   cursor: pointer;
+  position: relative;
 }
 
 .title {
@@ -726,7 +728,7 @@ iframe {
 
   .lineup {
     grid-template-areas: "left";
-    grid-template-columns: 500px;
+    grid-template-columns: 520px;
   }
   .event {
     li {
@@ -775,14 +777,14 @@ iframe {
 @media only screen and (max-width: 1600px) {
   .lineup {
     grid-template-areas: "left";
-    grid-template-columns: 500px;
+    grid-template-columns: 520px;
   }
 }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
     grid-template-areas: "left";
-    grid-template-columns: 500px;
+    grid-template-columns: 420px;
     grid-column-gap:0px;
   }
   .event {
@@ -927,7 +929,15 @@ html.landing {
     grid-template-columns: 1fr;
   }*/
   .event {
+    grid-column-gap: 0px;
+    backdrop-filter: blur(10px);
+    mask-composite: intersect;
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+    margin: 10px;
     margin-top:30px;
+    padding: 10px;
+    padding-top: 0px;
+
     &:nth-of-type(2) {
       padding-bottom: 0px;
     }

@@ -1,6 +1,6 @@
 <div id="{{ post.slug }}">
 <div class="artistcontent">
-    <a class="close-artist" href="/lineup">&larr;&nbsp BACK</a>
+    <a class="close-artist" href="/lineup#{{ post.slug }}">&larr;&nbsp BACK</a>
     <img src="{{ post.data.img }}">
 <h2>{{ post.title }}{% if post.data.country %}<span class="country">({{ post.data.country }})</span>{% endif %}</h2>
 {{ post.content }}

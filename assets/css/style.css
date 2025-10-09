@@ -84,7 +84,7 @@ a.menu-item-link, a.menu-item-link:visited {
   padding: 0;
   z-index: 1001;
   position: fixed;
-  top: 40px;
+  top: 20px;
   left: 20px; }
   .burger-menu span {
     width: 30px;

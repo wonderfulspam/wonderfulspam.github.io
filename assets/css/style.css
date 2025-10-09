@@ -403,7 +403,7 @@ main #right-column {
 .landinglineup {
   display: grid;
   grid-template-columns: auto auto;
-  font-family: garamond;
+  font-family: bogueslab;
   color: #1c2645;
   font-size: 27px;
   letter-spacing: -1px;
@@ -418,7 +418,7 @@ main #right-column {
 .landingheader {
   margin-bottom: 15px; }
   .landingheader h1 {
-    font-family: garamond;
+    font-family: bogueslab;
     font-size: 80px;
     letter-spacing: -1px;
     font-weight: normal;
@@ -443,23 +443,25 @@ main #right-column {
     margin-top: -10px;
     margin-bottom: 0; }
 
+.lineup:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  display: block;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); }
+
 .lineup {
-  grid-template-areas: "left left";
+  z-index: 0;
+  grid-template-areas: "left right";
   grid-template-columns: 990px 600px;
-  grid-column-gap: 0px;
+  grid-column-gap: 30px;
   justify-content: center; }
-  .lineup #left-column ul {
-    display: block;
-    text-align: center; }
-  .lineup #left-column li {
-    padding-bottom: 18px;
-    font-size: 24px;
-    line-height: 19px;
-    font-family: 'bogueslab'; }
-    .lineup #left-column li span {
-      bottom: 8px;
-      font-size: 14px;
-      position: relative; }
   .lineup #left-column .more {
     font-family: public;
     font-size: 16px;
@@ -488,10 +490,9 @@ main #right-column {
     font-size: 26px;
     margin-bottom: 12px; }
   .schedule table {
-    font-family: garamond;
+    font-family: bogueslab;
     color: #1c2645;
     font-size: 30px;
-    letter-spacing: -1px;
     padding-bottom: 30px;
     margin-bottom: 15px;
     margin-right: 0;
@@ -599,7 +600,7 @@ ul {
     margin-right: 30px; }
     .event li.desktop {
       width: min-content;
-      margin-bottom: -5px;
+      margin-bottom: -6px;
       margin-right: 0px; }
       .event li.desktop:hover {
         opacity: 0.6;
@@ -612,22 +613,22 @@ ul {
       position: relative; }
       .event li.mobile div div {
         position: absolute;
-        bottom: 5px;
-        left: 5px; }
+        bottom: 10px;
+        width: 100%;
+        text-align: center; }
     .event li img {
       height: 300px;
       width: auto; }
 
 .event li span {
-  font-family: garamond;
+  font-family: bogueslab;
   color: white;
-  font-size: 40px;
-  letter-spacing: -1px; }
+  font-size: 26px;
+  line-height: 26px; }
   .event li span.country {
-    font-size: 24px;
+    font-size: 12px;
     position: relative;
-    bottom: 14px;
-    letter-spacing: -1px; }
+    bottom: 8px; }
 
 .event li a {
   text-decoration: none;
@@ -657,19 +658,18 @@ iframe {
   align-self: start;
   top: 30px; }
   .artistcontent h2 {
-    font-family: garamond;
+    font-family: bogueslab;
     color: #602723;
-    font-size: 40px;
-    letter-spacing: -1px;
+    font-size: 26px;
+    line-height: 26px;
     text-transform: none;
     font-weight: normal;
     margin-top: 10px;
     margin-bottom: 0px; }
     .artistcontent h2 .country {
-      font-size: 24px;
+      font-size: 12px;
       position: relative;
-      bottom: 14px;
-      letter-spacing: -1px; }
+      bottom: 8px; }
 
 #stickyspace {
   height: 50px; }
@@ -682,14 +682,11 @@ iframe {
     margin-left: 60px;
     margin-right: 60px; }
   .lineup {
-    grid-template-areas: "left left";
+    grid-template-areas: "left right";
     grid-template-columns: 840px 500px; }
   .event li img {
     height: 250px;
-    width: auto; }
-  .event li span.country {
-    font-size: 20px;
-    bottom: 12px; } }
+    width: auto; } }
 
 @media only screen and (max-width: 1600px) {
   main {
@@ -716,14 +713,14 @@ iframe {
 
 @media only screen and (max-width: 1600px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 560px 500px; } }
+    grid-template-areas: "left right";
+    grid-template-columns: 750px 500px; } }
 
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 460px 400px;
-    grid-column-gap: 0px; }
+    grid-template-areas: "left right";
+    grid-template-columns: 600px 400px;
+    grid-column-gap: 15px; }
   .event li img {
     height: 200px;
     width: auto; }
@@ -732,12 +729,7 @@ iframe {
     left: 20vw;
     top: 10vh;
     max-width: 80vh;
-    z-index: -1; }
-  .event li span {
-    font-size: 30px; }
-    .event li span.country {
-      font-size: 17px;
-      bottom: 10px; } }
+    z-index: -1; } }
 
 @media only screen and (max-width: 1000px) {
   html, body {
@@ -844,11 +836,6 @@ iframe {
     .event li img {
       width: 100%;
       height: auto; }
-  .event li span {
-    font-size: 36px; }
-    .event li span.country {
-      font-size: 20px;
-      bottom: 12px; }
   .past h2 {
     margin-bottom: 0; }
   .past table div {
@@ -881,7 +868,7 @@ iframe {
 
 @media only screen and (max-width: 515px) {
   html.landing h1 {
-    font-family: garamond;
+    font-family: bogueslab;
     font-size: 70px;
     letter-spacing: -1px;
     font-weight: normal;
@@ -912,7 +899,7 @@ iframe {
     padding-right: 0;
     min-height: 43vh; }
   html.landing h1 {
-    font-family: garamond;
+    font-family: bogueslab;
     font-size: 60px;
     letter-spacing: -1px;
     font-weight: normal;

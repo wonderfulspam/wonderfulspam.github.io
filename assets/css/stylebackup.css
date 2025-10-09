@@ -79,7 +79,7 @@ a.menu-item-link, a.menu-item-link:visited {
   z-index: 1001;
   position: fixed;
   top: 40px;
-  right: 20px; }
+  left: 20px; }
   .burger-menu span {
     width: 30px;
     height: 3px;
@@ -109,7 +109,7 @@ a.menu-item-link, a.menu-item-link:visited {
     left: -100%;
     width: 70%;
     height: 100vh;
-    background-color: rgba(219, 229, 228, 0.98);
+    background-color: rgba(215, 202, 249, 0.98);
     display: flex;
     flex-direction: column;
     justify-content: center;

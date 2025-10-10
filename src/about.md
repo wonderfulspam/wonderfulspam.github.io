@@ -18,9 +18,8 @@ permalink: /about
 <h2>Safe Space Policy</h2>
 <p>FOEG is a safe space with no room for discrimination, violence, harassment, or any other aggressive behavior. Respecting each other is one of the key ingredients for having a good time at the festival. If anyone is crossing your boundaries in any way or you witness someone else's boundaries being crossed, please tell the staff at the door or in the bar and we will help you. The festival staff has the right to remove any festival visitors, who do not follow the safe space principles.</p>
 
-<!--
 <h2>Join the FOEG-team</h2>
-<p>We’re looking for volunteers to join us for Festival of Endless Gratitude 2025. If you’d like to help out before, during, or after the event, we’d love to have you on board. It's a great opportunity to contribute and be a part of a great community while enjoying the festival. <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDfpcyMm2Bzi3niZ047bYUPvTDQ_KSzkeqfy0QQK_M7DeyZA/viewform?pli=1">Info and sign-up form.</a></p>-->
+<p>We’re looking for volunteers to join us for Festival of Endless Gratitude 2025. If you’d like to help out before, during, or after the event, we’d love to have you on board. It's a great opportunity to contribute and be a part of a great community while enjoying the festival. Learn more and sign up at <a href="https://portal.kulturensfrivillige.dk/event/festival-of-endless-gratitude-2025-iuj1">Kulturens Frivillige.</a></p>
 
 
 <h2>Contact</h2>
@@ -29,5 +28,3 @@ permalink: /about
 <br><a href="mailto:booking@foeg.dk">booking@foeg.dk</a>
 <br><a href="mailto:press@foeg.dk">press@foeg.dk</a></p>
 <p>For any other inquiry: <a href="mailto:info@foeg.dk">info@foeg.dk</a></p>
-
-<h2>Partners</h2>

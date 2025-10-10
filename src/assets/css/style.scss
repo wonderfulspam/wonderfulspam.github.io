@@ -356,14 +356,9 @@ main #right-column {
 }
 
 .landinglineup {
-  display: grid;
-  grid-template-columns:auto auto;
   font-family: bogueslab;
-  color: #1c2645;
-  font-size: 27px;
-  letter-spacing: -1px;
+  font-size: 26px;
   margin-bottom:15px;
-  column-gap:30px;
     span {
       font-size: 15px;
       position: relative;

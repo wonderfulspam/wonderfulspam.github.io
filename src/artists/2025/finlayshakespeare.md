@@ -1,7 +1,7 @@
 ---
 title: Finlay Shakespeare
 layout: default.liquid
-is_draft: true
+is_draft: false
 categories:
   - 2025
 data:

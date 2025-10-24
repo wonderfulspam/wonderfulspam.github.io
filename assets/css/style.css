@@ -215,6 +215,12 @@ html.landing {
 
 footer {
   position: relative; }
+  footer h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
 
 body {
   margin-top: 0;
@@ -304,6 +310,9 @@ main {
   padding-right: 30px; }
 
 .about, .tickets, .info {
+  backdrop-filter: blur(10px);
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to bottom, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
+  mask-composite: intersect;
   display: block;
   min-height: 53vh;
   text-align: justify;
@@ -315,9 +324,6 @@ main {
     height: auto; }
   .about h2, .tickets h2, .info h2 {
     margin-bottom: 0; }
-
-.about {
-  padding-bottom: 0; }
 
 .contact {
   height: 58vh;
@@ -438,26 +444,14 @@ main #right-column {
     margin-top: -10px;
     margin-bottom: 0; }
 
-.lineup:before {
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  display: block;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px); }
-
 .lineup {
   z-index: 0;
-  grid-template-areas: "left left";
-  grid-template-columns: 990px 600px;
-  grid-column-gap: 30px;
-  justify-content: center; }
-  .lineup #left-column .more {
+  grid-template-areas: "center";
+  grid-template-columns: 1fr;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto; }
+  .lineup #lineup-list .more {
     font-family: public;
     font-size: 16px;
     margin-top: 10px; }
@@ -468,6 +462,53 @@ main #right-column {
     margin-bottom: 5px; }
   .lineup .italic {
     font-style: italic; }
+
+#artist-detail {
+  margin: auto;
+  width: 600px;
+  backdrop-filter: blur(10px);
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
+  mask-composite: intersect;
+  padding: 0px 20px 20px; }
+  #artist-detail .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: public;
+    cursor: pointer;
+    z-index: 10;
+    text-decoration: none; }
+    #artist-detail .back-button:hover {
+      opacity: 0.6;
+      transition: 0.2s; }
+  #artist-detail #artist-detail-content {
+    position: relative; }
+    #artist-detail #artist-detail-content .artist-image-container {
+      position: relative;
+      margin-bottom: 20px; }
+      #artist-detail #artist-detail-content .artist-image-container img {
+        width: 100%;
+        height: auto;
+        display: block; }
+    #artist-detail #artist-detail-content h2 {
+      position: absolute;
+      bottom: 10px;
+      text-align: center;
+      font-family: bogueslab;
+      color: white;
+      font-size: 26px;
+      line-height: 19px;
+      text-transform: none;
+      font-weight: normal;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      width: 100%; }
+      #artist-detail #artist-detail-content h2 .country {
+        font-size: 12px;
+        position: relative;
+        bottom: 8px; }
 
 .schedule {
   grid-template-areas: "left";
@@ -529,12 +570,15 @@ main #right-column {
 .past {
   padding-left: 17vw;
   padding-right: 17vw;
-  grid-template-areas: "left left"; }
+  grid-template-areas: "left left";
+  text-align: justify; }
   .past td:nth-child(odd) {
     padding-right: 30px; }
   .past td {
     padding-bottom: 30px;
     vertical-align: top; }
+  .past h2 {
+    font-family: 'bogueslab'; }
 
 .art h2 {
   color: #602723;
@@ -600,23 +644,22 @@ ul.temp-lineup {
   .event:nth-last-of-type(1) {
     margin-bottom: 0; }
   .event ul {
-    justify-content: end; }
+    gap: 20px; }
   .event li {
     position: relative;
     margin-bottom: 15px;
     cursor: pointer;
     margin-right: 30px; }
     .event li.desktop {
-      width: min-content;
-      margin-bottom: -6px;
-      margin-right: 0px; }
+      margin: 0px; }
       .event li.desktop:hover {
         opacity: 0.6;
         transition: 0.2s; }
       .event li.desktop div {
         position: absolute;
-        bottom: 5px;
-        left: 5px; }
+        bottom: 10px;
+        width: 100%;
+        text-align: center; }
     .event li.mobile div {
       position: relative; }
       .event li.mobile div div {
@@ -632,7 +675,7 @@ ul.temp-lineup {
   font-family: bogueslab;
   color: white;
   font-size: 26px;
-  line-height: 26px; }
+  line-height: 19px; }
   .event li span.country {
     font-size: 12px;
     position: relative;
@@ -640,7 +683,8 @@ ul.temp-lineup {
 
 .event li a {
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  display: flex; }
 
 .title {
   display: inline; }
@@ -661,23 +705,19 @@ iframe {
 #sound-embed iframe {
   height: auto; }
 
-.artistcontent {
-  position: sticky;
-  align-self: start;
-  top: 30px; }
-  .artistcontent h2 {
-    font-family: bogueslab;
-    color: #602723;
-    font-size: 26px;
-    line-height: 26px;
-    text-transform: none;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-bottom: 0px; }
-    .artistcontent h2 .country {
-      font-size: 12px;
-      position: relative;
-      bottom: 8px; }
+.artistcontent h2 {
+  font-family: bogueslab;
+  color: #602723;
+  font-size: 26px;
+  line-height: 26px;
+  text-transform: none;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+  .artistcontent h2 .country {
+    font-size: 12px;
+    position: relative;
+    bottom: 8px; }
 
 #stickyspace {
   height: 50px; }
@@ -690,11 +730,12 @@ iframe {
     margin-left: 60px;
     margin-right: 60px; }
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 840px 500px; }
+    max-width: 790px; }
   .event li img {
     height: 250px;
-    width: auto; } }
+    width: auto; }
+  #artist-content {
+    width: 500px; } }
 
 @media only screen and (max-width: 1600px) {
   main {
@@ -719,19 +760,14 @@ iframe {
   html.landing .landing {
     min-height: 49vh; } }
 
-@media only screen and (max-width: 1600px) {
-  .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 750px 500px; } }
-
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 600px 400px;
-    grid-column-gap: 15px; }
+    max-width: 640px; }
   .event li img {
     height: 200px;
     width: auto; }
+  #artist-content {
+    width: 400px; }
   html.landing img.reflections {
     position: absolute;
     left: 20vw;
@@ -744,10 +780,6 @@ iframe {
     margin: 0;
     min-height: 100%;
     overflow-x: hidden; }
-  .desktop {
-    display: none; }
-  .mobile {
-    display: block; }
   html,
   html.landing {
     border: none; }
@@ -791,22 +823,28 @@ iframe {
   .past,
   .schedule,
   .info {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     grid-column-gap: 0px; }
-  .about, .tickets, .info {
+  .about, .tickets, .info, .past {
+    backdrop-filter: blur(10px);
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to bottom, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+    mask-composite: intersect;
     display: block;
     min-height: 53vh;
     text-align: justify;
     max-width: 67ch; }
   .lineup {
-    grid-template-areas: "left";
-    grid-template-columns: 1fr; }
-    .lineup #right-column {
-      display: none; }
+    grid-template-areas: "center";
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    max-width: 100%; }
   /* .schedule {
     text-size-adjust: none;
     h2 {
@@ -831,10 +869,12 @@ iframe {
     display: none; }
   .event .extratitle {
     display: inline; }
-  .about, .tickets, .info {
-    text-align: left; }
-  .artist-link {
-    pointer-events: none; }
+  #artist-detail {
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -10px; }
   .event li {
     cursor: default;
     margin-bottom: 20px;

@@ -133,6 +133,13 @@ html.landing {
 
 footer {
   position:relative;
+  h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 body {
@@ -232,6 +239,9 @@ main {
 }
 
 .about, .tickets, .info {
+  backdrop-filter: blur(10px);
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to bottom, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
+  mask-composite: intersect;
   display: block;
   min-height:53vh;
   text-align: justify;
@@ -247,9 +257,6 @@ main {
   }
 }
 
-.about {
-  padding-bottom:0;
-}
 
 .contact {
   height:58vh;
@@ -402,27 +409,15 @@ main #right-column {
   }
 }
 
-.lineup:before {
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  display: block;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
 
 .lineup {
   z-index: 0;
-  grid-template-areas: "left left";
-  grid-template-columns: 990px 600px;
-  grid-column-gap: 30px;
-  justify-content:center;
-  #left-column {
+  grid-template-areas: "center";
+  grid-template-columns: 1fr;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  #lineup-list {
     .more {
       font-family: public;
       font-size:16px;
@@ -437,6 +432,65 @@ main #right-column {
   }
   .italic {
     font-style: italic;
+  }
+}
+
+#artist-detail {
+  margin:auto;
+  width:600px;
+  backdrop-filter: blur(10px);
+    mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
+    mask-composite: intersect;
+    padding: 0px 20px 20px;
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: public;
+    cursor: pointer;
+    z-index: 10;
+    text-decoration: none;
+    &:hover {
+      opacity:0.6;
+      transition: 0.2s;
+    }
+  }
+
+  #artist-detail-content {
+    position: relative;
+
+    .artist-image-container {
+      position: relative;
+      margin-bottom: 20px;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+
+    h2 {
+      position: absolute;
+      bottom: 10px;
+      text-align: center;
+      font-family: bogueslab;
+      color: white;
+      font-size: 26px;
+      line-height: 19px;
+      text-transform: none;
+      font-weight: normal;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      width: 100%;
+      .country {
+        font-size: 12px;
+        position: relative;
+        bottom: 8px;
+      }
+    }
   }
 }
 
@@ -491,7 +545,7 @@ main #right-column {
       /*  text-align: right; */
       }
       &:nth-of-type(2) {
-        
+
         a {
           color: $title-color;
         }
@@ -529,12 +583,16 @@ main #right-column {
   padding-left: 17vw;
   padding-right: 17vw;
   grid-template-areas: "left left";
+  text-align: justify;
   td:nth-child(odd) {
     padding-right: 30px;
   }
   td {
     padding-bottom: 30px;
     vertical-align: top;
+  }
+  h2 {
+    font-family: 'bogueslab';
   }
 }
 
@@ -617,7 +675,7 @@ ul.temp-lineup {
     margin-bottom: 0;
   }
   ul {
-    justify-content: end;
+    gap:20px;
   }
   li {
     position: relative;
@@ -625,17 +683,16 @@ ul.temp-lineup {
     cursor: pointer;
     margin-right: 30px;
     &.desktop {
-      width: min-content; 
-      margin-bottom:-6px;
-      margin-right:0px;
+      margin:0px;
       &:hover {
         opacity: 0.6;
         transition: 0.2s;
       }
       div {
         position:absolute;
-        bottom:5px;
-        left:5px;
+        bottom:10px;
+        width:100%;
+        text-align: center;
       }
     }
     &.mobile {
@@ -660,7 +717,7 @@ ul.temp-lineup {
   font-family: bogueslab;
   color: white;
   font-size: 26px;
-  line-height:26px;
+  line-height:19px;
   &.country {
     font-size:12px;
     position:relative;
@@ -672,6 +729,7 @@ ul.temp-lineup {
 .event li a {
   text-decoration: none;
   cursor: pointer;
+  display: flex;
 }
 
 .title {
@@ -701,9 +759,6 @@ iframe {
 }
 
 .artistcontent {
-  position: sticky;
-  align-self: start;
-  top: 30px;
   h2 {
     font-family: bogueslab;
   color: $title-color;
@@ -737,8 +792,7 @@ iframe {
   }
 
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 840px 500px;
+    max-width: 790px;
   }
   .event {
     li {
@@ -747,6 +801,9 @@ iframe {
         width: auto;
       }
     }
+  }
+  #artist-content {
+    width:500px;
   }
 }
 
@@ -762,6 +819,7 @@ iframe {
     padding-left: 10vw;
     padding-right: 10vw;
   }
+
   html.landing {
     .wrapper {
       display: flex;
@@ -776,7 +834,7 @@ iframe {
       top:10vh;
       max-width: 80vh;
       z-index: -1;
-    } 
+    }
     .landing {
       min-height: 49vh;
     }
@@ -784,18 +842,9 @@ iframe {
 }
 
 
-@media only screen and (max-width: 1600px) {
-  .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 750px 500px;
-  }
-}
-
 @media only screen and (max-width: 1300px) {
   .lineup {
-    grid-template-areas: "left left";
-    grid-template-columns: 600px 400px;
-    grid-column-gap:15px;
+    max-width: 640px;
   }
   .event {
     li {
@@ -805,6 +854,11 @@ iframe {
       }
     }
   }
+
+  #artist-content {
+    width:400px;
+  }
+
   html.landing {
     img.reflections {
       position:absolute;
@@ -812,7 +866,7 @@ iframe {
       top:10vh;
       max-width: 80vh;
       z-index: -1;
-    } 
+    }
     }
 }
 
@@ -822,13 +876,6 @@ iframe {
     margin: 0;
     min-height: 100%;
     overflow-x: hidden
-  }
-  
-  .desktop {
-    display: none;
-  }
-  .mobile {
-    display: block;
   }
 
 
@@ -853,7 +900,7 @@ iframe {
       top:25vh;
       max-width: 80vw;
       z-index: -1;
-    } 
+    }
     .poster {
       width:90vw;
     }
@@ -878,7 +925,7 @@ html.landing {
          font-size: 26px;
         }
   }
-  
+
 
   main {
     #right-column {
@@ -893,25 +940,30 @@ html.landing {
   .past,
   .schedule,
   .info {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
     grid-column-gap: 0px;
   }
-  .about, .tickets, .info {
+  .about, .tickets, .info, .past {
+    backdrop-filter: blur(10px);
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to bottom, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+    mask-composite: intersect;
     display: block;
     min-height: 53vh;
     text-align: justify;
     max-width: 67ch;
-    } 
-  .lineup {
-    grid-template-areas: "left";
-    grid-template-columns: 1fr;
-    #right-column {
-      display:none;
     }
+  .lineup {
+    grid-template-areas: "center";
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:0px;
+    max-width: 100%;
   }
  /* .schedule {
     text-size-adjust: none;
@@ -943,12 +995,16 @@ html.landing {
       display: inline;
     }
   }
-  .about, .tickets, .info {
-    text-align: left;
+
+
+  #artist-detail {
+    width:100%;
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+    padding-left: 10px;
+    padding-right:10px;
+    margin-left:-10px;
   }
-  .artist-link {
-    pointer-events: none;
-  }
+
   .event li {
     cursor: default;
     margin-bottom: 20px;
@@ -1030,7 +1086,7 @@ html.landing {
         letter-spacing: -1px;
       }
     }
-  
+
     h2 {
       font-size:30px;
       font-weight: normal;
@@ -1039,7 +1095,7 @@ html.landing {
       padding-bottom:0;
       padding-top:0;
     }
-  
+
     h3 {
       font-size:18px;
       font-weight: normal;
@@ -1071,7 +1127,7 @@ html.landing {
           letter-spacing: -1px;
         }
       }
-    
+
       h2 {
         font-size:26px;
         font-weight: normal;
@@ -1080,7 +1136,7 @@ html.landing {
         padding-bottom:0;
         padding-top:0;
       }
-    
+
       h3 {
         font-size:15.5px;
         font-weight: normal;

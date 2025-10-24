@@ -2,27 +2,11 @@
 title: Lineup
 layout: default.liquid
 permalink: /lineup
-data:
-  classname: wide-left
 ---
 
 
 
-<div id="left-column">
-<ul class="temp-lineup">
-<li>The Shadow Ring <span>(UK)</span></li>
-<li>Polonius <span>(EG/FR)</span></li>
-<li>Kathryn Mohr <span>(US)</span></li>
-<li>G•Bop Orchestra <span>performs</span><br>The Scott Walker Songbook <span>(INT.)</span></li>
-<li>Finlay Shakespeare <span>(UK)</span></li>
-<li>KMRU <span>(KE)</span></li>
-<li>ALMA LAPILLI (STILL, Cardone, Barbaro) <span>(IT)</span></li>
-<li>Elvin Brandhi <span>(UK)</span></li>
-<li>Camille Helt Haarder <span>(DK)</span></li>
-<li>Ian Nagoski <span>(US)</span></li>
-<li class="more">+ more to be announced</li>
-</ul>
-<!--
+<div id="lineup-list">
 {% assign events = collections.posts.pages | map: "categories" | sort | uniq %}
 {% for event_name in events %}
   {% include "assign_event_data.liquid" %}
@@ -35,14 +19,16 @@ data:
       {% include "artist_li.liquid" %}
     {% endfor %}
     </ul>
-    
+
   </div>
 {% endfor %}
 </div>
-<div id="right-column">
+<div id="artist-detail" style="display: none;">
+  <div id="artist-detail-content">
+    <a id="back-to-lineup" class="back-button">← BACK</a>
+  </div>
 </div>
 {% include "artists_hidden.liquid" %}
 <script type="text/javascript">
-  addCopyClickHandler(".artist-link", "right-column");
+  addArtistDetailHandler(".artist-link");
 </script>
--->

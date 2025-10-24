@@ -28,5 +28,3 @@ permalink: /about
 <br><a href="mailto:booking@foeg.dk">booking@foeg.dk</a>
 <br><a href="mailto:press@foeg.dk">press@foeg.dk</a></p>
 <p>For any other inquiry: <a href="mailto:info@foeg.dk">info@foeg.dk</a></p>
-
-<h2>Partners</h2>

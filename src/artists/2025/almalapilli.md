@@ -1,5 +1,5 @@
 ---
-title: Alma Lapilli
+title: ALMA LAPILLI (STILL, Cardone, Barbero)
 layout: default.liquid
 is_draft: false
 categories:

@@ -452,16 +452,15 @@ main #right-column {
     cursor: pointer;
     z-index: 10;
     text-decoration: none;
-    &:hover {
-      opacity:0.6;
-      transition: 0.2s;
-    }
     &.bottom-back-button {
       position: relative;
       display: block;
-      margin-top: 20px;
       top: auto;
       left: auto;
+      &:hover {
+        opacity:0.6;
+        transition: 0.2s;
+      }
     }
   }
 
@@ -471,7 +470,10 @@ main #right-column {
     .artist-image-container {
       position: relative;
       margin-bottom: 20px;
-
+      &:hover {
+        opacity: 0.6;
+        transition: 0.2s;
+      }
       img {
         width: 100%;
         height: auto;

@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2025
 data:
-  img: /assets/img/elvinbrandhi.png
+  img: /assets/img/elvinbrandhi.jpg
   country: UK
 ---
 Elvin Brandhi is an improvising lyricist, producer and sound artist from Bridgend, Wales, who builds aberrant beats from field recordings, tape, vinyl, instrument and voice. 

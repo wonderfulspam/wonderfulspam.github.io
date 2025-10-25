@@ -5,6 +5,6 @@ is_draft: false
 categories:
   - 2025
 data:
-  img: /assets/img/almalapilli.png
+  img: /assets/img/almalapilli.jpg
   country: IT
 ---

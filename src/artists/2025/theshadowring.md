@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2025
 data:
-  img: /assets/img/theshadowring.png
+  img: /assets/img/theshadowring.jpg
   country: UK
 ---
 Throughout their legendary, decade-long run, the Shadow Ring were an enigmatic force on the international musical sub-underground. Before their disbandment in 2002, this shambolic rock outfit, formed by a group of rowdy teenagers in southeast England, left behind a mighty run of eight LPs, a handful of 7"s, and a spate of raucous live shows and cryptic zine appearances on both sides of the Atlantic, all which have bolstered their enduring word-of-mouth mystique.

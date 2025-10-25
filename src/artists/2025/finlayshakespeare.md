@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2025
 data:
-  img: /assets/img/finlayshakespeare.png
+  img: /assets/img/finlayshakespeare.jpg
   country: UK
 ---
 Crafting restless synth-pop from a background in DIY electronics and modular design, the London-based artist and modular synth head Finlay Shakespeare bridges the hooks of ’80s icons with the grit of experimental sound. His albums channel melodic intensity through analog circuitry, raw vocals, and dense rhythmic energy. Live, he blends charismatic performance with hands-on modular rig improvisation, landing somewhere between post-punk urgency and electronic futurism.

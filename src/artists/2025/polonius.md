@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2025
 data:
-  img: /assets/img/polonius.png
+  img: /assets/img/polonius.jpg
   country: EG/FR
 ---
 Polonius is the music project of Egyptian-French artist Seif Gaber, whose works span a decade of “science fiction archeomiragical time travel” explorations. Polonius’ grand vision encompasses a myriad of languages culled from kosmische travelings, exotica’s dreamlands, soundtrack psychedelia, spiritual jazz escape routes, and transmuted beat science to convey them into a sonic fiction where all these trails intertwine in a cosmological soundscape filled with wonder and speculation.

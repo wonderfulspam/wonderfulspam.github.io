@@ -480,20 +480,22 @@ main #right-column {
     cursor: pointer;
     z-index: 10;
     text-decoration: none; }
-    #artist-detail .back-button:hover {
-      opacity: 0.6;
-      transition: 0.2s; }
     #artist-detail .back-button.bottom-back-button {
       position: relative;
       display: block;
-      margin-top: 20px;
       top: auto;
       left: auto; }
+      #artist-detail .back-button.bottom-back-button:hover {
+        opacity: 0.6;
+        transition: 0.2s; }
   #artist-detail #artist-detail-content {
     position: relative; }
     #artist-detail #artist-detail-content .artist-image-container {
       position: relative;
       margin-bottom: 20px; }
+      #artist-detail #artist-detail-content .artist-image-container:hover {
+        opacity: 0.6;
+        transition: 0.2s; }
       #artist-detail #artist-detail-content .artist-image-container img {
         width: 100%;
         height: auto;

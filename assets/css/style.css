@@ -483,6 +483,12 @@ main #right-column {
     #artist-detail .back-button:hover {
       opacity: 0.6;
       transition: 0.2s; }
+    #artist-detail .back-button.bottom-back-button {
+      position: relative;
+      display: block;
+      margin-top: 20px;
+      top: auto;
+      left: auto; }
   #artist-detail #artist-detail-content {
     position: relative; }
     #artist-detail #artist-detail-content .artist-image-container {

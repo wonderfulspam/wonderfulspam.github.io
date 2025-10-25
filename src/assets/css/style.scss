@@ -456,6 +456,13 @@ main #right-column {
       opacity:0.6;
       transition: 0.2s;
     }
+    &.bottom-back-button {
+      position: relative;
+      display: block;
+      margin-top: 20px;
+      top: auto;
+      left: auto;
+    }
   }
 
   #artist-detail-content {

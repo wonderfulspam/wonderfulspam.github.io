@@ -15,8 +15,18 @@ addArtistDetailHandler = function(linkClassname) {
     let lineupList = document.getElementById('lineup-list');
     let artistDetail = document.getElementById('artist-detail');
     let artistDetailContent = document.getElementById('artist-detail-content');
-    let backButton = document.getElementById('back-to-lineup');
+    let topBackButton = document.getElementById('back-to-lineup');
     let scrollPosition = 0;
+
+    // Function to handle back navigation
+    function goBack() {
+        // Swap views back
+        artistDetail.style.display = 'none';
+        lineupList.style.display = 'block';
+
+        // Restore scroll position
+        window.scrollTo(0, scrollPosition);
+    }
 
     for(var i = 0; i < links.length; i++){
         links[i].addEventListener('click', function(event) {
@@ -29,10 +39,23 @@ addArtistDetailHandler = function(linkClassname) {
             let slug = this.dataset.slug;
             let targetHtml = document.getElementById(slug).innerHTML;
 
-            // Clear content but keep the back button, then append new content
+            // Clear content but keep the top back button, then append new content
             artistDetailContent.innerHTML = '';
-            artistDetailContent.appendChild(backButton);
+            artistDetailContent.appendChild(topBackButton);
             artistDetailContent.insertAdjacentHTML('beforeend', targetHtml);
+
+            // Add click handlers to all back buttons (using class)
+            let backButtons = document.querySelectorAll('.back-button');
+            backButtons.forEach(function(btn) {
+                btn.addEventListener('click', goBack);
+            });
+
+            // Add click handler to artist image
+            let artistImage = artistDetailContent.querySelector('.artist-image-container img');
+            if (artistImage) {
+                artistImage.style.cursor = 'pointer';
+                artistImage.addEventListener('click', goBack);
+            }
 
             // Swap views
             lineupList.style.display = 'none';
@@ -43,20 +66,13 @@ addArtistDetailHandler = function(linkClassname) {
         }, false);
     }
 
-    // Back button handler
-    backButton.addEventListener('click', function() {
-        // Swap views back
-        artistDetail.style.display = 'none';
-        lineupList.style.display = 'block';
-
-        // Restore scroll position
-        window.scrollTo(0, scrollPosition);
-    });
+    // Top back button handler (initial setup)
+    topBackButton.addEventListener('click', goBack);
 
     // Back on Escape key
     document.addEventListener('keydown', function(event) {
         if (event.key === 'Escape' && artistDetail.style.display === 'block') {
-            backButton.click();
+            goBack();
         }
     });
 }

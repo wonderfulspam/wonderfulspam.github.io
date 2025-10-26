@@ -4,7 +4,7 @@
   function setCookie(name, value, days) {
     const expires = new Date();
     expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
-    document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/;SameSite=Lax';
+    document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/;SameSite=Lax;Secure';
   }
 
   function getCookie(name) {
@@ -27,18 +27,20 @@
   }
 
   function deleteTrackingCookies() {
-    const trackingCookies = [];
     const config = window.trackingConfig || {};
+    const allCookies = document.cookie.split(';');
 
-    if (config.ga4_id) {
-      trackingCookies.push('_ga', '_gid', '_gat', '_gat_gtag_' + config.ga4_id.replace(/-/g, '_'));
-    }
+    allCookies.forEach(cookie => {
+      const cookieName = cookie.split('=')[0].trim();
 
-    if (config.meta_pixel_id) {
-      trackingCookies.push('_fbp', '_fbc');
-    }
+      const shouldDelete =
+        (config.ga4_id && (cookieName.startsWith('_ga') || cookieName.startsWith('_gid') || cookieName.startsWith('_gat'))) ||
+        (config.meta_pixel_id && (cookieName.startsWith('_fb')));
 
-    trackingCookies.forEach(cookie => deleteCookie(cookie));
+      if (shouldDelete) {
+        deleteCookie(cookieName);
+      }
+    });
   }
 
   function hideBanner() {
@@ -69,6 +71,7 @@
       const isHidden = details.style.display === 'none' || !details.style.display;
       details.style.display = isHidden ? 'block' : 'none';
       toggle.textContent = isHidden ? '▼ Cookie details' : '▶ Cookie details';
+      toggle.setAttribute('aria-expanded', isHidden ? 'true' : 'false');
     }
   }
 

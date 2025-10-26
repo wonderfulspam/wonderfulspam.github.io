@@ -4,7 +4,8 @@
   function setCookie(name, value, days) {
     const expires = new Date();
     expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
-    document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/;SameSite=Lax;Secure';
+    const secure = window.location.protocol === 'https:' ? ';Secure' : '';
+    document.cookie = name + '=' + value + ';expires=' + expires.toUTCString() + ';path=/;SameSite=Lax' + secure;
   }
 
   function getCookie(name) {
@@ -41,6 +42,18 @@
         deleteCookie(cookieName);
       }
     });
+
+    try {
+      if (config.ga4_id) {
+        Object.keys(localStorage).forEach(key => {
+          if (key.startsWith('_ga')) {
+            localStorage.removeItem(key);
+          }
+        });
+      }
+    } catch (e) {
+      // Storage access may be restricted
+    }
   }
 
   function hideBanner() {

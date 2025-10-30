@@ -7,7 +7,7 @@ permalink: /schedule
 <div id="schedule-list">
 {% for event_data in site.data.events %}
 
-  <h2>{{ event_data.name }}</h2>
+  <!--<h2>{{ event_data.name }}</h2>-->
   <div class="event-schedule">
     {% for day in event_data.days %}
       {% include "day_schedule.liquid" %}

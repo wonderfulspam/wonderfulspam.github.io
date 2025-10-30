@@ -4,6 +4,21 @@
     <div class="artist-image-container">
         <h2>{{ post.title }}{% if post.data.country %}<span class="country">({{ post.data.country }})</span>{% endif %}</h2>
         <img src="{{ post.data.img }}">
+        {% comment %} Add scheduled time overlay {% endcomment %}
+        {% for event in site.data.events %}
+          {% for day in event.days %}
+            {% for schedule_item in day.schedule %}
+              {% if schedule_item.artist == post.title %}
+                {% assign day_upper = day.name | upcase %}
+                {% assign text_color = "white" %}
+                {% if post.title == "Finlay Shakespeare" or post.title == "Heidemann / Mingot / Klint" %}
+                  {% assign text_color = "black" %}
+                {% endif %}
+                <span style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: {{ text_color }}; z-index: 10; text-align: right;">{{ day_upper }}<br>{{ schedule_item.time }}</span>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endfor %}
 </div>
 {% endif %}
 {{ post.content }}

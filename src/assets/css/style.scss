@@ -1144,3 +1144,34 @@ html.landing {
       }
     }
   }
+
+// Artist time overlays
+.artist-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.artist-time-overlay,
+.artist-time-overlay-detail {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-family: 'public';
+  color: white;
+  pointer-events: none;
+  text-align: right;
+
+  &.light-image {
+    color: black;
+  }
+}
+
+.artist-time-overlay {
+  font-size: 14px;
+  line-height: 12px;
+}
+
+.artist-time-overlay-detail {
+  font-size: 20px;
+  line-height: 16px;
+}

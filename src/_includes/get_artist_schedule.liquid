@@ -1,0 +1,23 @@
+{% comment %}
+This include finds the schedule day and time for the current artist (post.title).
+It searches through all events and days to find a matching artist name.
+Sets variables: artist_day (THU/FRI/SAT) and artist_time (HH:MM)
+{% endcomment %}
+{% assign artist_day = "" %}
+{% assign artist_time = "" %}
+{% for event in site.data.events %}
+  {% for day in event.days %}
+    {% for slot in day.schedule %}
+      {% if slot.artist == post.title %}
+        {% if day.name == "Thursday" %}
+          {% assign artist_day = "THU" %}
+        {% elsif day.name == "Friday" %}
+          {% assign artist_day = "FRI" %}
+        {% elsif day.name == "Saturday" %}
+          {% assign artist_day = "SAT" %}
+        {% endif %}
+        {% assign artist_time = slot.time %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}

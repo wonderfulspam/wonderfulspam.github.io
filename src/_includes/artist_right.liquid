@@ -3,7 +3,13 @@
     {% if post.data.img %}
     <div class="artist-image-container">
         <h2>{{ post.title }}{% if post.data.country %}<span class="country">({{ post.data.country }})</span>{% endif %}</h2>
-        <img src="{{ post.data.img }}">
+        <div class="artist-image-wrapper">
+            <img src="{{ post.data.img }}">
+            {% include "get_artist_schedule.liquid" %}
+            {% if artist_day != "" %}
+            <span class="artist-time-overlay-detail{% if post.title == 'Finlay Shakespeare' or post.title == 'Heidemann / Mingot / Klint' %} light-image{% endif %}">{{ artist_day }}<br>{{ artist_time }}</span>
+            {% endif %}
+        </div>
 </div>
 {% endif %}
 {{ post.content }}

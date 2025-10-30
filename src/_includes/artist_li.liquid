@@ -3,6 +3,19 @@
     <div>
       <span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span>
     </div>
-    <img src="{{ post.data.img }}">
+    <div class="artist-image-wrapper">
+      <img src="{{ post.data.img }}">
+      {% include "get_artist_schedule.liquid", artist_title: post.title %}
+      {% if artist_day != "" and artist_time != "" %}
+        {% assign light_images = "Finlay Shakespeare,Heidemann / Mingot / Klint" | split: "," %}
+        {% assign is_light = false %}
+        {% for light_artist in light_images %}
+          {% if post.title == light_artist %}
+            {% assign is_light = true %}
+          {% endif %}
+        {% endfor %}
+        <span class="artist-time-overlay{% if is_light %} light-image{% endif %}">{{ artist_day }}<br>{{ artist_time }}</span>
+      {% endif %}
+    </div>
   </a>
 </li>

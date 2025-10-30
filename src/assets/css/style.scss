@@ -731,6 +731,34 @@ ul.temp-lineup {
   display: flex;
 }
 
+.artist-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.artist-time-overlay,
+.artist-time-overlay-detail {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  line-height: 12px;
+  font-family: 'public';
+  color: white;
+  pointer-events: none;
+  &.light-image {
+    color: black;
+  }
+}
+
+.artist-time-overlay {
+  font-size: 14px;
+}
+
+.artist-time-overlay-detail {
+  font-size: 20px;
+  line-height: 16px;
+}
+
 .title {
   display: inline;
 }

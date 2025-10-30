@@ -1,0 +1,27 @@
+{% comment %}
+This include extracts the day and time for an artist from event data.
+Usage: {% include "get_artist_schedule.liquid" artist_title=post.title %}
+Returns: artist_day (THU/FRI/SAT) and artist_time (HH:MM)
+{% endcomment %}
+
+{% assign artist_day = "" %}
+{% assign artist_time = "" %}
+
+{% for event in site.data.events %}
+  {% for day in event.days %}
+    {% for schedule_item in day.schedule %}
+      {% if schedule_item.artist == artist_title %}
+        {% assign day_name = day.name %}
+        {% if day_name == "Thursday" %}
+          {% assign artist_day = "THU" %}
+        {% elsif day_name == "Friday" %}
+          {% assign artist_day = "FRI" %}
+        {% elsif day_name == "Saturday" %}
+          {% assign artist_day = "SAT" %}
+        {% endif %}
+        {% assign artist_time = schedule_item.time %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}

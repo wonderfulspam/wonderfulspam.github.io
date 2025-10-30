@@ -479,6 +479,9 @@ main #right-column {
         height: auto;
         display: block;
       }
+      .hkm-lineup {
+        display: none;
+      }
     }
 
     h2 {
@@ -719,6 +722,9 @@ ul.temp-lineup {
       height: 300px;
       width: auto;
     }
+  }
+  .hkm-bio {
+    display: none;
   }
 }
 

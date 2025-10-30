@@ -3,7 +3,7 @@
     {% if post.data.img %}
     <div class="artist-image-container">
         <h2>{{ post.title }}{% if post.data.country %}<span class="country">({{ post.data.country }})</span>{% endif %}</h2>
-        <img src="{{ post.data.img }}" alt="{{ post.title }}">
+        <img src="{{ post.data.img }}">
 </div>
 {% endif %}
 {{ post.content }}

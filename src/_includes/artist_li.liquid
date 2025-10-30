@@ -4,5 +4,29 @@
       <span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span>
     </div>
     <img src="{{ post.data.img }}">
+    {% comment %} Find and display scheduled time for this artist {% endcomment %}
+    {% for event in site.data.events %}
+      {% for day in event.days %}
+        {% for slot in day.schedule %}
+          {% if slot.artist == post.title %}
+            {% comment %} Determine day abbreviation {% endcomment %}
+            {% if day.name == "Thursday" %}
+              {% assign day_abbr = "THU" %}
+            {% elsif day.name == "Friday" %}
+              {% assign day_abbr = "FRI" %}
+            {% elsif day.name == "Saturday" %}
+              {% assign day_abbr = "SAT" %}
+            {% endif %}
+            {% comment %} Determine text color based on artist name {% endcomment %}
+            {% if post.title == "Finlay Shakespeare" or post.title == "Heidemann / Mingot / Klint" %}
+              {% assign text_color = "#000000" %}
+            {% else %}
+              {% assign text_color = "#ffffff" %}
+            {% endif %}
+            <span style="font-size: 14px; position: absolute; top: 5px; right: 5px; line-height: 12px; font-family: 'public'; color: {{ text_color }}; z-index: 10;">{{ day_abbr }}<br>{{ slot.time }}</span>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
   </a>
 </li>

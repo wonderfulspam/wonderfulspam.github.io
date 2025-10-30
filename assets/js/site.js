@@ -12,10 +12,10 @@ addCopyClickHandler = function(linkClassname, targetId) {
 
 addArtistDetailHandler = function(linkClassname) {
     let links = document.querySelectorAll(linkClassname);
-    let lineupList = document.getElementById('lineup-list');
+    let lineupList = document.getElementById('lineup-list') || document.getElementById('schedule-list');
     let artistDetail = document.getElementById('artist-detail');
     let artistDetailContent = document.getElementById('artist-detail-content');
-    let topBackButton = document.getElementById('back-to-lineup');
+    let topBackButton = document.getElementById('back-to-lineup') || document.getElementById('back-to-schedule');
     let scrollPosition = 0;
 
     // Function to handle back navigation

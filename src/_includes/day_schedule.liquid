@@ -11,9 +11,9 @@
     <!-- Otherwise render artist link -->
     {% else %}
     <td>
-      <!--<a class="artist-link" data-slug="{{ schedule_artist.slug }}">-->
+      <a class="artist-link" data-slug="{{ schedule_artist.slug }}">
         {{ schedule_artist.title }}{% if schedule_artist.data.country %}<span class="country">({{ schedule_artist.data.country }})</span>{% endif %}
-      <!--</a>-->
+      </a>
     </td>
     {% endif %}
   </tr>

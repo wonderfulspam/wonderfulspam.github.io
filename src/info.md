@@ -15,6 +15,7 @@ permalink: /info
 <h2>Lineup</h2>
 <div class="landinglineup">
   <ul class="temp-lineup">
+<li>ALMA LAPILLI (STILL, Cardone, Barbaro)<span>(IT)</span></li>
 <li>Camille Helt Haarder<span>(DK)</span></li>
 <li>Copenhagen Clarinet Choir & Anders Lauge Meldgaard<span>(INT)</span></li>
 <li>Demeters Döttrar<span>(SE/DK)</span></li>

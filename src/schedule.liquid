@@ -2,11 +2,9 @@
 title: Schedule
 layout: default.liquid
 permalink: /schedule
-data:
-  classname: wide-left
 ---
 
-<div id="left-column">
+<div id="schedule-list">
 {% for event_data in site.data.events %}
 
   <h2>{{ event_data.name }}</h2>
@@ -17,9 +15,12 @@ data:
   </div>
 {% endfor %}
 </div>
-<div id="right-column">
+<div id="artist-detail" style="display: none;">
+  <div id="artist-detail-content">
+    <a id="back-to-schedule" class="back-button">← BACK</a>
+  </div>
 </div>
 {% include "artists_hidden.liquid" %}
 <script type="text/javascript">
-  addCopyClickHandler(".artist-link", "right-column");
+  addArtistDetailHandler(".artist-link");
 </script>

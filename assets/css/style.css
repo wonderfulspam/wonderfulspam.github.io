@@ -500,6 +500,8 @@ main #right-column {
         width: 100%;
         height: auto;
         display: block; }
+      #artist-detail #artist-detail-content .artist-image-container .hkm-lineup {
+        display: none; }
     #artist-detail #artist-detail-content h2 {
       position: absolute;
       bottom: 10px;
@@ -678,6 +680,8 @@ ul.temp-lineup {
     .event li img {
       height: 300px;
       width: auto; }
+  .event .hkm-bio {
+    display: none; }
 
 .event li span {
   font-family: bogueslab;

@@ -877,6 +877,13 @@ iframe {
     overflow-x: hidden
   }
 
+  // Adjust scheduled time overlay font size for mobile
+  .artist-time-overlay,
+  .artist-time-overlay-large {
+    font-size: 18px !important;
+    line-height: 16px !important;
+  }
+
 
 
   html,

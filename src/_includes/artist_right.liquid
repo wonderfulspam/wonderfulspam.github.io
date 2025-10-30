@@ -1,9 +1,24 @@
-<div id="{{ post.slug }}">
+<div id="{{ post.slug }}" data-artist-name="{{ post.title }}">
     <div class="artistcontent">
     {% if post.data.img %}
     <div class="artist-image-container">
         <h2>{{ post.title }}{% if post.data.country %}<span class="country">({{ post.data.country }})</span>{% endif %}</h2>
         <img src="{{ post.data.img }}">
+        {% for event in site.data.events %}
+          {% for day in event.days %}
+            {% for slot in day.schedule %}
+              {% if slot.artist == post.title %}
+                {% assign day_name = day.day | upcase %}
+                {% if post.title == "Finlay Shakespeare" or post.title == "Heidemann / Mingot / Klint" %}
+                  {% assign text_color = "black" %}
+                {% else %}
+                  {% assign text_color = "white" %}
+                {% endif %}
+                <span style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: {{ text_color }}; z-index: 10; text-align: right;">{{ day_name }}<br>{{ slot.time }}</span>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endfor %}
 </div>
 {% endif %}
 {{ post.content }}

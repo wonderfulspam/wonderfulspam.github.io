@@ -50,6 +50,22 @@ addArtistDetailHandler = function(linkClassname) {
                 btn.addEventListener('click', goBack);
             });
 
+            // Apply black color to back buttons for artists with light-colored images
+            let artistName = artistDetailContent.querySelector('[data-artist-name]')?.getAttribute('data-artist-name');
+            if (artistName === "Finlay Shakespeare" || artistName === "Heidemann / Mingot / Klint") {
+                backButtons.forEach(function(btn) {
+                    btn.style.color = 'black';
+                });
+                // Also apply to the top back button
+                topBackButton.style.color = 'black';
+            } else {
+                // Reset to white for other artists
+                backButtons.forEach(function(btn) {
+                    btn.style.color = 'white';
+                });
+                topBackButton.style.color = 'white';
+            }
+
             // Add click handler to artist image
             let artistImage = artistDetailContent.querySelector('.artist-image-container img');
             if (artistImage) {

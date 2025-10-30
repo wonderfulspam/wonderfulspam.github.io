@@ -1,0 +1,24 @@
+{% comment %}
+This include searches through site.data.events to find the artist's scheduled day and time.
+It sets two variables in the parent scope:
+- artist_day: The day abbreviation (THU/FRI/SAT)
+- artist_time: The time (HH:MM)
+{% endcomment %}
+{% assign artist_day = "" %}
+{% assign artist_time = "" %}
+{% for event in site.data.events %}
+  {% for day in event.days %}
+    {% for slot in day.schedule %}
+      {% if slot.artist == post.title %}
+        {% assign artist_time = slot.time %}
+        {% if day.name == "Thursday" %}
+          {% assign artist_day = "THU" %}
+        {% elsif day.name == "Friday" %}
+          {% assign artist_day = "FRI" %}
+        {% elsif day.name == "Saturday" %}
+          {% assign artist_day = "SAT" %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}

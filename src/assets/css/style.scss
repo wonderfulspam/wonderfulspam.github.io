@@ -479,9 +479,6 @@ main #right-column {
         height: auto;
         display: block;
       }
-      .hkm-lineup {
-        display: none;
-      }
     }
 
     h2 {
@@ -541,6 +538,7 @@ main #right-column {
       font-size: 12px;
       position: relative;
       bottom: 8px;
+      line-height: 0px;
     }
     .dj {
       margin-top: 5px;
@@ -722,9 +720,6 @@ ul.temp-lineup {
       height: 300px;
       width: auto;
     }
-  }
-  .hkm-bio {
-    display: none;
   }
 }
 

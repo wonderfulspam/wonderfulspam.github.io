@@ -1,5 +1,5 @@
 ---
-title: <span class="hkm-lineup">Heidemann/<br>Klint/Mingot</span><span class="hkm-bio">Heidemann/Klint/Mingot</span>
+title: Heidemann / Mingot / Klint
 layout: default.liquid
 is_draft: false
 categories:

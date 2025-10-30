@@ -13,7 +13,7 @@
         - time: "20:45"
           artist: KMRU
         - time: "22:00"
-          artist: Heidemann/Mingot/Klint
+          artist: <span class="hkm-lineup">Heidemann/<br>Klint/Mingot</span><span class="hkm-bio">Heidemann/Klint/Mingot</span>
     - name: Friday
       date: "2024-21-11"
       doors: "18:00"
@@ -46,7 +46,7 @@
         - time: "19:30"
           artist: The Shadow Ring
         - time: "20:45"
-          artist: G·Bop Orchestra performs The Scott Walker Songbook 
+          artist: G•Bop Orchestra performs The Scott Walker Songbook
         - time: "22:15"
           artist: Polonius
         - time: "23:15"

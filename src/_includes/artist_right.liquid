@@ -1,5 +1,5 @@
 <div id="{{ post.slug }}">
-    <div class="artistcontent">
+    <div class="artistcontent" data-artist-name="{{ post.title }}">
     {% if post.data.img %}
     <div class="artist-image-container">
         <h2>{{ post.title }}{% if post.data.country %}<span class="country">({{ post.data.country }})</span>{% endif %}</h2>

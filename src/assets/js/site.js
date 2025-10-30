@@ -44,10 +44,21 @@ addArtistDetailHandler = function(linkClassname) {
             artistDetailContent.appendChild(topBackButton);
             artistDetailContent.insertAdjacentHTML('beforeend', targetHtml);
 
+            // Check if this artist needs black text (light-colored images)
+            let artistContent = artistDetailContent.querySelector('.artistcontent');
+            let artistName = artistContent ? artistContent.dataset.artistName : '';
+            let needsBlackText = (artistName === 'Finlay Shakespeare' || artistName === 'Heidemann / Mingot / Klint');
+
             // Add click handlers to all back buttons (using class)
             let backButtons = document.querySelectorAll('.back-button');
             backButtons.forEach(function(btn) {
                 btn.addEventListener('click', goBack);
+                // Apply black color for artists with light images
+                if (needsBlackText) {
+                    btn.style.color = 'black';
+                } else {
+                    btn.style.color = 'white';
+                }
             });
 
             // Add click handler to artist image

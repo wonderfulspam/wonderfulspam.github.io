@@ -1,8 +1,29 @@
 <li class="desktop">
   <a class="artist-link" data-slug="{{ post.slug }}">
+    {% comment %}Find the scheduled time for this artist{% endcomment %}
+    {% for day in event_data.days %}
+      {% for schedule_entry in day.schedule %}
+        {% if schedule_entry.artist == post.title %}
+          {% assign day_abbr = "" %}
+          {% if day.name == "Thursday" %}{% assign day_abbr = "THU" %}{% endif %}
+          {% if day.name == "Friday" %}{% assign day_abbr = "FRI" %}{% endif %}
+          {% if day.name == "Saturday" %}{% assign day_abbr = "SAT" %}{% endif %}
+          {% assign artist_time = schedule_entry.time %}
+          {% assign artist_day = day_abbr %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
     <div>
       <span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span>
     </div>
     <img src="{{ post.data.img }}">
+    {% if artist_day %}
+      {% comment %}Add dark text for light-colored images{% endcomment %}
+      {% if post.title == "Finlay Shakespeare" or post.title == "Heidemann / Mingot / Klint" %}
+        <span class="artist-time dark-text">{{ artist_day }}<br>{{ artist_time }}</span>
+      {% else %}
+        <span class="artist-time">{{ artist_day }}<br>{{ artist_time }}</span>
+      {% endif %}
+    {% endif %}
   </a>
 </li>

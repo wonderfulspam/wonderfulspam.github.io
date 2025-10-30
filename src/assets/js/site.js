@@ -44,10 +44,21 @@ addArtistDetailHandler = function(linkClassname) {
             artistDetailContent.appendChild(topBackButton);
             artistDetailContent.insertAdjacentHTML('beforeend', targetHtml);
 
-            // Add click handlers to all back buttons (using class)
+            // Get artist name from the inserted content
+            let artistContainer = artistDetailContent.querySelector('[data-artist-name]');
+            let artistName = artistContainer ? artistContainer.dataset.artistName : '';
+
+            // Determine back button color based on artist name
+            let buttonColor = 'white';
+            if (artistName === 'Finlay Shakespeare' || artistName === 'Heidemann / Mingot / Klint') {
+                buttonColor = 'black';
+            }
+
+            // Add click handlers to all back buttons (using class) and set their color
             let backButtons = document.querySelectorAll('.back-button');
             backButtons.forEach(function(btn) {
                 btn.addEventListener('click', goBack);
+                btn.style.color = buttonColor;
             });
 
             // Add click handler to artist image

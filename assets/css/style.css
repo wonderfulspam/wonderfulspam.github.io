@@ -500,8 +500,6 @@ main #right-column {
         width: 100%;
         height: auto;
         display: block; }
-      #artist-detail #artist-detail-content .artist-image-container .hkm-lineup {
-        display: none; }
     #artist-detail #artist-detail-content h2 {
       position: absolute;
       bottom: 10px;
@@ -548,7 +546,8 @@ main #right-column {
     .schedule table .country {
       font-size: 12px;
       position: relative;
-      bottom: 8px; }
+      bottom: 8px;
+      line-height: 0px; }
     .schedule table .dj {
       margin-top: 5px; }
       .schedule table .dj td:first-of-type {
@@ -680,8 +679,6 @@ ul.temp-lineup {
     .event li img {
       height: 300px;
       width: auto; }
-  .event .hkm-bio {
-    display: none; }
 
 .event li span {
   font-family: bogueslab;

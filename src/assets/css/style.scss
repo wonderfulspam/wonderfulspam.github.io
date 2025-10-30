@@ -717,6 +717,8 @@ ul.temp-lineup {
   color: white;
   font-size: 26px;
   line-height:21px;
+  z-index: 5;
+  position: relative;
   &.country {
     font-size:12px;
     position:relative;
@@ -724,6 +726,35 @@ ul.temp-lineup {
   }
 }
 
+.artist-time {
+  font-size: 14px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  line-height: 12px;
+  font-family: 'public';
+  color: white;
+  z-index: 10;
+
+  &.dark-text {
+    color: black;
+  }
+}
+
+.artist-time-large {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  line-height: 18px;
+  font-family: 'public';
+  color: white;
+  z-index: 10;
+
+  &.dark-text {
+    color: black;
+  }
+}
 
 .event li a {
   text-decoration: none;

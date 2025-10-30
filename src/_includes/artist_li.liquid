@@ -4,5 +4,26 @@
       <span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span>
     </div>
     <img src="{{ post.data.img }}">
+    {% for event in site.data.events %}
+      {% for day in event.days %}
+        {% for schedule_item in day.schedule %}
+          {% if schedule_item.artist == post.title %}
+            {% assign day_abbr = "" %}
+            {% if day.name == "Thursday" %}
+              {% assign day_abbr = "THU" %}
+            {% elsif day.name == "Friday" %}
+              {% assign day_abbr = "FRI" %}
+            {% elsif day.name == "Saturday" %}
+              {% assign day_abbr = "SAT" %}
+            {% endif %}
+            {% assign text_color = "white" %}
+            {% if post.title == "Finlay Shakespeare" or post.title == "Heidemann / Mingot / Klint" %}
+              {% assign text_color = "black" %}
+            {% endif %}
+            <span style="font-size: 14px; position: absolute; top: 5px; right: 5px; line-height: 12px; font-family: 'public'; color: {{ text_color }}; z-index: 10;">{{ day_abbr }}<br>{{ schedule_item.time }}</span>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
   </a>
 </li>

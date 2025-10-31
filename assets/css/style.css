@@ -531,7 +531,8 @@ main #right-column {
   .schedule #left-column h2 {
     display: none; }
   .schedule h3 {
-    font-size: 26px;
+    font-size: 32px;
+    font-family: bogueslab;
     margin-bottom: 12px; }
   .schedule table {
     font-family: bogueslab;

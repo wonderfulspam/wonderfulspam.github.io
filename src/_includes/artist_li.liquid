@@ -4,5 +4,19 @@
       <span>{{ post.title }}{% if post.data.country %}</span><span class="country">({{ post.data.country }}){% endif %}</span>
     </div>
     <img src="{{ post.data.img }}">
+    {% for event in site.data.events %}
+      {% for day in event.days %}
+        {% for slot in day.schedule %}
+          {% if slot.artist == post.title %}
+            {% assign day_name = day.name | upcase %}
+            {% assign text_color = "white" %}
+            {% if post.title == "Finlay Shakespeare" or post.title == "Heidemann / Mingot / Klint" %}
+              {% assign text_color = "black" %}
+            {% endif %}
+            <span class="artist-time-overlay" style="font-size: 14px; position: absolute; top: 5px; right: 5px; line-height: 12px; font-family: 'public'; color: {{ text_color }}; z-index: 10; text-align: right;">{{ day_name }}<br>{{ slot.time }}</span>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endfor %}
   </a>
 </li>

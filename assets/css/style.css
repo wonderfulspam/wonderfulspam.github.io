@@ -533,7 +533,8 @@ main #right-column {
   .schedule h3 {
     font-size: 32px;
     font-family: bogueslab;
-    margin-bottom: 12px; }
+    margin-bottom: 12px;
+    text-transform: uppercase; }
   .schedule table {
     font-family: bogueslab;
     font-size: 26px;

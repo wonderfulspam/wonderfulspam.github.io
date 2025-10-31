@@ -783,6 +783,10 @@ iframe {
     margin: 0;
     min-height: 100%;
     overflow-x: hidden; }
+  .artist-time-overlay,
+  .artist-time-overlay-large {
+    font-size: 18px !important;
+    line-height: 16px !important; }
   html,
   html.landing {
     border: none; }

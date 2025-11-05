@@ -31,7 +31,7 @@ permalink: /tickets
 </table>
 </a>
 
-<p>Day and partout tickets available <a href="https://billetto.dk/en/e/1018559">here</a>.</p>
+<p>Day and partout tickets available at <a href="https://billetto.dk/en/e/1018559">Billetto</a>.</p>
 
 <p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket.</p>
 

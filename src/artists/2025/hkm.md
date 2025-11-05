@@ -6,7 +6,7 @@ categories:
   - 2025
 data:
   img: /assets/img/hkm.jpg
-  country: DK
+  country: DK/US
 ---
 Musicians Villads Klint, Frederik Heidemann, and Victoria Mingot shape an ever-shifting language composed of soft noise, patience, proximity and distance. Flute, zither, acoustic guitar, and keyboard meet for textural flights and landings. Sculpted by improvisational ponderance and long-form listening, the trio seeks to create dwelling spaces that both embrace and challenge immediacy. All the while building soft, raw sonic structures that meld both the electronic and acoustic.
 

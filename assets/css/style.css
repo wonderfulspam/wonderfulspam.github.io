@@ -630,7 +630,8 @@ ul {
 
 ul.temp-lineup {
   display: block;
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px; }
   ul.temp-lineup li {
     padding-bottom: 18px;
     font-size: 24px;

@@ -14,7 +14,7 @@ permalink: /tickets
   </tr>
   <tr>
     <td>One day ticket Thursday</td>
-    <td>200 kr</td>
+    <td>190 kr</td>
   </tr>
   <tr>
     <td>One day ticket Friday</td>
@@ -26,7 +26,7 @@ permalink: /tickets
   </tr>
     <tr>
     <td>Community Dinner Saturday</td>
-    <td>100 kr</td>
+    <td>130 kr</td>
   </tr>
 </table>
 </a>
@@ -35,6 +35,6 @@ permalink: /tickets
 
 <p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket.</p>
 
-<p>The 2024 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from the 3rd to the 5th of October.</p> 
+<p>The 2025 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from the 20 -22 of November.</p> 
 
 <img src="/assets/img/landing2.jpg">

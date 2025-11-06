@@ -484,6 +484,7 @@ main #right-column {
 
 #artist-detail {
   margin: auto;
+  margin-left: -60px;
   width: 600px;
   backdrop-filter: blur(10px);
   mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);

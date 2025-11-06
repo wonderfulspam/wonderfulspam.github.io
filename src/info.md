@@ -1,18 +1,16 @@
 ---
 title: Info
-layout: default.liquid
+layout: info.liquid
 permalink: /info
 ---
 
 <div class="landingheader">
 <img src="/assets/img/landing-text.png">
 
-<img src="/assets/img/landing3.jpg">
-
 
 <p>Festival of Endless Gratitude spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms. In 2024, Festival of Endless Gratitude once again assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music.</p>
 
-<h2>Lineup</h2>
+<h2 class="info-lineup">LINEUP</h2>
 <div class="landinglineup">
   <ul class="temp-lineup">
 <li>ALMA LAPILLI (STILL, Cardone, Barbaro)<span>(IT)</span></li>

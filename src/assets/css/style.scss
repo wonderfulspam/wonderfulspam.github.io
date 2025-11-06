@@ -318,6 +318,8 @@ main #right-column {
 }
 
 .info {
+  margin-top:-6px;
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
   .more {
     margin-top:5px;
     font-size:16px;
@@ -335,6 +337,10 @@ main #right-column {
       text-decoration: underline;
     }
   }
+  .info-lineup {
+    font-family: bogueslab;
+    text-align: center;
+  }
 }
 
 .landingtickets {
@@ -346,7 +352,29 @@ main #right-column {
   }
 }
 
+.tickets-header {
+  position: relative;
+  h2 {
+    position: absolute;
+    margin-bottom:0;
+    bottom:10px;
+    left:10vw;
+    font-family: bogueslab;
+    font-size:46px;
+    font-weight: normal;
+    color:white;
+  }
+  img {
+  width:100%;
+  }
+  .mobile {
+    display: none;
+  }
+}
+
 .tickets {
+  margin-top:-6px;
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
   .more {
     margin-top:5px;
     font-size:16px;
@@ -365,7 +393,6 @@ main #right-column {
 .landinglineup {
   font-family: bogueslab;
   font-size: 26px;
-  margin-bottom:15px;
     span {
       font-size: 15px;
       position: relative;
@@ -929,6 +956,22 @@ html.landing {
   }
 }
 
+.tickets-header {
+  h2 {
+    margin-bottom:0px;
+    bottom:0px;
+    left:20px;
+    font-size:36px;
+  }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+
   .contact {
         div {
          font-size: 26px;
@@ -1005,6 +1048,10 @@ html.landing {
     }
   }
 
+  .tickets, .info {
+    margin-top:0px;
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+  }
 
   #artist-detail {
     width:100%;

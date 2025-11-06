@@ -1,10 +1,8 @@
 ---
 title: Tickets
-layout: default.liquid
+layout: tickets.liquid
 permalink: /tickets
 ---
-
-<h2>Tickets</h2>
 
 <a href="https://billetto.dk/en/e/1018559">
 <table class="landingtickets">

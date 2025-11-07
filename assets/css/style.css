@@ -390,7 +390,8 @@ main #right-column {
     text-decoration: underline; }
   .info .info-lineup {
     font-family: bogueslab;
-    text-align: center; }
+    text-align: center;
+    font-size: 36px; }
 
 .landingtickets {
   font-size: 22px;

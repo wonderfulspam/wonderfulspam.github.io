@@ -7,6 +7,7 @@ categories:
 data:
   img: /assets/img/almalapilli.jpg
   country: IT
+  show_on_lineup: true
 ---
 ALMA LAPILLI is the new live project from STILL (Simone Trabucchi), born in collaboration with multi-instrumentalist Raffaele Cardone and Vesuvian tammorra singer Romeo Barbaro. Conceived in Napoli, within the storied walls of Auditorium Novecento, it grows like a living archive of sounds, rooted in place, yet reaching beyond it.
 

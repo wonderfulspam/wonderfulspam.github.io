@@ -7,6 +7,7 @@ categories:
 data:
   img: /assets/img/normdogs.jpg
   country: DK/ES
+  show_on_lineup: true
 ---
 Copenhagen’s Norm Dogs have landed squarely in a wild round of catchy, puzzling rock, where hooks tumble over relentless drums, delirious guitars and a striking sincerity. Norm Dogs embody a spirited DIY approach, energizing the Copenhagen scene with vibrant live shows and a bold, self-titled debut EP that marks them as one of the city’s most compelling new bands.
 

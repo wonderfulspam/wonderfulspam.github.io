@@ -7,6 +7,7 @@ categories:
 data:
   img: /assets/img/josie.jpg
   country: DK
+  show_on_lineup: true
 ---
 Josie is Copenhagen’s newest head-in-the-clouds, in-the-gut heartbreak jangle pop group, formed in 2023, consisting of four friends Charlotte, Dawn, Martin and Anton. Their sound has solid roots in indie pop but updates the classic formula ever so slightly with a current punk sensibility, making sure to keep a bit of fuck you in the mix.
 

@@ -1,19 +1,19 @@
 ---
 title: Community Dinner
 layout: default.liquid
-is_draft: true
+is_draft: false
 categories:
   - 2025
 data:
   img: /assets/img/torup.jpg
   country:
-  show_on_lineup: true 
+  show_on_lineup: false 
 ---
 Once again the festival invites you to a community dinner to join fellow festival-goers, musicians, artists, volunteers and organizers to share a nice vegetarian meal together. 
 
 Torup Spisehus will prepare the food for the community dinner, which will be held on Saturday November 22. 
 
-Food tickets are available now for 130 kr. While you can purchase food on the day, it’s best to pre-order to secure your spot. Get your ticket at Billetto (you can buy your food ticket after selecting your access ticket).
+Food tickets are available now for 130 kr. While you can purchase food on the day, it’s best to pre-order to secure your spot. Get your ticket at <a href="https://billetto.dk/en/e/1018559">Billetto</a> (you can buy your food ticket after selecting your access ticket).
 
 <h3 class="content">Torup Spisehus</h3>
 Torup Spisehus is located in Dyssekilde ecovillage in the small town of Torup. The restaurant focuses on organic and locally sourced produce, working closely with nearby producers and suppliers on surrounding farms, the local mill and the brewery.

@@ -16,6 +16,11 @@
     <header>
       {% include "header.liquid" %}
     </header>
+    <div class="tickets-header">
+    <h2>About</h2>
+    <img class="desktop" src="/assets/img/about-header.jpg">
+    <img class="mobile" src="/assets/img/about-header-mobile.jpg">
+    </div>
     <main id="content" class="{{ page.slug }}{% if page.data.classname %} {{ page.data.classname }}{% endif %}">
        {{ page.content }}
     </main>

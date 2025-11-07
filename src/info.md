@@ -10,7 +10,7 @@ permalink: /info
 <p>The 2025 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from 20-22 November.</p>
 
 
-<h2 class="info-lineup">LINEUP</h2>
+<h2 class="info-lineup">Lineup</h2>
 <div class="landinglineup">
   <ul class="temp-lineup">
 <li>ALMA LAPILLI (STILL, Cardone, Barbaro)<span>(IT)</span></li>

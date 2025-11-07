@@ -135,7 +135,6 @@ footer {
   position:relative;
   h2 {
     text-align: center;
-    font-weight: normal;
     font-size: 26px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -232,7 +231,7 @@ main {
   grid-column-gap: 30px;
   margin-left: 60px;
   margin-right: 60px;
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
@@ -240,12 +239,14 @@ main {
 
 .about, .tickets, .info {
   backdrop-filter: blur(10px);
-  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to bottom, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
   mask-composite: intersect;
   display: block;
   min-height:53vh;
   text-align: justify;
   max-width:67ch;
+  margin-top:-6px;
+  padding-top:30px;
   margin-left:auto;
   margin-right:auto;
   img {
@@ -310,9 +311,8 @@ main #right-column {
   grid-area: right;
 }
 
-.info, .tickets, .about {
+.info, .tickets, .about, .past {
   h2 {
-    font-weight: normal;
     font-size:26px;
   }
 }
@@ -354,7 +354,7 @@ main #right-column {
 
 .tickets-header {
   position: relative;
-  margin-top:10px;
+  margin-top:15px;
   h2 {
     position: absolute;
     margin-bottom:0;
@@ -362,7 +362,7 @@ main #right-column {
     left:10vw;
     font-family: bogueslab;
     font-size:46px;
-    font-weight: normal;
+    font-weight: bold;
     color:white;
   }
   img {
@@ -374,7 +374,6 @@ main #right-column {
 }
 
 .tickets {
-  margin-top:-6px;
   mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
   .more {
     margin-top:5px;
@@ -514,11 +513,11 @@ main #right-column {
       bottom: 10px;
       text-align: center;
       font-family: bogueslab;
+      font-weight: bold;
       color: white;
       font-size: 26px;
       line-height: 26px;
       text-transform: none;
-      font-weight: normal;
       padding-bottom: 0px;
       margin-bottom: 0px;
       width: 100%;
@@ -553,6 +552,7 @@ main #right-column {
   h3 {
     font-size: 32px;
     font-family: bogueslab;
+    font-weight: bold;
     margin-bottom:12px;
     text-transform: uppercase;
   }
@@ -564,6 +564,7 @@ main #right-column {
   table {
     font-family: bogueslab;
     font-size: 26px;
+    font-weight: bold;
     line-height:24px;
     padding-bottom: 30px;
     margin-bottom: 15px;
@@ -619,6 +620,7 @@ main #right-column {
 .past {
   padding-left: 17vw;
   padding-right: 17vw;
+  padding-top:10px;
   grid-template-areas: "left left";
   text-align: justify;
   td:nth-child(odd) {
@@ -629,7 +631,7 @@ main #right-column {
     vertical-align: top;
   }
   h2 {
-    font-family: 'bogueslab';
+    padding-bottom:0px;
   }
 }
 
@@ -695,6 +697,7 @@ ul.temp-lineup {
     font-size: 24px;
     line-height: 21px;
     font-family: 'bogueslab';
+    font-weight: bold;
     span {
       bottom:8px;
       font-size: 14px;
@@ -731,6 +734,7 @@ ul.temp-lineup {
         bottom:10px;
         width:100%;
         text-align: center;
+        font-weight: bold;
       }
     }
     &.mobile {
@@ -1014,12 +1018,13 @@ html.landing {
   }
   .about, .tickets, .info, .past {
     backdrop-filter: blur(10px);
-    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to bottom, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
     mask-composite: intersect;
     display: block;
     min-height: 53vh;
     text-align: justify;
     max-width: 67ch;
+    margin-top:1px;
     }
   .lineup {
     grid-template-areas: "center";
@@ -1029,6 +1034,13 @@ html.landing {
     margin-top:0px;
     max-width: 100%;
   }
+
+  .schedule {
+    #artist-detail {
+      margin-left:-10px;
+    }
+  }
+
  /* .schedule {
     text-size-adjust: none;
     h2 {
@@ -1086,8 +1098,9 @@ html.landing {
     }
   }
   .past {
+    padding-top:20px;
     h2 {
-      margin-bottom:0;
+      margin-bottom:15px;
     }
     table {
       div {

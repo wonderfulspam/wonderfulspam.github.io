@@ -2,6 +2,7 @@
 title: G•Bop Orchestra performs The Scott Walker Songbook
 layout: default.liquid
 is_draft: false
+show_on_lineup: true
 categories:
   - 2025
 data:

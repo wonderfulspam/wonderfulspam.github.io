@@ -2,6 +2,7 @@
 title: Kunstner
 layout: default.liquid
 is_draft: false
+show_on_lineup: true
 categories:
   - 2021_01_Koncertkirken
 data:

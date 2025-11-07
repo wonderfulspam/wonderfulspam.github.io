@@ -60,6 +60,7 @@
 a.menu-item-link, a.menu-item-link:visited {
   font-size: 26px;
   font-family: 'bogueslab';
+  font-weight: bold;
   text-decoration: none;
   color: #602723; }
 

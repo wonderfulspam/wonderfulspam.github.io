@@ -66,6 +66,7 @@
 a.menu-item-link, a.menu-item-link:visited {
   font-size: 26px;
   font-family: 'bogueslab';
+  font-weight: bold;
   text-decoration: none;
   color: #602723; }
 
@@ -217,7 +218,6 @@ footer {
   position: relative; }
   footer h2 {
     text-align: center;
-    font-weight: normal;
     font-size: 26px;
     margin-bottom: 0px;
     padding-bottom: 0px; }
@@ -304,19 +304,21 @@ main {
   grid-column-gap: 30px;
   margin-left: 60px;
   margin-right: 60px;
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px; }
 
 .about, .tickets, .info {
   backdrop-filter: blur(10px);
-  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to bottom, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
+  mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
   mask-composite: intersect;
   display: block;
   min-height: 53vh;
   text-align: justify;
   max-width: 67ch;
+  margin-top: -6px;
+  padding-top: 30px;
   margin-left: auto;
   margin-right: auto; }
   .about img, .tickets img, .info img {
@@ -369,8 +371,7 @@ main #left-column {
 main #right-column {
   grid-area: right; }
 
-.info h2, .tickets h2, .about h2 {
-  font-weight: normal;
+.info h2, .tickets h2, .about h2, .past h2 {
   font-size: 26px; }
 
 .info {
@@ -400,7 +401,7 @@ main #right-column {
 
 .tickets-header {
   position: relative;
-  margin-top: 10px; }
+  margin-top: 15px; }
   .tickets-header h2 {
     position: absolute;
     margin-bottom: 0;
@@ -408,7 +409,7 @@ main #right-column {
     left: 10vw;
     font-family: bogueslab;
     font-size: 46px;
-    font-weight: normal;
+    font-weight: bold;
     color: white; }
   .tickets-header img {
     width: 100%; }
@@ -416,7 +417,6 @@ main #right-column {
     display: none; }
 
 .tickets {
-  margin-top: -6px;
   mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px); }
   .tickets .more {
     margin-top: 5px;
@@ -525,11 +525,11 @@ main #right-column {
       bottom: 10px;
       text-align: center;
       font-family: bogueslab;
+      font-weight: bold;
       color: white;
       font-size: 26px;
       line-height: 26px;
       text-transform: none;
-      font-weight: normal;
       padding-bottom: 0px;
       margin-bottom: 0px;
       width: 100%; }
@@ -555,6 +555,7 @@ main #right-column {
   .schedule h3 {
     font-size: 32px;
     font-family: bogueslab;
+    font-weight: bold;
     margin-bottom: 12px;
     text-transform: uppercase; }
   .schedule h3.content {
@@ -564,6 +565,7 @@ main #right-column {
   .schedule table {
     font-family: bogueslab;
     font-size: 26px;
+    font-weight: bold;
     line-height: 24px;
     padding-bottom: 30px;
     margin-bottom: 15px;
@@ -600,6 +602,7 @@ main #right-column {
 .past {
   padding-left: 17vw;
   padding-right: 17vw;
+  padding-top: 10px;
   grid-template-areas: "left left";
   text-align: justify; }
   .past td:nth-child(odd) {
@@ -608,7 +611,7 @@ main #right-column {
     padding-bottom: 30px;
     vertical-align: top; }
   .past h2 {
-    font-family: 'bogueslab'; }
+    padding-bottom: 0px; }
 
 .art h2 {
   color: #602723;
@@ -662,7 +665,8 @@ ul.temp-lineup {
     padding-bottom: 18px;
     font-size: 24px;
     line-height: 21px;
-    font-family: 'bogueslab'; }
+    font-family: 'bogueslab';
+    font-weight: bold; }
     ul.temp-lineup li span {
       bottom: 8px;
       font-size: 14px;
@@ -690,7 +694,8 @@ ul.temp-lineup {
         position: absolute;
         bottom: 10px;
         width: 100%;
-        text-align: center; }
+        text-align: center;
+        font-weight: bold; }
     .event li.mobile div {
       position: relative; }
       .event li.mobile div div {
@@ -878,12 +883,13 @@ iframe {
     grid-column-gap: 0px; }
   .about, .tickets, .info, .past {
     backdrop-filter: blur(10px);
-    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to bottom, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+    mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
     mask-composite: intersect;
     display: block;
     min-height: 53vh;
     text-align: justify;
-    max-width: 67ch; }
+    max-width: 67ch;
+    margin-top: 1px; }
   .lineup {
     grid-template-areas: "center";
     grid-template-columns: 1fr;
@@ -891,6 +897,8 @@ iframe {
     margin-right: 10px;
     margin-top: 0px;
     max-width: 100%; }
+  .schedule #artist-detail {
+    margin-left: -10px; }
   /* .schedule {
     text-size-adjust: none;
     h2 {
@@ -933,20 +941,22 @@ iframe {
     .event li img {
       width: 100%;
       height: auto; }
-  .past h2 {
-    margin-bottom: 0; }
-  .past table div {
-    margin-bottom: 30px; }
-  .past td {
-    display: block;
-    padding-bottom: 60px; }
-    .past td:last-of-type {
-      padding-bottom: 0; }
-    .past td img {
-      width: 100%; }
-    .past td:nth-child(odd) {
-      padding-bottom: 0px;
-      padding-right: 0px; }
+  .past {
+    padding-top: 20px; }
+    .past h2 {
+      margin-bottom: 15px; }
+    .past table div {
+      margin-bottom: 30px; }
+    .past td {
+      display: block;
+      padding-bottom: 60px; }
+      .past td:last-of-type {
+        padding-bottom: 0; }
+      .past td img {
+        width: 100%; }
+      .past td:nth-child(odd) {
+        padding-bottom: 0px;
+        padding-right: 0px; }
   .art h2 {
     padding-bottom: 5px; }
   .partnerlogoer {

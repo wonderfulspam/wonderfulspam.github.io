@@ -6,7 +6,8 @@ categories:
   - 2025
 data:
   img: /assets/img/torup.jpg
-  country: 
+  country:
+  show_on_lineup: true 
 ---
 Once again the festival invites you to a community dinner to join fellow festival-goers, musicians, artists, volunteers and organizers to share a nice vegetarian meal together. 
 

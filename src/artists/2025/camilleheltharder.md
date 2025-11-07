@@ -7,6 +7,7 @@ categories:
 data:
   img: /assets/img/camilleheltharder.jpg
   country: DK
+  show_on_lineup: true
 ---
 Camille Helt Haarder is an experimental musician with a varied output, ranging from improvisational pipe organ and piano music, to musique concréte and drone synthesizer-based music. This year at Festival of Endless Gratitude, she will perform a piece for modular synthesizer and tape manipulated classical music, borrowing inspiration from musique concréte and early drone music. Haarder is a trained church organist and has released music on Forlaget Kornmod and Early Music labels.
 

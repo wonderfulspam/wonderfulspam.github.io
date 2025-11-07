@@ -7,6 +7,7 @@ categories:
 data:
   img: /assets/img/ccca.jpg
   country: INT
+  show_on_lineup: true
 ---
 Copenhagen Clarinet Choir & Anders Lauge Meldgaard is an innovative collaboration bringing together the celebrated Danish composer and multi-instrumentalist Anders Lauge Meldgaard with the adventurous ensemble Copenhagen Clarinet Choir. Their collaborative album, Jeux d’eau, released in November 2015 was conceived as a tribute to water and a reflection on the fragile bond between humans and the natural world. Through fluid forms and open notations, the work draws listeners into a space where music mirrors the dynamics of nature which demands real-time awareness, collective sensitivity, and respect for balance.
 

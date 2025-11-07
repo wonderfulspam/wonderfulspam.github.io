@@ -7,6 +7,7 @@ categories:
 data:
   img: /assets/img/kmru.jpg
   country: KE
+  show_on_lineup: true
 ---
 Joseph Kamaru, aka KMRU, is a Nairobi-born, Berlin-based sound artist whose work is grounded on the discourse of field recording, noise, and sound art. His work posits expanded listening cultures of sonic thoughts and sound practices, a proposition to consider and reflect on auditory cultures beyond the norms. An awareness of surroundings through creative compositions, installations, and performances.
 

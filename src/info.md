@@ -31,7 +31,7 @@ permalink: /info
 <li>Vio Lino & Tettix Hexer<span>(IT/DK)</span></li>
 </ul>
 </div>
-<p>Learn more about this year's lineup and have a <a href="/lineup">here.</a></p>
+<p>Learn more about this year's lineup and have a listen <a href="/lineup">here.</a></p>
 
 <h2>Tickets</h2>
 

@@ -360,7 +360,8 @@ main #right-column {
     position: absolute;
     margin-bottom:0;
     bottom:10px;
-    left:10vw;
+    left:50%;
+    margin-left:-306px;
     font-family: bogueslab;
     font-size:46px;
     font-weight: bold;
@@ -977,6 +978,7 @@ html.landing {
     margin-bottom:0px;
     bottom:0px;
     left:20px;
+    margin-left:0;
     font-size:36px;
   }
   .mobile {

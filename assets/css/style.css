@@ -399,7 +399,8 @@ main #right-column {
     text-align: right; }
 
 .tickets-header {
-  position: relative; }
+  position: relative;
+  margin-top: 10px; }
   .tickets-header h2 {
     position: absolute;
     margin-bottom: 0;
@@ -484,7 +485,6 @@ main #right-column {
 
 #artist-detail {
   margin: auto;
-  margin-left: -60px;
   width: 600px;
   backdrop-filter: blur(10px);
   mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
@@ -546,6 +546,8 @@ main #right-column {
   margin-right: auto;
   padding-left: 60px;
   min-height: 58vh; }
+  .schedule #artist-detail {
+    margin-left: -60px; }
   .schedule #right-column {
     display: none; }
   .schedule #left-column h2 {
@@ -555,6 +557,10 @@ main #right-column {
     font-family: bogueslab;
     margin-bottom: 12px;
     text-transform: uppercase; }
+  .schedule h3.content {
+    text-transform: none;
+    font-size: 26px;
+    margin-bottom: 8px; }
   .schedule table {
     font-family: bogueslab;
     font-size: 26px;

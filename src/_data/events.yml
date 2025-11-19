@@ -6,7 +6,7 @@
     - name: Thursday
       date: "2024-20-11"
       doors: "18:00"
-      dj: 
+      dj: Jonas Torstensen
       schedule:
         - time: "19:30"
           artist: Demeters Döttrar
@@ -17,7 +17,7 @@
     - name: Friday
       date: "2024-21-11"
       doors: "18:00"
-      dj: 
+      dj: CMBEKS+
       schedule:
         - time: "19:15"
           artist: Copenhagen Clarinet Choir & Anders Lauge Meldgaard
@@ -35,7 +35,7 @@
     - name: Saturday
       date: "2024-22-11"
       doors: "15:30"
-      dj: 
+      dj: Chris Shields and Et levende menneske
       schedule:
         - time: "16:00"
           artist: Ian Nagoski

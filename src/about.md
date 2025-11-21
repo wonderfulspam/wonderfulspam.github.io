@@ -4,7 +4,7 @@ layout: about.liquid
 permalink: /about
 ---
 
-<p>Festival of Endless Gratitude 2025 takes place at Kildevæld Kuturcenter November 20-22. Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instagram</a> for updates.
+<p>Festival of Endless Gratitude 2025 takes place at Kildevæld Kuturcenter - Bellmansgade 3C, 2100 København - November 20-22. Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instagram</a> for updates.
 </p>
 
 <p>Every year, Festival of Endless Gratitude (FOEG) assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music. The festival spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms.</p>

@@ -258,6 +258,12 @@ main {
   }
 }
 
+.newsletter {
+  display: block;
+  min-height: 53vh;
+  padding-top:30px;
+}
+
 
 .contact {
   height:58vh;
@@ -1012,7 +1018,8 @@ html.landing {
   .lineup,
   .past,
   .schedule,
-  .info {
+  .info,
+  .newsletter {
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 10px;

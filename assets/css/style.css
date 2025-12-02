@@ -327,6 +327,11 @@ main {
   .about h2, .tickets h2, .info h2 {
     margin-bottom: 0; }
 
+.newsletter {
+  display: block;
+  min-height: 53vh;
+  padding-top: 30px; }
+
 .contact {
   height: 58vh;
   display: flex;
@@ -877,7 +882,8 @@ iframe {
   .lineup,
   .past,
   .schedule,
-  .info {
+  .info,
+  .newsletter {
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 10px;

@@ -25,8 +25,9 @@
 @import "header";
 
 html {
-  background: url(/assets/img/bg25.jpg) no-repeat top center fixed;
+  background: url() no-repeat top center fixed;
   background-size: cover;
+  background-color:$bg;
   -webkit-tap-highlight-color: transparent;
   min-height:100vh;
   font-size:16px;

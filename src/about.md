@@ -4,7 +4,7 @@ layout: about.liquid
 permalink: /about
 ---
 
-<p>Festival of Endless Gratitude 2025 takes place at Kildevæld Kuturcenter - Bellmansgade 3C, 2100 København - November 20-22. Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instagram</a> for updates.
+<p>Festival of Endless Gratitude 2026 takes place at Kildevæld Kuturcenter - Bellmansgade 3C, 2100 København - September 24-26. Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instagram</a> for updates.
 </p>
 
 <p>Every year, Festival of Endless Gratitude (FOEG) assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music. The festival spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms.</p>
@@ -15,8 +15,8 @@ permalink: /about
 
 <p>FOEG originated in Brattleboro, Vermont in 2007, but the festival found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. Festival of Endless Gratitude functions as a non-profit organization.</p>
 
-<h2>Join the FOEG-team</h2>
-<p>We’re looking for volunteers to join us for Festival of Endless Gratitude 2025. If you’d like to help out before, during, or after the event, we’d love to have you on board. It's a great opportunity to contribute and be a part of a great community while enjoying the festival. Learn more and sign up at <a href="https://portal.kulturensfrivillige.dk/event/festival-of-endless-gratitude-2025-iuj1">Kulturens Frivillige.</a></p>
+<!-- <h2>Join the FOEG-team</h2>
+<p>We’re looking for volunteers to join us for Festival of Endless Gratitude 2025. If you’d like to help out before, during, or after the event, we’d love to have you on board. It's a great opportunity to contribute and be a part of a great community while enjoying the festival. Learn more and sign up at <a href="https://portal.kulturensfrivillige.dk/event/festival-of-endless-gratitude-2025-iuj1">Kulturens Frivillige.</a></p>-->
 
 <h2>Safer Space Policy</h2>
 <p>FOEG is a space with no room for discrimination, violence, harassment, or any other aggressive behavior. Respecting each other is one of the key ingredients for having a good time at the festival. If anyone is crossing your boundaries in any way or you witness someone else's boundaries being crossed, please tell the staff at the door or in the bar and we will help you. The festival staff has the right to remove any festival visitors, who do not follow the principles.</p>

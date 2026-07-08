@@ -37,7 +37,7 @@
     content: "";
     margin-top: -5px; }
   #header span {
-    color: #602723; }
+    color: #4e770d; }
   #header a {
     text-decoration: none; }
   #header.info {
@@ -47,7 +47,7 @@
   width: 250px; }
 
 #header h1 {
-  color: #602723;
+  color: #4e770d;
   margin-top: 0px;
   margin-bottom: 0;
   font-size: 45px;
@@ -68,7 +68,7 @@ a.menu-item-link, a.menu-item-link:visited {
   font-family: 'bogueslab';
   font-weight: bold;
   text-decoration: none;
-  color: #602723; }
+  color: #4e770d; }
 
 .menu-item-link:not(:first-child) {
   margin-left: 30px; }
@@ -90,7 +90,7 @@ a.menu-item-link, a.menu-item-link:visited {
   .burger-menu span {
     width: 30px;
     height: 3px;
-    background-color: #602723;
+    background-color: #4e770d;
     transition: all 0.3s ease;
     transform-origin: center; }
   .burger-menu.active span:nth-child(1) {
@@ -137,8 +137,9 @@ a.menu-item-link, a.menu-item-link:visited {
     padding-right: 10px; } }
 
 html {
-  background: url(/assets/img/bg25.jpg) no-repeat top center fixed;
+  background: url() no-repeat top center fixed;
   background-size: cover;
+  background-color: #f4fcc3;
   -webkit-tap-highlight-color: transparent;
   min-height: 100vh;
   font-size: 16px; }
@@ -198,14 +199,14 @@ html.landing {
     left: 60px;
     bottom: 25vh; }
     html.landing #datoboks h2 {
-      color: #602723;
+      color: #4e770d;
       font-size: 28px;
       font-weight: normal;
       margin-bottom: 5px;
       text-transform: none; }
     html.landing #datoboks h3 {
       font-size: 16px;
-      color: #602723;
+      color: #4e770d;
       line-height: 19px; }
   html.landing img.reflections {
     position: absolute;
@@ -228,7 +229,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   font-family: public;
-  color: #602723; }
+  color: #4e770d; }
 
 /*
 .video-wrapper {
@@ -598,7 +599,7 @@ main #right-column {
         width: 20px;
         /*  text-align: right; */ }
       .schedule table td:nth-of-type(2) a {
-        color: #602723; }
+        color: #4e770d; }
     .schedule table .more {
       font-family: public;
       font-size: 18px;
@@ -622,7 +623,7 @@ main #right-column {
     padding-bottom: 0px; }
 
 .art h2 {
-  color: #602723;
+  color: #4e770d;
   font-size: 23px; }
 
 .no-display {
@@ -630,7 +631,7 @@ main #right-column {
 
 a,
 a:visited {
-  color: #602723;
+  color: #4e770d;
   cursor: pointer;
   text-decoration: underline; }
 
@@ -751,7 +752,7 @@ iframe {
 
 .artistcontent h2 {
   font-family: bogueslab;
-  color: #602723;
+  color: #4e770d;
   font-size: 26px;
   line-height: 26px;
   text-transform: none;
@@ -837,7 +838,7 @@ iframe {
       text-transform: none; }
       html #datoboks h2,
       html.landing #datoboks h2 {
-        color: #602723;
+        color: #4e770d;
         font-weight: normal; }
       html #datoboks h3,
       html.landing #datoboks h3 {

@@ -137,7 +137,7 @@ a.menu-item-link, a.menu-item-link:visited {
     padding-right: 10px; } }
 
 html {
-  background: url() no-repeat top center fixed;
+  background: url(/assets/img/bg-26.jpg) no-repeat top center fixed;
   background-size: cover;
   background-color: #f4fcc3;
   -webkit-tap-highlight-color: transparent;
@@ -145,7 +145,7 @@ html {
   font-size: 16px; }
 
 html.landing {
-  background: url(/assets/img/landing-text.png) no-repeat bottom center fixed, url(/assets/img/bg25.jpg) no-repeat top center fixed;
+  background: url(/assets/img/landing-text-26.png) no-repeat bottom center fixed, url(/assets/img/bg-26.jpg) no-repeat top center fixed;
   background-size: 80vw, cover;
   height: 100vh; }
   html.landing .wrapper {
@@ -821,6 +821,8 @@ iframe {
     z-index: -1; } }
 
 @media only screen and (max-width: 1000px) {
+  html {
+    background: url(/assets/img/bg-26-mobile.jpg) no-repeat top center fixed; }
   html, body {
     margin: 0;
     min-height: 100%;
@@ -854,7 +856,7 @@ iframe {
     html.landing .poster {
       width: 90vw; }
   html.landing {
-    background: url(/assets/img/landing-text-mobile.png) no-repeat center fixed, url(/assets/img/bg25.jpg) no-repeat top center fixed;
+    background: url(/assets/img/landing-text-26-mobile.png) no-repeat center fixed, url(/assets/img/bg-26-mobile.jpg) no-repeat top center fixed;
     background-size: 100vw, cover; }
   .landingheader h1 {
     font-size: 60px; }

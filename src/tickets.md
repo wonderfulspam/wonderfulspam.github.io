@@ -1,12 +1,14 @@
 ---
 title: Tickets
-layout: default.liquid
+layout: tickets.liquid
 permalink: /tickets
 ---
 
-<h2>Tickets</h2>
+<p>Festival of Endless Gratitude 2025 takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from 20-22 of November.</p>
 
-<a href="https://billetto.dk/en/e/1018559">
+<p>The partout ticket gives you access to all three days of the festival. You choose how much you want to pay for the ticket: 400, 500 or 600 kr. You can also buy one day tickets for each day.</p>
+
+<a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">
 <table class="landingtickets">
   <tr>
     <td>Partout</td>
@@ -14,7 +16,7 @@ permalink: /tickets
   </tr>
   <tr>
     <td>One day ticket Thursday</td>
-    <td>200 kr</td>
+    <td>190 kr</td>
   </tr>
   <tr>
     <td>One day ticket Friday</td>
@@ -26,15 +28,14 @@ permalink: /tickets
   </tr>
     <tr>
     <td>Community Dinner Saturday</td>
-    <td>100 kr</td>
+    <td>130 kr</td>
   </tr>
 </table>
 </a>
 
-<p>Day and partout tickets available <a href="https://billetto.dk/en/e/1018559">here</a>.</p>
 
-<p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket.</p>
+<p>You can buy food at the venue each day. Saturday night we host a community dinner, and it’s a good idea to buy a ticket for this in advance if you want to join. Just add the food ticket after selecting your partout or one day ticket. Torup Spisehus will provide food all days at the festival.</p>
 
-<p>The 2024 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from the 3rd to the 5th of October.</p> 
+<p>All tickets are available at <a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">Billetto</a>.</p>
 
-<img src="/assets/img/landing2.jpg">
+<p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket.</p> 

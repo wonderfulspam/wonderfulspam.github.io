@@ -19,3 +19,7 @@
   link: "https://oesterbrolokaludvalg.kk.dk/"
   img: "/assets/img/osterbro.png"
   width: 70px
+- name: RUSK
+  link: "https://www.rusk-kbh.dk/"
+  img: "/assets/img/rusk-black.png"
+  width: 70px

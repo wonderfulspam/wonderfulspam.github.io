@@ -12,10 +12,10 @@ addCopyClickHandler = function(linkClassname, targetId) {
 
 addArtistDetailHandler = function(linkClassname) {
     let links = document.querySelectorAll(linkClassname);
-    let lineupList = document.getElementById('lineup-list');
+    let lineupList = document.getElementById('lineup-list') || document.getElementById('schedule-list');
     let artistDetail = document.getElementById('artist-detail');
     let artistDetailContent = document.getElementById('artist-detail-content');
-    let topBackButton = document.getElementById('back-to-lineup');
+    let topBackButton = document.getElementById('back-to-lineup') || document.getElementById('back-to-schedule');
     let scrollPosition = 0;
 
     // Function to handle back navigation
@@ -44,10 +44,22 @@ addArtistDetailHandler = function(linkClassname) {
             artistDetailContent.appendChild(topBackButton);
             artistDetailContent.insertAdjacentHTML('beforeend', targetHtml);
 
+            // Detect artist name and apply black color to back buttons if needed
+            let artistContainer = document.getElementById(slug);
+            let artistName = artistContainer ? artistContainer.getAttribute('data-artist-name') : '';
+            let lightImageArtists = ['Finlay Shakespeare', 'Heidemann / Mingot / Klint'];
+            let isLightImage = lightImageArtists.includes(artistName);
+
             // Add click handlers to all back buttons (using class)
             let backButtons = document.querySelectorAll('.back-button');
             backButtons.forEach(function(btn) {
                 btn.addEventListener('click', goBack);
+                // Apply black color for artists with light images
+                if (isLightImage) {
+                    btn.style.color = 'black';
+                } else {
+                    btn.style.color = 'white';
+                }
             });
 
             // Add click handler to artist image

@@ -16,7 +16,9 @@ permalink: /lineup
     {% endcomment %}
     <ul>
     {% for post in artists %}
-      {% include "artist_li.liquid" %}
+      {% if post.data.show_on_lineup != false %}
+        {% include "artist_li.liquid" %}
+      {% endif %}
     {% endfor %}
     </ul>
 

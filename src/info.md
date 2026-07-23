@@ -60,6 +60,9 @@ permalink: /info
 </table>
 </a>
 
+<p>The 2025 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from the 20th to the 22nd of November.</p>
+
+<p>Day and partout tickets available <a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">here</a>.</p>
 <p>All tickets are available at <a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">Billetto</a>.</p>
 
 <h2>Exploration and community</h2>

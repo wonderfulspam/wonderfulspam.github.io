@@ -1,0 +1,39 @@
+{% assign has_tracking = false %}
+{% if site.data.tracking.ga4_id or site.data.tracking.meta_pixel_id %}
+  {% assign has_tracking = true %}
+{% endif %}
+
+{% if has_tracking %}
+<div id="cookie-consent-banner" role="dialog" aria-labelledby="cookie-consent-title" aria-modal="false" style="display: none;">
+  <div class="cookie-banner-content">
+    <p id="cookie-consent-title">We use cookies to analyze site traffic and improve your experience.</p>
+
+    <div class="cookie-banner-actions">
+      <button id="cookie-accept" class="cookie-btn cookie-accept">Accept</button>
+      <button id="cookie-reject" class="cookie-btn cookie-reject">Reject</button>
+    </div>
+
+    <button id="cookie-details-toggle" class="cookie-details-toggle" aria-expanded="false" aria-controls="cookie-details">▶ Cookie details</button>
+
+    <div id="cookie-details" style="display: none;">
+      <h3>Cookies we use</h3>
+      <ul>
+        {% if site.data.tracking.ga4_id %}
+        <li><strong>Google Analytics (_ga, _gid):</strong> Tracks page views and user interactions to understand site usage patterns. Expires after 2 years (_ga) and 24 hours (_gid).</li>
+        {% endif %}
+        {% if site.data.tracking.meta_pixel_id %}
+        <li><strong>Meta Pixel (_fbp):</strong> Tracks page views for advertising analytics. Expires after 90 days.</li>
+        {% endif %}
+      </ul>
+      <p>If you reject cookies, we will not track your visit. A preference cookie will be set to remember your choice for one year.</p>
+    </div>
+  </div>
+</div>
+<script>
+window.trackingConfig = {
+  ga4_id: {% if site.data.tracking.ga4_id %}'{{ site.data.tracking.ga4_id }}'{% else %}null{% endif %},
+  meta_pixel_id: {% if site.data.tracking.meta_pixel_id %}'{{ site.data.tracking.meta_pixel_id }}'{% else %}null{% endif %}
+};
+</script>
+<script type="text/javascript" src="/assets/js/cookie-consent.js"></script>
+{% endif %}

@@ -3,15 +3,6 @@
   <head>
     {% include "head.liquid" %}
   </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SV5HBTHWPS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SV5HBTHWPS');
-</script>
   <body>
     <header>
       {% include "header.liquid" %}
@@ -29,5 +20,6 @@
               {% include "partners.liquid" %}
       <div id="social"><a href="https://www.instagram.com/endlessgratitude/"><img src="/assets/img/instagram.png" alt="Instagram"></a><a href="https://www.facebook.com/endlessgratitude"><img src="/assets/img/facebook.png" alt="Facebook"></a></div>
     </footer>
+    {% include "cookie_banner.liquid" %}
   </body>
 </html>

@@ -1050,7 +1050,7 @@ iframe {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(215, 202, 249, 0.98);
+  background-color: #f4fcc3;
   backdrop-filter: blur(10px);
   color: white;
   padding: 20px;

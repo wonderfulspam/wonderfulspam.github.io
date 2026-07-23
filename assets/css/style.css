@@ -1044,3 +1044,13 @@ iframe {
     font-weight: normal;
     margin-top: -6px;
     margin-bottom: 0; } }
+
+#mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+  font-family: public !important; }
+
+#mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4 {
+  font-family: bogueslab !important;
+  font-weight: bold !important; }
+
+#mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+  font-family: public !important; }

@@ -1045,6 +1045,90 @@ iframe {
     margin-top: -6px;
     margin-bottom: 0; } }
 
+#cookie-consent-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(215, 202, 249, 0.98);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 20px;
+  z-index: 1000;
+  font-family: public;
+  font-size: 14px;
+  line-height: 1.5;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  #cookie-consent-banner .cookie-banner-content {
+    max-width: 1200px;
+    margin: 0 auto; }
+    #cookie-consent-banner .cookie-banner-content p {
+      margin: 0 0 15px 0; }
+  #cookie-consent-banner .cookie-banner-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px; }
+  #cookie-consent-banner .cookie-btn {
+    font-family: public;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.2s; }
+    #cookie-consent-banner .cookie-btn:hover {
+      opacity: 0.8; }
+    #cookie-consent-banner .cookie-btn.cookie-accept {
+      background-color: white;
+      color: #1c2645; }
+    #cookie-consent-banner .cookie-btn.cookie-reject {
+      background-color: transparent;
+      color: white;
+      border: 2px solid white; }
+  #cookie-consent-banner .cookie-details-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-family: public;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 0;
+    text-decoration: underline;
+    margin-bottom: 10px; }
+    #cookie-consent-banner .cookie-details-toggle:hover {
+      opacity: 0.8; }
+  #cookie-consent-banner #cookie-details {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); }
+    #cookie-consent-banner #cookie-details h3 {
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-weight: bold; }
+    #cookie-consent-banner #cookie-details ul {
+      display: block;
+      padding-left: 20px;
+      list-style-type: disc; }
+      #cookie-consent-banner #cookie-details ul li {
+        margin-bottom: 10px;
+        display: list-item; }
+        #cookie-consent-banner #cookie-details ul li strong {
+          font-weight: bold; }
+    #cookie-consent-banner #cookie-details p {
+      margin-top: 10px;
+      margin-bottom: 0; }
+
+@media only screen and (max-width: 1000px) {
+  #cookie-consent-banner {
+    padding: 15px;
+    font-size: 13px; }
+    #cookie-consent-banner .cookie-btn {
+      font-size: 13px;
+      padding: 8px 16px; }
+    #cookie-consent-banner .cookie-details-toggle {
+      font-size: 13px; } }
+
 #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
   font-family: public !important; }
 

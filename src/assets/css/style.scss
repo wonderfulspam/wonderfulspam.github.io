@@ -1255,7 +1255,7 @@ html.landing {
   right: 0;
   background-color:#f4fcc3;
   backdrop-filter: blur(10px);
-  color: white;
+  color: $text;
   padding: 20px;
   z-index: 1000;
   font-family: public;
@@ -1292,14 +1292,14 @@ html.landing {
     }
 
     &.cookie-accept {
-      background-color: white;
-      color: #1c2645;
+      background-color: $text;
+      color: white;
     }
 
     &.cookie-reject {
       background-color: transparent;
-      color: white;
-      border: 2px solid white;
+      color: $text;
+      border: 2px solid $text;
     }
   }
 

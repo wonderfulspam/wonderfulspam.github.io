@@ -47,6 +47,12 @@ html.landing {
     height: 60vh;
   }
 
+  #newsletter-popup {
+    position:fixed;
+    right:20px;
+    top:20px;
+  }
+
   h1 {
     font-size:80px;
     letter-spacing: -1px;
@@ -1379,5 +1385,22 @@ html.landing {
   }
   
   #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+    font-family: public !important;
+  }
+
+  .ml-content-heading {
+    font-family:bogeuslab !important;
+    font-weight: bold;
+  }
+
+  p.ml-p {
+    font-family: public !important;
+  }
+
+  .ml-site .ml-input {
+    font-family: public !important;
+  }
+
+  .ml-btn-primary {
     font-family: public !important;
   }

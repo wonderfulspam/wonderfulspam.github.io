@@ -827,6 +827,7 @@ iframe {
 @media only screen and (max-width: 1000px) {
   html {
     background: url(/assets/img/bg-26-mobile.jpg) no-repeat top center fixed;
+    background-size: 100vdh, cover;
     background-size: 100vw, cover; }
   html, body {
     margin: 0;
@@ -1133,6 +1134,9 @@ iframe {
       padding: 8px 16px; }
     #cookie-consent-banner .cookie-details-toggle {
       font-size: 13px; } }
+
+.ml-embedded {
+  margin-bottom: 18px; }
 
 #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
   font-family: public !important; }

@@ -830,7 +830,8 @@ iframe {
     background-size: 100vw, cover; }
   html, body {
     margin: 0;
-    min-height: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
     overflow-x: hidden; }
   .artist-time-overlay,
   .artist-time-overlay-large {

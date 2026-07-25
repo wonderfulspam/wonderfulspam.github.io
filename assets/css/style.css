@@ -827,7 +827,6 @@ iframe {
 @media only screen and (max-width: 1000px) {
   html {
     background: url(/assets/img/bg-26-mobile.jpg) no-repeat top center fixed;
-    background-size: 100vdh, cover;
     background-size: 100vw, cover; }
   html, body {
     margin: 0;

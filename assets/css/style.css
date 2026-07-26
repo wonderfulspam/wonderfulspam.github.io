@@ -47,7 +47,7 @@
   width: 250px; }
 
 #header h1 {
-  color: #4e770d;
+  color: #fff81e;
   margin-top: 0px;
   margin-bottom: 0;
   font-size: 45px;
@@ -210,7 +210,7 @@ html.landing {
       text-transform: none; }
     html.landing #datoboks h3 {
       font-size: 16px;
-      color: #4e770d;
+      color: #fff81e;
       line-height: 19px; }
   html.landing img.reflections {
     position: absolute;
@@ -424,7 +424,7 @@ main #right-column {
     font-family: bogueslab;
     font-size: 46px;
     font-weight: bold;
-    color: white; }
+    color: #fff81e; }
   .tickets-header img {
     width: 100%; }
   .tickets-header .mobile {
@@ -443,12 +443,17 @@ main #right-column {
 
 .landinglineup {
   font-family: bogueslab;
-  font-size: 26px; }
+  font-size: 36px;
+  margin-top: 20px; }
   .landinglineup span {
     font-size: 15px;
     position: relative;
     bottom: 8px;
     letter-spacing: -0.5px; }
+  .landinglineup .more {
+    font-size: 16px;
+    font-family: public;
+    font-weight: normal; }
 
 .landingheader {
   margin-bottom: 15px; }
@@ -676,12 +681,12 @@ ul.temp-lineup {
   margin-top: 10px; }
   ul.temp-lineup li {
     padding-bottom: 18px;
-    font-size: 24px;
-    line-height: 21px;
+    font-size: 30px;
+    line-height: 25px;
     font-family: 'bogueslab';
     font-weight: bold; }
     ul.temp-lineup li span {
-      bottom: 8px;
+      bottom: 10px;
       font-size: 14px;
       position: relative; }
 
@@ -875,7 +880,8 @@ iframe {
     bottom: 0px;
     left: 20px;
     margin-left: 0;
-    font-size: 36px; }
+    font-size: 36px;
+    color: #fff81e; }
   .tickets-header .mobile {
     display: block; }
   .tickets-header .desktop {

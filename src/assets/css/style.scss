@@ -382,7 +382,7 @@ main #right-column {
     font-family: bogueslab;
     font-size:46px;
     font-weight: bold;
-    color:white;
+    color:$title-color-alt;
   }
   img {
   width:100%;
@@ -411,12 +411,18 @@ main #right-column {
 
 .landinglineup {
   font-family: bogueslab;
-  font-size: 26px;
+  font-size: 36px;
+  margin-top:20px;
     span {
       font-size: 15px;
       position: relative;
       bottom: 8px;
       letter-spacing: -0.5px;
+    }
+    .more {
+      font-size: 16px;
+      font-family: public;
+      font-weight: normal;
     }
 }
 
@@ -712,12 +718,12 @@ ul.temp-lineup {
   margin-top:10px;
   li {
     padding-bottom:18px;
-    font-size: 24px;
-    line-height: 21px;
+    font-size: 30px;
+    line-height: 25px;
     font-family: 'bogueslab';
     font-weight: bold;
     span {
-      bottom:8px;
+      bottom:10px;
       font-size: 14px;
       position: relative;
     }
@@ -1005,6 +1011,7 @@ html.landing {
     left:20px;
     margin-left:0;
     font-size:36px;
+    color:$title-color-alt;
   }
   .mobile {
     display: block;

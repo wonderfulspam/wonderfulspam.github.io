@@ -4,7 +4,7 @@ layout: about.liquid
 permalink: /about
 ---
 
-<p>Festival of Endless Gratitude 2026 takes place at Kildevæld Kuturcenter - Bellmansgade 3C, 2100 København - September 24-26. Follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instagram</a> for updates.
+<p>Festival of Endless Gratitude 2026 takes place at Kildevæld Kuturcenter - Bellmansgade 3C, 2100 København - September 24-26. Join our <a href="/newsletter">newsletter</a> to get updates on this year's edition and follow us on <a href="https://www.facebook.com/endlessgratitude">Facebook</a> and <a href="https://www.instagram.com/endlessgratitude/">Instagram</a>.
 </p>
 
 <p>Every year, Festival of Endless Gratitude (FOEG) assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music. The festival spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms.</p>

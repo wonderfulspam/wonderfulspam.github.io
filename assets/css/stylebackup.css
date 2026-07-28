@@ -41,7 +41,7 @@
   width: 250px; }
 
 #header h1 {
-  color: #fff81e;
+  color: #e7e826;
   margin-top: 0px;
   margin-bottom: 0;
   font-size: 45px;
@@ -154,7 +154,7 @@ html.landing {
       text-transform: none; }
     html.landing #datoboks h3 {
       font-size: 17px;
-      color: #fff81e;
+      color: #e7e826;
       line-height: 19px; }
   html.landing footer {
     position: absolute;
@@ -341,7 +341,7 @@ main #right-column {
   margin-bottom: 30px; }
 
 .event-schedule:nth-of-type(3) table:nth-of-type(2) {
-  border-bottom: 2px solid #fff81e; }
+  border-bottom: 2px solid #e7e826; }
 
 .past {
   padding-left: 17vw;
@@ -418,10 +418,10 @@ ul {
       top: 471px;
       color: #fac526; }
   .event:nth-of-type(3) {
-    border-color: #fff81e; }
+    border-color: #e7e826; }
     .event:nth-of-type(3) h3 {
       top: 477px;
-      color: #fff81e; }
+      color: #e7e826; }
   .event li {
     position: relative;
     margin-bottom: 15px;

@@ -105,7 +105,8 @@ a.menu-item-link, a.menu-item-link:visited {
     display: flex; }
   #horisontal-header {
     padding-left: 20px;
-    padding-right: 20px; }
+    padding-right: 20px;
+    padding-top: 15px; }
   #header {
     text-size-adjust: none; }
     #header h1 {
@@ -154,70 +155,88 @@ html.landing {
     justify-content: center;
     flex-direction: column;
     height: 60vh; }
-  html.landing #newsletter-popup {
-    position: fixed;
-    right: 20px;
-    top: 20px; }
-  html.landing h1 {
-    font-size: 80px;
-    letter-spacing: -1px;
+
+#newsletter-popup {
+  position: fixed;
+  right: 20px;
+  top: 20px; }
+
+h1 {
+  font-size: 80px;
+  letter-spacing: -1px;
+  font-weight: normal;
+  line-height: 0.8;
+  margin-top: 0;
+  margin-bottom: 0; }
+  h1 span {
+    font-size: 45px;
+    position: relative;
+    bottom: 25px;
+    letter-spacing: -1px; }
+
+h2 {
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: -10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0; }
+
+h3 {
+  font-size: 21px;
+  font-weight: normal;
+  margin-top: -10px;
+  margin-bottom: 0; }
+
+.material-symbols-outlined {
+  font-size: inherit !important;
+  vertical-align: -2px;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 40; }
+
+.bold {
+  font-weight: bold; }
+
+.partnerlogoer {
+  display: none; }
+
+.landing {
+  display: block;
+  min-height: 53vh;
+  margin-left: auto;
+  width: fit-content;
+  margin-right: auto;
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.poster {
+  width: 30vw;
+  margin: auto;
+  display: block; }
+
+#header span {
+  display: none; }
+
+#datoboks {
+  position: absolute;
+  left: 60px;
+  bottom: 25vh; }
+  #datoboks h2 {
+    color: #4e770d;
+    font-size: 28px;
     font-weight: normal;
-    line-height: 0.8;
-    margin-top: 0;
-    margin-bottom: 0; }
-    html.landing h1 span {
-      font-size: 45px;
-      position: relative;
-      bottom: 25px;
-      letter-spacing: -1px; }
-  html.landing h2 {
-    font-size: 35px;
-    font-weight: normal;
-    margin-top: -10px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-top: 0; }
-  html.landing h3 {
-    font-size: 21px;
-    font-weight: normal;
-    margin-top: -10px;
-    margin-bottom: 0; }
-  html.landing .partnerlogoer {
-    display: none; }
-  html.landing .landing {
-    display: block;
-    min-height: 53vh;
-    margin-left: auto;
-    width: fit-content;
-    margin-right: auto;
-    padding-top: 0;
-    padding-bottom: 0; }
-  html.landing .poster {
-    width: 30vw;
-    margin: auto;
-    display: block; }
-  html.landing #header span {
-    display: none; }
-  html.landing #datoboks {
-    position: absolute;
-    left: 60px;
-    bottom: 25vh; }
-    html.landing #datoboks h2 {
-      color: #4e770d;
-      font-size: 28px;
-      font-weight: normal;
-      margin-bottom: 5px;
-      text-transform: none; }
-    html.landing #datoboks h3 {
-      font-size: 16px;
-      color: #e7e826;
-      line-height: 19px; }
-  html.landing img.reflections {
-    position: absolute;
-    left: 30vw;
-    top: 10vh;
-    max-width: 80vh;
-    z-index: -1; }
+    margin-bottom: 5px;
+    text-transform: none; }
+  #datoboks h3 {
+    font-size: 16px;
+    color: #e7e826;
+    line-height: 19px; }
+
+img.reflections {
+  position: absolute;
+  left: 30vw;
+  top: 10vh;
+  max-width: 80vh;
+  z-index: -1; }
 
 footer {
   position: relative; }
@@ -407,10 +426,19 @@ main #right-column {
 
 .landingtickets {
   font-size: 22px;
-  width: 100%;
-  margin-bottom: 15px; }
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  white-space: nowrap; }
   .landingtickets td:nth-of-type(2) {
     text-align: right; }
+
+.ticket-info {
+  font-size: 16px;
+  padding-bottom: 5px;
+  padding-top: 0px;
+  white-space: normal; }
 
 .tickets-header {
   position: relative;
@@ -441,10 +469,42 @@ main #right-column {
   .tickets p a, .tickets p a:hover {
     text-decoration: underline; }
 
+.buy-tickets {
+  background-color: #4e770d;
+  border: none;
+  border-radius: 4px;
+  color: #e7e826;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  cursor: pointer; }
+  .buy-tickets:hover {
+    background-color: #6ea713; }
+
+.soon-tickets {
+  background-color: #6ea713;
+  border: none;
+  border-radius: 4px;
+  color: #e7e826;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  cursor: pointer; }
+  .soon-tickets:hover {
+    background-color: #6ea713; }
+
+.center {
+  text-align: center; }
+
 .landinglineup {
   font-family: bogueslab;
-  font-size: 36px;
-  margin-top: 20px; }
+  font-size: 36px; }
   .landinglineup span {
     font-size: 15px;
     position: relative;
@@ -492,8 +552,9 @@ main #right-column {
   margin-right: auto; }
   .lineup #lineup-list .more {
     font-family: public;
-    font-size: 16px;
-    margin-top: 10px; }
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center; }
   .lineup h3 {
     font-style: italic;
     font-size: 16px;
@@ -513,7 +574,7 @@ main #right-column {
     position: absolute;
     top: 10px;
     left: 10px;
-    color: white;
+    color: #e7e826 !important;
     font-size: 18px;
     font-family: public;
     cursor: pointer;
@@ -522,6 +583,7 @@ main #right-column {
     #artist-detail .back-button.bottom-back-button {
       position: relative;
       display: block;
+      color: #4e770d !important;
       top: auto;
       left: auto; }
       #artist-detail .back-button.bottom-back-button:hover {
@@ -545,7 +607,7 @@ main #right-column {
       text-align: center;
       font-family: bogueslab;
       font-weight: bold;
-      color: white;
+      color: #e7e826;
       font-size: 26px;
       line-height: 26px;
       text-transform: none;
@@ -722,12 +784,12 @@ ul.temp-lineup {
         width: 100%;
         text-align: center; }
     .event li img {
-      height: 300px;
+      height: 460px;
       width: auto; }
 
 .event li span {
   font-family: bogueslab;
-  color: white;
+  color: #e7e826;
   font-size: 26px;
   line-height: 21px; }
   .event li span.country {
@@ -755,6 +817,10 @@ ul.temp-lineup {
 iframe {
   width: 100%;
   padding-bottom: 0.5rem; }
+
+.artist-time-overlay,
+.artist-time-overlay-large {
+  color: #e7e826 !important; }
 
 #sound-embed iframe {
   height: auto; }
@@ -786,7 +852,7 @@ iframe {
   .lineup {
     max-width: 790px; }
   .event li img {
-    height: 250px;
+    height: 385px;
     width: auto; }
   #artist-content {
     width: 500px; } }
@@ -818,7 +884,7 @@ iframe {
   .lineup {
     max-width: 640px; }
   .event li img {
-    height: 200px;
+    height: 310px;
     width: auto; }
   #artist-content {
     width: 400px; }
@@ -831,7 +897,7 @@ iframe {
 
 @media only screen and (max-width: 1000px) {
   html {
-    background: url(/assets/img/bg-26-mobile.jpg) no-repeat top center fixed;
+    background: url(/assets/img/bg-26-mobile-alt.jpg) no-repeat top center fixed;
     background-size: 100vw, cover; }
   html, body {
     margin: 0;
@@ -867,8 +933,9 @@ iframe {
     html.landing .poster {
       width: 90vw; }
   html.landing {
-    background: url(/assets/img/landing-text-26-mobile.png) no-repeat center fixed, url(/assets/img/bg-26-mobile.jpg) no-repeat top center fixed;
-    background-size: 100vw, cover; }
+    background: url(/assets/img/landing-text-26-mobile.png) no-repeat fixed, url(/assets/img/bg-26-mobile-alt2.jpg) no-repeat fixed;
+    background-size: 100vw, cover;
+    background-position: center 40%, top center; }
   .landingheader h1 {
     font-size: 60px; }
     .landingheader h1 span {
@@ -991,6 +1058,7 @@ iframe {
   .landinglineup {
     grid-template-columns: auto; }
   .landingtickets {
+    width: 100%;
     font-size: 18px; } }
 
 @media only screen and (max-width: 550px) {

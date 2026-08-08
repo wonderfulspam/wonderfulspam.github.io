@@ -4,66 +4,80 @@ layout: info.liquid
 permalink: /info
 ---
 
+<p class="bold"><span class="material-symbols-outlined">
+calendar_month
+</span> 24-26 September 2026</p>
+<p class="bold"><span class="material-symbols-outlined">
+location_on
+</span> Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København</p>
 
 <p>Festival of Endless Gratitude spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms. In 2025, Festival of Endless Gratitude once again assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music.</p>
 
-<p>The 2025 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from 20-22 November.</p>
 
 
-<h2 class="info-lineup">Lineup</h2>
 <div class="landinglineup">
-  <ul class="temp-lineup">
-<li>ALMA LAPILLI (STILL, Cardone, Barbaro)<span>(IT)</span></li>
-<li>Camille Helt Haarder<span>(DK)</span></li>
-<li>Copenhagen Clarinet Choir & Anders Lauge Meldgaard<span>(INT)</span></li>
-<li>Demeters Döttrar<span>(SE/DK)</span></li>
-<li>Elvin Brandhi<span>(UK)</span></li>
-<li>Finlay Shakespeare<span>(UK)</span></li>
-<li>G•Bop Orchestra performs The Scott Walker Songbook<span>(INT)</span></li>
-<li>Heidemann/Klint/Mingot<span>(DK/US)</span></li>
-<li>Ian Nagoski<span>(US)</span></li>
-<li>Josie<span>(DK)</span></li>
-<li>Kathryn Mohr<span>(US)</span></li>
-<li>KMRU<span>(KE)</span></li>
-<li>Norm Dogs<span>(DK/ES)</span></li>
-<li>Polonius<span>(EG/FR)</span></li>
-<li>The Shadow Ring<span>(UK)</span></li>
-<li>Vio Lino & Tettix Hexer<span>(IT/DK)</span></li>
+    <ul class="temp-lineup">
+<li>Lineup</li>
+<li>Laila Sakini<span>(AUS)</span></li>
+<li>Megabasse<span>(FR)</span></li>
+<li>Slightly Imperfect performs Ivor Cutler<span>(NZ)</span></li>
+<li>Radical Democracy<span>(US)</span></li>
+<li>Maria Bertel<span>(DK)</span></li>
+<li>CCsquele<span>(DK)</span></li>
+<li>Gush<span>(UK/AR)</span></li>
+<li class="more">More to be announced</span></li>
 </ul>
 </div>
 <p>Learn more about this year's lineup and have a listen <a href="/lineup">here.</a></p>
 
 <h2>Tickets</h2>
 
-<a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">
 <table class="landingtickets">
   <tr>
+    <td>Gratitude Guardian Partout</td>
+    <td>600 kr</td>
+    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+  </tr>
+  <tr>
+    <td class="ticket-info">Show your support to keep the festival going</td>
+  </tr>
+    <tr>
+    <td>Early Bird Partout</td>
+    <td>425 kr</td>
+    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+  </tr>
+  <tr>
+    <td class="ticket-info">Get your partout ticket at a reduced price before August 9th!</td>
+  </tr>
+    <tr>
     <td>Partout</td>
-    <td>400-600 kr</td>
+    <td>500 kr</td>
+    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+  </tr>
+  <tr>
+    <td class="ticket-info">Normal price for the full festival pass</td>
   </tr>
   <tr>
     <td>One day ticket Thursday</td>
-    <td>190 kr</td>
+    <td></td>
+    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="soon-tickets">&nbsp;&nbsp;&nbsp;&nbsp;Soon&nbsp;&nbsp;&nbsp;&nbsp;</button></a></td>
   </tr>
   <tr>
     <td>One day ticket Friday</td>
-    <td>230 kr</td>
+    <td></td>
+    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="soon-tickets">&nbsp;&nbsp;&nbsp;&nbsp;Soon&nbsp;&nbsp;&nbsp;&nbsp;</button></a></td>
   </tr>
   <tr>
     <td>One day ticket Saturday</td>
-    <td>230 kr</td>
+    <td></td>
+    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="soon-tickets">&nbsp;&nbsp;&nbsp;&nbsp;Soon&nbsp;&nbsp;&nbsp;&nbsp;</button></a></td>
   </tr>
-    <tr>
+ <!--   <tr>
     <td>Community Dinner Saturday</td>
     <td>130 kr</td>
-  </tr>
+    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+  </tr>-->
 </table>
-</a>
-
-<p>The 2025 edition takes place at Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København from the 20th to the 22nd of November.</p>
-
-<p>Day and partout tickets available <a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">here</a>.</p>
-<p>All tickets are available at <a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">Billetto</a>.</p>
 
 <h2>Exploration and community</h2>
 
@@ -76,11 +90,13 @@ permalink: /info
 <h2>Safer Space Policy</h2>
 <p>FOEG is a space with no room for discrimination, violence, harassment, or any other aggressive behavior. Respecting each other is one of the key ingredients for having a good time at the festival. If anyone is crossing your boundaries in any way or you witness someone else's boundaries being crossed, please tell the staff at the door or in the bar and we will help you. The festival staff has the right to remove any festival visitors, who do not follow the principles.</p>
 
-<h2>18 years of FOEG</h2>
+<h2>19 years of FOEG</h2>
 
-<p>Festival of Endless Gratitude originated in Brattleboro, Vermont in 2007, but found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. In the course of its lifespan, FOEG has presented more than 500 concerts with musicians from all over the globe. The festival has grown into an organic and ever-evolving and growing community of diverse people that make up volunteers, artists, musicians, guests, collaborators and organizers - all contributing to a vibrant and inclusive festival atmosphere that encourages deep listening, curiosity and movement.
+<p>Festival of Endless Gratitude originated in Brattleboro, Vermont in 2007, but found its new home in Copenhagen, Denmark in 2009 where it has been held ever since. In the course of its lifespan, FOEG has presented more than 500 concerts with musicians from all over the globe. The festival has grown into an organic and ever-evolving and growing community of diverse people that make up volunteers, artists, musicians, guests, collaborators and organizers - all contributing to a vibrant and inclusive festival atmosphere that encourages deep listening, curiosity and movement.</p>
 
-See past iterations of the festival <a href="/past">here</a>.</p>
+<img src="/assets/img/FOEGpkr.jpg">
+
+<p>See past iterations of the festival <a href="/past">here</a>.</p>
 
 <p>Festival of Endless Gratitude functions as a non-profit organization.</p>
 

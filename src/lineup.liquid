@@ -3,7 +3,7 @@ title: Lineup
 layout: default.liquid
 permalink: /lineup
 ---
-
+<!-- 
 <div class="landinglineup">
   <ul class="temp-lineup">
 <li>Laila Sakini<span>(AUS)</span></li>
@@ -16,8 +16,9 @@ permalink: /lineup
 <li class="more">More to be announced</span></li>
 </ul>
 </div>
+-->
 
-<!-- <div id="lineup-list">
+<div id="lineup-list">
 {% assign events = collections.posts.pages | map: "categories" | sort | uniq %}
 {% for event_name in events %}
   {% include "assign_event_data.liquid" %}
@@ -32,7 +33,7 @@ permalink: /lineup
       {% endif %}
     {% endfor %}
     </ul>
-
+<p class="more">More to be announced</p>
   </div>
 {% endfor %}
 </div>
@@ -44,4 +45,4 @@ permalink: /lineup
 {% include "artists_hidden.liquid" %}
 <script type="text/javascript">
   addArtistDetailHandler(".artist-link");
-</script> -->
+</script> 

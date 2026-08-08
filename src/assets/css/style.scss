@@ -46,6 +46,7 @@ html.landing {
     flex-direction: column;
     height: 60vh;
   }
+}
 
   #newsletter-popup {
     position:fixed;
@@ -85,6 +86,20 @@ html.landing {
   }
 
 
+
+.material-symbols-outlined {
+  font-size:inherit !important;
+  vertical-align:-2px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+.bold {
+  font-weight: bold;
+}
   .partnerlogoer {
     display: none;
   }
@@ -137,7 +152,7 @@ html.landing {
     z-index: -1;
   }
 
-}
+
 
 footer {
   position:relative;
@@ -363,11 +378,21 @@ main #right-column {
 
 .landingtickets {
   font-size:22px;
-  width:100%;
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
   margin-bottom:15px;
+  white-space: nowrap;
   td:nth-of-type(2) {
     text-align:right;
   }
+}
+
+.ticket-info {
+  font-size: 16px;
+  padding-bottom:5px;
+  padding-top:0px;
+  white-space: normal;
 }
 
 .tickets-header {
@@ -409,10 +434,49 @@ main #right-column {
   }
 }
 
+.buy-tickets {
+  background-color: $title-color;
+    border: none;
+    border-radius: 4px;
+    color:$title-color-alt;
+    font-weight: bold;
+    padding:8px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom:5px;
+    margin-left:10px;
+    cursor:pointer;
+    &:hover {
+      background-color: $hover;
+    }
+}
+
+.soon-tickets {
+  background-color: $hover;
+    border: none;
+    border-radius: 4px;
+    color:$title-color-alt;
+    font-weight: bold;
+    padding:8px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom:5px;
+    margin-left:10px;
+    cursor:pointer;
+    &:hover {
+      background-color: $hover;
+    }
+}
+
+
+
+.center {
+  text-align: center;
+}
+
 .landinglineup {
   font-family: bogueslab;
   font-size: 36px;
-  margin-top:20px;
     span {
       font-size: 15px;
       position: relative;
@@ -472,8 +536,9 @@ main #right-column {
   #lineup-list {
     .more {
       font-family: public;
-      font-size:16px;
-      margin-top:10px;
+      font-size:20px;
+      margin-top:20px;
+      text-align: center;
     }
   }
   h3 {
@@ -498,7 +563,7 @@ main #right-column {
     position: absolute;
     top: 10px;
     left: 10px;
-    color: white;
+    color: $title-color-alt !important;
     font-size: 18px;
     font-family: public;
     cursor: pointer;
@@ -507,6 +572,7 @@ main #right-column {
     &.bottom-back-button {
       position: relative;
       display: block;
+      color:$title-color !important;
       top: auto;
       left: auto;
       &:hover {
@@ -539,7 +605,7 @@ main #right-column {
       text-align: center;
       font-family: bogueslab;
       font-weight: bold;
-      color: white;
+      color: $title-color-alt;
       font-size: 26px;
       line-height: 26px;
       text-transform: none;
@@ -773,7 +839,7 @@ ul.temp-lineup {
       }
     }
     img {
-      height: 300px;
+      height: 460px;
       width: auto;
     }
   }
@@ -781,7 +847,7 @@ ul.temp-lineup {
 
 .event li span {
   font-family: bogueslab;
-  color: white;
+  color: $title-color-alt;
   font-size: 26px;
   line-height:21px;
   &.country {
@@ -819,6 +885,11 @@ iframe {
   width: 100%;
   padding-bottom: 0.5rem;
 }
+
+.artist-time-overlay,
+  .artist-time-overlay-large {
+    color: $title-color-alt !important;
+  }
 
 #sound-embed iframe {
   height: auto;
@@ -863,7 +934,7 @@ iframe {
   .event {
     li {
       img {
-        height: 250px;
+        height: 385px;
         width: auto;
       }
     }
@@ -917,7 +988,7 @@ iframe {
   .event {
     li {
       img {
-        height: 200px;
+        height: 310px;
         width: auto;
       }
     }
@@ -941,7 +1012,7 @@ iframe {
 
 @media only screen and (max-width: 1000px) {
   html {
-    background: url(/assets/img/bg-26-mobile.jpg) no-repeat top center fixed;
+    background: url(/assets/img/bg-26-mobile-alt.jpg) no-repeat top center fixed;
     background-size:100vw, cover;
   }
   
@@ -988,8 +1059,9 @@ iframe {
   }
 
 html.landing {
-  background: url(/assets/img/landing-text-26-mobile.png) no-repeat center fixed, url(/assets/img/bg-26-mobile.jpg) no-repeat top center fixed;
+  background: url(/assets/img/landing-text-26-mobile.png) no-repeat fixed, url(/assets/img/bg-26-mobile-alt2.jpg) no-repeat fixed;
   background-size: 100vw, cover;
+  background-position: center 40%, top center;
 }
 
 .landingheader {
@@ -1172,6 +1244,7 @@ html.landing {
     grid-template-columns: auto;
   }
   .landingtickets {
+    width:100%;
     font-size:18px;
   }
 }

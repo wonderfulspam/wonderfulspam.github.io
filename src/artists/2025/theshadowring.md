@@ -1,7 +1,7 @@
 ---
 title: The Shadow Ring
 layout: default.liquid
-is_draft: false
+is_draft: true
 categories:
   - 2025
 data:

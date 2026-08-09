@@ -41,7 +41,7 @@
   width: 250px; }
 
 #header h1 {
-  color: #e7e826;
+  color: #f8fb18;
   margin-top: 0px;
   margin-bottom: 0;
   font-size: 45px;
@@ -80,11 +80,11 @@ a.menu-item-link, a.menu-item-link:visited {
   z-index: 1001;
   position: fixed;
   top: 20px;
-  left: 20px; }
+  right: 20px; }
   .burger-menu span {
     width: 30px;
     height: 3px;
-    background-color: #4e770d;
+    background-color: #f8fb18;
     transition: all 0.3s ease;
     transform-origin: center; }
   .burger-menu.active span:nth-child(1) {
@@ -100,7 +100,7 @@ a.menu-item-link, a.menu-item-link:visited {
   #horisontal-header {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 15px; }
+    padding-top: 20px; }
   #header {
     text-size-adjust: none; }
     #header h1 {
@@ -108,7 +108,7 @@ a.menu-item-link, a.menu-item-link:visited {
   .horis-menu-list {
     position: fixed;
     top: 0;
-    left: -100%;
+    right: -100%;
     width: 70%;
     height: 100vh;
     background-color: rgba(244, 252, 195, 0.98);
@@ -117,10 +117,10 @@ a.menu-item-link, a.menu-item-link:visited {
     justify-content: center;
     align-items: flex-start;
     padding-left: 40px;
-    transition: left 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
     z-index: 1000; }
     .horis-menu-list.active {
-      left: 0; }
+      right: 0; }
   a.menu-item-link, a.menu-item-link:visited {
     font-size: 32px;
     margin-left: 0 !important;
@@ -155,7 +155,7 @@ html.landing {
       text-transform: none; }
     html.landing #datoboks h3 {
       font-size: 17px;
-      color: #e7e826;
+      color: #f8fb18;
       line-height: 19px; }
   html.landing footer {
     position: absolute;
@@ -342,7 +342,7 @@ main #right-column {
   margin-bottom: 30px; }
 
 .event-schedule:nth-of-type(3) table:nth-of-type(2) {
-  border-bottom: 2px solid #e7e826; }
+  border-bottom: 2px solid #f8fb18; }
 
 .past {
   padding-left: 17vw;
@@ -419,10 +419,10 @@ ul {
       top: 471px;
       color: #fac526; }
   .event:nth-of-type(3) {
-    border-color: #e7e826; }
+    border-color: #f8fb18; }
     .event:nth-of-type(3) h3 {
       top: 477px;
-      color: #e7e826; }
+      color: #f8fb18; }
   .event li {
     position: relative;
     margin-bottom: 15px;

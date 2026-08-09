@@ -47,7 +47,7 @@
   width: 250px; }
 
 #header h1 {
-  color: #e7e826;
+  color: #f8fb18;
   margin-top: 0px;
   margin-bottom: 0;
   font-size: 45px;
@@ -86,11 +86,11 @@ a.menu-item-link, a.menu-item-link:visited {
   z-index: 1001;
   position: fixed;
   top: 20px;
-  left: 20px; }
+  right: 20px; }
   .burger-menu span {
     width: 30px;
     height: 3px;
-    background-color: #4e770d;
+    background-color: #f8fb18;
     transition: all 0.3s ease;
     transform-origin: center; }
   .burger-menu.active span:nth-child(1) {
@@ -106,7 +106,7 @@ a.menu-item-link, a.menu-item-link:visited {
   #horisontal-header {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 15px; }
+    padding-top: 20px; }
   #header {
     text-size-adjust: none; }
     #header h1 {
@@ -114,7 +114,7 @@ a.menu-item-link, a.menu-item-link:visited {
   .horis-menu-list {
     position: fixed;
     top: 0;
-    left: -100%;
+    right: -100%;
     width: 70%;
     height: 100vh;
     background-color: rgba(244, 252, 195, 0.98);
@@ -123,10 +123,10 @@ a.menu-item-link, a.menu-item-link:visited {
     justify-content: center;
     align-items: flex-start;
     padding-left: 40px;
-    transition: left 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
     z-index: 1000; }
     .horis-menu-list.active {
-      left: 0; }
+      right: 0; }
   a.menu-item-link, a.menu-item-link:visited {
     font-size: 32px;
     margin-left: 0 !important;
@@ -228,7 +228,7 @@ h3 {
     text-transform: none; }
   #datoboks h3 {
     font-size: 16px;
-    color: #e7e826;
+    color: #f8fb18;
     line-height: 19px; }
 
 img.reflections {
@@ -312,7 +312,7 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   margin-top: 0;
-  padding-bottom: 10px; }
+  padding-bottom: 5px; }
 
 h3 {
   font-weight: normal;
@@ -426,16 +426,31 @@ main #right-column {
 
 .landingtickets {
   font-size: 22px;
-  width: 75%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
-  white-space: nowrap; }
+  margin-bottom: 30px;
+  border-collapse: collapse;
+  white-space: nowrap;
+  border-radius: 5px;
+  background-color: rgba(244, 252, 195, 0.78);
+  border-spacing: 10px; }
   .landingtickets td:nth-of-type(2) {
-    text-align: right; }
+    text-align: right;
+    padding-right: 10px; }
+  .landingtickets td:nth-of-type(1) {
+    padding-left: 10px; }
+  .landingtickets .bottom {
+    border-bottom: 1px solid #6ea713; }
+  .landingtickets .top {
+    padding-top: 10px;
+    padding-bottom: 15px; }
+  .landingtickets .oneday {
+    padding-bottom: 10px; }
 
 .ticket-info {
   font-size: 16px;
+  font-weight: normal;
   padding-bottom: 5px;
   padding-top: 0px;
   white-space: normal; }
@@ -452,7 +467,7 @@ main #right-column {
     font-family: bogueslab;
     font-size: 46px;
     font-weight: bold;
-    color: #e7e826; }
+    color: #f8fb18; }
   .tickets-header img {
     width: 100%; }
   .tickets-header .mobile {
@@ -473,12 +488,11 @@ main #right-column {
   background-color: #4e770d;
   border: none;
   border-radius: 4px;
-  color: #e7e826;
+  color: #f8fb18;
   font-weight: bold;
   padding: 8px;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 5px;
   margin-left: 10px;
   cursor: pointer; }
   .buy-tickets:hover {
@@ -488,12 +502,11 @@ main #right-column {
   background-color: #6ea713;
   border: none;
   border-radius: 4px;
-  color: #e7e826;
+  color: #f8fb18;
   font-weight: bold;
   padding: 8px;
   font-size: 16px;
   text-align: center;
-  margin-bottom: 5px;
   margin-left: 10px;
   cursor: pointer; }
   .soon-tickets:hover {
@@ -501,6 +514,9 @@ main #right-column {
 
 .center {
   text-align: center; }
+
+.landing .landinglineup {
+  display: none; }
 
 .landinglineup {
   font-family: bogueslab;
@@ -574,7 +590,7 @@ main #right-column {
     position: absolute;
     top: 10px;
     left: 10px;
-    color: #e7e826 !important;
+    color: #f8fb18 !important;
     font-size: 18px;
     font-family: public;
     cursor: pointer;
@@ -607,7 +623,7 @@ main #right-column {
       text-align: center;
       font-family: bogueslab;
       font-weight: bold;
-      color: #e7e826;
+      color: #f8fb18;
       font-size: 26px;
       line-height: 26px;
       text-transform: none;
@@ -789,7 +805,7 @@ ul.temp-lineup {
 
 .event li span {
   font-family: bogueslab;
-  color: #e7e826;
+  color: #f8fb18;
   font-size: 26px;
   line-height: 21px; }
   .event li span.country {
@@ -820,7 +836,7 @@ iframe {
 
 .artist-time-overlay,
 .artist-time-overlay-large {
-  color: #e7e826 !important; }
+  color: #f8fb18 !important; }
 
 #sound-embed iframe {
   height: auto; }
@@ -842,7 +858,7 @@ iframe {
 #stickyspace {
   height: 50px; }
 
-.mobile {
+#social.mobile {
   display: none; }
 
 @media only screen and (max-width: 1855px) {
@@ -897,8 +913,8 @@ iframe {
 
 @media only screen and (max-width: 1000px) {
   html {
-    background: url(/assets/img/bg-26-mobile-alt.jpg) no-repeat top center fixed;
-    background-size: 100vw, cover; }
+    background: url(/assets/img/bg-26-mobile-alt4.jpg) no-repeat top center fixed;
+    background-size: cover; }
   html, body {
     margin: 0;
     min-height: 100vh;
@@ -933,9 +949,18 @@ iframe {
     html.landing .poster {
       width: 90vw; }
   html.landing {
-    background: url(/assets/img/landing-text-26-mobile.png) no-repeat fixed, url(/assets/img/bg-26-mobile-alt2.jpg) no-repeat fixed;
-    background-size: 100vw, cover;
-    background-position: center 40%, top center; }
+    background: url(/assets/img/logo-yellow.png) no-repeat fixed, url(/assets/img/landing-text-26-mobile.png) no-repeat fixed, url(/assets/img/logos.png) no-repeat fixed, linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/img/bg-26-mobile-alt4.jpg) no-repeat fixed;
+    background-size: 18vw, 100vw, 50vw, cover, cover;
+    background-position: bottom right, center 8%, bottom left, center, top center; }
+    html.landing .logo {
+      display: none; }
+    html.landing .burger-menu span {
+      background-color: #f8fb18; }
+  .landing {
+    margin-top: 24vw; }
+    .landing .landinglineup {
+      display: block;
+      color: #f8fb18; }
   .landingheader h1 {
     font-size: 60px; }
     .landingheader h1 span {
@@ -948,7 +973,7 @@ iframe {
     left: 20px;
     margin-left: 0;
     font-size: 36px;
-    color: #e7e826; }
+    color: #f8fb18; }
   .tickets-header .mobile {
     display: block; }
   .tickets-header .desktop {
@@ -1059,7 +1084,11 @@ iframe {
     grid-template-columns: auto; }
   .landingtickets {
     width: 100%;
-    font-size: 18px; } }
+    font-size: 18px; }
+  #social.mobile {
+    display: flex; }
+  #social.desktop {
+    display: none; } }
 
 @media only screen and (max-width: 550px) {
   html.landing .landing {

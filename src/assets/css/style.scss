@@ -29,7 +29,7 @@ html {
   background-size: cover;
   background-color:$bg;
   -webkit-tap-highlight-color: transparent;
-  min-height:100vh;
+  min-height:100dvh;
   font-size:16px;
 }
 
@@ -38,7 +38,7 @@ html {
 html.landing {
   background: url(/assets/img/landing-text-26.png) no-repeat bottom center fixed, url(/assets/img/bg-26.jpg) no-repeat top center fixed;
   background-size: 80vw, cover;
-  height:100vh;
+  height:100dvh;
   .wrapper {
     display: flex;
     align-items: center;

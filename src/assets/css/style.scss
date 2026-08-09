@@ -31,6 +31,10 @@ html {
   -webkit-tap-highlight-color: transparent;
   min-height:100dvh;
   font-size:16px;
+  transition: height 1000000s ease;
+-webkit-transition: height 1000000s ease;
+-moz-transition: height 1000000s ease;
+-o-transition: height 1000000s ease;
 }
 
 

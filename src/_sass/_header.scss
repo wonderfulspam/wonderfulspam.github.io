@@ -81,12 +81,12 @@ a.menu-item-link, a.menu-item-link:visited {
   z-index: 1001;
   position: fixed;
   top: 20px;
-  left: 20px;
+  right: 20px;
 
   span {
     width: 30px;
     height: 3px;
-    background-color: $title-color;
+    background-color: $title-color-alt;
     transition: all 0.3s ease;
     transform-origin: center;
   }
@@ -112,7 +112,7 @@ a.menu-item-link, a.menu-item-link:visited {
   #horisontal-header {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top:15px;
+    padding-top:20px;
   }
 
   #header {
@@ -125,7 +125,7 @@ a.menu-item-link, a.menu-item-link:visited {
   .horis-menu-list {
     position: fixed;
     top: 0;
-    left: -100%;
+    right: -100%;
     width: 70%;
     height: 100vh;
     background-color:rgba(244, 252, 195, 0.98);
@@ -134,11 +134,11 @@ a.menu-item-link, a.menu-item-link:visited {
     justify-content: center;
     align-items: flex-start;
     padding-left: 40px;
-    transition: left 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
     z-index: 1000;
 
     &.active {
-      left: 0;
+      right: 0;
     }
   }
 

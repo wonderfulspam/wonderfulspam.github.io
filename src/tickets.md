@@ -16,44 +16,29 @@ location_on
 
 
  <table class="landingtickets">
-  <tr>
-    <td>Gratitude Guardian Partout</td>
-    <td>600 kr</td>
-    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+  <tr class="bottom">
+    <td class="bold top">Gratitude Guardian Partout<br>600 kr<br><span class="ticket-info">Show your support to keep the festival going</span></td>
+    <td class="top"><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+  </tr>
+    <tr class="bottom">
+    <td class="bold top">Early Bird Partout<br>425 kr<br><span class="ticket-info">Get your partout ticket at a reduced price until August 9th!</span></td>
+    <td class="top"><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+  </tr>
+    <tr class="bottom">
+    <td class="bold top">Partout<br>500 kr<br><span class="ticket-info">Normal price for the full festival pass</span></td>
+    <td class="top"><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+  </tr>
+  <tr class="bottom">
+    <td class="bold top oneday">One day ticket Thursday</td>
+    <td class="top oneday"><button class="soon-tickets">&nbsp;&nbsp;Coming&nbsp;&nbsp;</button></td>
+  </tr>
+  <tr class="bottom">
+    <td class="bold top oneday">One day ticket Friday</td>
+    <td class="top oneday"><button class="soon-tickets">&nbsp;&nbsp;Coming&nbsp;&nbsp;</button></td>
   </tr>
   <tr>
-    <td class="ticket-info">Show your support to keep the festival going</td>
-  </tr>
-    <tr>
-    <td>Early Bird Partout</td>
-    <td>425 kr</td>
-    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
-  </tr>
-  <tr>
-    <td class="ticket-info">Get your partout ticket at a reduced price until August 9th!</td>
-  </tr>
-    <tr>
-    <td>Partout</td>
-    <td>500 kr</td>
-    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
-  </tr>
-  <tr>
-    <td class="ticket-info">Normal price for the full festival pass</td>
-  </tr>
-  <tr>
-    <td>One day ticket Thursday</td>
-    <td></td>
-    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="soon-tickets">&nbsp;&nbsp;&nbsp;&nbsp;Soon&nbsp;&nbsp;&nbsp;&nbsp;</button></a></td>
-  </tr>
-  <tr>
-    <td>One day ticket Friday</td>
-    <td></td>
-    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="soon-tickets">&nbsp;&nbsp;&nbsp;&nbsp;Soon&nbsp;&nbsp;&nbsp;&nbsp;</button></a></td>
-  </tr>
-  <tr>
-    <td>One day ticket Saturday</td>
-    <td></td>
-    <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="soon-tickets">&nbsp;&nbsp;&nbsp;&nbsp;Soon&nbsp;&nbsp;&nbsp;&nbsp;</button></a></td>
+    <td class="bold top oneday">One day ticket Saturday</td>
+    <td class="top oneday"><button class="soon-tickets">&nbsp;&nbsp;Coming&nbsp;&nbsp;</button></td>
   </tr>
  <!--   <tr>
     <td>Community Dinner Saturday</td>

@@ -142,7 +142,7 @@ html {
   background-size: cover;
   background-color: #f4fcc3;
   -webkit-tap-highlight-color: transparent;
-  min-height: 100dvh;
+  min-height: 100svh;
   font-size: 16px;
   transition: height 1000000s ease;
   -webkit-transition: height 1000000s ease;
@@ -152,7 +152,7 @@ html {
 html.landing {
   background: url(/assets/img/landing-text-26.png) no-repeat bottom center fixed, url(/assets/img/bg-26.jpg) no-repeat top center fixed;
   background-size: 80vw, cover;
-  height: 100dvh; }
+  height: 100svh; }
   html.landing .wrapper {
     display: flex;
     align-items: center;
@@ -919,7 +919,7 @@ iframe {
   html {
     background: url(/assets/img/bg-26-mobile-alt4.jpg) no-repeat top center fixed;
     background-size: cover;
-    min-height: 100dvh; }
+    min-height: 100svh; }
   html, body {
     margin: 0;
     overflow-x: hidden; }
@@ -955,7 +955,7 @@ iframe {
     background: url(/assets/img/logo-yellow.png) no-repeat fixed, url(/assets/img/landing-text-26-mobile.png) no-repeat fixed, url(/assets/img/logos.png) no-repeat fixed, linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/img/bg-26-mobile-alt4.jpg) no-repeat fixed;
     background-size: 18vw, 100vw, 50vw, cover, cover;
     background-position: bottom right, center 8%, bottom left, center, top center;
-    height: 100dvh; }
+    height: 100svh; }
     html.landing .logo {
       display: none; }
     html.landing .burger-menu span {

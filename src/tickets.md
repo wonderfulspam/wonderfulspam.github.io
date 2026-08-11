@@ -11,10 +11,11 @@ calendar_month
 location_on
 </span> Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København</p>
 
+<p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket. Explore this year's lineup <a href="/lineup">here</a>.</p>
 
  <table class="landingtickets">
   <tr class="bottom">
-    <td class="bold top">Gratitude Guardian Partout<br><span class="ticket-info">Support the festival at little extra</span></td>
+    <td class="bold top">Gratitude Guardian Partout<br><span class="ticket-info">Support the festival a little extra</span></td>
     <td class="top">600 kr</td>
   </tr>
     <!--<tr class="bottom">
@@ -54,4 +55,4 @@ location_on
 
 <!--<p>All tickets are available at <a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">Billetto</a>.</p>-->
 
-<p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket.</p> 
+

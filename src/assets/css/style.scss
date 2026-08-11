@@ -1087,7 +1087,7 @@ iframe {
 html.landing {
   background: url(/assets/img/logo-yellow.png) no-repeat fixed, url(/assets/img/landing-text-26-mobile.png) no-repeat fixed, url(/assets/img/logos.png) no-repeat fixed, linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/img/bg-26-mobile-alt4.jpg) no-repeat fixed;
   background-size: 18vw, 100vw, 50vw, cover, cover;
-  background-position: bottom right, center 8%, bottom left, center, top center;
+  background-position: bottom right, center 10vh, bottom left, center, top center;
   height:100svh;
   .logo {
     display: none;
@@ -1098,11 +1098,14 @@ html.landing {
 }
 
 .landing {
-  margin-top:24vw;
   .landinglineup {
     display: block;
     color: $title-color-alt;
   }
+}
+
+main.landing {
+  margin-top:24vh;
 }
 
 .landingheader {

@@ -34,28 +34,28 @@ location_on
 
 <table class="landingtickets">
   <tr class="bottom">
-    <td class="bold top">Gratitude Guardian Partout<br>600 kr<br><span class="ticket-info">Show your support to keep the festival going</span></td>
-    <td class="top"><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+    <td class="bold top">Gratitude Guardian Partout<br><span class="ticket-info">Support the festival at little extra</span></td>
+    <td class="top">600 kr</td>
   </tr>
     <!--<tr class="bottom">
     <td class="bold top">Early Bird Partout<br>425 kr<br><span class="ticket-info">Get your partout ticket at a reduced price until August 9th!</span></td>
     <td class="top"><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
   </tr>-->
     <tr class="bottom">
-    <td class="bold top">Regular Partout<br>500 kr<br><span class="ticket-info">Normal price for the full festival pass</span></td>
-    <td class="top"><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
+    <td class="bold top">Regular Partout<br><span class="ticket-info">Normal price for the full festival pass</span></td>
+    <td class="top">500 kr</td>
   </tr>
   <tr class="bottom">
     <td class="bold top oneday">One day ticket Thursday</td>
-    <td class="top oneday"><button class="soon-tickets">&nbsp;&nbsp;Coming&nbsp;&nbsp;</button></td>
+    <td class="top oneday">Coming</td>
   </tr>
   <tr class="bottom">
     <td class="bold top oneday">One day ticket Friday</td>
-    <td class="top oneday"><button class="soon-tickets">&nbsp;&nbsp;Coming&nbsp;&nbsp;</button></td>
+    <td class="top oneday">Coming</td>
   </tr>
   <tr>
     <td class="bold top oneday">One day ticket Saturday</td>
-    <td class="top oneday"><button class="soon-tickets">&nbsp;&nbsp;Coming&nbsp;&nbsp;</button></td>
+    <td class="top oneday">Coming</td>
   </tr>
  <!--   <tr>
     <td>Community Dinner Saturday</td>
@@ -63,6 +63,9 @@ location_on
     <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
   </tr>-->
 </table>
+
+<script src="https://billetto.dk/widget.js"></script>
+<billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
 
 <h2>Exploration and community</h2>
 

@@ -24,8 +24,7 @@
   position: relative;
   grid-area: header;
   align-self: end;
-  font-family: 'garamond';
-  font-size: 40px; }
+  font-family: 'bogueslab'; }
   #header br {
     display: block;
     content: "";

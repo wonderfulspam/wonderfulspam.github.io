@@ -11,13 +11,13 @@ calendar_month
 location_on
 </span> Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København</p>
 
-<p>Festival of Endless Gratitude spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms. In 2025, Festival of Endless Gratitude once again assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music.</p>
+<p>Festival of Endless Gratitude spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms. In 2026, Festival of Endless Gratitude once again assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music.</p>
 
 
 
-<div class="landinglineup">
+<div class="landinglineup info-lineup">
     <ul class="temp-lineup">
-<li>Lineup</li>
+<li class="lineup-header">Lineup</li>
 <li>Laila Sakini<span>(AUS)</span></li>
 <li>Megabasse<span>(FR)</span></li>
 <li>Slightly Imperfect performs Ivor Cutler<span>(NZ)</span></li>

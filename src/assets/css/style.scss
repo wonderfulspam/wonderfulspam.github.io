@@ -350,14 +350,39 @@ main #right-column {
   }
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin: 0;
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+ul.temp-lineup {
+  display:block;
+  text-align: center;
+  margin-top:10px;
+  li {
+    padding-bottom:18px;
+    font-size: 30px;
+    line-height: 25px;
+    font-family: 'bogueslab';
+    font-weight: bold;
+    span {
+      bottom:10px;
+      font-size: 14px;
+      position: relative;
+    }
+}
+}
+
 .info {
   margin-top:-6px;
   mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px);
-  .more {
-    margin-top:5px;
-    font-size:16px;
-    font-family: public;
-  }
   h2 {
     font-family: bogueslab;
   }
@@ -374,9 +399,33 @@ main #right-column {
     }
   }
   .info-lineup {
-    font-family: bogueslab;
-    text-align: center;
-    font-size: 36px;
+    ul.temp-lineup {
+      display:block;
+      text-align: center;
+      margin-top:10px;
+      }
+    .lineup-header {
+      font-size:26px;
+      padding-bottom:22px;
+    }
+      li {
+        padding-bottom:12px;
+        font-size: 22px;
+        line-height: 21px;
+        font-family: 'bogueslab';
+        font-weight: bold;
+        &.more {
+          margin-top:0px;
+          font-size:16px;
+          font-family: public;
+          font-weight: normal;
+        }
+        span {
+          bottom:7px;
+          font-size: 10px;
+          position: relative;
+        }
+    }
   }
 }
 
@@ -516,6 +565,8 @@ main #right-column {
       font-weight: normal;
     }
 }
+
+
 
 .landingheader {
   margin-bottom:15px;
@@ -793,35 +844,7 @@ a:hover {
   transition: 0.2s;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-left: 0px;
-  margin: 0;
-  a:hover {
-    text-decoration: none;
-  }
-}
 
-ul.temp-lineup {
-  display:block;
-  text-align: center;
-  margin-top:10px;
-  li {
-    padding-bottom:18px;
-    font-size: 30px;
-    line-height: 25px;
-    font-family: 'bogueslab';
-    font-weight: bold;
-    span {
-      bottom:10px;
-      font-size: 14px;
-      position: relative;
-    }
-}
-}
 
 .event {
   position: relative;

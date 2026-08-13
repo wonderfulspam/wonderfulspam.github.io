@@ -443,28 +443,30 @@ ul.temp-lineup {
     text-decoration: none; }
   .info p a, .info p a:hover {
     text-decoration: underline; }
-  .info .info-lineup ul.temp-lineup {
-    display: block;
-    text-align: center;
-    margin-top: 10px; }
-  .info .info-lineup .lineup-header {
-    font-size: 26px;
-    padding-bottom: 22px; }
-  .info .info-lineup li {
-    padding-bottom: 12px;
-    font-size: 22px;
-    line-height: 21px;
-    font-family: 'bogueslab';
-    font-weight: bold; }
-    .info .info-lineup li.more {
-      margin-top: 0px;
-      font-size: 16px;
-      font-family: public;
-      font-weight: normal; }
-    .info .info-lineup li span {
-      bottom: 7px;
-      font-size: 10px;
-      position: relative; }
+  .info .info-lineup {
+    margin-top: 26px; }
+    .info .info-lineup ul.temp-lineup {
+      display: block;
+      text-align: center;
+      margin-top: 10px; }
+    .info .info-lineup .lineup-header {
+      font-size: 26px;
+      padding-bottom: 22px; }
+    .info .info-lineup li {
+      padding-bottom: 12px;
+      font-size: 22px;
+      line-height: 21px;
+      font-family: 'bogueslab';
+      font-weight: bold; }
+      .info .info-lineup li.more {
+        margin-top: 0px;
+        font-size: 16px;
+        font-family: public;
+        font-weight: normal; }
+      .info .info-lineup li span {
+        bottom: 7px;
+        font-size: 10px;
+        position: relative; }
 
 .landingtickets {
   font-size: 22px;

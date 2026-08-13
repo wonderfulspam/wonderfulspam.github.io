@@ -406,13 +406,34 @@ main #right-column {
 .info h2, .tickets h2, .about h2, .past h2 {
   font-size: 26px; }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin: 0; }
+  ul a:hover {
+    text-decoration: none; }
+
+ul.temp-lineup {
+  display: block;
+  text-align: center;
+  margin-top: 10px; }
+  ul.temp-lineup li {
+    padding-bottom: 18px;
+    font-size: 30px;
+    line-height: 25px;
+    font-family: 'bogueslab';
+    font-weight: bold; }
+    ul.temp-lineup li span {
+      bottom: 10px;
+      font-size: 14px;
+      position: relative; }
+
 .info {
   margin-top: -6px;
   mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px); }
-  .info .more {
-    margin-top: 5px;
-    font-size: 16px;
-    font-family: public; }
   .info h2 {
     font-family: bogueslab; }
   .info img {
@@ -422,10 +443,28 @@ main #right-column {
     text-decoration: none; }
   .info p a, .info p a:hover {
     text-decoration: underline; }
-  .info .info-lineup {
-    font-family: bogueslab;
+  .info .info-lineup ul.temp-lineup {
+    display: block;
     text-align: center;
-    font-size: 36px; }
+    margin-top: 10px; }
+  .info .info-lineup .lineup-header {
+    font-size: 26px;
+    padding-bottom: 22px; }
+  .info .info-lineup li {
+    padding-bottom: 12px;
+    font-size: 22px;
+    line-height: 21px;
+    font-family: 'bogueslab';
+    font-weight: bold; }
+    .info .info-lineup li.more {
+      margin-top: 0px;
+      font-size: 16px;
+      font-family: public;
+      font-weight: normal; }
+    .info .info-lineup li span {
+      bottom: 7px;
+      font-size: 10px;
+      position: relative; }
 
 .landingtickets {
   font-size: 22px;
@@ -745,31 +784,6 @@ a:hover {
 .partnerlogoer a img:hover {
   opacity: 0.6;
   transition: 0.2s; }
-
-ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-left: 0px;
-  margin: 0; }
-  ul a:hover {
-    text-decoration: none; }
-
-ul.temp-lineup {
-  display: block;
-  text-align: center;
-  margin-top: 10px; }
-  ul.temp-lineup li {
-    padding-bottom: 18px;
-    font-size: 30px;
-    line-height: 25px;
-    font-family: 'bogueslab';
-    font-weight: bold; }
-    ul.temp-lineup li span {
-      bottom: 10px;
-      font-size: 14px;
-      position: relative; }
 
 .event {
   position: relative;

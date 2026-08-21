@@ -16,27 +16,23 @@ location_on
  <table class="landingtickets">
   <tr class="bottom">
     <td class="bold top">Gratitude Guardian Partout<br><span class="ticket-info">Support the festival a little extra</span></td>
-    <td class="top">600 kr</td>
+    <td class="top">600 kr + fee</td>
   </tr>
-    <!--<tr class="bottom">
-    <td class="bold top">Early Bird Partout<br>425 kr<br><span class="ticket-info">Get your partout ticket at a reduced price until August 9th!</span></td>
-    <td class="top"><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
-  </tr>-->
     <tr class="bottom">
     <td class="bold top">Regular Partout<br><span class="ticket-info">Normal price for the full festival pass</span></td>
-    <td class="top">500 kr</td>
+    <td class="top">500 kr + fee<br><span class="ticket-info">550 kr door</td>
   </tr>
   <tr class="bottom">
     <td class="bold top oneday">One day ticket Thursday</td>
-    <td class="top oneday">Coming</td>
+    <td class="top oneday">180 kr + fee<br><span class="ticket-info">220 kr door</span></td>
   </tr>
   <tr class="bottom">
     <td class="bold top oneday">One day ticket Friday</td>
-    <td class="top oneday">Coming</td>
+    <td class="top oneday">220 kr + fee<br><span class="ticket-info">250 kr door</span></td>
   </tr>
   <tr>
     <td class="bold top oneday">One day ticket Saturday</td>
-    <td class="top oneday">Coming</td>
+    <td class="top oneday">220 kr + fee<br><span class="ticket-info">250 kr door</span></td>
   </tr>
  <!--   <tr>
     <td>Community Dinner Saturday</td>

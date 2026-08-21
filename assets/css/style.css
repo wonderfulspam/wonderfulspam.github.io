@@ -421,14 +421,14 @@ ul.temp-lineup {
   text-align: center;
   margin-top: 10px; }
   ul.temp-lineup li {
-    padding-bottom: 18px;
-    font-size: 30px;
-    line-height: 25px;
+    padding-bottom: 9px;
+    font-size: 22px;
+    line-height: 20px;
     font-family: 'bogueslab';
     font-weight: bold; }
     ul.temp-lineup li span {
-      bottom: 10px;
-      font-size: 14px;
+      bottom: 6px;
+      font-size: 12px;
       position: relative; }
 
 .info {
@@ -979,7 +979,7 @@ iframe {
     display: block;
     color: #f8fb18; }
   main.landing {
-    margin-top: 24vh; }
+    margin-top: 22vh; }
   .landingheader h1 {
     font-size: 60px; }
     .landingheader h1 span {

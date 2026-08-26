@@ -68,13 +68,16 @@ location_on
 <script src="https://billetto.dk/widget.js"></script>
 <billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
 
+<img src="/assets/img/barbara.jpg">
+
 <h2>Exploration and community</h2>
 
 <p>In addition to the musical programming, the festival cultivates a space for exploration and experimentation across various formats and media, incorporating elements such as film screenings, community dinners, art installations, poetry readings and artist talks.</p>
 
-<img src="/assets/img/barbara.jpg">
-
 <p>A community-driven event, the annual festival is organized by a passionate group of volunteers and draws a vibrant community of local and international music enthusiasts that foster an atmosphere of openness and inclusivity at the festival space.</p>
+
+<img src="/assets/img/dinner.jpg">
+
 
 <h2>Safer Space Policy</h2>
 <p>FOEG is a space with no room for discrimination, violence, harassment, or any other aggressive behavior. Respecting each other is one of the key ingredients for having a good time at the festival. If anyone is crossing your boundaries in any way or you witness someone else's boundaries being crossed, please tell the staff at the door or in the bar and we will help you. The festival staff has the right to remove any festival visitors, who do not follow the principles.</p>

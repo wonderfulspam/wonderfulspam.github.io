@@ -1,5 +1,5 @@
 ---
-title: Gush
+title: GUSH
 layout: default.liquid
 is_draft: false
 categories:

@@ -6,7 +6,7 @@ categories:
   - 2026
 data:
   img: /assets/img/lailasakini.jpg
-  country: AUS
+  country: AU
   show_on_lineup: true
 ---
 Laila Sakini is a Melbourne-born, London-based multi-instrumentalist, composer, vocalist, producer and performer. Working with piano, voice, guitar, found sound and silence, Laila is a world builder, creating dynamic and textured environments that provide the listener with space to develop their own meanings and responses. Performing live she draws out delicate parts from her discography inviting audiences into an intimate arena where musical fragments are exhibited with improvised, real-time emotion.

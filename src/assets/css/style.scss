@@ -1111,7 +1111,7 @@ iframe {
 html.landing {
   background: url(/assets/img/logo-yellow.png) no-repeat fixed, url(/assets/img/landing-text-26-mobile.png) no-repeat fixed, url(/assets/img/logos.png) no-repeat fixed, linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/img/bg-26-mobile-alt4.jpg) no-repeat fixed;
   background-size: 18vw, 100vw, 50vw, cover, cover;
-  background-position: bottom right, center 10vh, bottom left, center, top center;
+  background-position: bottom right, center 5vh, bottom left, center, top center;
   height:100svh;
   .logo {
     display: none;
@@ -1129,7 +1129,7 @@ html.landing {
 }
 
 main.landing {
-  margin-top:22vh;
+  margin-top:17vh;
 }
 
 .landingheader {
@@ -1408,6 +1408,21 @@ main.landing {
       }
     }
   }
+
+
+  @media only screen and (max-width: 400px) {
+  ul.temp-lineup {
+    li {
+      font-size: 20px;
+      line-height: 18px;
+      span {
+        bottom:7px;
+        font-size: 11px;
+      }
+  }
+  }
+}
+  
 
 #cookie-consent-banner {
   position: fixed;

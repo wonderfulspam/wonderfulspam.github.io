@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
-  img: /assets/img/syringe.jpg
+  img: /assets/img/syringe2.jpg
   country: DK
   show_on_lineup: true
 ---

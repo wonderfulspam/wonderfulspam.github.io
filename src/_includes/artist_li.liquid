@@ -13,7 +13,7 @@
             {% if post.title == "Finlay Shakespeare" or post.title == "Heidemann / Mingot / Klint" %}
               {% assign text_color = "black" %}
             {% endif %}
-            <span class="artist-time-overlay" style="font-size: 14px; position: absolute; top: 5px; right: 5px; line-height: 12px; font-family: 'public'; color: {{ text_color }}; z-index: 10; text-align: right;">{{ day_name }}<br>{{ slot.time }}</span>
+            <span class="artist-time-overlay" style="font-size: 14px; position: absolute; top: 5px; right: 5px; line-height: 12px; font-family: 'public'; color: {{ text_color }}; z-index: 10; text-align: right;">{{ day_name }}<br><span class="timeslot">{{ slot.time }}</span></span>
           {% endif %}
         {% endfor %}
       {% endfor %}

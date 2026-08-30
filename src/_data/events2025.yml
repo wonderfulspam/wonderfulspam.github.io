@@ -1,0 +1,55 @@
+- name: "2025"
+  slug: 2025
+  ticket_link: "t"
+  fb_event_link: "f"
+  days:
+    - name: Thursday
+      date: "2024-20-11"
+      doors: "18:00"
+      dj: Jonas Torstensen
+      schedule:
+        - time: "19:30"
+          artist: Demeters Döttrar
+        - time: "20:45"
+          artist: KMRU
+        - time: "22:00"
+          artist: Heidemann / Mingot / Klint
+    - name: Friday
+      date: "2024-21-11"
+      doors: "18:00"
+      dj: CMBEKS+
+      schedule:
+        - time: "19:15"
+          artist: Copenhagen Clarinet Choir & Anders Lauge Meldgaard
+        - time: "20:15"
+          artist: Kathryn Mohr
+        - time: "21:30"
+          artist: ALMA LAPILLI (STILL, Cardone, Barbaro)         
+        - time: "22:45"
+          artist: Elvin Brandhi
+        - time: "23:45"
+          artist: Norm Dogs
+        - time: "00:45"
+          artist: Finlay Shakespeare
+       
+    - name: Saturday
+      date: "2024-22-11"
+      doors: "15:30"
+      dj: Chris Shields and Et levende menneske
+      schedule:
+        - time: "16:00"
+          artist: Ian Nagoski
+        - time: "17:30"
+          artist: Camille Helt Haarder
+        - time: "18:00"
+          artist: Community Dinner
+        - time: "19:30"
+          artist: The Shadow Ring
+        - time: "20:45"
+          artist: G•Bop Orchestra performs The Scott Walker Songbook
+        - time: "22:00"
+          artist: Polonius
+        - time: "23:15"
+          artist: Josie
+        - time: "00:30"
+          artist: Vio Lino & Tettix Hexer

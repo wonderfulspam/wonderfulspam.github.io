@@ -1,5 +1,5 @@
 ---
-title: Slightly Imperfect performs Ivor Cutler
+title: Slightly Imperfect perform the songs of Ivor Cutler
 layout: default.liquid
 is_draft: false
 categories:

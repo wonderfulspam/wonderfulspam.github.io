@@ -1,5 +1,9 @@
-<h3>{{ day.name }}</h3>
+<div class="day">
 <table>
+  <tr class="dayheader">
+    <td></td>
+    <td><h3>{{ day.name }}</h3></td>
+  </tr>
   <tr class="doors"><td>{{ day.doors }}</td><td>Doors open</td></tr>
   {% for slot in day.schedule %}
   <tr>
@@ -18,8 +22,9 @@
     {% endif %}
   </tr>
   {% endfor %}
-  <tr class="dj">
+  <!--<tr class="dj">
     <td>DJ</td>
     <td>{{ day.dj }}</td>
-  </tr>
+  </tr>-->
 </table>
+</div>

@@ -439,7 +439,7 @@ ul.temp-lineup {
   border-collapse:collapse;
   white-space: nowrap;
   border-radius:5px;
-  background-color: rgba(244, 252, 195, 0.78);
+  background-color: $bg-trans;
   border-spacing: 10px;
   td:nth-of-type(2) {
     text-align:right;
@@ -703,11 +703,16 @@ ul.temp-lineup {
 .schedule {
   grid-template-areas:"left";
   grid-template-columns: 1fr;
-  max-width:59ch;
+  max-width:70vw;
   margin-left:auto;
   margin-right:auto;
   padding-left:60px;
   min-height: 58vh;
+  .event-schedule {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+  }
   #artist-detail {
     margin-left:-60px;
   }
@@ -730,15 +735,27 @@ ul.temp-lineup {
     font-size: 26px;
     margin-bottom:8px;
   }
+  .day {
+    background-color: $bg-trans;
+    border-radius: 5px;
+  }
   table {
+    padding:10px;
+    padding-top:20px;
     font-family: bogueslab;
     font-size: 26px;
     font-weight: bold;
     line-height:24px;
-    padding-bottom: 30px;
-    margin-bottom: 15px;
     margin-right: 0;
     width: 100%;
+    tr.doors {
+      display: none;
+    }
+    tr.dayheader {
+      td {
+        padding-bottom:20px;
+      }
+    }
     a {
       text-decoration: none;
     }
@@ -760,6 +777,7 @@ ul.temp-lineup {
       padding-bottom: 10px;
       &:nth-of-type(1) {
         width: 20px;
+        display: none;
       /*  text-align: right; */
       }
       &:nth-of-type(2) {
@@ -940,7 +958,12 @@ iframe {
 .artist-time-overlay,
   .artist-time-overlay-large {
     color: $title-color-alt !important;
+    .timeslot {
+      display: none;
+    }
   }
+
+
 
 #sound-embed iframe {
   height: auto;
@@ -1211,8 +1234,13 @@ main.landing {
   }
 
   .schedule {
+    max-width: 100%;
     #artist-detail {
       margin-left:-10px;
+    }
+    .event-schedule {
+      display: grid;
+      grid-template-columns: 1fr;
     }
   }
 
@@ -1429,7 +1457,7 @@ main.landing {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color:#f4fcc3;
+  background-color:$bg-trans;
   backdrop-filter: blur(10px);
   color: $text;
   padding: 20px;
@@ -1545,8 +1573,18 @@ main.landing {
   }
 }
 
+billetto-widget {
+  .false{
+        background-color: $bg-trans !important;
+      }
+}
+
 .ml-embedded {
   margin-bottom:18px;
+}
+
+#mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper {
+  background: $bg-trans !important;
 }
 
   #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {

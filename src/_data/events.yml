@@ -1,55 +1,53 @@
-- name: "2025"
-  slug: 2025
+- name: "2026"
+  slug: 2026
   ticket_link: "t"
   fb_event_link: "f"
   days:
     - name: Thursday
-      date: "2024-20-11"
+      date: "2026-24-09"
       doors: "18:00"
-      dj: Jonas Torstensen
+      dj: 
       schedule:
         - time: "19:30"
-          artist: Demeters Döttrar
+          artist: Felisha Ledesma
         - time: "20:45"
-          artist: KMRU
+          artist: Greg Malcolm
         - time: "22:00"
-          artist: Heidemann / Mingot / Klint
+          artist: Radical Democracy
     - name: Friday
-      date: "2024-21-11"
+      date: "2026-25-09"
       doors: "18:00"
-      dj: CMBEKS+
+      dj: 
       schedule:
         - time: "19:15"
-          artist: Copenhagen Clarinet Choir & Anders Lauge Meldgaard
+          artist: CCsquele
         - time: "20:15"
-          artist: Kathryn Mohr
+          artist: Ex Continent
         - time: "21:30"
-          artist: ALMA LAPILLI (STILL, Cardone, Barbaro)         
+          artist: GUSH         
         - time: "22:45"
-          artist: Elvin Brandhi
+          artist: Maria Bertel
         - time: "23:45"
-          artist: Norm Dogs
+          artist: NZIRIA
         - time: "00:45"
-          artist: Finlay Shakespeare
+          artist: Slightly Imperfect perform the songs of Ivor Cutler
        
     - name: Saturday
-      date: "2024-22-11"
+      date: "2026-26-09"
       doors: "15:30"
-      dj: Chris Shields and Et levende menneske
+      dj: 
       schedule:
         - time: "16:00"
-          artist: Ian Nagoski
+          artist: Headband
         - time: "17:30"
-          artist: Camille Helt Haarder
+          artist: Laila Sakini
         - time: "18:00"
-          artist: Community Dinner
+          artist: Megabasse
         - time: "19:30"
-          artist: The Shadow Ring
+          artist: Peder Mannerfelt
         - time: "20:45"
-          artist: G•Bop Orchestra performs The Scott Walker Songbook
+          artist: Ragnhild May
         - time: "22:00"
-          artist: Polonius
+          artist: Syringe
         - time: "23:15"
-          artist: Josie
-        - time: "00:30"
-          artist: Vio Lino & Tettix Hexer
+          artist: Victoria Keddie

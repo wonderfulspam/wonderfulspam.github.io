@@ -31,7 +31,7 @@ location_on
 <li>Peder Mannerfelt<span>(SE)</span></li>
 <li>Radical Democracy<span>(US)</span></li>
 <li>Ragnhild May<span>(DK)</span></li>
-<li>Slightly Imperfect performs Ivor Cutler<span>(NZ)</span></li>
+<li>Slightly Imperfect perform the songs of Ivor Cutler<span>(NZ)</span></li>
 <li>Syringe<span>(DK)</span></li>
 <li>Victoria Keddie<span>(US)</span></li>
 </ul>

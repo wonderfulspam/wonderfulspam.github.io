@@ -760,10 +760,21 @@ ul.temp-lineup {
   grid-template-areas: "left left";
   text-align: justify; }
   .past td:nth-child(odd) {
-    padding-right: 30px; }
-  .past td {
+    padding-right: 30px;
     padding-bottom: 30px;
-    vertical-align: top; }
+    vertical-align: middle; }
+  .past td:nth-child(even) {
+    background: rgba(244, 252, 195, 0.7);
+    border-radius: 5px;
+    padding: 10px;
+    padding-top: 15px;
+    display: block; }
+  .past td {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 10px; }
+  .past tr {
+    margin-bottom: 30px; }
   .past h2 {
     padding-bottom: 0px; }
 
@@ -1100,21 +1111,33 @@ iframe {
       width: 100%;
       height: auto; }
   .past {
-    padding-top: 20px; }
+    backdrop-filter: none;
+    padding-top: 0px; }
     .past h2 {
       margin-bottom: 15px; }
-    .past table div {
-      margin-bottom: 30px; }
+    .past table {
+      border-spacing: 0px;
+      margin-top: 30px; }
+      .past table div {
+        margin-bottom: 0px; }
     .past td {
       display: block;
       padding-bottom: 60px; }
       .past td:last-of-type {
         padding-bottom: 0; }
       .past td img {
-        width: 100%; }
+        width: 100%;
+        vertical-align: middle; }
       .past td:nth-child(odd) {
         padding-bottom: 0px;
         padding-right: 0px; }
+      .past td:nth-child(even) {
+        border-radius: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 10px;
+        padding-top: 20px;
+        margin-bottom: 20px; }
   .art h2 {
     padding-bottom: 5px; }
   .partnerlogoer {

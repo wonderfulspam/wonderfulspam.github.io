@@ -694,7 +694,7 @@ ul.temp-lineup {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px; }
   .schedule #artist-detail {
-    margin-left: -60px; }
+    margin-left: 0px; }
   .schedule #right-column {
     display: none; }
   .schedule #left-column h2 {

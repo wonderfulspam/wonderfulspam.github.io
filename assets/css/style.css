@@ -477,7 +477,7 @@ ul.temp-lineup {
   border-collapse: collapse;
   white-space: nowrap;
   border-radius: 5px;
-  background-color: rgba(244, 252, 195, 0.78);
+  background-color: rgba(244, 252, 195, 0.7);
   border-spacing: 10px; }
   .landingtickets td:nth-of-type(2) {
     text-align: right;
@@ -682,11 +682,15 @@ ul.temp-lineup {
 .schedule {
   grid-template-areas: "left";
   grid-template-columns: 1fr;
-  max-width: 59ch;
+  max-width: 70vw;
   margin-left: auto;
   margin-right: auto;
   padding-left: 60px;
   min-height: 58vh; }
+  .schedule .event-schedule {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px; }
   .schedule #artist-detail {
     margin-left: -60px; }
   .schedule #right-column {
@@ -702,15 +706,22 @@ ul.temp-lineup {
     text-transform: none;
     font-size: 26px;
     margin-bottom: 8px; }
+  .schedule .day {
+    background-color: rgba(244, 252, 195, 0.7);
+    border-radius: 5px; }
   .schedule table {
+    padding: 10px;
+    padding-top: 20px;
     font-family: bogueslab;
     font-size: 26px;
     font-weight: bold;
     line-height: 24px;
-    padding-bottom: 30px;
-    margin-bottom: 15px;
     margin-right: 0;
     width: 100%; }
+    .schedule table tr.doors {
+      display: none; }
+    .schedule table tr.dayheader td {
+      padding-bottom: 20px; }
     .schedule table a {
       text-decoration: none; }
     .schedule table .country {
@@ -728,6 +739,7 @@ ul.temp-lineup {
       padding-bottom: 10px; }
       .schedule table td:nth-of-type(1) {
         width: 20px;
+        display: none;
         /*  text-align: right; */ }
       .schedule table td:nth-of-type(2) a {
         color: #4e770d; }
@@ -856,6 +868,9 @@ iframe {
 .artist-time-overlay,
 .artist-time-overlay-large {
   color: #f8fb18 !important; }
+  .artist-time-overlay .timeslot,
+  .artist-time-overlay-large .timeslot {
+    display: none; }
 
 #sound-embed iframe {
   height: auto; }
@@ -1033,8 +1048,13 @@ iframe {
     margin-right: 10px;
     margin-top: 0px;
     max-width: 100%; }
-  .schedule #artist-detail {
-    margin-left: -10px; }
+  .schedule {
+    max-width: 100%; }
+    .schedule #artist-detail {
+      margin-left: -10px; }
+    .schedule .event-schedule {
+      display: grid;
+      grid-template-columns: 1fr; }
   /* .schedule {
     text-size-adjust: none;
     h2 {
@@ -1185,7 +1205,7 @@ iframe {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #f4fcc3;
+  background-color: rgba(244, 252, 195, 0.7);
   backdrop-filter: blur(10px);
   color: #4e770d;
   padding: 20px;
@@ -1264,8 +1284,14 @@ iframe {
     #cookie-consent-banner .cookie-details-toggle {
       font-size: 13px; } }
 
+billetto-widget .false {
+  background-color: rgba(244, 252, 195, 0.7) !important; }
+
 .ml-embedded {
   margin-bottom: 18px; }
+
+#mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper {
+  background: rgba(244, 252, 195, 0.7) !important; }
 
 #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p, #mlb2-34048018.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
   font-family: public !important; }

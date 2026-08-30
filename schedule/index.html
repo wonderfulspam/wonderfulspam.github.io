@@ -63,7 +63,7 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     </button>
     <nav class="horis-menu-list" id="main-nav">
          <a class="menu-item-link" href="/tickets">Tickets</a>
-            <!-- <a class="menu-item-link" href="/schedule">Schedule</a>-->
+            <a class="menu-item-link" href="/schedule">Schedule</a>
         <a class="menu-item-link" href="/lineup">Lineup</a>
         <a class="menu-item-link" href="/newsletter">Newsletter</a>
          <a class="menu-item-link" href="/past">Past</a>
@@ -77,11 +77,15 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
        <div id="schedule-list">
 
 
-  <!--<h2>2025</h2>-->
+  <!--<h2>2026</h2>-->
   <div class="event-schedule">
     
-      <h3>Thursday</h3>
+      <div class="day">
 <table>
+  <tr class="dayheader">
+    <td></td>
+    <td><h3>Thursday</h3></td>
+  </tr>
   <tr class="doors"><td>18:00</td><td>Doors open</td></tr>
   
   <tr>
@@ -89,8 +93,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Demeters Döttrar</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="felishaledesma">
+        Felisha Ledesma<span class="country">(US)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -99,8 +106,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>KMRU</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="gregmalcolm">
+        Greg Malcolm<span class="country">(NZ)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -109,19 +119,27 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Heidemann / Mingot / Klint</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="radicaldemocracy">
+        Radical Democracy<span class="country">(US)</span>
+      </a>
+    </td>
     
   </tr>
   
-  <tr class="dj">
+  <!--<tr class="dj">
     <td>DJ</td>
-    <td>Jonas Torstensen</td>
-  </tr>
+    <td></td>
+  </tr>-->
 </table>
+</div>
     
-      <h3>Friday</h3>
+      <div class="day">
 <table>
+  <tr class="dayheader">
+    <td></td>
+    <td><h3>Friday</h3></td>
+  </tr>
   <tr class="doors"><td>18:00</td><td>Doors open</td></tr>
   
   <tr>
@@ -129,8 +147,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Copenhagen Clarinet Choir & Anders Lauge Meldgaard</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="ccsquele">
+        CCsquele<span class="country">(DK)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -139,8 +160,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Kathryn Mohr</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="excontinent">
+        Ex Continent<span class="country">(ES)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -149,8 +173,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>ALMA LAPILLI (STILL, Cardone, Barbaro)</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="gush">
+        GUSH<span class="country">(UK/AR)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -159,8 +186,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Elvin Brandhi</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="mariabertel">
+        Maria Bertel<span class="country">(DK)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -169,8 +199,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Norm Dogs</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="nziria">
+        NZIRIA<span class="country">(IT)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -179,19 +212,27 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Finlay Shakespeare</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="slightlyimperfect">
+        Slightly Imperfect perform the songs of Ivor Cutler<span class="country">(NZ)</span>
+      </a>
+    </td>
     
   </tr>
   
-  <tr class="dj">
+  <!--<tr class="dj">
     <td>DJ</td>
-    <td>CMBEKS+</td>
-  </tr>
+    <td></td>
+  </tr>-->
 </table>
+</div>
     
-      <h3>Saturday</h3>
+      <div class="day">
 <table>
+  <tr class="dayheader">
+    <td></td>
+    <td><h3>Saturday</h3></td>
+  </tr>
   <tr class="doors"><td>15:30</td><td>Doors open</td></tr>
   
   <tr>
@@ -199,8 +240,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Ian Nagoski</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="headband">
+        Headband<span class="country">(US)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -209,8 +253,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Camille Helt Haarder</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="lailasakini">
+        Laila Sakini<span class="country">(AU)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -219,8 +266,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Community Dinner</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="megabasse">
+        Megabasse<span class="country">(FR)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -229,8 +279,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>The Shadow Ring</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="pedermannerfelt">
+        Peder Mannerfelt<span class="country">(SE)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -239,8 +292,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>G•Bop Orchestra performs The Scott Walker Songbook</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="ragnhildmay">
+        Ragnhild May<span class="country">(DK)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -249,8 +305,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Polonius</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="syringe">
+        Syringe<span class="country">(DK)</span>
+      </a>
+    </td>
     
   </tr>
   
@@ -259,26 +318,20 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <!-- If no artist found, assume it is not an artist and just print the title -->
     
-    <td>Josie</td>
-    <!-- Otherwise render artist link -->
+    <td>
+      <a class="artist-link" data-slug="victoriakeddie">
+        Victoria Keddie<span class="country">(US)</span>
+      </a>
+    </td>
     
   </tr>
   
-  <tr>
-    <td>00:30</td>
-    
-    <!-- If no artist found, assume it is not an artist and just print the title -->
-    
-    <td>Vio Lino & Tettix Hexer</td>
-    <!-- Otherwise render artist link -->
-    
-  </tr>
-  
-  <tr class="dj">
+  <!--<tr class="dj">
     <td>DJ</td>
-    <td>Chris Shields and Et levende menneske</td>
-  </tr>
+    <td></td>
+  </tr>-->
 </table>
+</div>
     
   </div>
 
@@ -308,6 +361,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
           
             
               
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">FRIDAY<br><span class="timeslot">19:15</span></span>
+              
             
               
             
@@ -320,8 +378,6 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
           
-            
-              
             
               
             
@@ -368,6 +424,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">FRIDAY<br><span class="timeslot">20:15</span></span>
+              
             
               
             
@@ -378,8 +439,6 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
           
-            
-              
             
               
             
@@ -414,19 +473,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
           
             
               
-            
-              
-            
-              
-            
-          
-            
-              
-            
-              
-            
-              
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">THURSDAY<br><span class="timeslot">19:30</span></span>
               
             
               
@@ -436,6 +486,18 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
           
             
               
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
             
               
             
@@ -472,19 +534,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
-            
-              
-            
-          
-            
-              
-            
-              
-            
-              
-            
-              
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">THURSDAY<br><span class="timeslot">20:45</span></span>
               
             
               
@@ -492,6 +545,18 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
           
             
               
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
             
               
             
@@ -538,6 +603,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">FRIDAY<br><span class="timeslot">21:30</span></span>
+              
             
               
             
@@ -546,8 +616,6 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
           
-            
-              
             
               
             
@@ -607,7 +675,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
           
             
               
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">SATURDAY<br><span class="timeslot">16:00</span></span>
               
             
               
@@ -665,7 +736,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">SATURDAY<br><span class="timeslot">17:30</span></span>
               
             
               
@@ -714,14 +788,17 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">FRIDAY<br><span class="timeslot">22:45</span></span>
+              
             
               
             
               
             
           
-            
-              
             
               
             
@@ -786,7 +863,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">SATURDAY<br><span class="timeslot">18:00</span></span>
               
             
               
@@ -834,12 +914,15 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">FRIDAY<br><span class="timeslot">23:45</span></span>
+              
             
               
             
           
-            
-              
             
               
             
@@ -903,7 +986,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">SATURDAY<br><span class="timeslot">19:30</span></span>
               
             
               
@@ -935,24 +1021,27 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
-            
-          
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">THURSDAY<br><span class="timeslot">22:00</span></span>
               
             
           
             
               
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          
             
               
             
@@ -1018,7 +1107,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">SATURDAY<br><span class="timeslot">20:45</span></span>
               
             
               
@@ -1034,11 +1126,11 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
 </div>
 </div>
 
-  <div id="slightlyimperfect" data-artist-name="Slightly Imperfect performs Ivor Cutler">
+  <div id="slightlyimperfect" data-artist-name="Slightly Imperfect perform the songs of Ivor Cutler">
     <div class="artistcontent">
     
     <div class="artist-image-container">
-        <h2>Slightly Imperfect performs Ivor Cutler<span class="country">(NZ)</span></h2>
+        <h2>Slightly Imperfect perform the songs of Ivor Cutler<span class="country">(NZ)</span></h2>
         <img src="/assets/img/slightlyimperfect.jpg">
         
           
@@ -1062,10 +1154,13 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">FRIDAY<br><span class="timeslot">00:45</span></span>
+              
             
           
-            
-              
             
               
             
@@ -1095,7 +1190,7 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
     
     <div class="artist-image-container">
         <h2>Syringe<span class="country">(DK)</span></h2>
-        <img src="/assets/img/syringe.jpg">
+        <img src="/assets/img/syringe2.jpg">
         
           
             
@@ -1132,7 +1227,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">SATURDAY<br><span class="timeslot">22:00</span></span>
               
             
               
@@ -1190,7 +1288,10 @@ src="https://www.facebook.com/tr?id=2376612052459074&ev=PageView&noscript=1"
               
             
               
-            
+                
+                
+                
+                <span class="artist-time-overlay-large" style="font-size: 20px; position: absolute; top: 5px; right: 5px; line-height: 18px; font-family: 'public'; color: white; z-index: 10; text-align: right;">SATURDAY<br><span class="timeslot">23:15</span></span>
               
             
           

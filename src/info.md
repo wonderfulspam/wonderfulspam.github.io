@@ -4,12 +4,6 @@ layout: info.liquid
 permalink: /info
 ---
 
-<p class="bold"><span class="material-symbols-outlined">
-calendar_month
-</span> 24-26 September 2026</p>
-<p class="bold"><span class="material-symbols-outlined">
-location_on
-</span> Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København</p>
 
 <p>Festival of Endless Gratitude spotlights innovative, experimental and emerging sounds as well as overlooked traditions and genres, celebrating the richness of musical expression in all its forms. In 2026, Festival of Endless Gratitude once again assembles a diverse array of musicians and artists who seek to push the boundaries of contemporary music.</p>
 
@@ -18,6 +12,9 @@ location_on
 <div class="landinglineup info-lineup">
     <ul class="temp-lineup">
 <li class="lineup-header">Lineup</li>
+<li>Peder Mannerfelt<span>(SE)</span></li>
+<li>NZIRIA<span>(IT)</span></li>
+<li>Megabasse<span>(FR)</span></li>
 <li>CCsquele<span>(DK)</span></li>
 <li>Ex Continent<span>(ES)</span></li>
 <li>Felisha Ledesma<span>(US)</span></li>
@@ -26,9 +23,6 @@ location_on
 <li>Headband<span>(US)</span></li>
 <li>Laila Sakini<span>(AU)</span></li>
 <li>Maria Bertel<span>(DK)</span></li>
-<li>Megabasse<span>(FR)</span></li>
-<li>NZIRIA<span>(IT)</span></li>
-<li>Peder Mannerfelt<span>(SE)</span></li>
 <li>Radical Democracy<span>(US)</span></li>
 <li>Ragnhild May<span>(DK)</span></li>
 <li>Slightly Imperfect perform the songs of Ivor Cutler<span>(NZ)</span></li>

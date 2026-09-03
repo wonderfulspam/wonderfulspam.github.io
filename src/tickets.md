@@ -41,6 +41,13 @@ location_on
   </tr>-->
 </table>
 
+<table class="landingtickets">
+  <tr>
+    <td class="bold top">Tea Workshop<br><span class="ticket-info">Catàleg de Fulles - Leaf catalogue in Catalan<br>Thursday 17:30-19:00 / Friday 17:00-18:30 / Saturday 14:30-16:00</span></td>
+    <td class="top">120 kr + fee</td>
+  </tr>
+</table>
+
 <script src="https://billetto.dk/widget.js"></script>
 <billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
 

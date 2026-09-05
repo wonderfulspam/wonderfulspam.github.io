@@ -1,6 +1,14 @@
-<div id="{{ artist.slug }}">
-  <h2>{{ artist.title }} ({{ artist.country }})</h2>
-  {% for paragraph in artist.description %}
-    <p>{{ paragraph }}</p>
-  {% endfor %}
+<div id="{{ art.slug }}" data-artist-name="{{ art.title }}">
+    <div class="artistcontent">
+    {% if art.img %}
+    <div class="artist-image-container">
+        <h2>{{ art.title }}{% if art.country %}<span class="country">({{ art.country }})</span>{% endif %}</h2>
+        <img src="{{ art.img }}">
+</div>
+{% endif %}
+{% for paragraph in art.description %}
+<p>{{ paragraph }}</p>
+{% endfor %}
+<a class="back-button bottom-back-button">← BACK</a>
+</div>
 </div>

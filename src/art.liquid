@@ -3,17 +3,24 @@ title: Art
 layout: default.liquid
 permalink: /art
 data:
-  classname: wide-left past art
+  classname: lineup
 ---
-<!--
-<div id="left-column">
-  <table>
-    {% for artist in site.data.art %}
-      <tr>
-        <td>{% include "art_left.liquid" %}</td>
-        <td>{% include "art_right.liquid" %}</td>
-      </tr>
+
+<div id="art-list">
+  <div class="event">
+    <ul>
+    {% for art in site.data.art %}
+      {% include "art_li.liquid" %}
     {% endfor %}
-  </table>
+    </ul>
+  </div>
 </div>
--->
+<div id="artist-detail" style="display: none;">
+  <div id="artist-detail-content">
+    <a id="back-to-art" class="back-button">← BACK</a>
+  </div>
+</div>
+{% include "art_hidden.liquid" %}
+<script type="text/javascript">
+  addArtistDetailHandler(".artist-link");
+</script>

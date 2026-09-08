@@ -1140,6 +1140,8 @@ iframe {
         margin-bottom: 20px; }
   .art h2 {
     padding-bottom: 5px; }
+  .art ul {
+    display: grid; }
   .partnerlogoer {
     width: auto; }
   .partnerlogoer a img {

@@ -4,12 +4,12 @@ layout: tickets.liquid
 permalink: /tickets
 ---
 
-<p class="bold"><span class="material-symbols-outlined">
+<!--<p class="bold"><span class="material-symbols-outlined">
 calendar_month
 </span> 24-26 September 2026</p>
 <p class="bold"><span class="material-symbols-outlined">
 location_on
-</span> Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København</p>
+</span> Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København</p>-->
 
 <p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket.</p>
 

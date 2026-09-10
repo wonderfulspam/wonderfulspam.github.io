@@ -10,7 +10,11 @@ data:
   <div class="event">
     <ul>
     {% for art in site.data.art %}
-      {% include "art_li.liquid" %}
+      {% if art.section %}
+        <li class="section-header"><h3>{{ art.section }}</h3></li>
+      {% else %}
+        {% include "art_li.liquid" %}
+      {% endif %}
     {% endfor %}
     </ul>
   </div>

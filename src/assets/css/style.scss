@@ -930,6 +930,12 @@ a:hover {
   }
 }
 
+.event li.section-header {
+  flex-basis: 100%;
+  cursor: default;
+  margin-right: 0;
+}
+
 .event li span {
   font-family: bogueslab;
   color: $title-color-alt;

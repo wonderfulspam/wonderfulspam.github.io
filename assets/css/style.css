@@ -847,6 +847,11 @@ a:hover {
       height: 460px;
       width: auto; }
 
+.event li.section-header {
+  flex-basis: 100%;
+  cursor: default;
+  margin-right: 0; }
+
 .event li span {
   font-family: bogueslab;
   color: #f8fb18;

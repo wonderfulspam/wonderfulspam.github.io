@@ -1,27 +1,3 @@
-- title: Tea Workshop - Catàleg de Fulles
-  img: /assets/img/teaworkshop.jpg
-  country: 
-  slug: tea-workshop
-  description:
-    - Catàleg de Fulles (Leaf Catalog in Catalan) is a platform for the dissemination of tea culture which also works as a tea sourcing endeavour. It has been developed by Arnau Sala Saez, who will also perform as Ex Continent Friday night. The project was born out of years of personal experience with visual arts and music, as well as exploring tea culture—both as an amateur as well as professionally. It seeks to find connections between these practices, understanding tea as a central element for collective learning, experimentation, and the exchange of knowledge.
-    - During these workshops we will gather and experience tea together, exploring different types. The intention is to demystify the preparation of tea, sharing tools, envisioning possibilities, understanding the characteristics of the various types of tea, and initiating conversations around tea and any other topics which may arise.
-    - "The workshops do not follow a rigid format. Instead, we share tea, talk about what we know—and also what we don’t—and let conversations flow naturally. Catàleg de Fulles does not seek to attract a specific audience: tea is for anyone who wants to approach it, without prior knowledge or elitist interests."
-    - Some tea will also be available for purchase during the festival.
-    - "We offer three sessions:"
-    - "Thursday: 17.30-19.00"
-    - "Friday: 17.00-18.30"
-    - "Saturday: 14.30-16.00"
-    - You can reserve a spot for 120 DKK + fee <a href="/tickets">here</a>.
-    - "PLEASE NOTE: To keep the sessions intimate and focused, only six spots will be available for each session. It is therefore a good idea to buy your ticket sooner rather than later."
-    - <a href="https://catalegdefulles.com">catalegdefulles.com</a>
-    - <a href="https://www.instagram.com/catalegdefulles/">instagram.com/catalegdefulles</a>
-
-- title: Community Dinner - Manna Café
-  img: /assets/img/manna.jpg
-  country: 
-  slug: community-dinner
-  description:
-
 - section: Merch
 
 - title: Escho
@@ -47,5 +23,39 @@
   img: /assets/img/zine.jpg
   country: 
   slug: zine
+  description:
+
+- section: Workshops
+
+- title: Catàleg de Fulles - Tea Workshop
+  img: /assets/img/teaworkshop.jpg
+  country: 
+  slug: tea-workshop
+  description:
+    - Catàleg de Fulles (Leaf Catalog in Catalan) is a platform for the dissemination of tea culture which also works as a tea sourcing endeavour. It has been developed by Arnau Sala Saez, who will also perform as Ex Continent Friday night. The project was born out of years of personal experience with visual arts and music, as well as exploring tea culture—both as an amateur as well as professionally. It seeks to find connections between these practices, understanding tea as a central element for collective learning, experimentation, and the exchange of knowledge.
+    - During these workshops we will gather and experience tea together, exploring different types. The intention is to demystify the preparation of tea, sharing tools, envisioning possibilities, understanding the characteristics of the various types of tea, and initiating conversations around tea and any other topics which may arise.
+    - "The workshops do not follow a rigid format. Instead, we share tea, talk about what we know—and also what we don’t—and let conversations flow naturally. Catàleg de Fulles does not seek to attract a specific audience: tea is for anyone who wants to approach it, without prior knowledge or elitist interests."
+    - Some tea will also be available for purchase during the festival.
+    - "We offer three sessions:"
+    - "Thursday: 17.30-19.00"
+    - "Friday: 17.00-18.30"
+    - "Saturday: 14.30-16.00"
+    - You can reserve a spot for 120 DKK + fee <a href="/tickets">here</a>.
+    - "PLEASE NOTE: To keep the sessions intimate and focused, only six spots will be available for each session. It is therefore a good idea to buy your ticket sooner rather than later."
+    - <a href="https://catalegdefulles.com">catalegdefulles.com</a>
+    - <a href="https://www.instagram.com/catalegdefulles/">instagram.com/catalegdefulles</a>
+
+- section: Food & Drinks
+
+- title: Community Dinner - Manna Café
+  img: /assets/img/manna.jpg
+  country: 
+  slug: community-dinner
+  description:
+
+- title: Bar Menu
+  img: /assets/img/food-drinks.jpg
+  country: 
+  slug: community-dinner
   description:
 

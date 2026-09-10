@@ -843,6 +843,17 @@ ul.temp-lineup {
     color:$title-color;
     font-size: 23px;
   }
+  .section-header {
+    margin-bottom:0px;
+    margin-top:10px;
+    h3 {
+        font-size:26px;
+        font-family: bogueslab;
+        font-weight: bold;
+        text-align: center;
+        font-style: normal;
+    }
+  }
 }
 
 .no-display {

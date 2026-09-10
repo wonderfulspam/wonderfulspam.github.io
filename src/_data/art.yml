@@ -24,11 +24,18 @@
 
 - section: Merch
 
-- title: Escho / Forlaget sidste århundrede Bookshop
-  img: /assets/img/bookshop.jpg
+- title: Escho
+  img: /assets/img/escho.jpg
   country: 
-  slug: bookshop
+  slug: escho
   description:
+
+- title: Forlaget sidste århundrede
+  img: /assets/img/sidste.jpg
+  country: 
+  slug: sidste
+  description:
+  
 
 - title: Afvikling kassetter
   img: /assets/img/afvikling.jpg

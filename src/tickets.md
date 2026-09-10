@@ -11,7 +11,10 @@ calendar_month
 location_on
 </span> Kildevæld Kulturcenter - Bellmansgade 3C, 2100 København</p>
 
-<p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket. Explore this year's lineup <a href="/lineup">here</a>.</p>
+<p>Only a limited number of tickets will be available at the door. To ensure entry, secure your pre-sale ticket.</p>
+
+<script src="https://billetto.dk/widget.js"></script>
+<billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
 
  <table class="landingtickets">
   <tr class="bottom">
@@ -48,14 +51,7 @@ location_on
   </tr>
 </table>
 
-<script src="https://billetto.dk/widget.js"></script>
-<billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
+<p>Explore this year's lineup <a href="/lineup">here</a>.</p>
 
-
-<!--<p class="center"><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy tickets</button></a></p>-->
-
-<!-- <p>You can buy food at the venue each day. Saturday night we host a community dinner, and it’s a good idea to buy a ticket for this in advance if you want to join. Just add the food ticket after selecting your partout or one day ticket. Torup Spisehus will provide food all days at the festival.</p>-->
-
-<!--<p>All tickets are available at <a href="https://billetto.dk/en/e/festival-of-endless-gratitude-2025-billetter-1634643">Billetto</a>.</p>-->
 
 

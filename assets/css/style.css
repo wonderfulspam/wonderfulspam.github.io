@@ -782,6 +782,16 @@ ul.temp-lineup {
   color: #4e770d;
   font-size: 23px; }
 
+.art .section-header {
+  margin-bottom: 0px;
+  margin-top: 10px; }
+  .art .section-header h3 {
+    font-size: 26px;
+    font-family: bogueslab;
+    font-weight: bold;
+    text-align: center;
+    font-style: normal; }
+
 .no-display {
   display: none; }
 

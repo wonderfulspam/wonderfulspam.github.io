@@ -399,6 +399,7 @@ ul.temp-lineup {
     }
   }
   .info-lineup {
+    display: none;
     margin-top:26px;
     .lineup-header {
       font-size:26px;
@@ -407,6 +408,7 @@ ul.temp-lineup {
     }
   }
   .artist-carousel-wrap {
+    display: none;
     position: relative;
     .carousel-arrow {
       position: absolute;
@@ -459,6 +461,25 @@ ul.temp-lineup {
       }
     }
   }
+  ul.temp-lineup {
+    display:flex;
+    text-align: left;
+    margin-top:10px;
+    li {
+      padding-bottom:9px;
+      padding-right:10px;
+      font-size: 22px;
+      line-height: 19px;
+      font-family: 'bogueslab';
+      font-weight: bold;
+      span {
+        bottom:6px;
+        font-size: 12px;
+        position: relative;
+      }
+  }
+  }
+  
 }
 
 .landingtickets {
@@ -1342,6 +1363,15 @@ main.landing {
   .tickets, .info {
     margin-top:0px;
     mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);
+  }
+
+  .info {
+    .info-lineup {
+      display: block;
+    }
+    .artist-carousel-wrap {
+      display: block;
+    }
   }
 
   #artist-detail {

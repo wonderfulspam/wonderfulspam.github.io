@@ -400,32 +400,47 @@ ul.temp-lineup {
   }
   .info-lineup {
     margin-top:26px;
-    ul.temp-lineup {
-      display:block;
-      text-align: center;
-      margin-top:10px;
-      }
     .lineup-header {
       font-size:26px;
       padding-bottom:22px;
+      text-align: center;
     }
-      li {
-        padding-bottom:12px;
-        font-size: 22px;
-        line-height: 21px;
-        font-family: 'bogueslab';
-        font-weight: bold;
-        &.more {
-          margin-top:0px;
-          font-size:16px;
-          font-family: public;
-          font-weight: normal;
+    .artist-carousel {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scroll-snap-type: x mandatory;
+      gap: 20px;
+      padding-bottom: 10px;
+      .artist-carousel-item {
+        position: relative;
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+        cursor: default;
+        img {
+          height: 320px;
+          width: auto;
+          display: block;
         }
-        span {
-          bottom:7px;
-          font-size: 10px;
-          position: relative;
+        .artist-carousel-caption {
+          position: absolute;
+          bottom: 10px;
+          width: 100%;
+          text-align: center;
+          font-family: 'bogueslab';
+          font-weight: bold;
+          font-size: 22px;
+          line-height: 21px;
+          color: $title-color-alt;
+          span.country {
+            bottom: 7px;
+            font-size: 10px;
+            position: relative;
+          }
         }
+      }
     }
   }
 }
@@ -1332,6 +1347,9 @@ main.landing {
       width: 100%;
       height: auto;
     }
+  }
+  .info-lineup .artist-carousel .artist-carousel-item img {
+    height: 220px;
   }
   .past {
     backdrop-filter: none;

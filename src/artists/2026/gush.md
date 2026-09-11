@@ -14,5 +14,4 @@ GUSH is a stripped down avant pop duo with maximal execution featuring Steven Wa
 
 Iván Brito is a drummer and producer hailing from Argentina, while Steven Warwick is a British artist, writer and musician whose practice incorporates sculptural installation, performance, video and composition. Their debut album as GUSH, Splash of Milk, was recently released by Huntleys + Palmers.
 
-
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2422499890/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://gush-melb.bandcamp.com/album/the-stars-seem-closer-than-you-are">the stars seem closer than you are by GUSH</a></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=138072387/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://huntleyspalmers.bandcamp.com/album/gush-splash-of-milk-lp">GUSH - Splash of Milk LP by Huntleys + Palmers</a></iframe>

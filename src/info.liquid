@@ -13,8 +13,10 @@ permalink: /info
     <h2 class="lineup-header">Lineup</h2>
     <div class="artist-carousel">
     {% for post in collections.posts.pages %}
-      {% if post.categories contains 2026 and post.data.show_on_lineup != false %}
-        {% include "artist_carousel_item.liquid" %}
+      {% if post.categories contains 2026 or post.categories contains "2026" %}
+        {% if post.data.show_on_lineup != false %}
+          {% include "artist_carousel_item.liquid" %}
+        {% endif %}
       {% endif %}
     {% endfor %}
     </div>

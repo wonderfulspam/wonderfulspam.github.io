@@ -11,14 +11,17 @@ permalink: /info
 
 <div class="info-lineup">
     <h2 class="lineup-header">Lineup</h2>
-    <div class="artist-carousel">
-    {% for post in collections.posts.pages %}
-      {% if post.categories contains 2026 or post.categories contains "2026" %}
-        {% if post.data.show_on_lineup != false %}
-          {% include "artist_carousel_item.liquid" %}
+    <div class="artist-carousel-wrap">
+      <div class="artist-carousel">
+      {% for post in collections.posts.pages %}
+        {% if post.categories contains 2026 or post.categories contains "2026" %}
+          {% if post.data.show_on_lineup != false %}
+            {% include "artist_carousel_item.liquid" %}
+          {% endif %}
         {% endif %}
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+      </div>
+      <div class="carousel-arrow" aria-hidden="true">&#8250;</div>
     </div>
 </div>
 <p>Learn more about this year's lineup and have a listen <a href="/lineup">here.</a></p>

@@ -405,6 +405,22 @@ ul.temp-lineup {
       padding-bottom:22px;
       text-align: center;
     }
+    .artist-carousel-wrap {
+      position: relative;
+      .carousel-arrow {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        pointer-events: none;
+        font-size: 40px;
+        line-height: 1;
+        color: white;
+        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+        opacity: 0.85;
+        z-index: 2;
+      }
+    }
     .artist-carousel {
       display: flex;
       flex-direction: row;

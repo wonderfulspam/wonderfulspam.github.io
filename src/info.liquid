@@ -13,13 +13,22 @@ permalink: /info
     <h2 class="lineup-header">Lineup</h2>
     <div class="artist-carousel-wrap">
       <div class="artist-carousel">
-      {% assign carousel_posts = collections.posts.pages | sort: "data.carousel_order" %}
-      {% for post in carousel_posts %}
-        {% if post.categories contains 2026 or post.categories contains "2026" %}
-          {% if post.data.show_on_lineup != false %}
-            {% include "artist_carousel_item.liquid" %}
+      {% comment %}
+        Liquid's sort filter only does a single-level property lookup, so it can't
+        sort by the nested "data.carousel_order" field. Iterate explicit order
+        numbers instead and match artists against each one.
+      {% endcomment %}
+      {% assign carousel_max = collections.posts.pages | size %}
+      {% for order in (1..carousel_max) %}
+        {% for post in collections.posts.pages %}
+          {% if post.categories contains 2026 or post.categories contains "2026" %}
+            {% if post.data.carousel_order == order %}
+              {% if post.data.show_on_lineup != false %}
+                {% include "artist_carousel_item.liquid" %}
+              {% endif %}
+            {% endif %}
           {% endif %}
-        {% endif %}
+        {% endfor %}
       {% endfor %}
       </div>
       <div class="carousel-arrow" aria-hidden="true">&#8250;</div>

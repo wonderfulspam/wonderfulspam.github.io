@@ -1,0 +1,6 @@
+<div class="artist-carousel-item">
+  <img src="{{ post.data.img }}" alt="{{ post.title }}">
+  <div class="artist-carousel-caption">
+    <span>{{ post.title }}</span>{% if post.data.country %}<span class="country">({{ post.data.country }})</span>{% endif %}
+  </div>
+</div>

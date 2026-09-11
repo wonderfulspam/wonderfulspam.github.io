@@ -9,26 +9,16 @@ permalink: /info
 
 
 
-<div class="landinglineup info-lineup">
-    <ul class="temp-lineup">
-<li class="lineup-header">Lineup</li>
-<li>Peder Mannerfelt<span>(SE)</span></li>
-<li>NZIRIA<span>(IT)</span></li>
-<li>Megabasse<span>(FR)</span></li>
-<li>CCsquele<span>(DK)</span></li>
-<li>Ex Continent<span>(ES)</span></li>
-<li>Felisha Ledesma<span>(US)</span></li>
-<li>Greg Malcolm<span>(NZ)</span></li>
-<li>GUSH<span>(UK/AR)</span></li>
-<li>Headband<span>(US)</span></li>
-<li>Laila Sakini<span>(AU)</span></li>
-<li>Maria Bertel<span>(DK)</span></li>
-<li>Radical Democracy<span>(US)</span></li>
-<li>Ragnhild May<span>(DK)</span></li>
-<li>Slightly Imperfect perform the songs of Ivor Cutler<span>(NZ)</span></li>
-<li>Syringe<span>(DK)</span></li>
-<li>Victoria Keddie<span>(US)</span></li>
-</ul>
+<div class="info-lineup">
+    <h2 class="lineup-header">Lineup</h2>
+    <div class="artist-carousel">
+    {% assign lineup_artists = collections.posts.pages | where: "categories", "2026" %}
+    {% for post in lineup_artists %}
+      {% if post.data.show_on_lineup != false %}
+        {% include "artist_carousel_item.liquid" %}
+      {% endif %}
+    {% endfor %}
+    </div>
 </div>
 <p>Learn more about this year's lineup and have a listen <a href="/lineup">here.</a></p>
 

@@ -5,6 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
+  carousel_order: 9
   img: /assets/img/slightlyimperfect.jpg
   country: NZ
   show_on_lineup: true

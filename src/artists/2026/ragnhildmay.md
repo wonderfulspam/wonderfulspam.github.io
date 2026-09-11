@@ -5,6 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
+  carousel_order: 14
   img: /assets/img/ragnhildmay.jpg
   country: DK
   show_on_lineup: true

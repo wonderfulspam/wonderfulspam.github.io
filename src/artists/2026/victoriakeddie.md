@@ -5,6 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
+  carousel_order: 16
   img: /assets/img/victoriakeddie.jpg
   country: US
   show_on_lineup: true

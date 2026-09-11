@@ -5,6 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
+  carousel_order: 11
   img: /assets/img/lailasakini.jpg
   country: AU
   show_on_lineup: true

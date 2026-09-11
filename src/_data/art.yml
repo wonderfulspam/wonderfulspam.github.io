@@ -28,12 +28,14 @@
   country: 
   slug: escho
   description:
+  - Forlaget Escho specializes in publishing books from the fringes of literature. Works that, in a parallel world, would be considered classics, but which for one reason or another have been forgotten in our own small comfort zone.
 
 - title: Forlaget sidste århundrede
   img: /assets/img/sidste.jpg
   country: 
   slug: sidste
   description:  
+  -  The small press Sidste Århundrede continues to publish and promote overlooked writers. Since 2015, they have released a wide array of translated fiction from outside the established canon, focusing on decay, decline, decadence and hard times. That time is still now.
 
 - title: Afvikling kassetter
   img: /assets/img/afvikling.jpg
@@ -41,11 +43,13 @@
   slug: afvikling
   description:
 
-- title: Copenhagen Zine Fest
-  img: /assets/img/zine.jpg
+- title: CPH Zine Fest - Shop
+  img: /assets/img/zine-shop2.jpg
   country: 
-  slug: zine
+  slug: zine-shop
   description:
+  - CPH Zine Fest Distro is a collection of zines produced by a wide range of zine makers who has attended our festival through the 12 years of our exsistence. A zine is a selfmade flyer containing anything you want - poems, photos, drawings, art or comics. CPH Zine fest is a 4 day festival in october and a 1 day zine fair in Odense. We celebrate zines, small press, art books and all things DIY + DIT. On our festival in CPH we have talks, concerts, workshops and two zine fairs. We are so excited to come to Festival of Endless Gratitude 2026 to show you what zines is. 
+
 
 - section: Food & Drinks
 
@@ -54,10 +58,14 @@
   country: 
   slug: community-dinner
   description:
+  - "The community dinner is Saturday @ 18:00."
+  - <script src="https://billetto.dk/widget.js"></script>
+    <billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
+    
 
 - title: Food & Drinks
   img: /assets/img/food-drinks.jpg
   country: 
-  slug: community-dinner
+  slug: food-drinks
   description:
-
+  - At the bar you can get pies from Wild Kiwi Pies, beer from Herlsev and wine, soda, coffee, water etc.

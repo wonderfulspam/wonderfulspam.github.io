@@ -38,10 +38,17 @@ location_on
     <td class="top oneday">220 kr + fee<br><span class="ticket-info">250 kr door</span></td>
   </tr>
  <!--   <tr>
-    <td>Community Dinner Saturday</td>
+    <td></td>
     <td>130 kr</td>
     <td><a href="https://billetto.dk/e/festival-of-endless-gratitude-2026-billetter-1964738"><button class="buy-tickets">Buy ticket</button></a></td>
   </tr>-->
+</table>
+
+<table class="landingtickets">
+  <tr>
+    <td class="bold top">Community Dinner Saturday<br><span class="ticket-info">By Manna Café @ 18:00</span></td>
+    <td class="top">130 kr + fee</td>
+  </tr>
 </table>
 
 <table class="landingtickets">

@@ -12,9 +12,8 @@ permalink: /info
 <div class="info-lineup">
     <h2 class="lineup-header">Lineup</h2>
     <div class="artist-carousel">
-    {% assign lineup_artists = collections.posts.pages | where: "categories", 2026 %}
-    {% for post in lineup_artists %}
-      {% if post.data.show_on_lineup != false %}
+    {% for post in collections.posts.pages %}
+      {% if post.categories contains 2026 and post.data.show_on_lineup != false %}
         {% include "artist_carousel_item.liquid" %}
       {% endif %}
     {% endfor %}

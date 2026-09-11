@@ -455,6 +455,7 @@ ul.temp-lineup {
       position: relative; }
   .info p.lineup-mobile {
     display: none;
+    margin-top: 15px;
     text-align: center;
     font-size: 18px;
     line-height: 16px;

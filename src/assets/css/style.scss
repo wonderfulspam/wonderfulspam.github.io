@@ -397,10 +397,35 @@ ul.temp-lineup {
     a, a:hover {
       text-decoration: underline;
     }
+    &.lineup-desktop {
+      text-align: center;
+      font-size: 22px;
+      line-height: 19px;
+      font-family: 'bogueslab';
+      font-weight: bold;
+      span {
+        bottom:6px;
+        font-size: 12px;
+        position: relative;
+      }
+    }
+    &.lineup-mobile {
+      display:none;
+      text-align: center;
+      font-size: 18px;
+      line-height: 16px;
+      font-family: 'bogueslab';
+      font-weight: bold;
+      span {
+        bottom:5px;
+        font-size: 9px;
+        position: relative;
+      }
+    }
   }
   .info-lineup {
     display: none;
-    margin-top:26px;
+    margin-top:0px;
     .lineup-header {
       font-size:26px;
       padding-bottom:22px;
@@ -460,26 +485,7 @@ ul.temp-lineup {
         }
       }
     }
-  }
-  ul.temp-lineup {
-    display:flex;
-    text-align: left;
-    margin-top:10px;
-    li {
-      padding-bottom:9px;
-      padding-right:10px;
-      font-size: 22px;
-      line-height: 19px;
-      font-family: 'bogueslab';
-      font-weight: bold;
-      span {
-        bottom:6px;
-        font-size: 12px;
-        position: relative;
-      }
-  }
-  }
-  
+  }  
 }
 
 .landingtickets {
@@ -1372,6 +1378,14 @@ main.landing {
     .artist-carousel-wrap {
       display: block;
     }
+    p {
+    &.lineup-desktop {
+      display: none;
+    }
+    &.lineup-mobile {
+      display: block;
+    }
+  }
   }
 
   #artist-detail {

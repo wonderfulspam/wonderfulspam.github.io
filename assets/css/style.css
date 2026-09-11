@@ -443,9 +443,30 @@ ul.temp-lineup {
     text-decoration: none; }
   .info p a, .info p a:hover {
     text-decoration: underline; }
+  .info p.lineup-desktop {
+    text-align: center;
+    font-size: 22px;
+    line-height: 19px;
+    font-family: 'bogueslab';
+    font-weight: bold; }
+    .info p.lineup-desktop span {
+      bottom: 6px;
+      font-size: 12px;
+      position: relative; }
+  .info p.lineup-mobile {
+    display: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: 'bogueslab';
+    font-weight: bold; }
+    .info p.lineup-mobile span {
+      bottom: 5px;
+      font-size: 9px;
+      position: relative; }
   .info .info-lineup {
     display: none;
-    margin-top: 26px; }
+    margin-top: 0px; }
     .info .info-lineup .lineup-header {
       font-size: 26px;
       padding-bottom: 22px;
@@ -497,21 +518,6 @@ ul.temp-lineup {
           bottom: 7px;
           font-size: 10px;
           position: relative; }
-  .info ul.temp-lineup {
-    display: flex;
-    text-align: left;
-    margin-top: 10px; }
-    .info ul.temp-lineup li {
-      padding-bottom: 9px;
-      padding-right: 10px;
-      font-size: 22px;
-      line-height: 19px;
-      font-family: 'bogueslab';
-      font-weight: bold; }
-      .info ul.temp-lineup li span {
-        bottom: 6px;
-        font-size: 12px;
-        position: relative; }
 
 .landingtickets {
   font-size: 22px;
@@ -1158,6 +1164,10 @@ iframe {
   .info .info-lineup {
     display: block; }
   .info .artist-carousel-wrap {
+    display: block; }
+  .info p.lineup-desktop {
+    display: none; }
+  .info p.lineup-mobile {
     display: block; }
   #artist-detail {
     width: 100%;

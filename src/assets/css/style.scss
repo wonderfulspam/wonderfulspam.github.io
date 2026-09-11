@@ -405,56 +405,56 @@ ul.temp-lineup {
       padding-bottom:22px;
       text-align: center;
     }
-    .artist-carousel-wrap {
-      position: relative;
-      .carousel-arrow {
-        position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-50%);
-        pointer-events: none;
-        font-size: 40px;
-        line-height: 1;
-        color: $title-color-alt;
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-        opacity: 0.85;
-        z-index: 2;
-      }
+  }
+  .artist-carousel-wrap {
+    position: relative;
+    .carousel-arrow {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      pointer-events: none;
+      font-size: 40px;
+      line-height: 1;
+      color: $title-color-alt;
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+      opacity: 0.85;
+      z-index: 2;
     }
-    .artist-carousel {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scroll-snap-type: x mandatory;
-      gap: 20px;
-      padding-bottom: 10px;
-      .artist-carousel-item {
-        position: relative;
-        flex: 0 0 auto;
-        scroll-snap-align: start;
-        cursor: default;
-        img {
-          height: 320px;
-          width: auto;
-          display: block;
-        }
-        .artist-carousel-caption {
-          position: absolute;
-          bottom: 10px;
-          width: 100%;
-          text-align: center;
-          font-family: 'bogueslab';
-          font-weight: bold;
-          font-size: 22px;
-          line-height: 21px;
-          color: $title-color-alt;
-          span.country {
-            bottom: 7px;
-            font-size: 10px;
-            position: relative;
-          }
+  }
+  .artist-carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding-bottom: 10px;
+    .artist-carousel-item {
+      position: relative;
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+      cursor: default;
+      img {
+        height: 320px;
+        width: auto;
+        display: block;
+      }
+      .artist-carousel-caption {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        font-family: 'bogueslab';
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 21px;
+        color: $title-color-alt;
+        span.country {
+          bottom: 7px;
+          font-size: 10px;
+          position: relative;
         }
       }
     }
@@ -1364,7 +1364,7 @@ main.landing {
       height: auto;
     }
   }
-  .info-lineup .artist-carousel .artist-carousel-item img {
+  .artist-carousel .artist-carousel-item img {
     height: 220px;
   }
   .past {

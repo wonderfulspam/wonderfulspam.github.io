@@ -459,7 +459,7 @@ ul.temp-lineup {
         pointer-events: none;
         font-size: 40px;
         line-height: 1;
-        color: white;
+        color: #f8fb18;
         text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
         opacity: 0.85;
         z-index: 2; }

@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
-  carousel_order: 4
+  carousel_order: 6
   img: /assets/img/ccsquele.jpg
   country: DK
   show_on_lineup: true

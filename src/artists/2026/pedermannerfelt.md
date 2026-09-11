@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
-  carousel_order: 13
+  carousel_order: 1
   img: /assets/img/pedermannerfelt.jpg
   country: SE
   show_on_lineup: true

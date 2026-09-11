@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
-  carousel_order: 3
+  carousel_order: 15
   img: /assets/img/radicaldemocracy.jpg
   country: US
   show_on_lineup: true

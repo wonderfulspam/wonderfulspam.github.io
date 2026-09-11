@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
-  carousel_order: 5
+  carousel_order: 12
   img: /assets/img/excontinent.jpg
   country: ES
   show_on_lineup: true

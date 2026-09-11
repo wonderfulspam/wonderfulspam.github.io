@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
-  carousel_order: 6
+  carousel_order: 12
   img: /assets/img/gush.jpg
   country: UK/AR
   show_on_lineup: true

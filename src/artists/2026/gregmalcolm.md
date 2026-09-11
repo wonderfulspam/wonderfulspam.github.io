@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
-  carousel_order: 2
+  carousel_order: 13
   img: /assets/img/gregmalcolm.jpg
   country: NZ
   show_on_lineup: true

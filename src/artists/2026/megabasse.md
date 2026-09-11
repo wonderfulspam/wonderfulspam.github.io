@@ -5,7 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
-  carousel_order: 12
+  carousel_order: 3
   img: /assets/img/megabasse.jpg
   country: FR
   show_on_lineup: true

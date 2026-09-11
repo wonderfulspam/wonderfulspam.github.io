@@ -444,12 +444,14 @@ ul.temp-lineup {
   .info p a, .info p a:hover {
     text-decoration: underline; }
   .info .info-lineup {
+    display: none;
     margin-top: 26px; }
     .info .info-lineup .lineup-header {
       font-size: 26px;
       padding-bottom: 22px;
       text-align: center; }
   .info .artist-carousel-wrap {
+    display: none;
     position: relative; }
     .info .artist-carousel-wrap .carousel-arrow {
       position: absolute;
@@ -495,6 +497,21 @@ ul.temp-lineup {
           bottom: 7px;
           font-size: 10px;
           position: relative; }
+  .info ul.temp-lineup {
+    display: flex;
+    text-align: left;
+    margin-top: 10px; }
+    .info ul.temp-lineup li {
+      padding-bottom: 9px;
+      padding-right: 10px;
+      font-size: 22px;
+      line-height: 19px;
+      font-family: 'bogueslab';
+      font-weight: bold; }
+      .info ul.temp-lineup li span {
+        bottom: 6px;
+        font-size: 12px;
+        position: relative; }
 
 .landingtickets {
   font-size: 22px;
@@ -1138,6 +1155,10 @@ iframe {
   .tickets, .info {
     margin-top: 0px;
     mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px); }
+  .info .info-lineup {
+    display: block; }
+  .info .artist-carousel-wrap {
+    display: block; }
   #artist-detail {
     width: 100%;
     mask-image: linear-gradient(to right, transparent, black 10px), linear-gradient(to top, transparent, black 10px), linear-gradient(to left, transparent, black 10px);

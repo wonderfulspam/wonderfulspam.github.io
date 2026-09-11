@@ -9,6 +9,7 @@ data:
   img: /assets/img/image.png
   country: DK
   show_on_lineup: true
+  carousel_order: 0
 ---
 
 Here is the description of the artist.

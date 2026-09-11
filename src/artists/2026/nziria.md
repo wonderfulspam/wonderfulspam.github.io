@@ -5,6 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
+  carousel_order: 8
   img: /assets/img/nziria.jpg
   country: IT
   show_on_lineup: true

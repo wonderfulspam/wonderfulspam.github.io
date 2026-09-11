@@ -5,6 +5,7 @@ is_draft: false
 categories:
   - 2026
 data:
+  carousel_order: 7
   img: /assets/img/mariabertel.jpg
   country: DK
   show_on_lineup: true

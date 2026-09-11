@@ -75,7 +75,16 @@ permalink: /info
 
 <p>A community-driven event, the annual festival is organized by a passionate group of volunteers and draws a vibrant community of local and international music enthusiasts that foster an atmosphere of openness and inclusivity at the festival space.</p>
 
-<img src="/assets/img/dinner.jpg">
+<div class="artist-carousel-wrap">
+  <div class="artist-carousel">
+  {% for art in site.data.art %}
+    {% unless art.section %}
+      {% include "art_carousel_item.liquid" %}
+    {% endunless %}
+  {% endfor %}
+  </div>
+  <div class="carousel-arrow" aria-hidden="true">&#8250;</div>
+</div>
 
 
 <h2>Safer Space Policy</h2>

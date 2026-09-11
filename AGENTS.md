@@ -66,7 +66,7 @@ non-profit music and arts festival in Copenhagen. The site is built with
 - `src/lineup.liquid` - Artist lineup page with two-column layout (list on left, detail on right)
 - `src/schedule.liquid` - Festival schedule by day
 - `src/art.liquid` - Art installations page
-- `src/info.md` - Festival information
+- `src/info.liquid` - Festival information
 - `src/tickets.md` - Ticketing information
 - `src/about.md` - About the festival
 

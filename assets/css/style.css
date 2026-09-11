@@ -449,52 +449,52 @@ ul.temp-lineup {
       font-size: 26px;
       padding-bottom: 22px;
       text-align: center; }
-    .info .info-lineup .artist-carousel-wrap {
-      position: relative; }
-      .info .info-lineup .artist-carousel-wrap .carousel-arrow {
+  .info .artist-carousel-wrap {
+    position: relative; }
+    .info .artist-carousel-wrap .carousel-arrow {
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      transform: translateY(-50%);
+      pointer-events: none;
+      font-size: 40px;
+      line-height: 1;
+      color: #f8fb18;
+      text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+      opacity: 0.85;
+      z-index: 2; }
+  .info .artist-carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding-bottom: 10px; }
+    .info .artist-carousel .artist-carousel-item {
+      position: relative;
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+      cursor: default; }
+      .info .artist-carousel .artist-carousel-item img {
+        height: 320px;
+        width: auto;
+        display: block; }
+      .info .artist-carousel .artist-carousel-item .artist-carousel-caption {
         position: absolute;
-        top: 50%;
-        right: 10px;
-        transform: translateY(-50%);
-        pointer-events: none;
-        font-size: 40px;
-        line-height: 1;
-        color: #f8fb18;
-        text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
-        opacity: 0.85;
-        z-index: 2; }
-    .info .info-lineup .artist-carousel {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      scroll-snap-type: x mandatory;
-      gap: 20px;
-      padding-bottom: 10px; }
-      .info .info-lineup .artist-carousel .artist-carousel-item {
-        position: relative;
-        flex: 0 0 auto;
-        scroll-snap-align: start;
-        cursor: default; }
-        .info .info-lineup .artist-carousel .artist-carousel-item img {
-          height: 320px;
-          width: auto;
-          display: block; }
-        .info .info-lineup .artist-carousel .artist-carousel-item .artist-carousel-caption {
-          position: absolute;
-          bottom: 10px;
-          width: 100%;
-          text-align: center;
-          font-family: 'bogueslab';
-          font-weight: bold;
-          font-size: 22px;
-          line-height: 21px;
-          color: #f8fb18; }
-          .info .info-lineup .artist-carousel .artist-carousel-item .artist-carousel-caption span.country {
-            bottom: 7px;
-            font-size: 10px;
-            position: relative; }
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        font-family: 'bogueslab';
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 21px;
+        color: #f8fb18; }
+        .info .artist-carousel .artist-carousel-item .artist-carousel-caption span.country {
+          bottom: 7px;
+          font-size: 10px;
+          position: relative; }
 
 .landingtickets {
   font-size: 22px;
@@ -1153,7 +1153,7 @@ iframe {
     .event li img {
       width: 100%;
       height: auto; }
-  .info-lineup .artist-carousel .artist-carousel-item img {
+  .artist-carousel .artist-carousel-item img {
     height: 220px; }
   .past {
     backdrop-filter: none;

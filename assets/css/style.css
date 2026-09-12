@@ -571,7 +571,7 @@ ul.temp-lineup {
   .tickets-header .video-hero {
     position: relative; }
     .tickets-header .video-hero video {
-      width: 100vw;
+      max-width: 100vw;
       display: block; }
     .tickets-header .video-hero .sound-toggle {
       position: absolute;

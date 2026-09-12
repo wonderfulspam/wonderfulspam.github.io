@@ -59,6 +59,7 @@
   slug: community-dinner
   description:
   - "The community dinner is Saturday @ 18:00."
+  - "Note: the ticket is available when you click next at the add-ons."
   - <script src="https://billetto.dk/widget.js"></script>
     <billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
     

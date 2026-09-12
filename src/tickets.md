@@ -46,7 +46,7 @@ location_on
 
 <table class="landingtickets">
   <tr>
-    <td class="bold top">Community Dinner Saturday<br><span class="ticket-info">By Manna Café @ 18:00</span></td>
+    <td class="bold top">Community Dinner Saturday<br><span class="ticket-info">By Manna Café @ 18:00.<br>Note: the ticket is available when you click next at the add-ons.</span></td>
     <td class="top">130 kr + fee</td>
   </tr>
 </table>

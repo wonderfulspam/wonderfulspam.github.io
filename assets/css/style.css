@@ -568,6 +568,25 @@ ul.temp-lineup {
     width: 100%; }
   .tickets-header .mobile {
     display: none; }
+  .tickets-header .video-hero {
+    position: relative; }
+    .tickets-header .video-hero video {
+      width: 100%;
+      display: block; }
+    .tickets-header .video-hero .sound-toggle {
+      position: absolute;
+      bottom: 12px;
+      right: 12px;
+      z-index: 2;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      font-size: 18px;
+      line-height: 1;
+      cursor: pointer; }
 
 .tickets {
   mask-image: linear-gradient(to right, transparent, black 20px), linear-gradient(to top, transparent, black 20px), linear-gradient(to left, transparent, black 20px); }

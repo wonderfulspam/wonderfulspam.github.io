@@ -18,7 +18,12 @@
     </header>
     <div class="tickets-header">
     <img class="desktop" src="/assets/img/info-header-2026.jpg">
-    <img class="mobile" src="/assets/img/info-header-mobile-2026.jpg">
+    <div class="mobile video-hero">
+      <video id="info-hero-video" autoplay loop muted playsinline>
+        <source src="/assets/img/landing-video.mp4" type="video/mp4">
+      </video>
+      <button type="button" id="info-hero-sound-toggle" class="sound-toggle" aria-pressed="false" aria-label="Turn sound on">&#128264;</button>
+    </div>
     </div>
     <main id="content" class="{{ page.slug }}{% if page.data.classname %} {{ page.data.classname }}{% endif %}">
        {{ page.content }}

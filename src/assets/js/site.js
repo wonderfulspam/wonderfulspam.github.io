@@ -89,6 +89,21 @@ addArtistDetailHandler = function(linkClassname) {
     });
 }
 
+// Info page hero video sound toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const heroVideo = document.getElementById('info-hero-video');
+    const soundToggle = document.getElementById('info-hero-sound-toggle');
+
+    if (heroVideo && soundToggle) {
+        soundToggle.addEventListener('click', function() {
+            heroVideo.muted = !heroVideo.muted;
+            soundToggle.setAttribute('aria-pressed', String(!heroVideo.muted));
+            soundToggle.setAttribute('aria-label', heroVideo.muted ? 'Turn sound on' : 'Turn sound off');
+            soundToggle.innerHTML = heroVideo.muted ? '&#128264;' : '&#128266;';
+        });
+    }
+});
+
 // Mobile burger menu functionality
 document.addEventListener('DOMContentLoaded', function() {
     const burgerMenu = document.getElementById('burger-menu');

@@ -1120,7 +1120,9 @@ iframe {
       background-color: #f8fb18; }
   .landing .landingheader {
     display: block;
-    width: 98vw; }
+    width: 98vw;
+    margin-left: auto;
+    margin-right: auto; }
   .landing .landinglineup {
     display: block;
     color: #f8fb18;

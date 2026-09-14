@@ -13,7 +13,7 @@
     - "Thursday: 17.30-19.00"
     - "Friday: 17.00-18.30"
     - "Saturday: 14.30-16.00"
-    - You can reserve a spot for 120 DKK + fee <a href="/tickets">here</a>.
+    - You can reserve a spot for 120 DKK + fee.
     - <script src="https://billetto.dk/widget.js"></script>
       <billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
     - "PLEASE NOTE: To keep the sessions intimate and focused, only six spots will be available for each session. It is therefore a good idea to buy your ticket sooner rather than later."
@@ -27,6 +27,7 @@
   slug: zine-workshop
   description:
     - Do you want to make a everlasting memory with your friends from FoEG 2026? Are you curious about zines? Then come to Community Zine Workshop where we’ll make a little handmade flyer, a book - a zine - as we call it. You can cut and paste, draw or write about a fun FoEG experience. We have all the materials, but if you have something speciel you want to incorporate into the zine, we can scan it for you. The workshop is free and you can pick up the zine we’ve made together on the final day of the festival.
+    - The Workshop is Friday @ 18:00-19:30.
     - "Note: The workshop is free but you need to get a ticket to reserve a spot."
     - <script src="https://billetto.dk/widget.js"></script>
       <billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>

@@ -9,7 +9,7 @@
       dj: 
       schedule:
         - time: "17:30"
-          artist: Catàleg de Fulles - Tea Workshop
+          artist: Catàleg de Fulles Tea Workshop
         - time: "19:30"
           artist: Greg Malcolm
         - time: "20:45"
@@ -22,7 +22,9 @@
       dj: 
       schedule:
         - time: "17:00"
-          artist: Catàleg de Fulles - Tea Workshop
+          artist: Catàleg de Fulles Tea Workshop
+        - time: "18:00"
+          artist: CPH Zine Fest Workshop          
         - time: "19:15"
           artist: Ex Continent
         - time: "20:30"
@@ -42,7 +44,7 @@
       dj: 
       schedule:
         - time: "14:30"
-          artist: Catàleg de Fulles - Tea Workshop
+          artist: Catàleg de Fulles Tea Workshop
         - time: "16:30"
           artist: Ragnhild May
         - time: "17:15"

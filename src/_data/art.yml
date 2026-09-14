@@ -21,6 +21,16 @@
     - <a href="https://www.instagram.com/catalegdefulles/">instagram.com/catalegdefulles</a>
 
 
+- title: CPH Zine Fest - Workshop
+  img: /assets/img/zine-workshop.jpg
+  country: 
+  slug: zine-workshop
+  description:
+    - Do you want to make a everlasting memory with your friends from FoEG 2026? Are you curious about zines? Then come to Community Zine Workshop where we’ll make a little handmade flyer, a book - a zine - as we call it. You can cut and paste, draw or write about a fun FoEG experience. We have all the materials, but if you have something speciel you want to incorporate into the zine, we can scan it for you. The workshop is free and you can pick up the zine we’ve made together on the final day of the festival.
+    - "Note: The workshop is free but you need to get a ticket to reserve a spot."
+    - <script src="https://billetto.dk/widget.js"></script>
+      <billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
+    
 - section: The Mall
 
 - title: Forlaget Escho

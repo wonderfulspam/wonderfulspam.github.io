@@ -58,6 +58,13 @@ location_on
   </tr>
 </table>
 
+<table class="landingtickets">
+  <tr>
+    <td class="bold top">CPH Zine Fest Workshop<br><span class="ticket-info">Friday 18:00-19:30<br>Note: You need to get a ticket to reserve a spot</span></td>
+    <td class="top">Free</td>
+  </tr>
+</table>
+
 <p>Explore this year's lineup <a href="/lineup">here</a>.</p>
 
 

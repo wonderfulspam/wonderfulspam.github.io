@@ -758,14 +758,11 @@ ul.temp-lineup {
   max-width: 70vw;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 60px;
   min-height: 58vh; }
   .schedule .event-schedule {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px; }
-  .schedule #artist-detail {
-    margin-left: 0px; }
   .schedule #right-column {
     display: none; }
   .schedule #left-column h2 {

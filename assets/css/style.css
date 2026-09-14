@@ -788,8 +788,6 @@ ul.temp-lineup {
     line-height: 24px;
     margin-right: 0;
     width: 100%; }
-    .schedule table tr.doors {
-      display: none; }
     .schedule table tr.dayheader td {
       padding-bottom: 20px; }
     .schedule table a {
@@ -809,7 +807,6 @@ ul.temp-lineup {
       padding-bottom: 10px; }
       .schedule table td:nth-of-type(1) {
         width: 20px;
-        display: none;
         /*  text-align: right; */ }
       .schedule table td:nth-of-type(2) a {
         color: #4e770d; }

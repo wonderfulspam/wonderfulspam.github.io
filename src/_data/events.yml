@@ -9,9 +9,9 @@
       dj: 
       schedule:
         - time: "19:30"
-          artist: Felisha Ledesma
-        - time: "20:45"
           artist: Greg Malcolm
+        - time: "20:45"
+          artist: Felisha Ledesma
         - time: "22:00"
           artist: Radical Democracy
     - name: Friday
@@ -20,34 +20,36 @@
       dj: 
       schedule:
         - time: "19:15"
-          artist: CCsquele
-        - time: "20:15"
           artist: Ex Continent
-        - time: "21:30"
-          artist: GUSH         
-        - time: "22:45"
-          artist: Maria Bertel
-        - time: "23:45"
-          artist: NZIRIA
-        - time: "00:45"
+        - time: "20:30"
           artist: Slightly Imperfect perform the songs of Ivor Cutler
+        - time: "21:45"
+          artist: CCsquele         
+        - time: "22:45"
+          artist: GUSH
+        - time: "00:00"
+          artist: NZIRIA
+        - time: "01:00"
+          artist: Maria Bertel
        
     - name: Saturday
       date: "2026-26-09"
-      doors: "15:30"
+      doors: "16:00"
       dj: 
       schedule:
-        - time: "16:00"
-          artist: Headband
-        - time: "17:30"
-          artist: Laila Sakini
-        - time: "18:00"
-          artist: Megabasse
-        - time: "19:30"
-          artist: Peder Mannerfelt
-        - time: "20:45"
+        - time: "16:30"
           artist: Ragnhild May
-        - time: "22:00"
-          artist: Syringe
-        - time: "23:15"
+        - time: "17:15"
           artist: Victoria Keddie
+        - time: "18:00"
+          artist: Community Dinner  
+        - time: "19:30"
+          artist: Megabasse
+        - time: "20:45"
+          artist: Laila Sakini
+        - time: "21:45"
+          artist: Headband
+        - time: "22:30"
+          artist: Syringe
+        - time: "23:45"
+          artist: Peder Mannerfelt

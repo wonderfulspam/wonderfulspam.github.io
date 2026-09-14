@@ -789,15 +789,11 @@ ul.temp-lineup {
   max-width:70vw;
   margin-left:auto;
   margin-right:auto;
-  padding-left:60px;
   min-height: 58vh;
   .event-schedule {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:10px;
-  }
-  #artist-detail {
-    margin-left:0px;
   }
   #right-column {
     display: none;

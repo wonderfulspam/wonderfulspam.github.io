@@ -1308,10 +1308,12 @@ html.landing {
   p.lineup-mobile {
     display: block;
   }
+  p {
   a,
 a:visited {
   color: $title-color-alt;
 }
+  }
   .partnerlogos {
     width:50vw;
     float:left;

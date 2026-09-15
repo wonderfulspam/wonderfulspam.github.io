@@ -1131,8 +1131,8 @@ iframe {
     display: block; }
   .landing p.lineup-mobile {
     display: block; }
-  .landing a,
-  .landing a:visited {
+  .landing p a,
+  .landing p a:visited {
     color: #f8fb18; }
   .landing .partnerlogos {
     width: 50vw;

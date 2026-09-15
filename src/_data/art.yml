@@ -71,11 +71,17 @@
   country: 
   slug: community-dinner
   description:
-  - "The community dinner is Saturday @ 18:00."
-  - "Note: the ticket is available when you click next at the add-ons."
+  - Join us for a delicious meal with good company at the FOEG community dinner!
+  - This year the menu for the community dinner is provided by Manna Café & Bar.
+  - Manna Café and Bar is a local, family-run spot built around a love of good food and good company, with great care for each other and the people around them. Everything is made from scratch using the best seasonal ingredients, and every day they bake their own sourdough bread, which is at the heart of many of their dishes—from brunch and open sandwiches to small plates served with cold drinks from the bar.
+  - Community is a big part of what Manna does. Their weekly communal dinners bring neighbours, friends and strangers together around long tables to share food and spend time together at their cosy spot in Amager, Copenhagen.
+  - "The menu: Homemade sourdough bread, oven-roasted cauliflower with herb dressing, potatoes with chilli aioli and beetroot salad with pears, walnuts and mustard dressing."
+  - The community dinner will be held Saturday evening September 26. Tickets are 130 DKK + fee (presale), and we recommend you secure your ticket online, in case they sell out. 
+  - "Note: the ticket is available when you click next - at the add-ons."
+  - <a href="https://www.instagram.com/manna_cafe/">@manna_cafe</a>
   - <script src="https://billetto.dk/widget.js"></script>
     <billetto-widget type="event" event="1964738" organization="billetto.dk" lang="en" theme="light" color="#4e770d" button-style="rounded" font-family="Arial, Helvetica, sans-serif" whitelabel background-color="#f4fcc3"></billetto-widget>
-    
+      
 
 - title: Food & Drinks
   img: /assets/img/food-drinks.jpg

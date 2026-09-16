@@ -826,6 +826,8 @@ ul.temp-lineup {
     margin-bottom: 20px; }
   .schedule .day + .day-subheader {
     margin-top: 0px; }
+  .schedule .day-column {
+    margin-bottom: 20px; }
   .schedule table {
     padding: 10px;
     padding-top: 20px;

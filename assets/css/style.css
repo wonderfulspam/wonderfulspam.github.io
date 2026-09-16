@@ -806,7 +806,7 @@ ul.temp-lineup {
     font-size: 32px;
     font-family: bogueslab;
     font-weight: bold;
-    margin-bottom: 12px; }
+    margin-bottom: 0px; }
   .schedule h3.content {
     text-transform: none;
     font-size: 26px;
@@ -815,13 +815,17 @@ ul.temp-lineup {
     background-color: rgba(244, 252, 195, 0.7);
     border-radius: 5px; }
   .schedule .dayheader {
-    padding-bottom: 20px; }
+    padding-bottom: 0px; }
   .schedule .day-subheader {
     padding-bottom: 10px; }
     .schedule .day-subheader h3 {
-      font-size: 26px; }
+      font-family: public;
+      font-size: 22px;
+      font-weight: normal; }
+  .schedule .pre-doors {
+    margin-bottom: 20px; }
   .schedule .day + .day-subheader {
-    margin-top: 10px; }
+    margin-top: 0px; }
   .schedule table {
     padding: 10px;
     padding-top: 20px;

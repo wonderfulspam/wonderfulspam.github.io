@@ -814,6 +814,10 @@ ul.temp-lineup {
   .schedule .day {
     background-color: rgba(244, 252, 195, 0.7);
     border-radius: 5px; }
+    .schedule .day + .day {
+      margin-top: 10px; }
+  .schedule .dayheader {
+    padding-bottom: 20px; }
   .schedule table {
     padding: 10px;
     padding-top: 20px;
@@ -823,8 +827,6 @@ ul.temp-lineup {
     line-height: 24px;
     margin-right: 0;
     width: 100%; }
-    .schedule table tr.dayheader td {
-      padding-bottom: 20px; }
     .schedule table a {
       text-decoration: none; }
     .schedule table .country {

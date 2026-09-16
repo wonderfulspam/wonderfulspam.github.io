@@ -857,6 +857,12 @@ ul.temp-lineup {
   .day {
     background-color: $bg-trans;
     border-radius: 5px;
+    & + .day {
+      margin-top: 10px;
+    }
+  }
+  .dayheader {
+    padding-bottom: 20px;
   }
   table {
     padding:10px;
@@ -867,11 +873,6 @@ ul.temp-lineup {
     line-height:24px;
     margin-right: 0;
     width: 100%;
-    tr.dayheader {
-      td {
-        padding-bottom:20px;
-      }
-    }
     a {
       text-decoration: none;
     }

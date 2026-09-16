@@ -1,36 +1,43 @@
-<div class="day">
-<table>
-  <tr class="dayheader">
-    <td></td>
-    <td><h3>{{ day.name }}</h3></td>
-  </tr>
-  <tr class="doors"><td>{{ day.doors }}</td><td>Doors open</td></tr>
+<div class="day-column">
+  <div class="dayheader">
+    <h3>{{ day.name }}</h3>
+  </div>
+
+  {% assign has_pre_doors = false %}
+  {% assign past_doors = false %}
   {% for slot in day.schedule %}
-  <tr>
-    <td>{{ slot.time }}</td>
-    {% assign schedule_artist = collections.posts.pages | where: "title", slot.artist | first %}
-    {% assign schedule_art = site.data.art | where: "title", slot.artist | first %}
-    <!-- Render a link if the slot matches an artist or an art/experience entry, otherwise just print the title -->
-    {% if schedule_artist %}
-    <td>
-      <a class="artist-link" data-slug="{{ schedule_artist.slug }}">
-        {{ schedule_artist.title }}{% if schedule_artist.data.country %}<span class="country">({{ schedule_artist.data.country }})</span>{% endif %}
-      </a>
-    </td>
-    {% elsif schedule_art %}
-    <td>
-      <a class="artist-link" data-slug="{{ schedule_art.slug }}">
-        {{ schedule_art.title }}{% if schedule_art.country %}<span class="country">({{ schedule_art.country }})</span>{% endif %}
-      </a>
-    </td>
-    {% else %}
-    <td>{{ slot.artist }}</td>
-    {% endif %}
-  </tr>
+    {% if slot.time >= day.doors %}{% assign past_doors = true %}{% endif %}
+    {% unless past_doors %}{% assign has_pre_doors = true %}{% endunless %}
   {% endfor %}
-  <!--<tr class="dj">
-    <td>DJ</td>
-    <td>{{ day.dj }}</td>
-  </tr>-->
-</table>
+
+  {% if has_pre_doors %}
+  <div class="day pre-doors">
+  <table>
+    {% assign past_doors = false %}
+    {% for slot in day.schedule %}
+      {% if slot.time >= day.doors %}{% assign past_doors = true %}{% endif %}
+      {% unless past_doors %}
+      {% include "schedule_row.liquid" %}
+      {% endunless %}
+    {% endfor %}
+  </table>
+  </div>
+  {% endif %}
+
+  <div class="day">
+  <table>
+    <tr class="doors"><td>{{ day.doors }}</td><td>Doors open</td></tr>
+    {% assign past_doors = false %}
+    {% for slot in day.schedule %}
+      {% if slot.time >= day.doors %}{% assign past_doors = true %}{% endif %}
+      {% if past_doors %}
+      {% include "schedule_row.liquid" %}
+      {% endif %}
+    {% endfor %}
+    <!--<tr class="dj">
+      <td>DJ</td>
+      <td>{{ day.dj }}</td>
+    </tr>-->
+  </table>
+  </div>
 </div>

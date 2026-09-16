@@ -857,12 +857,18 @@ ul.temp-lineup {
   .day {
     background-color: $bg-trans;
     border-radius: 5px;
-    & + .day {
-      margin-top: 10px;
-    }
   }
   .dayheader {
     padding-bottom: 20px;
+  }
+  .day-subheader {
+    padding-bottom: 10px;
+    h3 {
+      font-size: 26px;
+    }
+  }
+  .day + .day-subheader {
+    margin-top: 10px;
   }
   table {
     padding:10px;

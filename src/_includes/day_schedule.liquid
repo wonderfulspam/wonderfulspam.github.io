@@ -6,16 +6,19 @@
   {% assign has_pre_doors = false %}
   {% assign past_doors = false %}
   {% for slot in day.schedule %}
-    {% if slot.time >= day.doors %}{% assign past_doors = true %}{% endif %}
+    {% if slot.time > day.doors %}{% assign past_doors = true %}{% endif %}
     {% unless past_doors %}{% assign has_pre_doors = true %}{% endunless %}
   {% endfor %}
 
   {% if has_pre_doors %}
+  <div class="dayheader day-subheader">
+    <h3>Workshops</h3>
+  </div>
   <div class="day pre-doors">
   <table>
     {% assign past_doors = false %}
     {% for slot in day.schedule %}
-      {% if slot.time >= day.doors %}{% assign past_doors = true %}{% endif %}
+      {% if slot.time > day.doors %}{% assign past_doors = true %}{% endif %}
       {% unless past_doors %}
       {% include "schedule_row.liquid" %}
       {% endunless %}
@@ -24,12 +27,15 @@
   </div>
   {% endif %}
 
+  <div class="dayheader day-subheader">
+    <h3>Schedule</h3>
+  </div>
   <div class="day">
   <table>
     <tr class="doors"><td>{{ day.doors }}</td><td>Doors open</td></tr>
     {% assign past_doors = false %}
     {% for slot in day.schedule %}
-      {% if slot.time >= day.doors %}{% assign past_doors = true %}{% endif %}
+      {% if slot.time > day.doors %}{% assign past_doors = true %}{% endif %}
       {% if past_doors %}
       {% include "schedule_row.liquid" %}
       {% endif %}

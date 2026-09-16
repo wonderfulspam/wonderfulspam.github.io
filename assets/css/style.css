@@ -814,10 +814,14 @@ ul.temp-lineup {
   .schedule .day {
     background-color: rgba(244, 252, 195, 0.7);
     border-radius: 5px; }
-    .schedule .day + .day {
-      margin-top: 10px; }
   .schedule .dayheader {
     padding-bottom: 20px; }
+  .schedule .day-subheader {
+    padding-bottom: 10px; }
+    .schedule .day-subheader h3 {
+      font-size: 26px; }
+  .schedule .day + .day-subheader {
+    margin-top: 10px; }
   .schedule table {
     padding: 10px;
     padding-top: 20px;

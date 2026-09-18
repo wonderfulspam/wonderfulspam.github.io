@@ -1049,6 +1049,17 @@ a:hover {
         width:100%;
         text-align: center;
         font-weight: bold;
+        span {
+          font-family: bogueslab;
+          color: $title-color-alt;
+          font-size: 26px;
+          line-height:21px;
+          &.country {
+            font-size:12px;
+            position:relative;
+            bottom: 8px;
+          }
+        }
       }
     }
     &.mobile {
@@ -1075,17 +1086,6 @@ a:hover {
   margin-right: 0;
 }
 
-.event li span {
-  font-family: bogueslab;
-  color: $title-color-alt;
-  font-size: 26px;
-  line-height:21px;
-  &.country {
-    font-size:12px;
-    position:relative;
-    bottom: 8px;
-  }
-}
 
 
 .event li a {
@@ -1119,9 +1119,6 @@ iframe {
 .artist-time-overlay,
   .artist-time-overlay-large {
     color: $title-color-alt !important;
-    .timeslot {
-      display: none;
-    }
   }
 
 

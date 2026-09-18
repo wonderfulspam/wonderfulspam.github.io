@@ -958,6 +958,15 @@ a:hover {
         width: 100%;
         text-align: center;
         font-weight: bold; }
+        .event li.desktop div span {
+          font-family: bogueslab;
+          color: #f8fb18;
+          font-size: 26px;
+          line-height: 21px; }
+          .event li.desktop div span.country {
+            font-size: 12px;
+            position: relative;
+            bottom: 8px; }
     .event li.mobile div {
       position: relative; }
       .event li.mobile div div {
@@ -973,16 +982,6 @@ a:hover {
   flex-basis: 100%;
   cursor: default;
   margin-right: 0; }
-
-.event li span {
-  font-family: bogueslab;
-  color: #f8fb18;
-  font-size: 26px;
-  line-height: 21px; }
-  .event li span.country {
-    font-size: 12px;
-    position: relative;
-    bottom: 8px; }
 
 .event li a {
   text-decoration: none;
@@ -1008,9 +1007,6 @@ iframe {
 .artist-time-overlay,
 .artist-time-overlay-large {
   color: #f8fb18 !important; }
-  .artist-time-overlay .timeslot,
-  .artist-time-overlay-large .timeslot {
-    display: none; }
 
 #sound-embed iframe {
   height: auto; }

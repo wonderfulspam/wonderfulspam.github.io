@@ -13,7 +13,7 @@ data:
 
 Peder Mannerfelt splits the difference between playful immediacy and daring experimentation. You're as likely to find him premiering a live show at Berlinʼs Atonal festival as pulling apart fabled techno meccas from Berghain to Fabric with synapse-frying precision. 
 
-As a producer, heʼs worked on every one of Fever Rayʼs acclaimed albums and live shows, as well as projects from alt music heavyweights such as Smerz, Blonde Redhead and Glasser. His Peder Mannerfelt Produktions label has become another outlet for his singular approach, presenting his work alongside similarly experimental operators like Sissel Wincent, Machine Woman, Klara Lewis and Hodge. 
+As a producer, heʼs worked on every one of Fever Rayʼs acclaimed albums and live shows, as well as projects from alt music heavyweights such as Smerz, Blonde Redhead and Glasser. His Peder Mannerfelt Produktion label has become another outlet for his singular approach, presenting his work alongside similarly experimental operators like Sissel Wincent, Machine Woman, Klara Lewis and Hodge. 
 
 Mannerfelt thrives on the energy and community of contemporary club music, and more recently, his PM+ series celebrates the immediacy of club-focused tracks, as he pushes the musicʼs possibilities in wild, unpredictable directions.
 

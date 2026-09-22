@@ -7,7 +7,7 @@ categories:
 data:
   carousel_order: 17
   img: /assets/img/jaleh.jpg
-  country: 
+  country: DJ
   show_on_lineup: true
 ---
 Drummer, composer and artist Jaleh Negari is maker of cross genre music made on drums, percussion, synthesizer, samples and field-recordings, alongside the making of graphic paintings and scores, textile weavings and sound installations. 

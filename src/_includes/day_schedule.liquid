@@ -47,7 +47,14 @@
   <table>
     <tr class="dj">
       <td>DJ</td>
+      {% assign dj_artist = collections.posts.pages | where: "title", day.dj | first %}
+      {% if dj_artist %}
+      <td>
+        <a class="artist-link" data-slug="{{ dj_artist.slug }}">{{ dj_artist.title }}</a>
+      </td>
+      {% else %}
       <td>{{ day.dj }}</td>
+      {% endif %}
     </tr>
   </table>
   </div>

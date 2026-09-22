@@ -813,7 +813,8 @@ ul.temp-lineup {
     margin-bottom: 8px; }
   .schedule .day {
     background-color: rgba(244, 252, 195, 0.7);
-    border-radius: 5px; }
+    border-radius: 5px;
+    margin-bottom: 10px; }
   .schedule .dayheader {
     padding-bottom: 0px; }
   .schedule .day-subheader {

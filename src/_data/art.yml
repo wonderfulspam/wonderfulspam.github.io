@@ -1,3 +1,33 @@
+- section: Art
+
+- title: Space design and visuals by Andreas Holmberg & MichelWK
+  img: /assets/img/andreas-michel.jpg
+  country: 
+  slug: andreas-michel
+  description:
+  - Blending light, 3D mapping, and spatial design, Andreas Holmberg & MichelWK build immersive installations that turn architecture and atmosphere into experience—hacking perception, heightening sensation, and inviting audiences into environments that exist somewhere between visual art and physical space.
+
+- title: Installation by Makulator (Johan Sonne Amhild)
+  img: /assets/img/makulator.jpg
+  country: 
+  slug: makulator
+  description:
+    - Makulator (Johan Sonne Amhild) works with painting, sculpture, and installation, organizing recognizable elements into systemic and expressive compositions. His practice explores the intersection of structure and chance, inviting the viewer to experience new connections between form, space, and meaning.
+
+- title: Tactile Termination, installation by Mai Skjødt
+  img: /assets/img/tactiletermination.jpg
+  country: 
+  slug: tactile-termination
+  description:
+    - Tactile Termination is a metamodernistic exploration of tactility and technology. Through non-linear sequencing, lighting dots gradually illuminate an interpretation of the crochet diagram for the basic granny square. The soundscape consists of manipulated voices, software synthesizers and processed recordings from the crocheting process. Mai Skjødt is an artist and electronic composer on the search for something deeper in an increasingly alienating reality. With an interest in contrasts such as machine >< human and innovation >< tradition, she uses technology, voice and synthesis to explore themes of alienation, vulnerability, and resilience. 
+
+- title: Entrance installation, by Lazaara Ilieva
+  img: /assets/img/lazaara.jpg
+  country: 
+  slug: lazaara
+  description:
+    - Lazaara Ilieva is an installation artist whose diverse works share a playful approach to exploring the agencies embedded in different kinds of materials. This year, she populates the festival entrance with flowing forms that adapt to each space they inhabit, evoking playful movement and living growth in slow bloom. 
+
 - section: Workshops
 
 - title: Catàleg de Fulles - Tea Workshop

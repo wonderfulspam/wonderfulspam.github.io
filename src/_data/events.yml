@@ -6,7 +6,7 @@
     - name: Thursday
       date: "2026-24-09"
       doors: "18:00"
-      dj: 
+      dj: Jaleh Negari
       schedule:
         - time: "17:30"
           artist: Catàleg de Fulles - Tea Workshop
@@ -19,7 +19,7 @@
     - name: Friday
       date: "2026-25-09"
       doors: "18:00"
-      dj: 
+      dj: vio lino
       schedule:
         - time: "17:00"
           artist: Catàleg de Fulles - Tea Workshop
@@ -41,7 +41,7 @@
     - name: Saturday
       date: "2026-26-09"
       doors: "16:00"
-      dj: 
+      dj: Saltmother
       schedule:
         - time: "14:30"
           artist: Catàleg de Fulles - Tea Workshop
